@@ -41,19 +41,15 @@
   background-color: #9fc13b !important;
   font-family: "Franklin Gothic Medium" !important;
   font-size: x-large !important;
-  
 }
 
 .flex-center {
-
   justify-content: center !important;
-
 }
 
-.btn-homeStudior a:hover {
-
-  color: #ff0808;
-
+.btn-homeStudio:hover {
+  transition: .5s;
+  background-color: #78922a !important; 
 }
 
 .navbar-toggler {
@@ -69,9 +65,4 @@
   height: 50px !important;
 }
 
-.contacto {
-  color: #9fc13b !important;
-  font-family: "Franklin Gothic Medium" !important;
-  text-align: center;
-  font-style: italic;
-}
+
