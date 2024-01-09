@@ -34,13 +34,26 @@
 }
 
 .radius {
-  border-radius: 5% !important;
+  border-radius: 50px !important;
 }
 
 .btn-homeStudio {
   background-color: #9fc13b !important;
   font-family: "Franklin Gothic Medium" !important;
   font-size: x-large !important;
+  
+}
+
+.flex-center {
+
+  justify-content: center !important;
+
+}
+
+.btn-homeStudior a:hover {
+
+  color: #ff0808;
+
 }
 
 .navbar-toggler {
