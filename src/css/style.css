@@ -48,8 +48,8 @@
 }
 
 .btn-homeStudio:hover {
-  transition: .5s;
-  background-color: #78922a !important; 
+  transition: 0.5s;
+  background-color: #78922a !important;
 }
 
 .navbar-toggler {
@@ -65,4 +65,17 @@
   height: 50px !important;
 }
 
+.card-perfil {
+  position: absolute !important;
+  width: 250px;
+  right: 0;
+  z-index: 100;
+}
 
+@media only screen and (max-width: 991px) {
+  .card-perfil {
+    width: 100%;
+    margin-left: 0;
+    position: relative !important;
+  }
+}

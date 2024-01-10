@@ -69,13 +69,81 @@
           </ul>
 
           <div class="user-icon">
-            <button class="btn btn-user" type="submit">
-              <img src="" alt="user" />
+            <button
+              class="btn btn-user"
+              data-bs-toggle="collapse"
+              type="submit"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              <img src="" alt="user" id="usuarioFoto" />
             </button>
           </div>
         </div>
       </div>
     </nav>
+
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body card-perfil">
+        <div class="contain d-flex">
+          <p id="nombre">Santiago Nieto</p>
+          <p id="correo"><small>aidin@gmail.com</small></p>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#perfilModal">
+            <img src="" alt="config" id="configIcon" />
+          </a>
+        </div>
+        <p><a href="#" id="cerrarSesion">Cerrar Sesión</a></p>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="perfilModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Detalles del Perfil
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Nombre:</strong> <span id="modalNombre"></span></p>
+            <p><strong>Correo:</strong> <span id="modalCorreo"></span></p>
+            <p>
+              <strong>Foto de Perfil:</strong>
+              <img
+                src=""
+                alt="Foto de perfil"
+                id="modalFoto"
+                class="img-fluid"
+              />
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container carouselMargin">
       <div id="carouselExample" class="carousel slide">
