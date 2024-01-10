@@ -1,0 +1,90 @@
+.container-registro {
+
+    background-color: #081B26;
+    border-radius: 20px;
+
+}
+
+.background-registro{
+
+    position: relative;
+    background-image: url(../img/BQBlue.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+
+.registro-texto {
+
+    font-family: "Franklin Gothic Medium" !important;
+    color: #9fc13b !important;
+
+}
+
+.genero-container {
+
+    background-color: #022940;
+    border-radius: 5px;
+
+}
+
+.input-registro {
+
+    background-color: #022940 !important;
+    color: white !important;
+    border-color: #022940 !important;
+
+}
+
+.input-registro::placeholder {
+    color: white !important;
+}
+
+.input-registro[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1) !important;
+}
+
+.label-generos{
+
+    color: #9FC13C !important;
+
+}
+
+.texto-genero{
+
+    color: white !important;
+
+}
+
+.registro-boton{
+
+    background-color: #9FC13B !important;
+    color: #022940 !important;
+    font-family: "Franklin Gothic Medium" !important;
+    border-radius: 10px !important;
+    border-color: #9FC13B !important;
+
+}
+
+.registro-boton:hover{
+
+    background-color: #7ea704 !important;
+    color: #022940 !important;
+    border-color: #7ea704 !important;
+
+}
+
+.texto-volver{
+
+    color: #9FC13B;
+    text-decoration: none !important;
+
+}
+
+.texto-volver:hover{
+
+    color: #7ea704 !important;
+
+}

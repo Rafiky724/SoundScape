@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundScape</title>
+
+    <link rel="icon" href="../img/SoundScapeLogo.png" />
+
+    <link rel="stylesheet" href="../css/registro.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+
+</head>
+
+<body class="overflow-x-hidden overflow-y-scroll">
+
+    <div class="background-registro min-vh-100 d-flex align-items-center justify-content-center row">
+
+        <div class="container-registro h-25 col-sm-7">
+
+            <div class="imagen-registro ms-4 pt-3">
+
+                <img src="../img/SoundScape.png" alt="SoundScape.png" width="150">
+
+            </div>
+
+            <p class="registro-texto text-center mt-3 pb-4 fs-1"><i>Registro</i></p>
+
+
+            <form class="row g-3 needs-validation mb-5 d-flex justify-content-center" id="registerForm" validate>
+
+                <div class="row col-11 col-md-10">
+
+                    <div class="col-md-6 position-relative mb-4">
+                        <input type="email" class="form-control input-registro" placeholder="Email"
+                            id="validationTooltip01" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6 position-relative mb-4">
+                        <input type="text" class="form-control input-registro" placeholder="Nombre"
+                            id="validationTooltip02" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 position-relative mb-4">
+                        <input type="text" class="form-control input-registro" placeholder="Apellido"
+                            id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <div class="invalid-tooltip">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 position-relative mb-4">
+                        <input type="date" name="" class="form-control input-registro" id="validationTooltip05"
+                            required />
+                        <div class="invalid-tooltip">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <input type="password" placeholder="Contraseña" class="form-control input-registro"
+                            id="exampleInputPassword1" required>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <input type="password" placeholder="Verificar contraseña" class="form-control input-registro"
+                            id="exampleInputPassword2" required>
+                    </div>
+
+
+                    <div id="RegisterAlertSuccess" class="alert alert-success alert-dismissible fade show" role="alert"
+                        style="display: none;">
+                        Usuario registrado, se ha enviado un correo de verificación.
+
+                    </div>
+
+                    <div id="RegisterAlertCorreoUso" class="alert alert-danger alert-dismissible fade show" role="alert"
+                        style="display: none;">
+                        El correo ya está en uso.
+
+                    </div>
+
+                    <div id="RegisterAlertVerificarCon" class="alert alert-danger alert-dismissible fade show"
+                        role="alert" style="display: none;">
+                        Las contraseñas no coinciden.
+
+                    </div>
+
+                    <div id="RegisterAlertContraDebil" class="alert alert-danger alert-dismissible fade show"
+                        role="alert" style="display: none;">
+                        La contraseña es muy débil.
+
+                    </div>
+
+                    <div id="RegisterAlertCorrNoVali" class="alert alert-danger alert-dismissible fade show"
+                        role="alert" style="display: none;">
+                        El correo no es válido.
+
+                    </div>
+
+                    <div id="RegisterAlertErrorMal" class="alert alert-danger alert-dismissible fade show" role="alert"
+                        style="display: none;">
+                        Algo salió mal.
+
+                    </div>
+
+                    <div class="col-9 container genero-container">
+
+                        <fieldset class="row mb-3 h-100">
+                            <div class="row d-flex ms-2 h-100 justify-content-around align-items-center">
+
+                                <div class="col-xl-2">
+
+                                    <p class="texto-genero mb-1" >Género</p>
+
+                                </div>
+
+                                <div class="form-check col-xl-2">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                        value="option1" checked>
+                                    <label class="form-check-label label-generos" for="gridRadios1">
+                                        Masculino
+                                    </label>
+                                </div>
+                                <div class="form-check col-xl-2">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                        value="option2">
+                                    <label class="form-check-label label-generos" for="gridRadios2">
+                                        Femenino
+                                    </label>
+                                </div>
+                                <div class="form-check col-xl-2">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                        value="option3">
+                                    <label class="form-check-label label-generos" for="gridRadios3">
+                                        Otro
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 row d-flex w-100 justify-content-between mt-5">
+
+                    <div class="mt-2 col-xxl-2 col-md-4">
+                        <button class="btn btn-primary registro-boton w-100 fs-4" type="submit"><i>Aceptar</i></button>
+                    </div>
+
+                    <div class="mt-2 col-xxl-2 col-md-4 d-flex align-items-center justify-content-center">
+
+                        <a class="texto-volver" href="#">Volver atrás</a>
+
+                    </div>
+
+                </div>                
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
