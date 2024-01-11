@@ -94,3 +94,24 @@
     color: #617923 !important;
 
 }
+
+#loader-pagina{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    background-color: white;
+    transition: opacity 1s, visibility 1s;
+    opacity: 50%;
+
+}
+
+.disabled{
+
+    display: none !important;
+
+}
