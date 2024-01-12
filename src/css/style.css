@@ -94,6 +94,35 @@
   margin: 0 !important;
 }
 
+
+.boton-inicar-sesion {
+  background-color: #9fc13b !important;
+  color: #022940 !important;
+  font-family: "Franklin Gothic Medium" !important;
+  border-radius: 10px !important;
+  border-color: #9fc13b !important;
+}
+
+.boton-inicar-sesion:hover {
+  background-color: #7ea704 !important;
+  color: #022940 !important;
+  border-color: #7ea704 !important;
+}
+
+#loader-pagina{
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  background-color: white;
+  transition: opacity 1s, visibility 1s;
+
+}
+
 @media only screen and (max-width: 991px) {
   .card-perfil {
     width: 100%;

@@ -16,6 +16,7 @@ IniciarSesionForm.addEventListener('submit', async e => {
     const password = IniciarSesionForm['inputPasswordSesion'].value;
     var loginAlert = document.getElementById("loginAlert");
 
+
     try {
         
         const credentials = await signInWithEmailAndPassword(auth, email, password)
@@ -23,7 +24,7 @@ IniciarSesionForm.addEventListener('submit', async e => {
         //TIENE QUE SE TRUE PARA CONFIRMAR VERIFICACION
         if (credentials.user.emailVerified === false) {
             loginAlert.style.display = "none";
-            window.location.href = "../index.html";
+            window.location.href = "../../index.html";
         } else {
             // Si el correo no está verificado, mostrar un mensaje de error
             loginAlert.innerText = "Tu correo electrónico aún no ha sido verificado. Por favor, verifica tu correo antes de iniciar sesión.";
