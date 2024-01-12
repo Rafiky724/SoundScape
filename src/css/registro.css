@@ -78,7 +78,7 @@
   position: fixed;
   z-index: 10000;
   width: 100%;
-  background-color: white;
+  background-color: #022940;
   transition: opacity 1s, visibility 1s;
   opacity: 50%;
 }
