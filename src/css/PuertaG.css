@@ -1,0 +1,152 @@
+body {
+  background-color: #081b26 !important;
+}
+
+.container {
+  background-color: #022940;
+  border-radius: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.pregunta {
+  color: #9fc13b;
+  text-align: center;
+}
+
+.opcion {
+  width: 295px;
+  height: 369px;
+  background-color: blanchedalmond;
+  margin: 10px;
+}
+
+.flex-contain {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4,
+.imagen5,
+.imagen6,
+.imagen7,
+.imagen8,
+.imagen9,
+.imagen10,
+.imagen11,
+.imagen12,
+.opcion {
+  width: 295px;
+  height: 369px;
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+input[type="radio"]:checked + .opcion .imagen1,
+input[type="radio"]:checked + .opcion .imagen2,
+input[type="radio"]:checked + .opcion .imagen3,
+input[type="radio"]:checked + .opcion .imagen4,
+input[type="radio"]:checked + .opcion .imagen5,
+input[type="radio"]:checked + .opcion .imagen6,
+input[type="radio"]:checked + .opcion .imagen7,
+input[type="radio"]:checked + .opcion .imagen8,
+input[type="radio"]:checked + .opcion .imagen9,
+input[type="radio"]:checked + .opcion .imagen10,
+input[type="radio"]:checked + .opcion .imagen11,
+input[type="radio"]:checked + .opcion .imagen12 {
+  filter: brightness(70%) !important;
+}
+
+.imagen1 {
+  background: url("../img/habitacionGrande/puertas/puertaG1.jpg");
+  background-size: cover;
+}
+.imagen2 {
+  background: url("../img/habitacionGrande/puertas/puertaG2.jpg");
+  background-size: cover;
+}
+.imagen3 {
+  background: url("../img/habitacionGrande/puertas/puertaG3.jpg");
+  background-size: cover;
+}
+.imagen4 {
+  background: url("../img/habitacionGrande/puertas/puertaG4.jpg");
+  background-size: cover;
+}
+.imagen5 {
+  background: url("../img/habitacionGrande/puertas/puertaG5.jpg");
+  background-size: cover;
+}
+.imagen6 {
+  background: url("../img/habitacionGrande/puertas/puertaG6.jpg");
+  background-size: cover;
+}
+.imagen7 {
+  background: url("../img/habitacionGrande/puertas/puertaG7.jpg");
+  background-size: cover;
+}
+.imagen8 {
+  background: url("../img/habitacionGrande/puertas/puertaG8.jpg");
+  background-size: cover;
+}
+.imagen9 {
+  background: url("../img/habitacionGrande/puertas/puertaG9.jpg");
+  background-size: cover;
+}
+.imagen10 {
+  background: url("../img/habitacionGrande/puertas/puertaG10.jpg");
+  background-size: cover;
+}
+.imagen11 {
+  background: url("../img/habitacionGrande/puertas/puertaG11.jpg");
+  background-size: cover;
+}
+.imagen12 {
+  background: url("../img/habitacionGrande/puertas/puertaG12.jpg");
+  background-size: cover;
+}
+
+.pequeñas {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label:focus {
+  display: none !important;
+}
+
+.medianas {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .imagen1,
+  .imagen2,
+  .imagen3,
+  .imagen4,
+  .imagen5,
+  .imagen6,
+  .imagen7,
+  .imagen8,
+  .imagen9,
+  .imagen10,
+  .imagen11,
+  .imagen12,
+  .opcion {
+    width: 221px;
+    height: 258px;
+  }
+}
