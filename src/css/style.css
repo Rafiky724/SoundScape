@@ -84,8 +84,15 @@
 .card-perfil a {
   text-decoration: none !important;
   font-family: "Franklin Gothic Medium" !important;
-  color: rgb(204, 13, 13);
+  color: white;
+  transition: .2s;
 }
+
+.card-perfil a:hover {
+
+  color: rgb(158, 158, 158);
+}
+
 
 .contain {
   display: flex;
@@ -120,12 +127,20 @@
   position: fixed;
   z-index: 10000;
   width: 100%;
-  background-color: white;
+  background-color: #081b26;
   transition: opacity 1s, visibility 1s;
 }
 
 #cerrarSesion:hover {
   cursor: pointer;
+  color: red;
+  
+}
+
+#cerrarSesion{
+
+  transition: .2s;
+
 }
 
 @media only screen and (max-width: 991px) {
