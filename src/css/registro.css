@@ -1,6 +1,15 @@
+* {
+  margin: 0 !important;
+}
+
+body {
+  margin: 0 !important;
+}
+
 .container-registro {
   background-color: #081b26;
   border-radius: 20px;
+  width: 90% !important;
 }
 
 .background-registro {
@@ -49,6 +58,26 @@
   font-family: "Franklin Gothic Medium" !important;
   border-radius: 10px !important;
   border-color: #9fc13b !important;
+}
+
+.register-contain {
+  margin: 15px !important;
+}
+
+.genero-container{
+  padding: 10px;
+}
+
+.centrar-cuadros {
+  justify-content: center !important;
+}
+
+.centrar-genero {
+  display: flex !important;
+  align-items: center;
+  gap: 5px !important;
+  padding: 0 !important;
+  padding-left: 10px !important;
 }
 
 .registro-boton:hover {
