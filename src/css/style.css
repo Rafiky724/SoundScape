@@ -70,12 +70,44 @@
   width: 250px;
   right: 0;
   z-index: 100;
+  align-items: center;
+  padding: 10px !important;
+  gap: 15px;
+  background-color: #093048 !important;
+  color: #ffffff !important;
+}
+
+.card-perfil a {
+  text-decoration: none !important;
+  font-family: "Franklin Gothic Medium" !important;
+  color: rgb(204, 13, 13);
+}
+
+.contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.contain-contain p {
+  margin: 0 !important;
 }
 
 @media only screen and (max-width: 991px) {
   .card-perfil {
     width: 100%;
     margin-left: 0;
-    position: relative !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+
+  .card-perfil p {
+    margin: 0;
+  }
+
+  .contain {
+    flex-direction: row;
+    gap: 25px;
   }
 }

@@ -1,6 +1,5 @@
 body {
   background-color: #081b26 !important;
-  padding: 50px;
 }
 
 .container {
@@ -33,81 +32,100 @@ body {
   justify-content: center;
 }
 
-.imagen1 {
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4,
+.imagen5,
+.imagen6,
+.imagen7,
+.imagen8,
+.imagen9,
+.imagen10,
+.imagen11,
+.imagen12,
+.opcion {
   width: 295px;
   height: 369px;
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+input[type="radio"]:checked + .opcion .imagen1,
+input[type="radio"]:checked + .opcion .imagen2,
+input[type="radio"]:checked + .opcion .imagen3,
+input[type="radio"]:checked + .opcion .imagen4,
+input[type="radio"]:checked + .opcion .imagen5,
+input[type="radio"]:checked + .opcion .imagen6,
+input[type="radio"]:checked + .opcion .imagen7,
+input[type="radio"]:checked + .opcion .imagen8,
+input[type="radio"]:checked + .opcion .imagen9,
+input[type="radio"]:checked + .opcion .imagen10,
+input[type="radio"]:checked + .opcion .imagen11,
+input[type="radio"]:checked + .opcion .imagen12 {
+  filter: brightness(70%) !important;
+}
+
+.imagen1 {
   background: url("../img/habitacionPequeña/puertas/puertaP1.jpg");
   background-size: cover;
 }
 .imagen2 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP2.jpg");
   background-size: cover;
 }
 .imagen3 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP3.jpg");
   background-size: cover;
 }
 .imagen4 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP4.jpg");
   background-size: cover;
 }
 .imagen5 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP5.jpg");
   background-size: cover;
 }
 .imagen6 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP6.jpg");
   background-size: cover;
 }
 .imagen7 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP7.jpg");
   background-size: cover;
 }
 .imagen8 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP8.jpg");
   background-size: cover;
 }
 .imagen9 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP9.jpg");
   background-size: cover;
 }
 .imagen10 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP10.jpg");
   background-size: cover;
 }
 .imagen11 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP11.jpg");
   background-size: cover;
 }
 .imagen12 {
-  width: 295px;
-  height: 369px;
   background: url("../img/habitacionPequeña/puertas/puertaP12.jpg");
   background-size: cover;
 }
 
-input {
+.pequeñas {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+input[type="radio"] {
   display: none;
+}
+
+label:focus {
+  display: none !important;
 }
 
 .medianas {
