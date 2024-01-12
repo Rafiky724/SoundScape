@@ -1,117 +1,88 @@
 .container-registro {
-
-    background-color: #081B26;
-    border-radius: 20px;
-
+  background-color: #081b26;
+  border-radius: 20px;
 }
 
-.background-registro{
-
-    position: relative;
-    background-image: url(../img/BQBlue.jpg);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-
+.background-registro {
+  position: relative;
+  background-image: url(../img/BQBlue.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
-
 
 .registro-texto {
-
-    font-family: "Franklin Gothic Medium" !important;
-    color: #9fc13b !important;
-
+  font-family: "Franklin Gothic Medium" !important;
+  color: #9fc13b !important;
 }
 
 .genero-container {
-
-    background-color: #022940;
-    border-radius: 5px;
-
+  background-color: #022940;
+  border-radius: 5px;
 }
 
 .input-registro {
-
-    background-color: #022940 !important;
-    color: white !important;
-    border-color: #022940 !important;
-
+  background-color: #022940 !important;
+  color: white !important;
+  border-color: #022940 !important;
 }
 
 .input-registro::placeholder {
-    color: white !important;
+  color: white !important;
 }
 
 .input-registro[type="date"]::-webkit-calendar-picker-indicator {
-    filter: invert(1) !important;
+  filter: invert(1) !important;
 }
 
-.label-generos{
-
-    color: #9FC13C !important;
-
+.label-generos {
+  color: #9fc13c !important;
 }
 
-.texto-genero{
-
-    color: white !important;
-
+.texto-genero {
+  color: white !important;
 }
 
-.registro-boton{
-
-    background-color: #9FC13B !important;
-    color: #022940 !important;
-    font-family: "Franklin Gothic Medium" !important;
-    border-radius: 10px !important;
-    border-color: #9FC13B !important;
-
+.registro-boton {
+  background-color: #9fc13b !important;
+  color: #022940 !important;
+  font-family: "Franklin Gothic Medium" !important;
+  border-radius: 10px !important;
+  border-color: #9fc13b !important;
 }
 
-.registro-boton:hover{
-
-    background-color: #7ea704 !important;
-    color: #022940 !important;
-    border-color: #7ea704 !important;
-
+.registro-boton:hover {
+  background-color: #7ea704 !important;
+  color: #022940 !important;
+  border-color: #7ea704 !important;
 }
 
-.texto-volver{
-
-    color: #9FC13B;
-    text-decoration: none !important;
-
+.texto-volver {
+  color: #9fc13b;
+  text-decoration: none !important;
 }
 
-.texto-volver:hover{
-
-    color: #7ea704 !important;
-
+.texto-volver:hover {
+  color: #7ea704 !important;
 }
 
-.texto-no-cuenta{
-
-    color: #617923 !important;
-
+.texto-no-cuenta {
+  color: #617923 !important;
 }
 
-#loader-pagina{
-
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 10000;
-    width: 100%;
-    background-color: white;
-    transition: opacity 1s, visibility 1s;
-    opacity: 50%;
-
+#loader-pagina {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  background-color: white;
+  transition: opacity 1s, visibility 1s;
+  opacity: 50%;
 }
 
-.disabled{
-
-    display: none !important;
-
+.disabled {
+  display: none !important;
 }
