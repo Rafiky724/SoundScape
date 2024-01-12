@@ -9,7 +9,7 @@ body {
 .container-registro {
   background-color: #081b26;
   border-radius: 20px;
-  width: 90% !important;
+  
 }
 
 .background-registro {
@@ -114,4 +114,12 @@ body {
 
 .disabled {
   display: none !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .container-registro {
+    background-color: #081b26;
+    border-radius: 20px;
+    width: 90% !important;
+  }
 }
