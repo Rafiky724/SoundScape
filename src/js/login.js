@@ -8,6 +8,10 @@ import { auth } from "../config/db.js";
 
 const IniciarSesionForm = document.querySelector("#loginForm");
 const loadingIndicator = document.getElementById("loader-pagina");
+const inputRestablecerContraseña = document.getElementById("inputRestablecerContraseña");
+const botonRestablecerContraseña = document.getElementById("botonRestablecerContraseña");
+const successAlert = document.querySelector(".alert-success");
+const errorAlert = document.querySelector(".alert-danger2");
 
 IniciarSesionForm.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -38,4 +42,26 @@ IniciarSesionForm.addEventListener("submit", async (e) => {
     loginAlert.style.display = "block";
     loadingIndicator.classList.add("disabled");
   }
+});
+
+
+//Recuperar contraseña
+
+botonRestablecerContraseña.addEventListener("click", () => {
+  const email = inputRestablecerContraseña.value;
+
+  loadingIndicator.classList.remove("disabled");
+
+  sendPasswordResetEmail(auth, email)
+      .then(() => {
+          successAlert.style.display = "block";
+          errorAlert.style.display = "none";
+          loadingIndicator.classList.add("disabled");
+      })
+      .catch((error) => {
+          errorAlert.style.display = "block";
+          successAlert.style.display = "none";
+          console.error(error);
+          loadingIndicator.classList.add("disabled");
+      });
 });

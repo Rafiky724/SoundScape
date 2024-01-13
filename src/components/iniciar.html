@@ -1,113 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SoundScape</title>
 
-    <link rel="icon" href="../img/SoundScapeLogo.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoundScape</title>
 
-    <link rel="stylesheet" href="../css/registro.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
+  <link rel="icon" href="../img/SoundScapeLogo.png" />
 
-  <body class="overflow-x-hidden overflow-y-scroll imagen-registro">
-    <div class="disabled" id="loader-pagina">
-      <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
+  <link rel="stylesheet" href="../css/registro.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body class="overflow-x-hidden overflow-y-scroll imagen-registro">
+  <div class="disabled" id="loader-pagina">
+    <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">Loading...</span>
     </div>
+  </div>
 
-    <div
-      class="background-registro min-vh-100 d-flex align-items-center justify-content-center row"
-    >
-      <div class="container-registro col-sm-7 col-xl-4">
-        <div class="mb-5 mt-5 d-flex w-100 justify-content-center">
-          <img
-            class="img-fluid"
-            src="../img/SoundScape.png"
-            alt="SoundScape.png"
-            width="300"
-          />
+  <div class="background-registro m-0 min-vh-100 d-flex align-items-center justify-content-center row">
+    <div class="container-registro col-sm-7 col-xl-4">
+      <div class="mb-5 mt-5 d-flex w-100 justify-content-center">
+        <img class="img-fluid" src="../img/SoundScape.png" alt="SoundScape.png" width="300" />
+      </div>
+
+      <form class="row g-3 needs-validation mb-5 d-flex justify-content-center" id="loginForm" validate>
+        <div class="row col-11 col-md-10">
+          <div class="col-12 position-relative mb-4">
+            <input type="email" class="form-control input-registro" placeholder="Email" id="inputEmailSesion"
+              required />
+            <div class="valid-tooltip">Looks good!</div>
+          </div>
+
+          <div class="col-12 mb-1">
+            <input type="password" placeholder="Contraseña" class="form-control input-registro" id="inputPasswordSesion"
+              required />
+          </div>
+
+          <a data-bs-toggle="modal" data-bs-target="#modalRestablecerContraseña" class="texto-volver ms-2 col-12"
+            href="#">Recuperar contraseña</a>
         </div>
 
-        <form
-          class="row g-3 needs-validation mb-5 d-flex justify-content-center"
-          id="loginForm"
-          validate
-        >
-          <div class="row col-11 col-md-10">
-            <div class="col-12 position-relative mb-4">
-              <input
-                type="email"
-                class="form-control input-registro"
-                placeholder="Email"
-                id="inputEmailSesion"
-                required
-              />
-              <div class="valid-tooltip">Looks good!</div>
-            </div>
+        <div id="loginAlert" class="alert alert-danger alert-dismissible fade show" role="alert" style="display: none">
+          Credenciales incorrectas. Por favor, verifica tu correo y
+          contraseña.
+        </div>
 
-            <div class="col-12 mb-1">
-              <input
-                type="password"
-                placeholder="Contraseña"
-                class="form-control input-registro"
-                id="inputPasswordSesion"
-                required
-              />
-            </div>
-
-            <a class="texto-volver ms-2 col-12" href="#"
-              >Recuperar contraseña</a
-            >
+        <div class="col-12 row d-flex w-100 justify-content-center mt-3">
+          <div class="mt-2 col-10 col-md-8">
+            <button class="btn btn-primary registro-boton w-100 fs-4" type="submit">
+              <i>Ingresar</i>
+            </button>
           </div>
 
-          <div
-            id="loginAlert"
-            class="alert alert-danger alert-dismissible fade show"
-            role="alert"
-            style="display: none"
-          >
-            Credenciales incorrectas. Por favor, verifica tu correo y
-            contraseña.
+          <div class="mt-2 col-md-10 d-flex align-items-center justify-content-center">
+            <p class="texto-no-cuenta" href="#">
+              ¿Aún no tienes cuenta?
+              <a class="texto-volver" href="./registro.html">Crea una cuenta</a>
+            </p>
           </div>
+        </div>
+      </form>
+    </div>
+  </div>
 
-          <div class="col-12 row d-flex w-100 justify-content-center mt-3">
-            <div class="mt-2 col-10 col-md-8">
-              <button
-                class="btn btn-primary registro-boton w-100 fs-4"
-                type="submit"
-              >
-                <i>Ingresar</i>
-              </button>
-            </div>
+  <!--MODAL RECUPERAR CONTRASEÑA-->
 
-            <div
-              class="mt-2 col-md-10 d-flex align-items-center justify-content-center"
-            >
-              <p class="texto-no-cuenta" href="#">
-                ¿Aún no tienes cuenta?
-                <a class="texto-volver" href="./registro.html"
-                  >Crea una cuenta</a
-                >
-              </p>
-            </div>
-          </div>
-        </form>
+  <div class="modal fade" id="modalRestablecerContraseña" tabindex="-1"
+    aria-labelledby="modalRestablecerContraseñaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-restablecer">
+        <div class="modal-header modal-padding">
+          <h1 class="modal-title fs-5 registro-texto" id="modalRestablecerContraseñaLabel">Recuperar contraseña</h1>
+          <button type="button" class="btn-close boton-cerrar-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <label for="inputRestablecerContraseña" class="form-label">Ingresa tu correo electrónico</label>
+          <input type="email" class="form-control input-registro" id="inputRestablecerContraseña" placeholder="Correo">
+        </div>
+        <div class="alert alert-success" role="alert" style="display: none;">
+          Se ha enviado un formulario de restablecimiento de contraseña al correo.
+        </div>
+        <div class="alert alert-danger2" role="alert" style="display: none;">
+          Error, verifica el correo electrónico ingresado.
+        </div>
+        <div class="modal-footer modal-padding">
+          <button id="botonRestablecerContraseña" type="button"
+            class="btn btn-primary registro-boton"><i>Recuperar</i></button>
+        </div>
       </div>
     </div>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../js/login.js" type="module"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="../js/login.js" type="module"></script>
+</body>
+
 </html>

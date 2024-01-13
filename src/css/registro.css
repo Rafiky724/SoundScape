@@ -1,6 +1,3 @@
-* {
-  margin: 0 !important;
-}
 
 body {
   margin: 0 !important;
@@ -114,6 +111,25 @@ body {
 
 .disabled {
   display: none !important;
+}
+
+.modal-restablecer{
+
+  background-color: #081b26 !important;
+  color: white !important;
+
+}
+
+.boton-cerrar-modal{
+
+  filter:invert(1)
+
+}
+
+.modal-padding{
+
+  border-color: #022940 !important;
+
 }
 
 @media only screen and (max-width: 991px) {
