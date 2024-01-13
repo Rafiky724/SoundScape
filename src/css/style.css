@@ -88,14 +88,12 @@
   text-decoration: none !important;
   font-family: "Franklin Gothic Medium" !important;
   color: white;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .card-perfil a:hover {
-
   color: rgb(158, 158, 158);
 }
-
 
 .contain {
   width: 100%;
@@ -154,13 +152,46 @@
 #cerrarSesion:hover {
   cursor: pointer;
   color: red;
-  
 }
 
-#cerrarSesion{
+#cerrarSesion {
+  transition: 0.2s;
+}
 
-  transition: .2s;
+.modal-title {
+  color: #9fc13b !important;
+}
 
+.btn-color {
+  background-color: #9fc13b !important;
+  color: #ffffff !important;
+}
+
+.btn-color:hover {
+  background-color: #78922a !important;
+  transition: 0.2s !important;
+}
+
+.flex-footer {
+  justify-content: space-between !important;
+}
+
+.content-bg {
+  background-color: #022940 !important;
+  color: #ffffff !important;
+}
+
+.modal-header {
+  border-bottom: 2px solid #081b26 !important;
+}
+
+.modal-footer {
+  border-top: 2px solid #081b26 !important;
+}
+
+.alinearP {
+  display: flex !important;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 991px) {

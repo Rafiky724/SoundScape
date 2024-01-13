@@ -88,9 +88,9 @@
   </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="perfilModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade " id="perfilModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content content-bg">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">
             Detalles del Perfil
@@ -98,20 +98,27 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>
+          <p class="alinearP">
             <strong>Nombre:</strong>
             <input type="text" id="modalNombre" />
           </p>
-          <p>
+          <p class="alinearP">
+            <strong>Apellido:</strong>
+            <input type="text" id="modalApellido" />
+          </p>
+          <p class="alinearP">
             <strong>Correo:</strong>
             <input type="text" id="modalCorreo" />
           </p>
-          <p>
+          <p class="alinearP">
             <strong>Foto de Perfil:</strong>
-            <img src="" alt="Foto de perfil" id="modalFoto" class="img-fluid" />
+            <input type="file" id="modalFoto" class="img-fluid" />
           </p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer flex-footer">
+          <button type="button" class="btn btn-color" data-bs-dismiss="modal" id="guardarNuevaInfo">
+            Guardar
+          </button>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
             Cerrar
           </button>
