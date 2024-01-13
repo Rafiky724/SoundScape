@@ -164,12 +164,17 @@
 
 .btn-color {
   background-color: #9fc13b !important;
-  color: #ffffff !important;
+  color: #022940 !important;
+  font-family: "Franklin Gothic Medium" !important;
+  border-radius: 10px !important;
+  border-color: #9fc13b !important;
+  transition: .2s !important;
 }
 
 .btn-color:hover {
-  background-color: #78922a !important;
-  transition: 0.2s !important;
+  background-color: #7ea704 !important;
+  color: #022940 !important;
+  border-color: #7ea704 !important;
 }
 
 .flex-footer {
@@ -177,16 +182,16 @@
 }
 
 .content-bg {
-  background-color: #022940 !important;
+  background-color: #081b26 !important;
   color: #ffffff !important;
 }
 
 .modal-header {
-  border-bottom: 2px solid #081b26 !important;
+  border-bottom: 2px solid #022940 !important;
 }
 
 .modal-footer {
-  border-top: 2px solid #081b26 !important;
+  border-top: 2px solid #022940 !important;
 }
 
 .alinearP {
