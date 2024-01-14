@@ -108,6 +108,10 @@
   margin: 0 !important;
 }
 
+.boton-cerrar-modal {
+  filter: invert(1);
+}
+
 .boton-inicar-sesion {
   background-color: #9fc13b !important;
   color: #022940 !important;
@@ -177,10 +181,6 @@
   border-color: #7ea704 !important;
 }
 
-.flex-footer {
-  justify-content: space-between !important;
-}
-
 .content-bg {
   background-color: #081b26 !important;
   color: #ffffff !important;
@@ -200,12 +200,50 @@
 }
 
 .color-fotico {
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 150px;
   background-color: #ffffff;
 }
 
+.centrar-editar-perfil {
+  display: flex !important;
+  align-items: flex-end;
+}
+
+.input-perfil {
+  border: 0 !important;
+  background-color: #022940 !important;
+  color: white !important;
+  border-color: #022940 !important;
+}
+
+.input-perfil::placeholder {
+  color: white !important;
+}
+
+.input-perfil[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) !important;
+}
+
 @media only screen and (max-width: 991px) {
+  .color-fotico {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-color: #ffffff;
+  }
+
+  .centrar-editar-perfil {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+
   .card-perfil {
     width: 100%;
     margin-left: 0;
@@ -222,5 +260,10 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 25px;
+  }
+
+  .alinearP {
+    gap: 10px;
+    justify-content: space-between;
   }
 }
