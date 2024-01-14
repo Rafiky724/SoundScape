@@ -109,6 +109,19 @@ body {
   opacity: 50%;
 }
 
+#loader-pagina2 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  background-color: #022940;
+  transition: opacity 1s, visibility 1s;
+  opacity: 100%;
+}
+
 .disabled {
   display: none !important;
 }

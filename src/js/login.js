@@ -1,6 +1,6 @@
 import "../config/db.js";
 import {
-  signInWithEmailAndPassword,
+  signInWithEmailAndPassword, onAuthStateChanged,
   sendPasswordResetEmail,
   signOut,
 } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
@@ -12,6 +12,21 @@ const inputRestablecerContraseña = document.getElementById("inputRestablecerCon
 const botonRestablecerContraseña = document.getElementById("botonRestablecerContraseña");
 const successAlert = document.querySelector(".alert-success");
 const errorAlert = document.querySelector(".alert-danger2");
+const loadingIndicator2 = document.getElementById("loader-pagina2");
+
+onAuthStateChanged(auth, async (user) => {
+
+  if (user) {
+
+    window.location.href = "../../index.html";
+
+  }else{
+
+    loadingIndicator2.classList.add("disabled");
+
+  }
+
+})
 
 IniciarSesionForm.addEventListener("submit", async (e) => {
   e.preventDefault();
