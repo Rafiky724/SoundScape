@@ -1,0 +1,22 @@
+.imagenContacto {
+  width: 600px !important;
+  height: 600px !important;
+  background-color: aqua;
+  background: url(../img/fondoContacto.png) !important;
+  background-size: cover !important;
+  position: absolute !important;
+  right: 0;
+}
+
+.containerdelContact {
+  margin-right: 0 !important;
+}
+
+.contenedor-imagenContacto {
+  position: relative !important;
+}
+
+.contactenosColor {
+  font-style: italic;
+  color: #9fc13b;
+}
