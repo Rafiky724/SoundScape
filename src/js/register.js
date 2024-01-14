@@ -1,6 +1,6 @@
 import '../config/db.js'
 
-import { createUserWithEmailAndPassword, sendEmailVerification, signOut } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
+import { createUserWithEmailAndPassword, sendEmailVerification, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
 import { auth, db } from '../config/db.js';
 import { addDoc, collection } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js"
 
@@ -13,6 +13,17 @@ var contraseñaDebil = document.getElementById("RegisterAlertContraDebil");
 var correoNoValido = document.getElementById("RegisterAlertCorrNoVali");
 var salioMal = document.getElementById("RegisterAlertErrorMal");
 var verificarPass = document.getElementById("RegisterAlertVerificarCon");
+
+onAuthStateChanged(auth, async (user) => {
+  
+    if (user) {
+  
+      window.location.href = "../../index.html";
+  
+    }
+  
+  })
+  
 
 //Se activa el evento al dar al botón de registrar
 formulario.addEventListener('submit', async (e) => {
