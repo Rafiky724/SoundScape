@@ -1,166 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoundScape</title>
+    <link rel="icon" href="./src/img/SoundScapeLogo.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SoundScape</title>
-  <link rel="icon" href="./src/img/SoundScapeLogo.png" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
 
-  <link rel="stylesheet" href="./src/css/style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-</head>
-
-<body class="fondo">
-  <div id="loader-pagina">
-    <div class="spinner-border text-success" role="status">
-      <span class="visually-hidden">Loading...</span>
+  <body class="fondo">
+    <div id="loader-pagina">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
     </div>
-  </div>
 
-  <div class="disabled" id="loader-pagina2">
-    <div class="spinner-border text-success" role="status">
-      <span class="visually-hidden">Loading...</span>
+    <div class="disabled" id="loader-pagina2">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
     </div>
-  </div>
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./src/img/SoundScape.png" alt="Sound Scape" width="137,47"
-          height="36" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="color-button">
-          <img src="./src/img/icons8-menu.svg" alt="menu--v1" />
-        </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link nav-link-color active" aria-current="page" href="#">Categorias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-color" href="./src/components/contacto.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-color" href="#">Comunidad</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-color active" aria-current="page" href="./src/components/formulario.html"><span
-                class="item-green">Crear Home Studio</span></a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./src/img/SoundScape.png"
+            alt="Sound Scape"
+            width="137,47"
+            height="36"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="color-button">
+            <img src="./src/img/icons8-menu.svg" alt="menu--v1" />
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link-color active"
+                aria-current="page"
+                href="#"
+                >Categorias</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link-color"
+                href="./src/components/contacto.html"
+                >Contacto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-color" href="#">Comunidad</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link-color active"
+                aria-current="page"
+                href="./src/components/formulario.html"
+                ><span class="item-green">Crear Home Studio</span></a
+              >
+            </li>
+          </ul>
 
-        <div class="sesionActiva">
-          <div class="user-icon">
-            <button class="btn btn-user" data-bs-toggle="collapse" type="submit" href="#collapseExample" role="button"
-              aria-expanded="false" aria-controls="collapseExample">
-              <img src="" alt="user" id="usuarioFoto" />
+          <div class="sesionActiva">
+            <div class="user-icon">
+              <button
+                class="btn btn-user"
+                data-bs-toggle="collapse"
+                type="submit"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                <img src="" alt="user" id="usuarioFoto" />
+              </button>
+            </div>
+          </div>
+
+          <div class="sesionInactiva">
+            <a
+              href="./src/components/iniciar.html"
+              class="btn btn-primary boton-inicar-sesion w-100 fs-6"
+              ><i>Iniciar sesión</i></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body card-perfil">
+        <div class="contain d-flex">
+          <div class="contain-contain">
+            <p id="nombre">undefined</p>
+            <small class="correito"><p id="correo">undefined</p></small>
+          </div>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#perfilModal">
+            <svg
+              width="30"
+              id="configIcon"
+              fill="currentColor"
+              class="bi bi-gear-fill"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 84.22 84.12"
+            >
+              <path
+                d="M75.38,23.61l2.32-.14a3.37,3.37,0,0,1,3.49,2.15,3.42,3.42,0,0,1-.78,4,17.8,17.8,0,0,0-3.74,4.72,6.52,6.52,0,0,0,.91,7.74,17.2,17.2,0,0,0,4.64,3.62,3.46,3.46,0,0,1,1.89,4.17,3.37,3.37,0,0,1-2.84,2.89,16,16,0,0,0-5.41,1.94A6.37,6.37,0,0,0,72.76,62a23.42,23.42,0,0,0,1.7,4.66,4.11,4.11,0,0,1-3,6,4.61,4.61,0,0,1-1.71-.22,38.41,38.41,0,0,0-4.12-1.07c-4.32-.55-7,1.26-8.14,5.49a23.77,23.77,0,0,0-.65,3.66,3.56,3.56,0,0,1-2.62,3.25,3.79,3.79,0,0,1-3.87-.36,11.91,11.91,0,0,1-.89-1,35.78,35.78,0,0,0-3-3.05,6.28,6.28,0,0,0-8.61-.08,24.23,24.23,0,0,0-3.23,3.33A3.53,3.53,0,0,1,30.69,84a7.89,7.89,0,0,1-1.19-.39,3.29,3.29,0,0,1-2.07-2.86,16.92,16.92,0,0,0-1.23-5.39,6.41,6.41,0,0,0-7.21-4,28.85,28.85,0,0,0-4.37,1.11,3.54,3.54,0,0,1-4.34-1.27,3.47,3.47,0,0,1-.55-4.3,15.39,15.39,0,0,0,1.91-6,6.27,6.27,0,0,0-3-6A15.72,15.72,0,0,0,3,52.76a3.45,3.45,0,0,1-3-3.13A3.61,3.61,0,0,1,1.92,45.7a28.32,28.32,0,0,0,4.1-3C8.77,40.16,9.15,37,7.27,33.79a18.28,18.28,0,0,0-3.35-4.08,3.41,3.41,0,0,1-.86-4.13,3.39,3.39,0,0,1,3.64-2.1,16.85,16.85,0,0,0,5.92-.38A6.8,6.8,0,0,0,18,16.17a22.66,22.66,0,0,0-.76-5.68A3.32,3.32,0,0,1,19.3,6.54a3.54,3.54,0,0,1,3.48.6A42.52,42.52,0,0,0,27.38,10a6.88,6.88,0,0,0,5.25.48,7.26,7.26,0,0,0,3.56-2.68,18.44,18.44,0,0,0,2.67-5.34A3.41,3.41,0,0,1,42-.1a3.32,3.32,0,0,1,3.29,2.43,20.39,20.39,0,0,0,2.43,5c2.31,3.29,5.49,4.25,9.12,2.56A32.4,32.4,0,0,0,61.58,7a3.37,3.37,0,0,1,5.31,1.63,4.53,4.53,0,0,1,0,2,23.17,23.17,0,0,0-.68,5.37c.12,4,2.3,6.58,6.28,7.22C73.56,23.46,74.62,23.53,75.38,23.61ZM42.06,68.68A24.93,24.93,0,1,0,17.34,43.74,24.91,24.91,0,0,0,42.06,68.68Z"
+              />
+              <path
+                d="M56.61,44A14.51,14.51,0,1,1,42.1,29.39,14.49,14.49,0,0,1,56.61,44Z"
+              />
+            </svg>
+          </a>
+        </div>
+        <p>
+          <a id="cerrarSesion">Cerrar Sesión</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="perfilModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content content-bg">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Detalles del Perfil
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <label for="modalFoto" class="color-fotico d-block">
+                  <div class="position-relative">
+                      <input type="file" id="modalFoto" class="img-fluid position-absolute opacity-0" />
+                      <div class="cover" onclick="document.getElementById('modalFoto').click();"></div>
+                  </div>
+              </label>
+              </div>
+              <div class="col-md-8">
+                <p class="alinearP">
+                  <strong>Nombre:</strong>
+                  <input type="text" id="modalNombre" />
+                </p>
+                <p class="alinearP">
+                  <strong>Apellido:</strong>
+                  <input type="text" id="modalApellido" />
+                </p>
+                <p class="alinearP">
+                  <strong>Correo:</strong>
+                  <input type="text" id="modalCorreo" />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer flex-footer">
+            <button
+              type="button"
+              class="btn btn-color"
+              data-bs-dismiss="modal"
+              id="guardarNuevaInfo"
+            >
+              Guardar
+            </button>
+            <button type="button" class="btn btn-color" data-bs-dismiss="modal">
+              Cerrar
             </button>
           </div>
         </div>
-
-        <div class="sesionInactiva">
-          <a href="./src/components/iniciar.html" class="btn btn-primary boton-inicar-sesion w-100 fs-6"><i>Iniciar
-              sesión</i></a>
-        </div>
       </div>
     </div>
-  </nav>
 
-  <div class="collapse" id="collapseExample">
-    <div class="card card-body card-perfil">
-      <div class="contain d-flex">
-        <div class="contain-contain">
-          <p id="nombre">undefined</p>
-          <small class="correito"><p id="correo">undefined</p></small>
+    <div class="container carouselMargin">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./src/img/imgCarrousel.jpg"
+              class="d-block w-100 radius"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./src/img/imgCarrousel.jpg"
+              class="d-block w-100 radius"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./src/img/imgCarrousel.jpg"
+              class="d-block w-100 radius"
+              alt="..."
+            />
+          </div>
         </div>
-        <a href="#" data-bs-toggle="modal" data-bs-target="#perfilModal">
-
-          <svg width="30" id="configIcon" fill="currentColor" class="bi bi-gear-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.22 84.12"><path d="M75.38,23.61l2.32-.14a3.37,3.37,0,0,1,3.49,2.15,3.42,3.42,0,0,1-.78,4,17.8,17.8,0,0,0-3.74,4.72,6.52,6.52,0,0,0,.91,7.74,17.2,17.2,0,0,0,4.64,3.62,3.46,3.46,0,0,1,1.89,4.17,3.37,3.37,0,0,1-2.84,2.89,16,16,0,0,0-5.41,1.94A6.37,6.37,0,0,0,72.76,62a23.42,23.42,0,0,0,1.7,4.66,4.11,4.11,0,0,1-3,6,4.61,4.61,0,0,1-1.71-.22,38.41,38.41,0,0,0-4.12-1.07c-4.32-.55-7,1.26-8.14,5.49a23.77,23.77,0,0,0-.65,3.66,3.56,3.56,0,0,1-2.62,3.25,3.79,3.79,0,0,1-3.87-.36,11.91,11.91,0,0,1-.89-1,35.78,35.78,0,0,0-3-3.05,6.28,6.28,0,0,0-8.61-.08,24.23,24.23,0,0,0-3.23,3.33A3.53,3.53,0,0,1,30.69,84a7.89,7.89,0,0,1-1.19-.39,3.29,3.29,0,0,1-2.07-2.86,16.92,16.92,0,0,0-1.23-5.39,6.41,6.41,0,0,0-7.21-4,28.85,28.85,0,0,0-4.37,1.11,3.54,3.54,0,0,1-4.34-1.27,3.47,3.47,0,0,1-.55-4.3,15.39,15.39,0,0,0,1.91-6,6.27,6.27,0,0,0-3-6A15.72,15.72,0,0,0,3,52.76a3.45,3.45,0,0,1-3-3.13A3.61,3.61,0,0,1,1.92,45.7a28.32,28.32,0,0,0,4.1-3C8.77,40.16,9.15,37,7.27,33.79a18.28,18.28,0,0,0-3.35-4.08,3.41,3.41,0,0,1-.86-4.13,3.39,3.39,0,0,1,3.64-2.1,16.85,16.85,0,0,0,5.92-.38A6.8,6.8,0,0,0,18,16.17a22.66,22.66,0,0,0-.76-5.68A3.32,3.32,0,0,1,19.3,6.54a3.54,3.54,0,0,1,3.48.6A42.52,42.52,0,0,0,27.38,10a6.88,6.88,0,0,0,5.25.48,7.26,7.26,0,0,0,3.56-2.68,18.44,18.44,0,0,0,2.67-5.34A3.41,3.41,0,0,1,42-.1a3.32,3.32,0,0,1,3.29,2.43,20.39,20.39,0,0,0,2.43,5c2.31,3.29,5.49,4.25,9.12,2.56A32.4,32.4,0,0,0,61.58,7a3.37,3.37,0,0,1,5.31,1.63,4.53,4.53,0,0,1,0,2,23.17,23.17,0,0,0-.68,5.37c.12,4,2.3,6.58,6.28,7.22C73.56,23.46,74.62,23.53,75.38,23.61ZM42.06,68.68A24.93,24.93,0,1,0,17.34,43.74,24.91,24.91,0,0,0,42.06,68.68Z"/><path d="M56.61,44A14.51,14.51,0,1,1,42.1,29.39,14.49,14.49,0,0,1,56.61,44Z"/></svg>
-        </a>
-      </div>
-      <p>
-        <a id="cerrarSesion">Cerrar Sesión</a>
-      </p>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade " id="perfilModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content content-bg">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">
-            Detalles del Perfil
-          </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p class="alinearP">
-            <strong>Nombre:</strong>
-            <input type="text" id="modalNombre" />
-          </p>
-          <p class="alinearP">
-            <strong>Apellido:</strong>
-            <input type="text" id="modalApellido" />
-          </p>
-          <p class="alinearP">
-            <strong>Correo:</strong>
-            <input type="text" id="modalCorreo" />
-          </p>
-          <p class="alinearP">
-            <strong>Foto de Perfil:</strong>
-            <input type="file" id="modalFoto" class="img-fluid" />
-          </p>
-        </div>
-        <div class="modal-footer flex-footer">
-          <button type="button" class="btn btn-color" data-bs-dismiss="modal" id="guardarNuevaInfo">
-            Guardar
-          </button>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Cerrar
-          </button>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-  </div>
 
-  <div class="container carouselMargin">
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./src/img/imgCarrousel.jpg" class="d-block w-100 radius" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="./src/img/imgCarrousel.jpg" class="d-block w-100 radius" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="./src/img/imgCarrousel.jpg" class="d-block w-100 radius" alt="..." />
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+    <div class="row my-5 mx-3 d-flex flex-center">
+      <button type="button" class="btn btn-lg btn-homeStudio col-md-3 col-sm-6">
+        <a
+          class="nav-link nav-link-color-button"
+          href="./src/components/formulario.html"
+          ><i>Crear Home Studio</i></a
+        >
       </button>
     </div>
-  </div>
 
-  <div class="row my-5 mx-3 d-flex flex-center">
-    <button type="button" class="btn btn-lg btn-homeStudio col-md-3 col-sm-6">
-      <a class="nav-link nav-link-color-button" href="./src/components/formulario.html"><i>Crear Home Studio</i></a>
-    </button>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="/src/js/index.js" type="module"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/src/js/index.js" type="module"></script>
+  </body>
 </html>
