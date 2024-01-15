@@ -225,6 +225,11 @@
   filter: invert(1) !important;
 }
 
+.cover {
+  width: 150px;
+  height: 150px;
+}
+
 @media only screen and (max-width: 991px) {
   .color-fotico {
     width: 250px;

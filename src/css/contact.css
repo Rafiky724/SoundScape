@@ -12,6 +12,7 @@
 
 .containerdelContact {
   margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 .contenedor-imagenContacto {
@@ -23,11 +24,39 @@
   color: #9fc13b;
 }
 
+.inputsContact {
+  width: 500px !important;
+  display: flex;
+  flex-direction: column;
+  margin: 10px !important;
+  gap: 10px !important;
+}
+
+.botoncito {
+  width: 100px !important;
+  justify-content: center !important;
+}
+
+.contenedorInputs {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
+}
+
 @media only screen and (max-width: 800px) {
   .imagenContacto {
     transition: 2s !important;
     width: 200px !important;
     min-height: 830px !important;
+  }
+  .contenedor-imagenContacto {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contenedor-imagenContacto {
+    display: none !important;
   }
 }
 
