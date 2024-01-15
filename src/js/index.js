@@ -1,8 +1,10 @@
 import '../config/db.js'
+import { storage } from '../config/db.js'
 
 import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js"
 import { auth, db } from '../config/db.js'
 import { getDocs, collection, query, where } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js"
+import { getStorage, ref, uploadBytes, getDownloadURL } from 'https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js';
 
 
 //Función que oculta los botones de acuerdo a si hay una sesión activa o no
@@ -40,14 +42,14 @@ const loginCheck = user => {
 
 }
 
-function mostrarModalIniciarSesion(){
+function mostrarModalIniciarSesion() {
 
     const modal = new bootstrap.Modal(document.getElementById("modalIniciarSesion"));
     modal.show();
 
 }
 
-function redireccionarHomeStudio(){
+function redireccionarHomeStudio() {
 
     window.location.href = "../src/components/formulario.html";
 
@@ -99,7 +101,8 @@ async function datosUsuario() {
             // Accede a las etiquetas <p> por su ID y actualiza su contenido con los datos del usuario
             document.getElementById('nombre').textContent = userData.nombre + ' ' + userData.apellidos;
             document.getElementById('correo').textContent = userData.correo;
-            document.getElementById('usuarioFoto').setAttribute("src", userData.foto);;
+            document.getElementById('usuarioFoto').setAttribute("src", userData.foto);
+            document.getElementById('foto-modal-cambiar').setAttribute("src", userData.foto);
         }
 
     }
@@ -111,4 +114,43 @@ async function datosUsuario() {
         contenedorCarga.style.opacity = '0';
     }, 100);
 
+}
+
+
+//PRUEBA IMAGEN
+
+var fileText = document.querySelector(".fileText")
+var fileItem;
+var fileName;
+
+function getFile(e) {
+
+    fileItem = e.target.files[0];
+    fileName = fileItem.name;
+    fileText.innerHTML = fileName;
+
+}
+
+document.querySelector("#guardarNuevaInfo").addEventListener("click", prueba);
+document.getElementById("modalFotos").addEventListener('change', getFile);
+
+async function prueba() {
+
+    const userUID = auth.currentUser.uid;
+
+    const storageRef = ref(storage, `images/${userUID}/"file.name"`);
+
+    try {
+        //Subir el archivo a Firebase Storage
+        await uploadBytes(storageRef, fileItem);
+
+        //Obtener la URL de la imagen recién subida
+        const imageUrl = await getDownloadURL(storageRef);
+
+        // Hacer algo con la URL, como actualizar la vista previa
+        console.log('URL de la imagen:', imageUrl);
+
+    } catch (error) {
+        console.error('Error al subir la imagen:', error);
+    }
 }

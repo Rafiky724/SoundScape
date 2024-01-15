@@ -168,14 +168,17 @@
                     id="modalFotos"
                     class="img-fluid position-absolute opacity-0"
                   />
-                  <img 
-                    src="./src/img/Explicacion.jpg"
+                  <img
+                    id="foto-modal-cambiar"
+                    src=""
                     alt="Usuario" 
                     class="cover"
                     onclick="document.getElementById('modalFotos').click();"
                   ></img>
                 </div>
               </label>
+
+              <span class="fileText">...</span>
 
               <div class="col-md-8">
                 <p class="alinearP">
@@ -195,7 +198,6 @@
           </div>
           <div class="modal-footer flex-footer">
             <button
-              type="button"
               class="btn btn-color"
               data-bs-dismiss="modal"
               id="guardarNuevaInfo"
