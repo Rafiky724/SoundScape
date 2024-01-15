@@ -1,11 +1,13 @@
 .imagenContacto {
-  width: 600px !important;
-  height: 600px !important;
-  background-color: aqua;
+  width: 800px !important;
+  min-height: 830px !important;
+
   background: url(../img/fondoContacto.png) !important;
   background-size: cover !important;
   position: absolute !important;
   right: 0;
+  top: 0;
+  z-index: -10 !important;
 }
 
 .containerdelContact {
@@ -19,4 +21,18 @@
 .contactenosColor {
   font-style: italic;
   color: #9fc13b;
+}
+
+@media only screen and (max-width: 800px) {
+  .imagenContacto {
+    transition: 2s !important;
+    width: 200px !important;
+    min-height: 830px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contenedor-imagenContacto {
+    display: none !important;
+  }
 }
