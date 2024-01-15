@@ -71,11 +71,11 @@
               <a class="nav-link nav-link-color" href="#">Comunidad</a>
             </li>
             <li class="nav-item">
-              <a
+              <button
                 class="nav-link nav-link-color active"
                 aria-current="page"
-                href="./src/components/formulario.html"
-                ><span class="item-green">Crear Home Studio</span></a
+                id="botonHomeSutdio2"
+                ><span class="item-green">Crear Home Studio</span></button
               >
             </li>
           </ul>
@@ -247,13 +247,29 @@
     </div>
 
     <div class="row my-5 mx-3 d-flex flex-center">
-      <button type="button" class="btn btn-lg btn-homeStudio col-md-3 col-sm-6">
+      <button id="botonHomeSutdio" type="button" class="btn btn-lg btn-homeStudio col-md-3 col-sm-6">
         <a
           class="nav-link nav-link-color-button"
-          href="./src/components/formulario.html"
           ><i>Crear Home Studio</i></a
         >
       </button>
+    </div>
+
+    <div class="modal fade" id="modalIniciarSesion" tabindex="-1" aria-labelledby="modalIniciarSesionLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-content-iniciarSesion">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalIniciarSesionLabel2">Error</h1>
+                    <button type="button" class="btn-close boton-cerrar-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Debes iniciar sesión primero para crear tu propio 'Home Studio'
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-secondary btn-color" href="./src/components/iniciar.html">Iniciar sesión</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script
