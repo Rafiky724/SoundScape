@@ -22,9 +22,23 @@
   position: relative !important;
 }
 
+.inputsColor {
+  padding: 10px !important;
+  border-radius: 10px !important;
+  background-color: #022940;
+  color: white !important;
+  border: none !important;
+}
+
+.inputsColor::placeholder {
+  color: white !important;
+}
+
 .contactenosColor {
   font-style: italic;
   color: #9fc13b;
+  font-size: 80px;
+  margin-bottom: 30px !important;
 }
 
 .inputsContact {
@@ -46,6 +60,13 @@
   align-items: center !important;
 }
 
+.centrarInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px !important;
+}
+
 @media only screen and (max-width: 800px) {
   .imagenContacto {
     transition: 2s !important;
@@ -54,6 +75,17 @@
   }
   .contenedor-imagenContacto {
     display: none !important;
+  }
+  .inputsContact {
+    width: 300px !important;
+  }
+  .centrarInputs {
+    margin-top: 50px !important;
+  }
+
+  .contactenosColor {
+    font-size: 40px;
+    margin-bottom: 10px !important;
   }
 }
 
@@ -66,5 +98,11 @@
 @media only screen and (max-width: 600px) {
   .contenedor-imagenContacto {
     display: none !important;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .centradoForm {
+    justify-content: center;
   }
 }
