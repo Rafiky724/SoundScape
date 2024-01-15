@@ -1,13 +1,16 @@
 .imagenContacto {
   width: 800px !important;
   min-height: 830px !important;
-
   background: url(../img/fondoContacto.png) !important;
   background-size: cover !important;
   position: absolute !important;
   right: 0;
   top: 0;
   z-index: -10 !important;
+}
+
+.contact-body {
+  background-color: #081b26 !important;
 }
 
 .containerdelContact {
