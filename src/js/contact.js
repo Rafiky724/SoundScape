@@ -16,9 +16,10 @@ function enviarFormulario() {
     };
 
     console.log("Enviando formulario:", informacionFormulario);
-
-    location.reload();
   } else {
     alert("Por favor, complete todos los campos del formulario.");
   }
+
+  
+
 }
