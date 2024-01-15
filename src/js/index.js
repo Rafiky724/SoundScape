@@ -10,12 +10,16 @@ const loginCheck = user => {
 
     const elementosSesionInactiva = document.querySelectorAll('.sesionInactiva')
     const elementosSesionActiva = document.querySelectorAll('.sesionActiva')
+    const botonHomeStudio = document.getElementById('botonHomeSutdio');
+    const botonHomeStudio2 = document.getElementById('botonHomeSutdio2');
 
     if (user) {
 
         elementosSesionActiva.forEach(element => element.style.display = 'block')
         elementosSesionInactiva.forEach(element => element.style.display = 'none')
         datosUsuario()
+        botonHomeStudio.addEventListener("click", redireccionarHomeStudio)
+        botonHomeStudio2.addEventListener("click", redireccionarHomeStudio)
 
     } else {
 
@@ -24,12 +28,28 @@ const loginCheck = user => {
 
         let contenedorCarga = document.getElementById('loader-pagina');
 
+        botonHomeStudio.addEventListener("click", mostrarModalIniciarSesion)
+        botonHomeStudio2.addEventListener("click", mostrarModalIniciarSesion)
+
         contenedorCarga.style.visibility = 'hidden';
         setTimeout(function () {
             contenedorCarga.style.opacity = '0';
         }, 100);
 
     }
+
+}
+
+function mostrarModalIniciarSesion(){
+
+    const modal = new bootstrap.Modal(document.getElementById("modalIniciarSesion"));
+    modal.show();
+
+}
+
+function redireccionarHomeStudio(){
+
+    window.location.href = "../src/components/formulario.html";
 
 }
 

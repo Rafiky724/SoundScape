@@ -181,7 +181,7 @@
   border-color: #7ea704 !important;
 }
 
-.content-bg {
+.content-bg, .modal-content-iniciarSesion{
   background-color: #081b26 !important;
   color: #ffffff !important;
 }
@@ -215,6 +215,8 @@
   background-color: #022940 !important;
   color: white !important;
   border-color: #022940 !important;
+  border-radius: 5px;
+
 }
 
 .input-perfil::placeholder {
