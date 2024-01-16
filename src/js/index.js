@@ -3,7 +3,7 @@ import { storage } from '../config/db.js'
 
 import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js"
 import { auth, db } from '../config/db.js'
-import { getDocs, collection, query, where } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js"
+import { getDocs, collection, query, where, updateDoc, doc } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js"
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js';
 
 
@@ -102,7 +102,11 @@ async function datosUsuario() {
             document.getElementById('nombre').textContent = userData.nombre + ' ' + userData.apellidos;
             document.getElementById('correo').textContent = userData.correo;
             document.getElementById('usuarioFoto').setAttribute("src", userData.foto);
+
             document.getElementById('foto-modal-cambiar').setAttribute("src", userData.foto);
+            document.getElementById('modalNombre').value = userData.nombre;
+            document.getElementById('modalApellido').value = userData.apellidos;
+
         }
 
     }
@@ -118,39 +122,95 @@ async function datosUsuario() {
 
 
 //PRUEBA IMAGEN
+var imagenItem;
 
-var fileText = document.querySelector(".fileText")
-var fileItem;
-var fileName;
 
 function getFile(e) {
 
-    fileItem = e.target.files[0];
-    fileName = fileItem.name;
-    fileText.innerHTML = fileName;
+    var fileItem = e.target.files[0];
+    
+    var imgFotoPerfil = document.getElementById('foto-modal-cambiar');
 
+    if (fileItem) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            imgFotoPerfil.setAttribute("src", e.target.result);
+        };
+
+        reader.readAsDataURL(fileItem);
+
+    }
+
+    imagenItem = fileItem;
 }
 
-document.querySelector("#guardarNuevaInfo").addEventListener("click", prueba);
+
+document.querySelector("#guardarNuevaInfo").addEventListener("click", guardarCambios);
 document.getElementById("modalFotos").addEventListener('change', getFile);
 
-async function prueba() {
+async function guardarCambios() {
+
+
+    let loadingActualizar = document.getElementById('loader-pagina-actualizar');
+    loadingActualizar.classList.remove("disabled");
 
     const userUID = auth.currentUser.uid;
+    const usersCollectionRef = collection(db, 'usuarios');
+    const query2 = query(usersCollectionRef, where('uid', '==', userUID));
+    const querySnapshot = await getDocs(query2);
 
-    const storageRef = ref(storage, `images/${userUID}/"file.name"`);
+    const nuevoNombre = document.getElementById('modalNombre').value;
+    const nuevosApellidos = document.getElementById('modalApellido').value;
 
-    try {
-        //Subir el archivo a Firebase Storage
-        await uploadBytes(storageRef, fileItem);
+    if (!querySnapshot.empty) {
 
-        //Obtener la URL de la imagen recién subida
-        const imageUrl = await getDownloadURL(storageRef);
+        //Se guarda todos los datos del usuario con esa UID
+        const userDocument = querySnapshot.docs[0];
 
-        // Hacer algo con la URL, como actualizar la vista previa
-        console.log('URL de la imagen:', imageUrl);
+        try {
 
-    } catch (error) {
-        console.error('Error al subir la imagen:', error);
+            await updateDoc(doc(db, 'usuarios', userDocument.id), {
+
+                nombre: nuevoNombre,
+                apellidos: nuevosApellidos
+
+            });
+
+
+            if (imagenItem != undefined) {
+
+                const userData = userDocument.data();
+                const storageRef = ref(storage, `images/${userData.correo}/FotoDe${userData.nombre}`);
+
+                try {
+                    //Subir el archivo a Firebase Storage
+                    await uploadBytes(storageRef, imagenItem);
+
+                    //Obtener la URL de la imagen recién subida
+                    const imageUrl = await getDownloadURL(storageRef);
+
+                    await updateDoc(doc(db, 'usuarios', userDocument.id), {
+
+                        foto: imageUrl,
+        
+                    });
+
+                } catch (error) {
+                    console.error('Error al subir la imagen:', error);
+                }
+
+            }
+
+
+        } catch (error) {
+            console.error('Error al actualizar el campo "nombre":', error);
+        }
+
+
     }
+
+    loadingActualizar.classList.add("disabled");
+    location.reload();
+
 }
