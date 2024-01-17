@@ -23,6 +23,10 @@
   border-radius: 0 0 10px 10px !important;
 }
 
+.modal-header {
+  border-bottom: 2px solid #081b26!important;
+}
+
 .accordion-item {
   background-color: transparent !important;
   border-bottom: 0 !important;
@@ -31,6 +35,16 @@
 
 .btn-responder {
   background-color: #9fc13b !important;
+}
+
+.form-control {
+  background-color: #081b26 !important;
+  border: 0 !important;
+  color: #ffffff !important;
+}
+
+.form-control::placeholder {
+  color: #ffffff !important;
 }
 
 .flex-comment {
@@ -68,6 +82,12 @@
 
 .color-time {
   color: #748d29;
+}
+
+.modal-content {
+  background-color: #022940 !important;
+  border: 0 !important;
+  color: #ffffff !important;
 }
 
 @media only screen and (max-width: 760px) {
