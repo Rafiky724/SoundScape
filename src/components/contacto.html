@@ -17,6 +17,32 @@
   </head>
 
   <body class="contact-body">
+    
+    <div id="loader-pagina">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <div class="disabled" id="loader-pagina-actualizar">
+
+      <div class="actualizar-container d-flex flex-column align-items-center">
+
+        <div class="spinner-border text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3">Actualizando información</p>
+
+      </div>
+
+    </div>
+
+    <div class="disabled" id="loader-pagina2">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../index.html"
@@ -159,15 +185,19 @@
                 <div class="position-relative">
                   <input
                     type="file"
-                    id="modalFoto"
+                    id="modalFotos"
                     class="img-fluid position-absolute opacity-0"
                   />
-                  <div
+                  <img
+                    id="foto-modal-cambiar"
+                    src=""
+                    alt="Usuario" 
                     class="cover"
-                    onclick="document.getElementById('modalFoto').click();"
-                  ></div>
+                    onclick="document.getElementById('modalFotos').click();"
+                  ></img>
                 </div>
               </label>
+
 
               <div class="col-md-8">
                 <p class="alinearP">
@@ -178,16 +208,17 @@
                   <strong>Apellido:</strong>
                   <input type="text" id="modalApellido" class="input-perfil" />
                 </p>
-                <p class="alinearP">
-                  <strong>Correo:</strong>
-                  <input type="text" id="modalCorreo" class="input-perfil" />
-                </p>
               </div>
+            </div>
+            <div id="loginAlertArchivoNoApto" class="alert alert-danger alert-dismissible fade show disabled mt-3 mb-0" role="alert">
+              Archivo no válido. Solo se aceptan documentos con formato 'jpg', 'jpeg' y 'png'
+            </div>
+            <div id="loginWarningArchivo" class="alert alert-warning disabled alert-dismissible fade show mt-3 mb-0" role="alert">
+              El archivo seleccionado tiene una dimesión dispareja. Se recomiendan archivos con una resolución cuadrada.
             </div>
           </div>
           <div class="modal-footer flex-footer">
             <button
-              type="button"
               class="btn btn-color"
               data-bs-dismiss="modal"
               id="guardarNuevaInfo"
@@ -199,6 +230,7 @@
       </div>
     </div>
 
+    <!-- Contenido -->
     <div class="container containerdelContact">
       <div class="row centradoForm" style="width: 100vw">
         <div class="col-md-6 col-sm-12 centrarInputs">
@@ -239,13 +271,15 @@
       </div>
     </div>
 
+
+
     <script src="../js/contact.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-
+    <script src="../js/navbar.js" type="module"></script>
     <script src="../js/index.js" type="module"></script>
   </body>
 </html>
