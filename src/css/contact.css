@@ -89,6 +89,18 @@
   .contenedor-imagenContacto {
     display: none !important;
   }
+  .centradoForm {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .contenedor-imagenContacto {
+    display: none !important;
+  }
+  .centradoForm {
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -100,5 +112,9 @@
 @media only screen and (max-width: 980px) {
   .centradoForm {
     justify-content: center;
+  }
+
+  .centrarInputs {
+    margin-top: 100px !important;
   }
 }

@@ -159,7 +159,6 @@
   width: 100%;
   background-color: rgba(8, 27, 38, 0.8);
   color: white;
-  
 }
 
 .disabled {
@@ -194,7 +193,8 @@
   border-color: #7ea704 !important;
 }
 
-.content-bg, .modal-content-iniciarSesion{
+.content-bg,
+.modal-content-iniciarSesion {
   background-color: #081b26 !important;
   color: #ffffff !important;
 }
@@ -220,7 +220,7 @@
 
 .centrar-editar-perfil {
   display: flex !important;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .input-perfil {
@@ -229,7 +229,6 @@
   color: white !important;
   border-color: #022940 !important;
   border-radius: 5px;
-
 }
 
 .input-perfil::placeholder {

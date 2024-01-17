@@ -1,0 +1,46 @@
+.articulo-body {
+  background-color: #081b26 !important;
+}
+
+.row-center {
+  justify-content: center !important;
+  gap: 10px;
+}
+
+.imagen-articulo {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.card {
+  overflow: hidden;
+  background-color: #022940 !important;
+}
+
+.card-title {
+  color: #9fc13b !important;
+  font-family: "Franklin Gothic Medium" !important;
+}
+
+.btn-articulo {
+  background-color: #9fc13b !important;
+  font-family: "Franklin Gothic Medium" !important;
+  color: #ffffff !important;
+  transition: 0.3s !important;
+}
+
+.btn-articulo:hover {
+  background-color: #769224 !important;
+  color: #022940 !important;
+}
+
+.accordion-item {
+  background-color: #081b26 !important;
+  color: #ffffff !important;
+}
+
+.accordion-button {
+  background-color: #081b26 !important;
+  color: #ffffff !important;
+  font-family: "Franklin Gothic Medium" !important;
+}

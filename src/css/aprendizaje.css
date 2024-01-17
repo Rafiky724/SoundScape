@@ -1,0 +1,8 @@
+.learning-body {
+  background-color: #081b26 !important;
+}
+
+.row-center {
+  justify-content: center !important;
+  gap: 10px;
+}
