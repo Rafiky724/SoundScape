@@ -17,6 +17,31 @@
   </head>
 
   <body class="learning-body">
+    <div id="loader-pagina">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <div class="disabled" id="loader-pagina-actualizar">
+
+      <div class="actualizar-container d-flex flex-column align-items-center">
+
+        <div class="spinner-border text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3">Actualizando información</p>
+
+      </div>
+
+    </div>
+
+    <div class="disabled" id="loader-pagina2">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../index.html"
@@ -57,9 +82,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-color" href="./comunidad.html"
-                >Comunidad</a
-              >
+              <a class="nav-link nav-link-color" href="./comunidad.html">Comunidad</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link-color" href="./aprendizaje.html"
@@ -67,11 +90,11 @@
               >
             </li>
             <li class="nav-item">
-              <a
+              <button
                 class="nav-link nav-link-color active"
                 aria-current="page"
-                href="../components/formulario.html"
-                ><span class="item-green">Crear Home Studio</span></a
+                id="botonHomeSutdio2"
+                ><span class="item-green">Crear Home Studio</span></button
               >
             </li>
           </ul>
@@ -161,15 +184,19 @@
                 <div class="position-relative">
                   <input
                     type="file"
-                    id="modalFoto"
+                    id="modalFotos"
                     class="img-fluid position-absolute opacity-0"
                   />
-                  <div
+                  <img
+                    id="foto-modal-cambiar"
+                    src=""
+                    alt="Usuario" 
                     class="cover"
-                    onclick="document.getElementById('modalFoto').click();"
-                  ></div>
+                    onclick="document.getElementById('modalFotos').click();"
+                  ></img>
                 </div>
               </label>
+
 
               <div class="col-md-8">
                 <p class="alinearP">
@@ -180,16 +207,17 @@
                   <strong>Apellido:</strong>
                   <input type="text" id="modalApellido" class="input-perfil" />
                 </p>
-                <p class="alinearP">
-                  <strong>Correo:</strong>
-                  <input type="text" id="modalCorreo" class="input-perfil" />
-                </p>
               </div>
+            </div>
+            <div id="loginAlertArchivoNoApto" class="alert alert-danger alert-dismissible fade show disabled mt-3 mb-0" role="alert">
+              Archivo no válido. Solo se aceptan documentos con formato 'jpg', 'jpeg' y 'png'
+            </div>
+            <div id="loginWarningArchivo" class="alert alert-warning disabled alert-dismissible fade show mt-3 mb-0" role="alert">
+              El archivo seleccionado tiene una dimesión dispareja. Se recomiendan archivos con una resolución cuadrada.
             </div>
           </div>
           <div class="modal-footer flex-footer">
             <button
-              type="button"
               class="btn btn-color"
               data-bs-dismiss="modal"
               id="guardarNuevaInfo"

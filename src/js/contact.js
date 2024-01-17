@@ -19,7 +19,4 @@ function enviarFormulario() {
   } else {
     alert("Por favor, complete todos los campos del formulario.");
   }
-
-  
-
 }
