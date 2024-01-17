@@ -1,3 +1,77 @@
 .comunidad-body {
   background-color: #081b26 !important;
 }
+
+.contain-title-btn {
+  display: flex;
+  font-style: italic;
+  color: #9fc13b !important;
+  font-family: "Franklin Gothic Medium" !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.accordion-button {
+  background-color: #022940 !important;
+  color: #9fc13b !important;
+  font-family: "Franklin Gothic Medium" !important;
+}
+
+.accordion-collapse {
+  background-color: #022940 !important;
+  color: #ffffff !important;
+  border-radius: 0 0 10px 10px !important;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border-bottom: 0 !important;
+  border-radius: 10px !important;
+}
+
+.btn-responder {
+  background-color: #9fc13b !important;
+}
+
+.flex-comment {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-bottom: 20px !important;
+}
+
+.imagen-autorPregunta {
+  margin-right: 10px;
+}
+
+.pregunta-autor {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium" !important;
+  font-style: italic;
+  font-size: large;
+}
+
+.p-autor {
+  margin: 0;
+}
+
+.data-autor {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.color-autor {
+  color: #9fc13b;
+}
+
+.color-time {
+  color: #748d29;
+}
+
+@media only screen and (max-width: 760px) {
+  .contain-title-btn {
+    justify-content: center;
+  }
+}
