@@ -182,7 +182,6 @@
                   <input
                     type="file"
                     id="modalFotos"
-                    accept=".jpeg, .jpg, .png"
                     class="img-fluid position-absolute opacity-0"
                   />
                   <img
@@ -206,6 +205,12 @@
                   <input type="text" id="modalApellido" class="input-perfil" />
                 </p>
               </div>
+            </div>
+            <div id="loginAlertArchivoNoApto" class="alert alert-danger alert-dismissible fade show disabled mt-3 mb-0" role="alert">
+              Archivo no válido. Solo se aceptan documentos con formato 'jpg', 'jpeg' y 'png'
+            </div>
+            <div id="loginWarningArchivo" class="alert alert-warning disabled alert-dismissible fade show mt-3 mb-0" role="alert">
+              El archivo seleccionado tiene una dimesión dispareja. Se recomiendan archivos con una resolución cuadrada.
             </div>
           </div>
           <div class="modal-footer flex-footer">
@@ -341,6 +346,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="./src/js/navbar.js" type="module"></script>
     <script src="./src/js/index.js" type="module"></script>
+    
   </body>
 </html>
