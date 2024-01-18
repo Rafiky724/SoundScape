@@ -234,7 +234,7 @@
     <div class="container mt-4 mb-4">
       <div class="contain-title-btn">
         <h3 class="titlePrincipal">Haz una pregunta a la comunidad</h3>
-        <button id="agregarComentario" class="btn btn-color">Añadir Comentario</button>
+        <button id="agregarComentario" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#modalAgregar">Añadir Comentario</button>
       </div>
 
       <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
@@ -355,7 +355,28 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Responder</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Responder a x</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje:</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Envia tu respuesta"></textarea>
+            </div>
+            <button type="button" class="btn btn-responder">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalAgregar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Agregar comentario</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
