@@ -1,4 +1,4 @@
-const envioBtn = document.getElementById("enviar");
+/*const envioBtn = document.getElementById("enviar");
 envioBtn.addEventListener("click", enviarFormulario);
 
 function enviarFormulario() {
@@ -19,4 +19,14 @@ function enviarFormulario() {
   } else {
     alert("Por favor, complete todos los campos del formulario.");
   }
+}
+*/
+
+const formulario = document.getElementById("formularioEnviar");
+formulario.addEventListener('submit', defaultF)
+
+function defaultF(e) {
+
+  document.getElementById("loader-pagina-enviarForm").classList.remove("disabled");
+
 }

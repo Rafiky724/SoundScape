@@ -149,7 +149,7 @@
   background-color: #081b26;
 }
 
-#loader-pagina-actualizar {
+#loader-pagina-actualizar, #loader-pagina-enviarForm {
   height: 100%;
   display: flex;
   justify-content: center;
