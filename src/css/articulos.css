@@ -44,3 +44,13 @@
   color: #ffffff !important;
   font-family: "Franklin Gothic Medium" !important;
 }
+
+.active > .page-link {
+  background-color: #9fc13b !important;
+  border: #9fc13b 1px solid !important;
+  color: #ffffff !important;
+}
+
+.page-link {
+  color: #769224 !important;
+}
