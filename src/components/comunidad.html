@@ -305,16 +305,16 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Responder a x</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Responder a <span id="NombreAResponder"></span></h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form>
+          <form id="formularioRespuesta">
             <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje:</label>
-              <textarea class="form-control" id="mensaje" rows="4" placeholder="Envia tu respuesta"></textarea>
+              <label for="mensajeRespuesta" class="form-label">Mensaje:</label>
+              <textarea class="form-control" id="mensajeRespuesta" rows="4" placeholder="Envia tu respuesta" required></textarea>
             </div>
-            <button type="button" class="btn btn-responder">Enviar</button>
+            <button type="submit" class="btn btn-responder">Enviar</button>
           </form>
         </div>
       </div>
@@ -332,7 +332,7 @@
         <div class="modal-body">
           <form id="formularioMensaje">
             <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje:</label>
+              <label for="mensajeTexto" class="form-label">Mensaje:</label>
               <textarea class="form-control" id="mensajeTexto" rows="4" placeholder="Envia tu respuesta"
                 required></textarea>
             </div>
