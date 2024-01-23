@@ -1,0 +1,30 @@
+.learning-body {
+  background-color: #081b26 !important;
+}
+
+.row-center {
+  justify-content: center !important;
+  gap: 10px;
+}
+
+.bg-color {
+  background-color: #022940;
+}
+
+.contentVideo {
+  text-align: justify;
+  margin: 10px;
+  /* color: #9fc13b !important; */
+  color: white;
+  font-size: medium;
+}
+
+.tittle-Video {
+  text-align: center;
+  color: #9fc13b;
+  font-family: "Franklin Gothic Medium" !important;
+}
+
+.negrilla, .listaOrdenada {
+  color: #9fc13b;
+}
