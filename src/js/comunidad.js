@@ -223,35 +223,41 @@ function agregarRespuesta(){
 
 }
 
-async function mostrarModalResponder(e){
 
+let eventoAnterior;
+
+async function mostrarModalResponder(e) {
+    
     const nombreAresponder = document.getElementById("NombreAResponder");
-
     const idPregunta = e.currentTarget.id;
 
-    console.log(idPregunta)
+    // Eliminar el evento anterior si existe
+    if (eventoAnterior) {
+        formularioRespuesta.removeEventListener("submit", eventoAnterior);
+    }
 
-    formularioRespuesta.addEventListener("submit", function(event) {
+    // Definir la función que manejará el evento
+    function manejarEnvioRespuesta(event) {
         enviarRespuesta(event, idPregunta);
-    });
+        formularioRespuesta.removeEventListener("submit", manejarEnvioRespuesta);
+    }
 
+    // Agregar el nuevo evento de escucha
+    formularioRespuesta.addEventListener("submit", manejarEnvioRespuesta);
+
+    // Guardar la referencia al evento actual
+    eventoAnterior = manejarEnvioRespuesta;
 
     const pregCollectionRef = collection(db, 'comunidad');
-    //Se busca dentro de la colección algún usuario que tenga la misma UID
     const query2 = query(pregCollectionRef, where('id', '==', idPregunta));
     const querySnapshot = await getDocs(query2);
 
-    //Una condicional para que se verifique que se hayan encontrado algún usuario
     if (!querySnapshot.empty) {
-
-        //Se guarda todos los datos del usuario con esa UID
         const userDocument = querySnapshot.docs[0];
         const userData = userDocument.data();
-
         nombreAresponder.innerHTML = userData.correoAutor;
     }
 }
-
 async function enviarRespuesta(e, idPregunta){
 
     e.preventDefault();
