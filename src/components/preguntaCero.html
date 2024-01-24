@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoundScape</title>
+    <link rel="icon" href="../img/SoundScapeLogo.png" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/formulario.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: #081b26">
+    <div class="container containerdelContact">
+      <div class="row centradoForm" style="width: 100vw">
+        <div class="col-md-6 col-sm-12 contenedor-imagenContacto">
+          <div class="imagenContacto"></div>
+        </div>
+
+        <form class="col-md-6 col-sm-12 centrarInputs">
+          <div>
+            <img
+              src="../img/SoundScape.png"
+              alt="logo"
+              class="logoFormulario"
+            />
+          </div>
+
+          <h1 class="preguntaColor mt-3">Tamaño de la habitación</h1>
+
+          <div class="inputsForm">
+            <input
+              class="inputsColor mb-3"
+              type="text"
+              id="largoHabitacion"
+              name="largo"
+              placeholder="Largo de la habitación en cm"
+              required
+            />
+
+            <input
+              class="inputsColor mb-3"
+              type="text"
+              id="altoHabitacion"
+              name="alto"
+              placeholder="Alto de la habitación en cm"
+              required
+            />
+
+            <input
+              class="inputsColor mb-3"
+              type="text"
+              id="anchoHabitacion"
+              name="ancho"
+              placeholder="Ancho de la habitación en cm"
+              required
+            />
+
+            <div>
+              <p class="preguntaVentana">¿La habitación contiene ventanas?</p>
+            </div>
+            <div class="btn-group">
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="siVentana" /> Si
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="noVentana" /> No
+              </label>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-lg btn-homeStudio botoncito mt-4"
+            id="continuar"
+          >
+            <i>Continuar</i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="../js/formulario.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>

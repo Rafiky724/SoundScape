@@ -1,0 +1,146 @@
+.imagenContacto {
+  width: 900px !important;
+  height: 100vh !important;
+  background: url(../img/fondotamano.png) !important;
+  background-size: cover !important;
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  z-index: -10 !important;
+}
+
+iframe {
+  height: 90.3vh !important;
+  background-color: #081b26 !important;
+}
+
+.preguntaVentana {
+  color: #9fc13b;
+  text-align: center;
+  font-size: large;
+}
+
+.btn-secondary {
+  background-color: #022940 !important;
+  border: 1px solid #022940 !important;
+}
+
+.logoFormulario {
+  width: 100% !important;
+  height: 72px;
+}
+
+.contact-body {
+  background-color: #081b26 !important;
+}
+
+.containerdelContact {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.inputsColor {
+  padding: 10px !important;
+  border-radius: 10px !important;
+  background-color: #022940;
+  color: white !important;
+  border: none !important;
+}
+
+.inputsColor::placeholder {
+  color: white !important;
+}
+
+.preguntaColor {
+  font-style: italic;
+  color: #9fc13b;
+  font-size: 50px;
+  margin-bottom: 30px !important;
+}
+
+.inputsForm {
+  width: 500px !important;
+  display: flex;
+  flex-direction: column;
+  margin: 10px !important;
+  gap: 10px !important;
+}
+
+.botoncito {
+  width: 150px !important;
+  justify-content: center !important;
+}
+
+.contenedorInputs {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
+}
+
+.centrarInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .imagenContacto {
+    transition: 2s !important;
+    width: 200px !important;
+    min-height: 830px !important;
+  }
+  .contenedor-imagenContacto {
+    display: none !important;
+  }
+  .inputsForm {
+    width: 300px !important;
+  }
+  .centrarInputs {
+    margin-top: 50px !important;
+  }
+
+  .preguntaColor {
+    font-size: 20px;
+    margin-bottom: 10px !important;
+  }
+
+  .logoFormulario {
+    width: 190px !important;
+    height: 72px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .preguntaColor {
+    font-size: 30px;
+  }
+
+  .contenedor-imagenContacto {
+    display: none !important;
+  }
+  .centradoForm {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .contenedor-imagenContacto {
+    display: none !important;
+  }
+  .centradoForm {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contenedor-imagenContacto {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .centradoForm {
+    justify-content: center;
+  }
+}
