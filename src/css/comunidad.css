@@ -24,7 +24,7 @@
 }
 
 .modal-header {
-  border-bottom: 2px solid #081b26!important;
+  border-bottom: 2px solid #022940!important;
 }
 
 .accordion-item {
@@ -85,7 +85,7 @@
 }
 
 .modal-content {
-  background-color: #022940 !important;
+  background-color: #081b26 !important;
   border: 0 !important;
   color: #ffffff !important;
 }
