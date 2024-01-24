@@ -30,7 +30,9 @@ formularioMensaje.addEventListener('submit', async (e) => {
 
     e.preventDefault()
 
-    const loadingIndicator = document.getElementById('loader-pagina2');
+    const loadingIndicator = document.getElementById('loader-pagina-actualizar');
+
+    loadingIndicator.innerHTML = "Agregando pregunta";
 
     loadingIndicator.classList.remove("disabled");
     
@@ -81,6 +83,7 @@ formularioMensaje.addEventListener('submit', async (e) => {
 
     formularioMensaje.reset();
     loadingIndicator.classList.add("disabled");
+    loadingIndicator.innerHTML = "Actualizando información";
     cargarMensajes()
     
 });
@@ -213,13 +216,29 @@ async function cargarMensajes(){
 
 function agregarRespuesta(){
 
-    const botonRespuesta = document.querySelectorAll(".btn-respuesta");
+    const user = auth.currentUser;
 
-    botonRespuesta.forEach(boton => {
+    if (user) {
 
-        boton.addEventListener("click", mostrarModalResponder);
+        const botonRespuesta = document.querySelectorAll(".btn-respuesta");
 
-    })
+        botonRespuesta.forEach(boton => {
+    
+            boton.addEventListener("click", mostrarModalResponder);
+    
+        })
+        
+
+    }else{
+
+        const botonRespuesta = document.querySelectorAll(".btn-respuesta");
+
+        botonRespuesta.forEach(function(boton) {
+            boton.setAttribute('data-bs-target', '#modalIniciarSesion3');
+        });
+
+    }
+
 
 }
 
@@ -262,7 +281,8 @@ async function enviarRespuesta(e, idPregunta){
 
     e.preventDefault();
 
-    const loadingIndicator = document.getElementById('loader-pagina2');
+    const loadingIndicator = document.getElementById('loader-pagina-actualizar');
+    loadingIndicator.innerHTML = "Agregando pregunta";
 
     loadingIndicator.classList.remove("disabled");
     
@@ -313,6 +333,7 @@ async function enviarRespuesta(e, idPregunta){
     formularioRespuesta.reset();
     loadingIndicator.classList.add("disabled");
     cargarMensajes()
+    loadingIndicator.innerHTML = "Actualizando información";
 
 }
 
