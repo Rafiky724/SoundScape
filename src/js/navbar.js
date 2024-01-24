@@ -56,7 +56,7 @@ function mostrarModalIniciarSesion() {
 //Función que redirige al formulario en caso de tener una sesión activa y quiera crear un Home Studio
 function redireccionarHomeStudio() {
 
-    window.location.href = "../src/components/formulario.html";
+    window.location.href = "./formulario.html";
 
 }
 
