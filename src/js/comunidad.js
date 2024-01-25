@@ -80,6 +80,10 @@ formularioMensaje.addEventListener("submit", async (e) => {
   loadingIndicator.classList.add("disabled");
   textoIndicator.innerHTML = "Actualizando información";
   cargarMensajes();
+
+  const botonCerrar = document.getElementById("cerrarModalPreguntar");
+  botonCerrar.click();
+  
 });
 
 cargarMensajes();
@@ -295,6 +299,9 @@ async function enviarRespuesta(e, idPregunta) {
       });
     }
   }
+
+  const botonCerrar = document.getElementById("cerrarModalResponder");
+  botonCerrar.click();
 
   formularioRespuesta.reset();
   loadingIndicator.classList.add("disabled");
