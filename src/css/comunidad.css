@@ -24,7 +24,7 @@
 }
 
 .modal-header {
-  border-bottom: 2px solid #022940!important;
+  border-bottom: 2px solid #022940 !important;
 }
 
 .accordion-item {
@@ -37,8 +37,12 @@
   background-color: #9fc13b !important;
 }
 
+.btn-close {
+  filter: invert(1);
+}
+
 .form-control {
-  background-color: #081b26 !important;
+  background-color: #022940 !important;
   border: 0 !important;
   color: #ffffff !important;
 }
