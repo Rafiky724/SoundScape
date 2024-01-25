@@ -41,6 +41,10 @@
   filter: invert(1);
 }
 
+.accordion-button::after{
+  filter: invert(1);
+}
+
 .form-control {
   background-color: #022940 !important;
   border: 0 !important;
