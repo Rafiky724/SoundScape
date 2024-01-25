@@ -111,6 +111,15 @@ async function datosUsuario() {
 
 }
 
+document.querySelector('#cerrarSesion').addEventListener('click', async () => {
+
+    let loadingIndicator = document.getElementById('loader-pagina2');
+    loadingIndicator.classList.remove("disabled");
+
+    await signOut(auth);
+    location.reload();
+
+})
 
 // Variable en donde se guarda la imagen de la foto de perfil
 var imagenItem;
