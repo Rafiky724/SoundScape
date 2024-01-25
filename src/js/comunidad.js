@@ -40,6 +40,7 @@ formularioMensaje.addEventListener("submit", async (e) => {
   loadingIndicator.classList.remove("disabled");
 
   const mensaje = document.getElementById("mensajeTexto").value;
+  const Fecha = new Date();
 
   const user = auth.currentUser;
 
@@ -63,6 +64,7 @@ formularioMensaje.addEventListener("submit", async (e) => {
 
       const docRef = await addDoc(collection(db, "comunidad"), {
         correoAutor: userData.correo,
+        fecha: Fecha,
         foto: userData.foto,
         pregunta: mensaje,
         respuestas: [],
@@ -91,6 +93,7 @@ cargarMensajes();
 async function cargarMensajes() {
   const preguntas = await getDocs(collection(db, "comunidad"));
   const preguntasArregleado = preguntas.docs.map((pregunta) => pregunta.data());
+  preguntasArregleado.sort((a, b) => b.fecha.toMillis() - a.fecha.toMillis());
 
   if (preguntasArregleado.length) {
     const contenedorPreguntas = document.querySelector(
