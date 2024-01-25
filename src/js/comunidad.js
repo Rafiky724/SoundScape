@@ -33,7 +33,8 @@ const formularioRespuesta = document.querySelector("#formularioRespuesta");
 formularioMensaje.addEventListener("submit", async (e) => {
   e.preventDefault();
 
-  const loadingIndicator = document.getElementById("loader-pagina2");
+  const loadingIndicator = document.getElementById("loader-pagina-actualizar");
+  loadingIndicator.innerHTML = "Agregando pregunta";
 
   loadingIndicator.classList.remove("disabled");
 
@@ -76,6 +77,7 @@ formularioMensaje.addEventListener("submit", async (e) => {
 
   formularioMensaje.reset();
   loadingIndicator.classList.add("disabled");
+  loadingIndicator.innerHTML = "Actualizando información";
   cargarMensajes();
 });
 
@@ -131,19 +133,17 @@ async function cargarMensajes() {
                             
                             <div class="flex-comment">
                             <div>
-                            <img src="${
-                              respuesta.foto
-                            }" alt="user" class="usuarioFoto2" />
+                            <img src="${respuesta.foto
+                }" alt="user" class="usuarioFoto2" />
                             </div>
                             <div>
                             <div class="data-autor">
-                                <p id="nombre" class="p-autor color-autor">${
-                                  respuesta.correo
-                                }</p>
+                                <p id="nombre" class="p-autor color-autor">${respuesta.correo
+                }</p>
                                 <small class="">
                                 <p id="fecha" class="p-autor color-time">hace ${calcularTiempoTranscurrido(
-                                  respuesta.fecha
-                                )}</p>
+                  respuesta.fecha
+                )}</p>
                                 </small>
                             </div>
                             <div>
@@ -196,10 +196,25 @@ async function cargarMensajes() {
 
 function agregarRespuesta() {
   const botonRespuesta = document.querySelectorAll(".btn-respuesta");
+  const user = auth.currentUser;
 
-  botonRespuesta.forEach((boton) => {
-    boton.addEventListener("click", mostrarModalResponder);
-  });
+  if (user){
+
+    botonRespuesta.forEach((boton) => {
+      boton.addEventListener("click", mostrarModalResponder);
+    });
+
+  }else{
+
+    const botonRespuesta = document.querySelectorAll(".btn-respuesta");
+
+    botonRespuesta.forEach(function(boton) {
+      boton.setAttribute('data-bs-target', '#modalIniciarSesion3');
+    });
+
+  }
+
+  
 }
 
 let eventoAnterior;
@@ -239,7 +254,8 @@ async function mostrarModalResponder(e) {
 async function enviarRespuesta(e, idPregunta) {
   e.preventDefault();
 
-  const loadingIndicator = document.getElementById("loader-pagina2");
+  const loadingIndicator = document.getElementById("loader-pagina-actualizar");
+  loadingIndicator.innerHTML = "Agregando respuesta";
 
   loadingIndicator.classList.remove("disabled");
 
@@ -281,6 +297,7 @@ async function enviarRespuesta(e, idPregunta) {
   formularioRespuesta.reset();
   loadingIndicator.classList.add("disabled");
   cargarMensajes();
+  loadingIndicator.innerHTML = "Actualizando información";
 }
 
 function calcularTiempoTranscurrido(fecha) {
