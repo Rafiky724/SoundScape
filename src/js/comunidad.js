@@ -34,7 +34,8 @@ formularioMensaje.addEventListener("submit", async (e) => {
   e.preventDefault();
 
   const loadingIndicator = document.getElementById("loader-pagina-actualizar");
-  loadingIndicator.innerHTML = "Agregando pregunta";
+  const textoIndicator = document.getElementById("info-act");
+  textoIndicator.innerHTML = "Agregando pregunta";
 
   loadingIndicator.classList.remove("disabled");
 
@@ -77,7 +78,7 @@ formularioMensaje.addEventListener("submit", async (e) => {
 
   formularioMensaje.reset();
   loadingIndicator.classList.add("disabled");
-  loadingIndicator.innerHTML = "Actualizando información";
+  textoIndicator.innerHTML = "Actualizando información";
   cargarMensajes();
 });
 
@@ -255,7 +256,8 @@ async function enviarRespuesta(e, idPregunta) {
   e.preventDefault();
 
   const loadingIndicator = document.getElementById("loader-pagina-actualizar");
-  loadingIndicator.innerHTML = "Agregando respuesta";
+  const textoIndicator = document.getElementById("info-act");
+  textoIndicator.innerHTML = "Agregando respuesta";
 
   loadingIndicator.classList.remove("disabled");
 
@@ -297,7 +299,7 @@ async function enviarRespuesta(e, idPregunta) {
   formularioRespuesta.reset();
   loadingIndicator.classList.add("disabled");
   cargarMensajes();
-  loadingIndicator.innerHTML = "Actualizando información";
+  textoIndicator.innerHTML = "Actualizando información";
 }
 
 function calcularTiempoTranscurrido(fecha) {
