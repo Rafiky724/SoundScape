@@ -13,16 +13,6 @@ var contraseñaDebil = document.getElementById("RegisterAlertContraDebil");
 var correoNoValido = document.getElementById("RegisterAlertCorrNoVali");
 var salioMal = document.getElementById("RegisterAlertErrorMal");
 var verificarPass = document.getElementById("RegisterAlertVerificarCon");
-
-onAuthStateChanged(auth, async (user) => {
-  
-    if (user) {
-  
-      window.location.href = "../../index.html";
-  
-    }
-  
-  })
   
 
 //Se activa el evento al dar al botón de registrar
