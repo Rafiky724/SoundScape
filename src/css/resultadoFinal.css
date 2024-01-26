@@ -19,9 +19,72 @@
 }
 
 .imagenFinal {
-  width: 100% !important;
+  width: 520px !important;
   height: 650px !important;
-  background: url("../img/formulario/puertas/1.jpg");
+  background: url("../img/puertaP1.jpg") no-repeat;
+  background-size: cover !important;
+}
+
+.table {
+  text-align: center !important;
+  --bs-table-bg: #081b26 !important;
+  --bs-table-border-color: #022940 !important;
+}
+
+.titleTable {
+  color: #ffffff !important;
+}
+
+.btn-color1 {
+  background-color: #c0f12a !important;
+  color: #022940 !important;
+  font-family: "Franklin Gothic Medium" !important;
+  border-radius: 10px !important;
+  border-color: #c0f12a !important;
+  transition: 0.4s !important;
+}
+
+.btn-color2 {
+  background-color: #c0f12a !important;
+  color: #022940 !important;
+  font-family: "Franklin Gothic Medium" !important;
+  border-radius: 10px !important;
+  border-color: #c0f12a !important;
+  transition: 0.4s !important;
+}
+
+.btn-color1:hover {
+  background-color: #7ea704 !important;
+  color: #022940 !important;
+  border-color: #7ea704 !important;
+}
+
+.productColor {
+  font-family: "Franklin Gothic Medium" !important;
+  text-align: center;
+  color: #7ea704;
+}
+
+.btn-color2:hover {
+  background-color: #7ea704 !important;
+  color: #022940 !important;
+  border-color: #7ea704 !important;
+}
+
+.margenTop {
+  margin-top: 3.5rem !important;
+}
+
+td {
+  color: white !important;
+}
+
+.valorFinal {
+  background-color: #081b26;
+  font-size: x-large;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
 }
 
 @media (max-width: 750px) {
@@ -29,5 +92,25 @@
     margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .imagenFinal {
+    width: 260px !important;
+    height: 325px !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .col-md-7 {
+    width: 100% !important;
+  }
+
+  .margenTop {
+    margin-top: 0 !important;
+  }
+
+  .flex-contain {
+    flex-direction: column !important;
+    align-items: center !important;
   }
 }
