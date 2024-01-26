@@ -1,0 +1,33 @@
+.pequeñas {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #022940 !important;
+  color: white !important;
+  padding: 20px !important;
+}
+
+.flex-contain {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.flex-contentSection {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.imagenFinal {
+  width: 100% !important;
+  height: 650px !important;
+  background: url("../img/formulario/puertas/1.jpg");
+}
+
+@media (max-width: 750px) {
+  .pequeñas {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

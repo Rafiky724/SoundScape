@@ -107,7 +107,7 @@ iframe {
 
   .logoFormulario {
     width: 190px !important;
-    height: 72px;
+    height: 49px;
   }
 }
 
@@ -137,10 +137,20 @@ iframe {
   .contenedor-imagenContacto {
     display: none !important;
   }
+
+  .logoFormulario {
+    height: 49px;
+  }
 }
 
 @media only screen and (max-width: 980px) {
   .centradoForm {
     justify-content: center;
+  }
+}
+
+@media (max-width: 995px) {
+  .scrollsito {
+    overflow: hidden;
   }
 }
