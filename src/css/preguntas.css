@@ -5,13 +5,15 @@
 
 .pregunta {
   color: #9fc13b !important;
+  text-align: center !important;
 }
 
-.pequeñas{
-  margin-top: 50px;
+.pequeñas {
+  margin-top: 20px;
 }
 
 .flex-contain {
+  margin: 0 !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -21,59 +23,173 @@
   display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center !important;
 }
 
-.imagen1,
-.imagen2,
-.imagen3,
-.imagen4,
-.imagen5,
-.imagen6,
-.imagen7,
-.imagen8,
-.imagen9,
-.imagen10,
-.imagen11,
-.imagen12 {
+.btn-color {
+  background-color: #9fc13b !important;
+  color: #022940 !important;
+  font-family: "Franklin Gothic Medium" !important;
+  border-radius: 10px !important;
+  border-color: #9fc13b !important;
+  transition: 0.2s !important;
+}
+
+.btn-color:hover {
+  background-color: #7ea704 !important;
+  color: #022940 !important;
+  border-color: #7ea704 !important;
+}
+
+input {
+  display: none;
+}
+
+.imagenP1,
+.imagenP2,
+.imagenP3,
+.imagenP4,
+.imagenP5,
+.imagenP6,
+.imagenP7,
+.imagenP8,
+.imagenP9,
+.imagenP10,
+.imagenP11,
+.imagenP12 {
   width: 150px;
-  height: 100px;
+  height: 150px;
   margin: 10px;
-  background-size: cover;
+  background-size: cover !important;
+  border: 3px solid white;
+  box-shadow: 8px 8px 5px #01121b;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer !important;
 }
 
-.imagen1 {
-  background: url("../img/formulario/1.jpg") no-repeat;
+.imagenV1,
+.imagenV2,
+.imagenV3,
+.imagenV4,
+.imagenV5,
+.imagenV6,
+.imagenV7,
+.imagenV8,
+.imagenV9,
+.imagenV10,
+.imagenV11,
+.imagenV12 {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-size: cover !important;
+  border: 3px solid white;
+  box-shadow: 8px 8px 5px #01121b;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer !important;
 }
-.imagen2 {
-  background: url("../img/formulario/2.jpg") no-repeat;
+
+.imagenP1:hover,
+.imagenP2:hover,
+.imagenP3:hover,
+.imagenP4:hover,
+.imagenP5:hover,
+.imagenP6:hover,
+.imagenP7:hover,
+.imagenP8:hover,
+.imagenP9:hover,
+.imagenP10:hover,
+.imagenP11:hover,
+.imagenP12:hover,
+.imagenV1:hover,
+.imagenV2:hover,
+.imagenV3:hover,
+.imagenV4:hover,
+.imagenV5:hover,
+.imagenV6:hover,
+.imagenV7:hover,
+.imagenV8:hover,
+.imagenV9:hover,
+.imagenV10:hover,
+.imagenV11:hover,
+.imagenV12:hover {
+  width: 140px;
+  height: 140px;
+  border: 3px solid #9fc13b;
 }
-.imagen3 {
-  background: url("../img/formulario/3.jpg") no-repeat;
+
+.imagenP1 {
+  background: url("../img/formulario/puertas/1.jpg");
 }
-.imagen4 {
-  background: url("../img/formulario/4.jpg") no-repeat;
+.imagenP2 {
+  background: url("../img/formulario/puertas/2.jpg");
 }
-.imagen5 {
-  background: url("../img/formulario/5.jpg") no-repeat;
+.imagenP3 {
+  background: url("../img/formulario/puertas/3.jpg");
 }
-.imagen6 {
-  background: url("../img/formulario/6.jpg") no-repeat;
+.imagenP4 {
+  background: url("../img/formulario/puertas/4.jpg");
 }
-.imagen7 {
-  background: url("../img/formulario/7.jpg") no-repeat;
+.imagenP5 {
+  background: url("../img/formulario/puertas/5.jpg");
 }
-.imagen8 {
-  background: url("../img/formulario/8.jpg") no-repeat;
+.imagenP6 {
+  background: url("../img/formulario/puertas/6.jpg");
 }
-.imagen9 {
-  background: url("../img/formulario/9.jpg") no-repeat;
+.imagenP7 {
+  background: url("../img/formulario/puertas/7.jpg");
 }
-.imagen10 {
-  background: url("../img/formulario/10.jpg") no-repeat;
+.imagenP8 {
+  background: url("../img/formulario/puertas/8.jpg");
 }
-.imagen11 {
-  background: url("../img/formulario/11.jpg") no-repeat;
+.imagenP9 {
+  background: url("../img/formulario/puertas/9.jpg");
 }
-.imagen12 {
-  background: url("../img/formulario/12.jpg") no-repeat;
+.imagenP10 {
+  background: url("../img/formulario/puertas/10.jpg");
+}
+.imagenP11 {
+  background: url("../img/formulario/puertas/11.jpg");
+}
+.imagenP12 {
+  background: url("../img/formulario/puertas/12.jpg");
+}
+
+.imagenV1 {
+  background: url("../img/formulario/ventanas/1.jpg");
+}
+.imagenV2 {
+  background: url("../img/formulario/ventanas/2.jpg");
+}
+.imagenV3 {
+  background: url("../img/formulario/ventanas/3.jpg");
+}
+.imagenV4 {
+  background: url("../img/formulario/ventanas/4.jpg");
+}
+.imagenV5 {
+  background: url("../img/formulario/ventanas/5.jpg");
+}
+.imagenV6 {
+  background: url("../img/formulario/ventanas/6.jpg");
+}
+.imagenV7 {
+  background: url("../img/formulario/ventanas/7.jpg");
+}
+.imagenV8 {
+  background: url("../img/formulario/ventanas/8.jpg");
+}
+.imagenV9 {
+  background: url("../img/formulario/ventanas/9.jpg");
+}
+.imagenV10 {
+  background: url("../img/formulario/ventanas/10.jpg");
+}
+.imagenV11 {
+  background: url("../img/formulario/ventanas/11.jpg");
+}
+.imagenV12 {
+  background: url("../img/formulario/ventanas/12.jpg");
 }
