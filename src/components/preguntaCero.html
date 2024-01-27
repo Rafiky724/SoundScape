@@ -22,7 +22,7 @@
           <div class="imagenContacto"></div>
         </div>
 
-        <form class="col-md-6 col-sm-12 centrarInputs">
+        <form id="formularioArea" class="col-md-6 col-sm-12 centrarInputs">
           <div>
             <img
               src="../img/SoundScape.png"
@@ -66,10 +66,10 @@
             </div>
             <div class="btn-group">
               <label class="btn btn-secondary">
-                <input type="radio" name="options" id="siVentana" /> Si
+                <input type="radio" name="options" value="True"  /> Si
               </label>
               <label class="btn btn-secondary">
-                <input type="radio" name="options" id="noVentana" /> No
+                <input type="radio" name="options" value="False" checked /> No
               </label>
             </div>
           </div>
@@ -85,12 +85,10 @@
       </div>
     </div>
 
-    <script src="../js/formulario.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-   
   </body>
 </html>
