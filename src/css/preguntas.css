@@ -1,15 +1,12 @@
 .pequeñas {
   background-color: #022940 !important;
   color: white !important;
+  margin-top: 50px;
 }
 
 .pregunta {
   color: #9fc13b !important;
   text-align: center !important;
-}
-
-.pequeñas {
-  margin-top: 20px;
 }
 
 .flex-contain {

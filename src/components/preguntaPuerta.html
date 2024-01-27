@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: #081b26"  >
+  <body style="background-color: #081b26">
     <div class="container pequeñas">
       <div class="container-fluid d-flex flex-contain">
         <img
@@ -26,89 +26,90 @@
           height="72"
         />
         <h1 class="pregunta mt-4">¿En donde tienes posicionada tu puerta?</h1>
+        <form id="formularioPuerta" class="container-flex">
+          <div class="container-flex">
+            <label for="radio1">
+              <div class="opcion">
+                <input type="radio" id="radio1" name="grupoRadios" value="left"/>
 
-        <div class="container-flex">
-          <label for="radio1">
-            <div class="opcion">
-              <input type="radio" id="radio1" name="grupoRadios" />
+                <div class="imagenP1"></div>
+              </div>
+            </label>
 
-              <div class="imagenP1"></div>
-            </div>
-          </label>
+            <label for="radio2">
+              <div class="opcion">
+                <input type="radio" id="radio2" name="grupoRadios" value="leftTop"/>
 
-          <label for="radio2">
-            <div class="opcion">
-              <input type="radio" id="radio2" name="grupoRadios" />
+                <div class="imagenP2"></div>
+              </div>
+            </label>
 
-              <div class="imagenP2"></div>
-            </div>
-          </label>
+            <label for="radio3">
+              <div class="opcion">
+                <input type="radio" id="radio3" name="grupoRadios" value="leftBottom"/>
 
-          <label for="radio3">
-            <div class="opcion">
-              <input type="radio" id="radio3" name="grupoRadios" />
+                <div class="imagenP3"></div>
+              </div>
+            </label>
 
-              <div class="imagenP3"></div>
-            </div>
-          </label>
+            <label for="radio4"
+              ><div class="opcion">
+                <input type="radio" id="radio4" name="grupoRadios" value="bottomLeft"/>
 
-          <label for="radio4"
-            ><div class="opcion">
-              <input type="radio" id="radio4" name="grupoRadios" />
+                <div class="imagenP4"></div>
+              </div>
+            </label>
 
-              <div class="imagenP4"></div>
-            </div>
-          </label>
+            <label for="radio5">
+              <div class="opcion">
+                <input type="radio" id="radio5" name="grupoRadios" value="bottom"/>
+                <div class="imagenP5"></div></div
+            ></label>
 
-          <label for="radio5">
-            <div class="opcion">
-              <input type="radio" id="radio5" name="grupoRadios" />
-              <div class="imagenP5"></div></div
-          ></label>
+            <label for="radio6"
+              ><div class="opcion">
+                <input type="radio" id="radio6" name="grupoRadios" value="bottomRight"/>
 
-          <label for="radio6"
-            ><div class="opcion">
-              <input type="radio" id="radio6" name="grupoRadios" />
+                <div class="imagenP6"></div>
+              </div>
+            </label>
+            <label for="radio7"
+              ><div class="opcion">
+                <input type="radio" id="radio7" name="grupoRadios" value="topLeft"/>
+                <div class="imagenP7"></div></div
+            ></label>
 
-              <div class="imagenP6"></div>
-            </div>
-          </label>
-          <label for="radio7"
-            ><div class="opcion">
-              <input type="radio" id="radio7" name="grupoRadios" />
-              <div class="imagenP7"></div></div
-          ></label>
+            <label for="radio8"
+              ><div class="opcion">
+                <input type="radio" id="radio8" name="grupoRadios" value="top"/>
+                <div class="imagenP8"></div></div
+            ></label>
+            <label for="radio9"
+              ><div class="opcion">
+                <input type="radio" id="radio9" name="grupoRadios" value="topRight"/>
+                <div class="imagenP9"></div></div
+            ></label>
 
-          <label for="radio8"
-            ><div class="opcion">
-              <input type="radio" id="radio8" name="grupoRadios" />
-              <div class="imagenP8"></div></div
-          ></label>
-          <label for="radio9"
-            ><div class="opcion">
-              <input type="radio" id="radio9" name="grupoRadios" />
-              <div class="imagenP9"></div></div
-          ></label>
+            <label for="radio10"
+              ><div class="opcion">
+                <input type="radio" id="radio10" name="grupoRadios" value="rightTop"/>
+                <div class="imagenP10"></div></div
+            ></label>
+            <label for="radio11"
+              ><div class="opcion">
+                <input type="radio" id="radio11" name="grupoRadios" value="right"/>
+                <div class="imagenP11"></div></div
+            ></label>
 
-          <label for="radio10"
-            ><div class="opcion">
-              <input type="radio" id="radio10" name="grupoRadios" />
-              <div class="imagenP10"></div></div
-          ></label>
-          <label for="radio11"
-            ><div class="opcion">
-              <input type="radio" id="radio11" name="grupoRadios" />
-              <div class="imagenP11"></div></div
-          ></label>
+            <label for="radio12"
+              ><div class="opcion">
+                <input type="radio" id="radio12" name="grupoRadios" value="rightBottom"/>
+                <div class="imagenP12"></div></div
+            ></label>
+          </div>
 
-          <label for="radio12"
-            ><div class="opcion">
-              <input type="radio" id="radio12" name="grupoRadios" />
-              <div class="imagenP12"></div></div
-          ></label>
-        </div>
-
-        <div class="btn btn-primary mb-4 btn-color">Seleccionar</div>
+          <button class="btn btn-primary mb-4 mt-4 btn-color" type="submit">Seleccionar</button>
+        </form>
       </div>
     </div>
 

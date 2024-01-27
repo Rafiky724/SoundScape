@@ -45,6 +45,7 @@ iframe {
   background-color: #022940;
   color: white !important;
   border: none !important;
+  width: 100% !important;
 }
 
 .inputsColor::placeholder {
@@ -81,7 +82,19 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px !important;
+  margin-top: 100px !important;
+}
+
+.colorLabelPresupuesto{
+  color: white !important;;
+}
+
+.flex-presupuesto{
+  display: flex  !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 10px !important;
+  justify-content: center !important;
 }
 
 @media only screen and (max-width: 800px) {
