@@ -97,13 +97,13 @@ function preguntaPuertas() {
     elementoVentana.closest("label").remove();
   }
 
-  // puerta.classList.add("disabled");
+  puerta.classList.add("disabled");
 
-  // if (aux == true) {
-  //   ventana.classList.remove("disabled");
-  // } else {
-  //   final.classList.remove("disabled");
-  // }
+  if (aux == true) {
+    ventana.classList.remove("disabled");
+  } else {
+    final.classList.remove("disabled");
+  }
 }
 
 /* Formulario Con Ventanas */
@@ -117,6 +117,6 @@ function preguntaVentanas() {
 
   console.log(opcionVentana);
 
-  // ventana.classList.add("disabled");
-  // final.classList.remove("disabled");
+  ventana.classList.add("disabled");
+  final.classList.remove("disabled");
 }
