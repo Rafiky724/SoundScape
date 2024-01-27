@@ -4,6 +4,7 @@ const tamano = document.getElementById("tamano");
 const puerta = document.getElementById("puerta");
 
 const iframeTamano = document.getElementById("tamano").querySelector("iframe");
+const iframePuerta = document.getElementById("puerta").querySelector("iframe");
 
 function getElementFromIframe(iframe, selector) {
   return iframe.contentDocument.querySelector(selector);
@@ -19,6 +20,8 @@ let aux;
 let dimensiones;
 
 formularioArea.addEventListener("submit", tamanoHabitacion);
+
+/* Formulario Tamaño Habitacion */
 
 function tamanoHabitacion() {
   largoHabitacion = largoHabitacion.value;
@@ -51,6 +54,8 @@ function tamanoHabitacion() {
   puerta.classList.remove("disabled");
 
 }
+
+/* Formulario Con Puertas */
 
 
 
