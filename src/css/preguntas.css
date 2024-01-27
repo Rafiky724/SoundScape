@@ -120,6 +120,35 @@ input {
   border: 3px solid #9fc13b;
 }
 
+.opcion input[type="radio"]:checked + .imagenP1,
+.opcion input[type="radio"]:checked + .imagenP2,
+.opcion input[type="radio"]:checked + .imagenP3,
+.opcion input[type="radio"]:checked + .imagenP4,
+.opcion input[type="radio"]:checked + .imagenP5,
+.opcion input[type="radio"]:checked + .imagenP6,
+.opcion input[type="radio"]:checked + .imagenP7,
+.opcion input[type="radio"]:checked + .imagenP8,
+.opcion input[type="radio"]:checked + .imagenP9,
+.opcion input[type="radio"]:checked + .imagenP10,
+.opcion input[type="radio"]:checked + .imagenP11,
+.opcion input[type="radio"]:checked + .imagenP12,
+.opcion input[type="radio"]:checked + .imagenV1,
+.opcion input[type="radio"]:checked + .imagenV2,
+.opcion input[type="radio"]:checked + .imagenV3,
+.opcion input[type="radio"]:checked + .imagenV4,
+.opcion input[type="radio"]:checked + .imagenV5,
+.opcion input[type="radio"]:checked + .imagenV6,
+.opcion input[type="radio"]:checked + .imagenV7,
+.opcion input[type="radio"]:checked + .imagenV8,
+.opcion input[type="radio"]:checked + .imagenV9,
+.opcion input[type="radio"]:checked + .imagenV10,
+.opcion input[type="radio"]:checked + .imagenV11,
+.opcion input[type="radio"]:checked + .imagenV12 {
+  background-color: #7ea704 !important;
+  color: #022940 !important;
+  border-color: #7ea704 !important;
+}
+
 .imagenP1 {
   background: url("../img/formulario/puertas/1.jpg");
 }

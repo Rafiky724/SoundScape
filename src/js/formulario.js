@@ -35,8 +35,6 @@ function tamanoHabitacion() {
     dimensiones = "pequeña";
   }
 
-  console.log(dimensiones);
-
   let opcion = "";
 
   if (siVentana && siVentana.checked) {
@@ -51,4 +49,8 @@ function tamanoHabitacion() {
 
   tamano.classList.add("disabled");
   puerta.classList.remove("disabled");
+
 }
+
+
+
