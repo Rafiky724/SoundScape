@@ -59,7 +59,6 @@ function tamanoHabitacion() {
 
   presupuestoHabitacion = presupuestoHabitacion.value;
 
-  console.log(presupuestoHabitacion);
   let volumenHabitacion = largoHabitacion * altoHabitacion * anchoHabitacion;
 
   if (volumenHabitacion >= 75000000) {
@@ -146,7 +145,6 @@ async function resultadoFinal() {
 
   try{
     const imagenUrl = await getDownloadURL(storageRef);
-    console.log(imagenUrl)
     
     imagenFinal.style.backgroundImage = `url("${imagenUrl}")`;
     
