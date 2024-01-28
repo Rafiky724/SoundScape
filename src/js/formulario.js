@@ -12,7 +12,7 @@ const iframePuerta = document.getElementById("puerta").querySelector("iframe");
 const iframeVentana = document
   .getElementById("ventana")
   .querySelector("iframe");
-const inframeFinal = document.getElementById("final").querySelector("iframe");
+const iframeFinal = document.getElementById("final").querySelector("iframe");
 
 function getElementFromIframe(iframe, selector) {
   return iframe.contentDocument.querySelector(selector);
@@ -27,7 +27,7 @@ const formularioVentana = getElementFromIframe(
   iframeVentana,
   "#formularioVentana"
 );
-const imagenFinal = getElementFromIframe(inframeFinal, ".imagenFinal")
+const imagenFinal = getElementFromIframe(iframeFinal, ".imagenFinal")
 
 let storageRef;
 
