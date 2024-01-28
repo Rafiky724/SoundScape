@@ -136,16 +136,17 @@ async function resultadoFinal() {
 
   if (aux == true){
 
-    storageRef = ref(storage, `final/${dimensiones}/Con_Ventanas/${opcionPuerta}/${opcionVentana}`);
+    storageRef = ref(storage, `final/${dimensiones}/Con_Ventanas/${opcionPuerta}/${opcionVentana}.jpg`);
 
   }else{
 
-    storageRef = ref(storage, `final/${dimensiones}/Solo_Puertas/${opcionPuerta}`);
+    storageRef = ref(storage, `final/${dimensiones}/Solo_Puertas/${opcionPuerta}.jpg`);
 
   }
 
   try{
     const imagenUrl = await getDownloadURL(storageRef);
+    console.log(imagenUrl)
     
     imagenFinal.style.backgroundImage = `url("${imagenUrl}")`;
     
