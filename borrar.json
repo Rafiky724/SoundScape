@@ -115,16 +115,6 @@
               "link": "https://www.amazon.com/-/es/beyerdynamic-990-Premium-Auriculares-fidelidad/dp/B07DHXBMJD/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=266FORAMDASXO&keywords=Beyerdynamic+MC+740&qid=1704398764&sprefix=beyerdynamic+mc+740+%2Caps%2C186&sr=8-1"
             },
             {
-              "modelo": "Beyerdynamic MC 840",
-              "precio": 2342.82,
-              "link": "https://htaudio.mx/products/mc840-beyerdynamic"
-            },
-            {
-              "modelo": "Beyerdynamic MC 930",
-              "precio": 1349.0,
-              "link": "https://www.amazon.com/-/es/Beyerdynamic-Micrófono-cardioide-condensador-verdadero/dp/B0028Q752K?th=1"
-            },
-            {
               "modelo": "Beyerdynamic MC 950",
               "precio": 698.99,
               "link": "https://www.amazon.com/-/es/Beyerdynamic-MC-950-Condenser-Micrófono/dp/B0CF629MJ9/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2BY2SUMC282RB&keywords=Beyerdynamic+MC+950&qid=1704399136&sprefix=beyerdynamic+mc+950+%2Caps%2C121&sr=8-1"
@@ -158,26 +148,6 @@
               "modelo": "DPA 4006A",
               "precio": 285.66,
               "link": "https://www.dpamicrophones.com/pencil/4006-omnidirectional-microphone"
-            },
-            {
-              "modelo": "DPA 4007",
-              "precio": 2479.95,
-              "link": "https://soniccircus.com/product/dpa-4007-dynamic-range-omnidirectional-microphone/"
-            },
-            {
-              "modelo": "DPA 4011A",
-              "precio": 1930.0,
-              "link": "https://www.dpamicrophones.com/pencil/4011-cardioid-microphone"
-            },
-            {
-              "modelo": "DPA 4017B",
-              "precio": 2205.2,
-              "link": "https://www.dpamicrophones.com/shotgun/4017-shotgun-microphone"
-            },
-            {
-              "modelo": "DPA 4023",
-              "precio": 1313.42,
-              "link": "https://reverb.com/es/item/75825916-dpa-microphones-4023-compact-series-cardioid-microphone-with-lemo-connector-cable-bruel"
             },
             {
               "modelo": "DPA 4060",
@@ -215,11 +185,6 @@
               "link": "https://www.amazon.com/-/es/condensador-computadora-instrumentos-podcasting-Streaming-T669/dp/B07Y1C6GDS?th=1"
             },
             {
-              "modelo": "Gefell M 300",
-              "precio": 2272.68,
-              "link": "https://www.amazon.com/-/es/Gefell-300-Stereo-Set-VK/dp/B00GXV5NQ6"
-            },
-            {
               "modelo": "Gefell M 700",
               "precio": 940.15,
               "link": "https://reverb.com/es/item/51719231-neumann-gefell-691-m70-1970-vintage"
@@ -230,11 +195,6 @@
               "link": "https://shop.funky-junk.com/shop/recording/microphones/condenser/tube/microtech-gefell-m990-tube-microphone/"
             },
             {
-              "modelo": "Gefell UM 70",
-              "precio": 1728.23,
-              "link": "https://www.musicstore.com/es_OT/EUR/Microtech-Gefell-UMT-70-S-niquel-/art-REC0006151-000"
-            },
-            {
               "modelo": "HyperX QuadCast",
               "precio": 159.99,
               "link": "https://www.amazon.com/-/es/HyperX-QuadCast-condensador-antivibración-transmisión/dp/B08G8WH435/ref=sr_1_2?adgrpid=77506815003&hvadid=602529787196&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=e&hvrand=18302712727849268365&hvtargid=kwd-650141582150&hydadcr=751_1015034237&keywords=hyperx%2Bquadcast&qid=1704401765&sr=8-2&th=1"
@@ -243,11 +203,6 @@
               "modelo": "HyperX SoloCast",
               "precio": 11.97,
               "link": "https://www.amazon.com/HyperX-SoloCast-micrófono-profesional-compatible/dp/B08P5C3KPC/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=M0FEML6X7NGT&keywords=HyperX%2BSoloCast&qid=1704401801&sprefix=hyperx%2Bsolocast%2B%2Caps%2C134&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
-            },
-            {
-              "modelo": "Lewitt LCT 240 Pro",
-              "precio": 9900,
-              "link": "https://www.amazon.com/-/es/LCT-240-PRO-Micrófono-condensador-compacto-blanco/dp/B071VJT84B/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=EQADID0X8GU3&keywords=Lewitt%2BLCT%2B240%2BPro&qid=1704401827&sprefix=lewitt%2Blct%2B240%2Bpro%2Caps%2C128&sr=8-1&th=1"
             },
             {
               "modelo": "Logitech Blue Yeti Pro",
@@ -298,21 +253,6 @@
               "modelo": "Neumann TLM 103",
               "precio": 1195.0,
               "link": "https://www.amazon.com/-/es/Neumann-TLM-Micrófono-cardioide-diafragma/dp/B0002KN4LA/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1C3DYOAX38EGD&keywords=Neumann%2BTLM%2B103&qid=1704402517&sprefix=neumann%2Btlm%2B103%2B%2Caps%2C128&sr=8-2&th=1"
-            },
-            {
-              "modelo": "Neumann TLM 107",
-              "precio": 1450.0,
-              "link": "https://www.amazon.com/-/es/Neumann-TLM-Micrófono-condensador-Negro/dp/B00G2FHDFM/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=EWB7TIBQS6MJ&keywords=Neumann%2BTLM%2B107&qid=1704402539&sprefix=neumann%2Btlm%2B107%2B%2Caps%2C126&sr=8-1&th=1"
-            },
-            {
-              "modelo": "Neumann TLM 67",
-              "precio": 2295.0,
-              "link": "https://www.amazon.com/-/es/Neumann-Micrófono-condensador-TLM-67/dp/B001KYYLFK/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=35H0WZ24I8W07&keywords=Neumann+TLM+67&qid=1704402565&sprefix=neumann+tlm+67+%2Caps%2C129&sr=8-2"
-            },
-            {
-              "modelo": "Neumann U 87 Ai",
-              "precio": 3295.0,
-              "link": "https://www.amazon.com/-/es/Neumann-87-Ai-Micrófono-conmutable/dp/B0016ZSIP2/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1R0F4HINW6OOQ&keywords=Neumann+U+87+Ai&qid=1704402605&sprefix=neumann+u+87+ai+%2Caps%2C128&sr=8-2"
             },
             {
               "modelo": "Razer Seiren Elite",
@@ -385,11 +325,6 @@
               "link": "https://www.amazon.com/-/es/SAMSON-Q2U-Micrófono-grabación-podcasting/dp/B07FKG8PGZ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=GCVVP76G417F&keywords=Samson%2BQ2U&qid=1704403088&sprefix=samson%2Bq2u%2B%2Caps%2C145&sr=8-1&th=1"
             },
             {
-              "modelo": "Schoeps CMC 1",
-              "precio": 1664.0,
-              "link": "https://www.zenproaudio.com/schoeps-cmc641-set?gclid=Cj0KCQiAy9msBhD0ARIsANbk0A83RLPoxpvlYnvGN87chkJQIaFBvDAe1AD-1W7EuYJzsZ_E-NBdsg4aAksUEALw_wcB"
-            },
-            {
               "modelo": "Schoeps CMC 5",
               "precio": 1200.0,
               "link": "https://www.trewaudio.com/product/schoeps-cmc-5-u-mk41-capsule-cut-1-modular-microphone/"
@@ -398,16 +333,6 @@
               "modelo": "Schoeps CMC 6",
               "precio": 788.0,
               "link": "https://www.zenproaudio.com/schoeps-cmc-6u?gclid=Cj0KCQiAy9msBhD0ARIsANbk0A__Td6n7E5AvzKjPevE2gcyK_4vW9Z2imnUiqjGMHxUY-wLhT-hu3saAh-iEALw_wcB"
-            },
-            {
-              "modelo": "Schoeps CMC 641",
-              "precio": 1164.0,
-              "link": "https://www.zenproaudio.com/schoeps-cmc641-set?gclid=Cj0KCQiAy9msBhD0ARIsANbk0A_6nGc-3CQo5AVVZXJihkH4atlQcOiGNBEa8Mh8e7Dm9xSfvar3EtMaAkF4EALw_wcB"
-            },
-            {
-              "modelo": "Schoeps MK 21",
-              "precio": 3282.84,
-              "link": "https://www.thomann.de/es/schoeps_cmc_621_set.htm"
             },
             {
               "modelo": "Sennheiser MK 4",
@@ -435,21 +360,6 @@
               "link": "https://www.amazon.com/s?k=Sennheiser+MKH+416&__mk_es_US=ÅMÅŽÕÑ&crid=2134NJ5C4UP0T&sprefix=sennheiser+mkh+416+%2Caps%2C128&ref=nb_sb_noss_2"
             },
             {
-              "modelo": "Sennheiser MKH 418S",
-              "precio": 1650.0,
-              "link": "https://www.amazon.com/s?k=Sennheiser+MKH+418S&__mk_es_US=ÅMÅŽÕÑ&crid=3LCH7KM39HB88&sprefix=sennheiser+mkh+418s+%2Caps%2C134&ref=nb_sb_noss"
-            },
-            {
-              "modelo": "Sennheiser MKH 800 TWIN",
-              "precio": 3200.0,
-              "link": "https://www.bhphotovideo.com/c/product/572379-REG/Sennheiser_MKH800TWIN_NX_MKH_800_TWIN.html"
-            },
-            {
-              "modelo": "Sennheiser MKH 8050",
-              "precio": 1399.0,
-              "link": "https://www.bhphotovideo.com/c/product/532788-REG/Sennheiser_MKH8050_MKH_8050_Compact_Supercardioid_Condenser.html"
-            },
-            {
               "modelo": "Shure KSM141",
               "precio": 899.0,
               "link": "https://www.amazon.com/-/es/KSM141-SL-parabrisas-adaptador-transporte/dp/B004PDYKWM/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2FSUP7OHIAFXB&keywords=Shure%2BKSM141&qid=1704404939&sprefix=shure%2Bksm141%2B%2Caps%2C138&sr=8-1&th=1"
@@ -458,11 +368,6 @@
               "modelo": "Shure KSM32",
               "precio": 649.0,
               "link": "https://www.amazon.com/-/es/Shure-KSM32-Micrófono-diafragma-relieve-Champán/dp/B0002GZK02/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2D8QK1Q31UR17&keywords=Shure%2BKSM32&qid=1704404976&sprefix=%2Caps%2C133&sr=8-1&th=1"
-            },
-            {
-              "modelo": "Shure KSM44A",
-              "precio": 1290.69,
-              "link": "https://www.shure.com/es-ES/productos/microfonos/ksm44a?variant=KSM44A%2FSL"
             },
             {
               "modelo": "Shure KSM9",
