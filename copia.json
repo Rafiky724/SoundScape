@@ -1,0 +1,2533 @@
+
+
+{
+    "productos": [
+      {
+        "microfonosDinamicos": [
+          {
+            "categoria": "Dinamico (General)",
+            "microfonos": [
+              {
+                "modelo": "AKG D7",
+                "precio": 266.0,
+                "link": "https://www.amazon.com/-/es/referencia-D7-diagn%C3%B3stico-varimoci%C3%B3n-retroalimentaci%C3%B3n/dp/B001RP5HUU?th=1"
+              },
+              {
+                "modelo": "Audio-Technica ATR2100x-USB",
+                "precio": 79.0,
+                "link": "https://www.amazon.com/-/es/Audio-Technica-Micr%C3%B3fono-cardioide-ATR2100x-USB-ATR/dp/B07ZPBFVKK/ref=sr_1_1_mod_primary_new?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=350G5JNWFE1GB&keywords=Audio-Technica%2BATR2100x-USB%2B(USB)&qid=1703817037&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=audio-technica%2Batr2100x-usb%2Busb%2B%2Caps%2C198&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Behringer XM1800S",
+                "precio": 71.68,
+                "link": "https://www.mercadolibre.com.co/microfonos-behringer-ultravoice-xm1800s-dinamico-supercardioide-color-negro/p/MCO7567473?pdp_filters=category%3AMCO4633#searchVariation=MCO7567473&position=2&search_layout=stack&type=product&tracking_id=2683f056-cb9f-4a28-85e8-5e8955d5f057"
+              },
+              {
+                "modelo": "Behringer XM8500",
+                "precio": 50.0,
+                "link": "https://www.mercadolibre.com.co/microfono-behringer-ultravoice-xm8500-dinamico-cardioide-color-negro/p/MCO15144868?pdp_filters=category:MCO4633#searchVariation=MCO15144868&position=2&search_layout=stack&type=product&tracking_id=47cb4d52-81bb-4f70-85a6-d39529e55735"
+              },
+              {
+                "modelo": "Beyerdynamic M88 TG",
+                "precio": 500.0,
+                "link": "https://www.amazon.com/-/es/Beyerdynamic-Micr%C3%B3fono-din%C3%A1mico-hipercardioide-estudio/dp/B0002MNXFK"
+              },
+              {
+                "modelo": "Electro-Voice RE20",
+                "precio": 850.0,
+                "link": "https://articulo.mercadolibre.com.co/MCO-578403296-ev-re20-studio-microfono-_JM#position=3&search_layout=stack&type=item&tracking_id=0517dc75-ca2f-4f52-829f-9a61e3f9c4cf"
+              },
+              {
+                "modelo": "Heil PR 40",
+                "precio": 349.0,
+                "link": "https://www.amazon.com/-/es/Heil-PR-40-Micr%C3%B3fono-grabaci%C3%B3n-din%C3%A1mico/dp/B000SOYOTQ?th=1"
+              },
+              {
+                "modelo": "Lewitt MTP 400 DM",
+                "precio": 109.0,
+                "link": "https://www.ebay.com/itm/185185848704?epid=127421551&hash=item2b1defcd80:g:ShAAAOSwT3ZgmdFa&amdata=enc%3AAQAIAAAA0Jl7AXBAxSkjdhSDjaJ1WlcLylgOU2ZwIfc5uoIYOrZYgBICVH9gx51kYI0xQK7otr3Np4foa%2FOmw7idxThvCwgWxKdc7IQzPCDj5GDrlfOFFGCxmMM9E1YZ9i7FAZnvyzazUC8%2Bn%2FvZi7wjbhGc2TUu9QcfXUywZ9VZ1TbY8sdJ4iuUnfNm2nvnr%2BqcmIsAXodN9R9V1TJ8%2FydKVf1ncTCW034OMC5gGvW9Z0SDuHreiUvvoGnDqExVBEMVzujI2s9v8Gq1JqXqbTya0J9i9Rw%3D%7Ctkp%3ABFBM5rz8u5Zj"
+              },
+              {
+                "modelo": "Peavey PVi 58",
+                "precio": 75.99,
+                "link": "https://www.amazon.com/-/es/Peavey-PVi-Micr%C3%B3fono-unidireccional-cardioide/dp/B003A4KYK4"
+              },
+              {
+                "modelo": "Samson Q1U",
+                "precio": 60.0,
+                "link": "https://es.aliexpress.com/i/32822496675.html?gatewayAdapt=glo2esp"
+              },
+              {
+                "modelo": "Sennheiser e609",
+                "precio": 260.0,
+                "link": "https://articulo.mercadolibre.com.co/MCO-1266603910-microfono-sennheiser-e609-silver-super-cardioid-instrument-_JM#position=8&search_layout=stack&type=item&tracking_id=32a24175-9502-4d2e-bdb1-6ba817406b85"
+              },
+              {
+                "modelo": "Sennheiser e835",
+                "precio": 119.0,
+                "link": "https://www.amazon.com/-/es/Sennheiser-micr%C3%B3fono-din%C3%A1mico-patr%C3%B3n-cardioide/dp/B00006I5R7/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=10LQNICAO40OM&keywords=Sennheiser%2Be835&qid=1703817275&sprefix=audio-technica%2Batr2100x-usb%2Busb%2B%2Caps%2C173&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Sennheiser e935",
+                "precio": 240.0,
+                "link": "https://www.amazon.com/-/es/Sennheiser-Professional-935-Micr%C3%B3fono-inal%C3%A1mbrico/dp/B000N94RP2?th=1"
+              },
+              {
+                "modelo": "Sennheiser MD 421",
+                "precio": 400.0,
+                "link": "https://www.amazon.com/-/es/Sennheiser-Professional-MD-Micr%C3%B3fono-instrumentos/dp/B0002H0RBS/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VE0X8GV2LHP7&keywords=Sennheiser%2BMD%2B421&qid=1703821334&sprefix=behringer%2Bxm8500%2Caps%2C352&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Shure SM48",
+                "precio": 60.0,
+                "link": "https://www.amazon.com/-/es/Micr%C3%B3fono-din%C3%A1mico-vocal-Shure-cardioide/dp/B0002D0HY4/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1KWO48D3MJ0OM&keywords=Shure%2BSM48&qid=1703821656&sprefix=shure%2Bsm48%2B%2Caps%2C285&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Shure SM57",
+                "precio": 133.0,
+                "link": "https://www.mercadolibre.com.co/microfono-shure-sm-sm57-lc-dinamico-cardioide-color-negro/p/MCO15160606?pdp_filters=category%3AMCO4633#searchVariation=MCO15160606&position=1&search_layout=stack&type=product&tracking_id=6ba16ef4-a9a6-499a-9415-ab39c96bc5b6"
+              },
+              {
+                "modelo": "Shure SM58",
+                "precio": 99.0,
+                "link": "https://www.amazon.com/-/es/SM58LC-Micr%C3%B3fono-SHURE-Negro-L3/dp/B000CZ0R42/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9PODP5KB2BKX&keywords=SHURE%2BSM58&qid=1703465327&sprefix=shure%2Bsm58%2B%2Caps%2C178&sr=8-2&th=1"
+              }
+            ]
+          },
+          {
+            "categoria": "Dinamico (Voces)",
+            "microfonos": [
+              {
+                "modelo": "AKG D5",
+                "precio": "US$98.00",
+                "link": "https://www.mercadolibre.com.co/microfono-akg-d5-dinamico-supercardioide-color-azul-oscuro/p/MCO18360047?pdp_filters=category:MCO4633#searchVariation=MCO18360047&position=2&search_layout=stack&type=product&tracking_id=f4c334cf-f010-4d21-b4f8-e9d7a82320b2"
+              },
+              {
+                "modelo": "AKG D770",
+                "precio": "US$99.90",
+                "link": "https://www.ebay.com/itm/224738817309"
+              },
+              {
+                "modelo": "Audio-Technica ATR2100x-USB",
+                "precio": "US$79.00",
+                "link": "https://www.amazon.com/-/es/Audio-Technica-Micr%C3%B3fono-cardioide-ATR2100x-USB-ATR/dp/B07ZPBFVKK/ref=sr_1_1_mod_primary_new?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=350G5JNWFE1GB&keywords=Audio-Technica%2BATR2100x-USB%2B(USB)&qid=1703817037&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=audio-technica%2Batr2100x-usb%2Busb%2B%2Caps%2C198&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Behringer XM8500",
+                "precio": "US$50.00",
+                "link": "https://www.mercadolibre.com.co/microfono-behringer-ultravoice-xm8500-dinamico-cardioide-color-negro/p/MCO15144868?pdp_filters=category:MCO4633#searchVariation=MCO15144868&position=2&search_layout=stack&type=product&tracking_id=47cb4d52-81bb-4f70-85a6-d39529e55735"
+              },
+              {
+                "modelo": "Electro-Voice RE20",
+                "precio": "US$850.00",
+                "link": "https://articulo.mercadolibre.com.co/MCO-578403296-ev-re20-studio-microfono-_JM#position=3&search_layout=stack&type=item&tracking_id=0517dc75-ca2f-4f52-829f-9a61e3f9c4cf"
+              },
+              {
+                "modelo": "Lewitt MTP 440 DM",
+                "precio": "US$109.00",
+                "link": "https://www.ebay.com/itm/185185848704?epid=127421551&hash=item2b1defcd80:g:ShAAAOSwT3ZgmdFa&amdata=enc%3AAQAIAAAA0Jl7AXBAxSkjdhSDjaJ1WlcLylgOU2ZwIfc5uoIYOrZYgBICVH9gx51kYI0xQK7otr3Np4foa%2FOmw7idxThvCwgWxKdc7IQzPCDj5GDrlfOFFGCxmMM9E1YZ9i7FAZnvyzazUC8%2Bn%2FvZi7wjbhGc2TUu9QcfXUywZ9VZ1TbY8sdJ4iuUnfNm2nvnr%2BqcmIsAXodN9R9V1TJ8%2FydKVf1ncTCW034OMC5gGvW9Z0SDuHreiUvvoGnDqExVBEMVzujI2s9v8Gq1JqXqbTya0J9i9Rw%3D%7Ctkp%3ABFBM5rz8u5Zj"
+              },
+              {
+                "modelo": "Rode Podcaster",
+                "precio": "US$230.00",
+                "link": "https://www.amazon.com/-/es/Rode-Podcaster-Micr%C3%B3fono-din%C3%A1mico-USB/dp/B000JM46FY"
+              },
+              {
+                "modelo": "Samson Q2U",
+                "precio": "US$60.00",
+                "link": "https://www.amazon.com/-/es/Samson-Technologies-Q2U-USB-XLR/dp/B001R747SG?th=1"
+              },
+              {
+                "modelo": "Sennheiser e835",
+                "precio": "US$119.00",
+                "link": "https://www.amazon.com/-/es/Sennheiser-micr%C3%B3fono-din%C3%A1mico-patr%C3%B3n-cardioide/dp/B00006I5R7/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=10LQNICAO40OM&keywords=Sennheiser%2Be835&qid=1703817275&sprefix=audio-technica%2Batr2100x-usb%2Busb%2B%2Caps%2C173&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Sennheiser MD 441-U",
+                "precio": "US$2,312.56",
+                "link": "https://articulo.mercadolibre.com.co/MCO-583534411-sennheiser-md-441-u-versatil-microfono-dinamico-patron-super-_JM"
+              },
+              {
+                "modelo": "Shure SM58",
+                "precio": "US$99.00",
+                "link": "https://www.amazon.com/-/es/SM58LC-Micr%C3%B3fono-SHURE-Negro-L3/dp/B000CZ0R42/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9PODP5KB2BKX&keywords=SHURE%2BSM58&qid=1703465327&sprefix=shure%2Bsm58%2B%2Caps%2C178&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Telefunken M80",
+                "precio": "US$774.11",
+                "link": "https://articulo.mercadolibre.com.co/MCO-1831610644-telefunken-m80-supercardioid-dynamic-handheld-vocal-microfon-_JM#position=8&search_layout=stack&type=item&tracking_id=7225ef75-d3d8-4869-9dbc-96dacf0a0a80"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "microfonosDeCondensador": [
+          {
+            "microfonos": [
+              {
+                "modelo": "RODE NT1-A",
+                "precio": 238.8,
+                "link": "https://www.amazon.com/-/es/NT1-condensador-generaci%C3%B3n-producci%C3%B3n-podcasting/dp/B0BQHHZ1QQ/ref=sr_1_1?adgrpid=100288019477&hvadid=602530813634&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=e&hvrand=3080636146441090866&hvtargid=kwd-301407764316&hydadcr=5049_13236898&keywords=rode%2Bnt1%2Ba&qid=1704397107&sr=8-1&th=1"
+              },
+              {
+                "modelo": "AKG C12 VR",
+                "precio": 119.0,
+                "link": "https://www.amazon.com/SE-Electronics-Cápsula-micrófono-Wireless/dp/B07N6PD1J4/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=2Q9JF9FJ2TC3N&keywords=AKG%2BC12%2BVR&qid=1704397195&sprefix=akg%2Bc12%2Bvr%2B%2Caps%2C127&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+              },
+              {
+                "modelo": "AKG C414 XLS",
+                "precio": 119.0,
+                "link": "https://www.amazon.com/-/es/AKG-Micr%C3%B3fono-condensador-multipatr%C3%B3n-referencia/dp/B000Z7CFW4/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2Q9JF9FJ2TC3N&keywords=AKG+C12+VR&qid=1704397512&sprefix=akg+c12+vr+%2Caps%2C127&sr=8-2"
+              },
+              {
+                "modelo": "AKG Lyra",
+                "precio": 62.99,
+                "link": "https://www.amazon.com/-/es/Ultra-HD-micrófono-condensador-grabación-transmisión/dp/B07Y2PFM1W/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=G0ZWNZMVPHVZ&keywords=AKG%2BLyra&qid=1704397566&sprefix=akg%2Blyra%2B%2Caps%2C132&s"
+              },
+              {
+                "modelo": "AKG P220",
+                "precio": 140.0,
+                "link": "https://www.amazon.com/-/es/AKG-P220-micrófono-condensador-vocal/dp/B00M9CUJ6W/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=UHGD16N5R309&keywords=AKG+P220&qid=1704397611&sprefix=akg+p220+%2Caps%2C132&sr=8-3"
+              },
+              {
+                "modelo": "Apogee HypeMic",
+                "precio": 27.99,
+                "link": "https://www.amazon.com/-/es/Micrófono-condensador-compatible-transmisión-podcasting/dp/B08CVP2HXP/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=YFCWKCYX31JP&keywords=Apogee%2BHypeMic&qid=1704398049&sprefix=apogee%2Bhypemic%2Caps%2C321&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Apogee MiC 96k",
+                "precio": 35.99,
+                "link": "https://www.amazon.com/-/es/ZealSound-Micrófono-condensador-computadora-transmisión/dp/B0BRK5XNBK/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1SB3IQYDA7Q9L&keywords=Apogee+MiC+96k&qid=1704398088&sprefix=apogee+mic+96k+%2Caps%2C128&sr=8-2"
+              },
+              {
+                "modelo": "Aston Origin",
+                "precio": 249.0,
+                "link": "https://www.amazon.com/-/es/Micrófono-condensador-Microphones-diafragma-cardioide/dp/B019RVU0C0/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=3LWIJLI3F4K8Q&keywords=Aston%2BOrigin&qid=1704398142&sprefix=aston%2Borigin%2Caps%2C127&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Audio-Technica AT2020",
+                "precio": 30.99,
+                "link": "https://www.amazon.com/Audio-Technica-suspensión-parabrisas-condensador/dp/B0B2LSK3N5/ref=sr_1_2_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=CZ9VJ66FHNEO&keywords=Audio-Technica%2BAT2020&qid=1704398177&sprefix=audio-technica%2Bat2020%2Caps%2C129&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+              },
+              {
+                "modelo": "Audio-Technica AT2020USB+",
+                "precio": 28.99,
+                "link": "https://www.amazon.com/Frgyee-micrófono-escritorio-ajustable-AT2020USB/dp/B0B93CWF1W/ref=sr_1_2_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=10P5JBEAXGK0M&keywords=Audio-Technica%2BAT2020USB%2B&qid=1704398245&sprefix=audio-technica%2Bat2020usb%2B%2Caps%2C134&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+              },
+              {
+                "modelo": "Audio-Technica AT2035",
+                "precio": 28.99,
+                "link": "https://www.amazon.com/Frgyee-micrófono-escritorio-ajustable-AT2020USB/dp/B0B93CWF1W/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=1UN64SB95XIS6&keywords=Audio-Technica%2BAT2035&qid=1704398276&sprefix=audio-technica%2Bat2035%2Caps%2C128&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+              },
+              {
+                "modelo": "Audio-Technica AT4033",
+                "precio": 399.0,
+                "link": "https://www.amazon.com/-/es/Audio-Technica-Micrófono-condensador-AT4033-CL/dp/B000ZLOGAE/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=EHSLTSZU26T4&keywords=Audio-Technica+AT4033&qid=1704398309&sprefix=audio-technica+at4033+%2Caps%2C132&sr=8-2"
+              },
+              {
+                "modelo": "Audio-Technica AT4040",
+                "precio": 294.0,
+                "link": "https://www.amazon.com/-/es/Audio-Technica-AT4040-micrófono-condensador-cardioide/dp/B0002D0BQ8/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=2PZLUN1QSRQ5V&keywords=Audio-Technica%2BAT4040&qid=1704398394&sprefix=audio-technica%2Bat4040%2B%2Caps%2C128&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Audio-Technica AT4050TI",
+                "precio": 675.3,
+                "link": "https://www.amazon.com/-/es/Audio-Technica-AT4050-Micrófono-condensador-multipatrón/dp/B0002EK70W/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1ZE2B6CSO0KBR&keywords=Audio-Technica%2BAT4050TI&qid=1704398414&sprefix=audio-technica%2Bat4050ti%2B%2Caps%2C122&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Audio-Technica AT5040",
+                "precio": 294.0,
+                "link": "https://www.amazon.com/-/es/Audio-Technica-AT4040-micrófono-condensador-cardioide/dp/B0002D0BQ8/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=20X34TESK8MK5&keywords=Audio-Technica%2BAT5040&qid=1704398480&sprefix=audio-technica%2Bat5040%2B%2Caps%2C124&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Audio-Technica AT8024",
+                "precio": 249.0,
+                "link": "https://www.amazon.com/-/es/Audio-Technica-AT8024-micrófono-montar-estéreo/dp/B00V66XWTI/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2N8WMGQHAOGRT&keywords=Audio-Technica+AT8024&qid=1704398501&sprefix=audio-technica+at8024+%2Caps%2C121&sr=8-1"
+              },
+              {
+                "modelo": "Audio-Technica ATR2100x-USB",
+                "precio": 79.0,
+                "link": "https://www.amazon.com/-/es/Audio-Technica-Micrófono-cardioide-ATR2100x-USB-ATR/dp/B07ZPBFVKK/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=DTPU3R5DCX58&keywords=Audio-Technica+ATR2100x-USB&qid=1704398525&sprefix=audio-technica+atr2100x-usb+%2Caps%2C123&sr=8-2"
+              },
+              {
+                "modelo": "Behringer B-1",
+                "precio": 49.0,
+                "link": "https://www.amazon.com/-/es/C1-B-Behringer-C-1-micrófono/dp/B000CZ0RLK/ref=sr_1_1?adgrpid=101434887549&hvadid=602416777869&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=b&hvrand=15218729832822069984&hvtargid=kwd-297852950801&hydadcr=17823_13511820&keywords=behringer%2Bc1%2Bmicrophone&qid=1704398635&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Behringer C-1U",
+                "precio": 49.0,
+                "link": "https://www.amazon.com/-/es/C1U-BEHRINGER-C-1U/dp/B001QXCYZY/ref=sr_1_6?__mk_es_US=ÅMÅŽÕÑ&crid=18B32FMF7LHR&keywords=Behringer%2BC-1U&qid=1704398663&sprefix=behringer%2Bc-1u%2B%2Caps%2C127&sr=8-6&th=1"
+              },
+              {
+                "modelo": "Behringer C-2",
+                "precio": 59.0,
+                "link": "https://www.amazon.com/-/es/C-2-Behringer-micrófono/dp/B000CZ0RLU/ref=sr_1_1?adgrpid=145791377733&hvadid=647878730285&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=b&hvrand=13033611193200224730&hvtargid=kwd-302240250869&hydadcr=17576_13511459&keywords=behringer+c2+pair&qid=1704398708&sr=8-1"
+              },
+              {
+                "modelo": "Behringer XM8500",
+                "precio": 29.99,
+                "link": "https://www.amazon.com/-/es/Behringer-Micrófono-cardioide-dinámico-XM8500/dp/B082LZKNF3/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=2DTAWDZFQ8ZFB&keywords=Behringer+XM8500&qid=1704398742&sprefix=behringer+xm8500+%2Caps%2C132&sr=8-2"
+              },
+              {
+                "modelo": "Beyerdynamic MC 740",
+                "precio": 219.0,
+                "link": "https://www.amazon.com/-/es/beyerdynamic-990-Premium-Auriculares-fidelidad/dp/B07DHXBMJD/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=266FORAMDASXO&keywords=Beyerdynamic+MC+740&qid=1704398764&sprefix=beyerdynamic+mc+740+%2Caps%2C186&sr=8-1"
+              },
+              {
+                "modelo": "Beyerdynamic MC 840",
+                "precio": 2342.82,
+                "link": "https://htaudio.mx/products/mc840-beyerdynamic"
+              },
+              {
+                "modelo": "Beyerdynamic MC 930",
+                "precio": 1349.0,
+                "link": "https://www.amazon.com/-/es/Beyerdynamic-Micrófono-cardioide-condensador-verdadero/dp/B0028Q752K?th=1"
+              },
+              {
+                "modelo": "Beyerdynamic MC 950",
+                "precio": 698.99,
+                "link": "https://www.amazon.com/-/es/Beyerdynamic-MC-950-Condenser-Micrófono/dp/B0CF629MJ9/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2BY2SUMC282RB&keywords=Beyerdynamic+MC+950&qid=1704399136&sprefix=beyerdynamic+mc+950+%2Caps%2C121&sr=8-1"
+              },
+              {
+                "modelo": "Blue Spark SL",
+                "precio": 199.99,
+                "link": "https://www.amazon.com/-/es/Blue-Spark-condensador-transmisión-profesional/dp/B074379C7Q/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1H3KP27NXK0ZM&keywords=Blue+Spark+SL&qid=1704399159&sprefix=blue+spark+sl+%2Caps%2C132&sr=8-1"
+              },
+              {
+                "modelo": "Blue Yeti Blackout",
+                "precio": 129.99,
+                "link": "https://www.amazon.com/-/es/transmitir-condensador-captación-auriculares-micrófono/dp/B00N1YPXW2/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=3APAFYGPSAF2C&keywords=Blue%2BYeti%2BBlackout&qid=1704399186&sprefix=blue%2Byeti%2Bblackout%2B%2Caps%2C133&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Blue Yeti Nano",
+                "precio": 99.99,
+                "link": "https://www.amazon.com/-/es/Logitech-Creators-Blue-Yeti-Nano/dp/B07QLNYBG9/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1V9DA652A4FM6&keywords=Blue%2BYeti%2BNano&qid=1704399251&sprefix=blue%2Byeti%2Bnano%2B%2Caps%2C148&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Blue Yeti",
+                "precio": 129.99,
+                "link": "https://www.amazon.com/-/es/transmitir-condensador-captación-auriculares-micrófono/dp/B00N1YPXW2/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=U6OQMG9K0ZQU&keywords=Blue%2BYeti&qid=1704399294&sprefix=blue%2Byeti%2B%2Caps%2C131&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Countryman B3",
+                "precio": 196.0,
+                "link": "https://www.amazon.com/-/es/B3W5FF05BLS-Omnidireccional-Inalámbrico-Transmisores-Lectrosonics/dp/B00B7GRGCQ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=140ZEUG0TQUN8&keywords=Countryman+B3&qid=1704399333&sprefix=countryman+b3%2Caps%2C122&sr=8-1"
+              },
+              {
+                "modelo": "DPA 4006A",
+                "precio": 285.66,
+                "link": "https://www.dpamicrophones.com/pencil/4006-omnidirectional-microphone"
+              },
+              {
+                "modelo": "DPA 4007",
+                "precio": 2479.95,
+                "link": "https://soniccircus.com/product/dpa-4007-dynamic-range-omnidirectional-microphone/"
+              },
+              {
+                "modelo": "DPA 4011A",
+                "precio": 1930.0,
+                "link": "https://www.dpamicrophones.com/pencil/4011-cardioid-microphone"
+              },
+              {
+                "modelo": "DPA 4017B",
+                "precio": 2205.2,
+                "link": "https://www.dpamicrophones.com/shotgun/4017-shotgun-microphone"
+              },
+              {
+                "modelo": "DPA 4023",
+                "precio": 1313.42,
+                "link": "https://reverb.com/es/item/75825916-dpa-microphones-4023-compact-series-cardioid-microphone-with-lemo-connector-cable-bruel"
+              },
+              {
+                "modelo": "DPA 4060",
+                "precio": 547.29,
+                "link": "https://www.dpamicrophones.com/lavalier/4060-series-miniature-omnidirectional-microphone"
+              },
+              {
+                "modelo": "DPA 4071",
+                "precio": 625.0,
+                "link": "https://www.bhphotovideo.com/c/product/1461698-REG/dpa_microphones_4071_oc_c_b00_dscreet_core_4071_omni.html"
+              },
+              {
+                "modelo": "DPA 4088",
+                "precio": 930.47,
+                "link": "https://www.dpamicrophones.com/headset/4088-directional-headset-microphone"
+              },
+              {
+                "modelo": "DPA 4090",
+                "precio": 637.5,
+                "link": "https://www.amazon.com/-/es/DPA-Micrófono-instrumento-montaje-violonchelo/dp/B07D5VSM4Q/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=SKTBGLQZVT63&keywords=DPA+4090&qid=1704400685&sprefix=dpa+4090+%2Caps%2C128&sr=8-1"
+              },
+              {
+                "modelo": "Elgato Wave:1",
+                "precio": 9.79,
+                "link": "https://www.amazon.com/-/es/Wave-Pop-Filter-profesional-condensador/dp/B091DDNV36/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2MRS3SZR5NJV6&keywords=Elgato+Wave%3A1&qid=1704400719&sprefix=elgato+wave+1+%2Caps%2C140&sr=8-1"
+              },
+              {
+                "modelo": "Elgato Wave:3",
+                "precio": 118.98,
+                "link": "https://www.amazon.com/-/es/dp/B08H8D92Q7/ref=dp_cr_wdg_tit_rfb"
+              },
+              {
+                "modelo": "Fifine K669B",
+                "precio": 29.99,
+                "link": "https://www.amazon.com/-/es/Micrófono-condensador-computadoras-portátiles-transmisión/dp/B06XCKGLTP/ref=sr_1_2?adgrpid=105684000207&hvadid=673196586136&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=e&hvrand=3922537871124140475&hvtargid=kwd-391288851082&hydadcr=17791_13641322&keywords=fifine%2Bk669b&qid=1704400931&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Fifine T669",
+                "precio": 52.99,
+                "link": "https://www.amazon.com/-/es/condensador-computadora-instrumentos-podcasting-Streaming-T669/dp/B07Y1C6GDS?th=1"
+              },
+              {
+                "modelo": "Gefell M 300",
+                "precio": 2272.68,
+                "link": "https://www.amazon.com/-/es/Gefell-300-Stereo-Set-VK/dp/B00GXV5NQ6"
+              },
+              {
+                "modelo": "Gefell M 700",
+                "precio": 940.15,
+                "link": "https://reverb.com/es/item/51719231-neumann-gefell-691-m70-1970-vintage"
+              },
+              {
+                "modelo": "Gefell M 920",
+                "precio": 227.69,
+                "link": "https://shop.funky-junk.com/shop/recording/microphones/condenser/tube/microtech-gefell-m990-tube-microphone/"
+              },
+              {
+                "modelo": "Gefell M 930",
+                "precio": 11911.02,
+                "link": "https://www.musicstore.com/es_OT/EUR/Microtech-Gefell-M-930-Micr-fono-de-condensador-niquel-cardioide-incl-MH-93-1-Soporte/art-REC0001275-000"
+              },
+              {
+                "modelo": "Gefell UM 70",
+                "precio": 1728.23,
+                "link": "https://www.musicstore.com/es_OT/EUR/Microtech-Gefell-UMT-70-S-niquel-/art-REC0006151-000"
+              },
+              {
+                "modelo": "HyperX QuadCast",
+                "precio": 159.99,
+                "link": "https://www.amazon.com/-/es/HyperX-QuadCast-condensador-antivibración-transmisión/dp/B08G8WH435/ref=sr_1_2?adgrpid=77506815003&hvadid=602529787196&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=e&hvrand=18302712727849268365&hvtargid=kwd-650141582150&hydadcr=751_1015034237&keywords=hyperx%2Bquadcast&qid=1704401765&sr=8-2&th=1"
+              },
+              {
+                "modelo": "HyperX SoloCast",
+                "precio": 11.97,
+                "link": "https://www.amazon.com/HyperX-SoloCast-micrófono-profesional-compatible/dp/B08P5C3KPC/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=M0FEML6X7NGT&keywords=HyperX%2BSoloCast&qid=1704401801&sprefix=hyperx%2Bsolocast%2B%2Caps%2C134&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+              },
+              {
+                "modelo": "Lewitt LCT 240 Pro",
+                "precio": 9900,
+                "link": "https://www.amazon.com/-/es/LCT-240-PRO-Micrófono-condensador-compacto-blanco/dp/B071VJT84B/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=EQADID0X8GU3&keywords=Lewitt%2BLCT%2B240%2BPro&qid=1704401827&sprefix=lewitt%2Blct%2B240%2Bpro%2Caps%2C128&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Logitech Blue Yeti Pro",
+                "precio": 129.99,
+                "link": "https://www.amazon.com/-/es/transmitir-condensador-captación-auriculares-micrófono/dp/B00N1YPXW2/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=2BHBL6GLTM29U&keywords=Logitech%2BBlue%2BYeti%2BPro&qid=1704401955&sprefix=logitech%2Bblue%2Byeti%2Bpro%2B%2Caps%2C125&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Logitech Blue Yeti X",
+                "precio": 169.99,
+                "link": "https://www.amazon.com/-/es/Logitech-Creators-Blue-Yeti-transmisión/dp/B07QKQJL17/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=PCW4M4ZS18X2&keywords=Logitech%2BBlue%2BYeti%2BX&qid=1704402005&sprefix=logitech%2Bblue%2Byeti%2Bx%2B%2Caps%2C130&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Maono AU-PM422",
+                "precio": 45.99,
+                "link": "https://www.amazon.com/MAONO-AU-MH601-Auriculares-conductores-auriculares/dp/B085XRGSWV/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=206EFNNU34HMV&keywords=Maono%2BAU-PM422&qid=1704402046&sprefix=maono%2Bau-pm422%2B%2Caps%2C130&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+              },
+              {
+                "modelo": "Maonocaster AM-100",
+                "precio": 99.81,
+                "link": "https://www.amazon.com/-/es/MaonoCaster-producción-transmisión-inteligente-AU-AM200-S1/dp/B08NPCY5P3?th=1"
+              },
+              {
+                "modelo": "Marantz Professional MPM1000",
+                "precio": 108.0,
+                "link": "https://www.amazon.com/-/es/Marantz-Pro-MPM1000-Micrófono-condensador/dp/B08RFXT53N/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=3FTS9051SJ5I5&keywords=Marantz%2BProfessional%2BMPM1000&qid=1704402267&sprefix=marantz%2Bprofessional%2Bmpm1000%2B%2Caps%2C130&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Marantz Professional MPM2000U",
+                "precio": 91.92,
+                "link": "https://www.amazon.com/-/es/Marantz-Professional-MPM2000U-condensador-Pop-Shield/dp/B01GJ9IUNY/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=K2MXZVU261EK&keywords=Marantz%2BProfessional%2BMPM2000U&qid=1704402306&sprefix=marantz%2Bprofessional%2Bmpm2000u%2B%2Caps%2C121&sr=8-1&th=1"
+              },
+              {
+                "modelo": "MXL 770",
+                "precio": 198.0,
+                "link": "https://www.amazon.com/-/es/Micrófono-condensador-cardioide-Negro-dorado/dp/B01MTSAHR4/ref=sr_1_6?__mk_es_US=ÅMÅŽÕÑ&crid=32JRGZURHWW0L&keywords=MXL+770&qid=1704402330&sprefix=mxl+770+%2Caps%2C128&sr=8-6"
+              },
+              {
+                "modelo": "Neewer NW-700",
+                "precio": 29.89,
+                "link": "https://www.amazon.com/-/es/micrófono-condensador-profesional-radiodifusión-grabación/dp/B00XOXRTX6/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1T74YFU0SFM94&keywords=Neewer%2BNW-700&qid=1704402384&sprefix=neewer%2Bnw-700%2B%2Caps%2C124&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Neumann KM 184",
+                "precio": 8900.0,
+                "link": "https://www.amazon.com/-/es/Neumann-KM-184-MT-condensador/dp/B000T9HDC0/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=29DXXM31XSI4Y&keywords=Neumann%2BKM%2B184&qid=1704402410&sprefix=neumann%2Bkm%2B184%2B%2Caps%2C124&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Neumann TLM 102",
+                "precio": 629.99,
+                "link": "https://www.amazon.com/-/es/Neumann-TLM-102-Micrófono-condensador/dp/B003HGLPC6/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=26SSM6TQEND51&keywords=Neumann%2BTLM%2B102&qid=1704402461&sprefix=neumann%2Btlm%2B102%2B%2Caps%2C127&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Neumann TLM 103",
+                "precio": 1195.0,
+                "link": "https://www.amazon.com/-/es/Neumann-TLM-Micrófono-cardioide-diafragma/dp/B0002KN4LA/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1C3DYOAX38EGD&keywords=Neumann%2BTLM%2B103&qid=1704402517&sprefix=neumann%2Btlm%2B103%2B%2Caps%2C128&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Neumann TLM 107",
+                "precio": 1450.0,
+                "link": "https://www.amazon.com/-/es/Neumann-TLM-Micrófono-condensador-Negro/dp/B00G2FHDFM/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=EWB7TIBQS6MJ&keywords=Neumann%2BTLM%2B107&qid=1704402539&sprefix=neumann%2Btlm%2B107%2B%2Caps%2C126&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Neumann TLM 67",
+                "precio": 2295.0,
+                "link": "https://www.amazon.com/-/es/Neumann-Micrófono-condensador-TLM-67/dp/B001KYYLFK/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=35H0WZ24I8W07&keywords=Neumann+TLM+67&qid=1704402565&sprefix=neumann+tlm+67+%2Caps%2C129&sr=8-2"
+              },
+              {
+                "modelo": "Neumann U 87 Ai",
+                "precio": 3295.0,
+                "link": "https://www.amazon.com/-/es/Neumann-87-Ai-Micrófono-conmutable/dp/B0016ZSIP2/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1R0F4HINW6OOQ&keywords=Neumann+U+87+Ai&qid=1704402605&sprefix=neumann+u+87+ai+%2Caps%2C128&sr=8-2"
+              },
+              {
+                "modelo": "Razer Seiren Elite",
+                "precio": 159.0,
+                "link": "https://www.amazon.com/s?k=Razer+Seiren+Elite&__mk_es_US=ÅMÅŽÕÑ&crid=JDRN4JH4WAHW&sprefix=razer+seiren+elite+%2Caps%2C122&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Razer Seiren Mini",
+                "precio": 23.97,
+                "link": "https://www.amazon.com/Razer-Seiren-Mini-brazo-filtro/dp/B08NVFTPW9/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=JT1TN64FH9P0&keywords=Razer+Seiren+Mini&qid=1704402677&sprefix=razer+seiren+mini+%2Caps%2C194&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+              },
+              {
+                "modelo": "Rode NT1",
+                "precio": 49.99,
+                "link": "https://www.amazon.com/micrófono-protectora-generación-arañazos-abolladuras/dp/B0BZWX6XVY/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=3ORHD0GD1B7OA&keywords=Rode+NT1&qid=1704402704&sprefix=rode+nt1+%2Caps%2C159&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+              },
+              {
+                "modelo": "Rode NT2-A",
+                "precio": 429.99,
+                "link": "https://www.amazon.com/-/es/Anniversary-Multi-Pattern-Condenser-Micrófono-Paquete/dp/B004L06ZCM/ref=sr_1_2_mod_primary_new?__mk_es_US=ÅMÅŽÕÑ&crid=2QKEIZ1X4HYWB&keywords=Rode%2BNT2-A&qid=1704402737&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=rode%2Bnt2-a%2B%2Caps%2C146&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Rode NT-5",
+                "precio": 429.8,
+                "link": "https://www.amazon.com/s?k=Rode+NT-5&__mk_es_US=ÅMÅŽÕÑ&crid=BWEOQQXELQN6&sprefix=rode+nt-5+%2Caps%2C133&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Rode NTG-2",
+                "precio": 799.86,
+                "link": "https://www.amazon.com/-/es/Rode-NTG-2-Micrófono-condensador-alimentación/dp/B00DIHUMD2/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=10RYI73XGHSWY&keywords=Rode+NTG-2&qid=1704402808&sprefix=rode+ntg-2+%2Caps%2C131&sr=8-3"
+              },
+              {
+                "modelo": "Rode NTG-3",
+                "precio": 19.99,
+                "link": "https://www.amazon.com/-/es/NTG3-Parabrisas-micrófono-Sennheiser-YOUSHARES/dp/B0832KVWMS/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=2LBTBUO6VW9Y9&keywords=Rode%2BNTG-3&qid=1704402857&sprefix=rode%2Bntg-3%2B%2Caps%2C133&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Rode NTK",
+                "precio": 529.0,
+                "link": "https://www.amazon.com/-/es/Micrófono-condensador-tubo-Rode-NTK/dp/B0002DUQOU/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=UKHCBCKFPMTS&keywords=Rode%2BNTK&qid=1704402882&sprefix=rode%2Bntk%2B%2Caps%2C135&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Rode NT-USB",
+                "precio": 97.0,
+                "link": "https://www.amazon.com/-/es/condensador-podcasting-transmisión-producción-instrumentos/dp/B084P1CXFD/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=JS3N72SRC4EY&keywords=Rode%2BNT-USB&qid=1704402909&sprefix=rode%2Bnt-usb%2B%2Caps%2C207&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Rode Podcaster",
+                "precio": 229.0,
+                "link": "https://www.amazon.com/-/es/Rode-Podcaster-Micrófono-dinámico-USB/dp/B000JM46FY/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=22S7Z3PSDMPEC&keywords=Rode+Podcaster&qid=1704402942&sprefix=rode+podcaster+%2Caps%2C134&sr=8-2"
+              },
+              {
+                "modelo": "Rode VideoMic Go",
+                "precio": 94.95,
+                "link": "https://www.amazon.com/-/es/Rode-VideoMic-GO-Micrófono-direccional/dp/B09MRLGL7G/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=2WEPXE5ZT9LW7&keywords=Rode%2BVideoMic%2BGo&qid=1704402981&sprefix=rode%2Bvideomic%2Bgo%2B%2Caps%2C144&sr=8-3&th=1"
+              },
+              {
+                "modelo": "Samson C01U Pro",
+                "precio": 49.99,
+                "link": "https://www.amazon.com/s?k=Samson+C01U+Pro&__mk_es_US=ÅMÅŽÕÑ&crid=2F6G2JYJVJ4NL&sprefix=samson+c01u+pro+%2Caps%2C139&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Samson Go Mic",
+                "precio": 74.95,
+                "link": "https://www.amazon.com/Samson-Mic-condensador-auriculares-concentrador/dp/B00RJB1HAU/ref=sr_1_2_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=3U9679672FJ52&keywords=Samson+Go+Mic&qid=1704403063&sprefix=samson+go+mic+%2Caps%2C134&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+              },
+              {
+                "modelo": "Samson Q2U",
+                "precio": 69.99,
+                "link": "https://www.amazon.com/-/es/SAMSON-Q2U-Micrófono-grabación-podcasting/dp/B07FKG8PGZ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=GCVVP76G417F&keywords=Samson%2BQ2U&qid=1704403088&sprefix=samson%2Bq2u%2B%2Caps%2C145&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Schoeps CMC 1",
+                "precio": 1664.0,
+                "link": "https://www.zenproaudio.com/schoeps-cmc641-set?gclid=Cj0KCQiAy9msBhD0ARIsANbk0A83RLPoxpvlYnvGN87chkJQIaFBvDAe1AD-1W7EuYJzsZ_E-NBdsg4aAksUEALw_wcB"
+              },
+              {
+                "modelo": "Schoeps CMC 5",
+                "precio": 1200.0,
+                "link": "https://www.trewaudio.com/product/schoeps-cmc-5-u-mk41-capsule-cut-1-modular-microphone/"
+              },
+              {
+                "modelo": "Schoeps CMC 6",
+                "precio": 788.0,
+                "link": "https://www.zenproaudio.com/schoeps-cmc-6u?gclid=Cj0KCQiAy9msBhD0ARIsANbk0A__Td6n7E5AvzKjPevE2gcyK_4vW9Z2imnUiqjGMHxUY-wLhT-hu3saAh-iEALw_wcB"
+              },
+              {
+                "modelo": "Schoeps CMC 641",
+                "precio": 1164.0,
+                "link": "https://www.zenproaudio.com/schoeps-cmc641-set?gclid=Cj0KCQiAy9msBhD0ARIsANbk0A_6nGc-3CQo5AVVZXJihkH4atlQcOiGNBEa8Mh8e7Dm9xSfvar3EtMaAkF4EALw_wcB"
+              },
+              {
+                "modelo": "Schoeps MK 21",
+                "precio": 3282.84,
+                "link": "https://www.thomann.de/es/schoeps_cmc_621_set.htm"
+              },
+              {
+                "modelo": "Sennheiser MK 4",
+                "precio": 299.95,
+                "link": "https://www.amazon.com/s?k=Sennheiser+MK+4&__mk_es_US=ÅMÅŽÕÑ&crid=IQVM8EDUV3FO&sprefix=sennheiser+mk+4+%2Caps%2C132&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Sennheiser MK 8",
+                "precio": 699.0,
+                "link": "https://www.amazon.com/s?k=Sennheiser+MK+8&__mk_es_US=ÅMÅŽÕÑ&crid=2T4C5BPBH85RS&sprefix=sennheiser+mk+8+%2Caps%2C134&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Sennheiser MKE 200",
+                "precio": 89.0,
+                "link": "https://www.amazon.com/s?k=Sennheiser+MKE+200&__mk_es_US=ÅMÅŽÕÑ&crid=KL8MGJKVW4TU&sprefix=sennheiser+mke+200+%2Caps%2C137&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Sennheiser MKE 2-4",
+                "precio": 54.62,
+                "link": "https://www.amazon.com/s?k=Sennheiser+MKE+2-4&__mk_es_US=ÅMÅŽÕÑ&crid=12BUXMG9MO4P7&sprefix=sennheiser+mke+2-4+%2Caps%2C136&ref=nb_sb_noss"
+              },
+              {
+                "modelo": "Sennheiser MKH 416",
+                "precio": 967.88,
+                "link": "https://www.amazon.com/s?k=Sennheiser+MKH+416&__mk_es_US=ÅMÅŽÕÑ&crid=2134NJ5C4UP0T&sprefix=sennheiser+mkh+416+%2Caps%2C128&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Sennheiser MKH 418S",
+                "precio": 1650.0,
+                "link": "https://www.amazon.com/s?k=Sennheiser+MKH+418S&__mk_es_US=ÅMÅŽÕÑ&crid=3LCH7KM39HB88&sprefix=sennheiser+mkh+418s+%2Caps%2C134&ref=nb_sb_noss"
+              },
+              {
+                "modelo": "Sennheiser MKH 800 TWIN",
+                "precio": 3200.0,
+                "link": "https://www.bhphotovideo.com/c/product/572379-REG/Sennheiser_MKH800TWIN_NX_MKH_800_TWIN.html"
+              },
+              {
+                "modelo": "Sennheiser MKH 8020",
+                "precio": 2320.0,
+                "link": "https://colombia.bioweb.co/products/microfono-sennheiser-mkh-8020-omnidireccional"
+              },
+              {
+                "modelo": "Sennheiser MKH 8050",
+                "precio": 1399.0,
+                "link": "https://www.bhphotovideo.com/c/product/532788-REG/Sennheiser_MKH8050_MKH_8050_Compact_Supercardioid_Condenser.html"
+              },
+              {
+                "modelo": "Shure KSM141",
+                "precio": 899.0,
+                "link": "https://www.amazon.com/-/es/KSM141-SL-parabrisas-adaptador-transporte/dp/B004PDYKWM/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2FSUP7OHIAFXB&keywords=Shure%2BKSM141&qid=1704404939&sprefix=shure%2Bksm141%2B%2Caps%2C138&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Shure KSM32",
+                "precio": 649.0,
+                "link": "https://www.amazon.com/-/es/Shure-KSM32-Micrófono-diafragma-relieve-Champán/dp/B0002GZK02/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2D8QK1Q31UR17&keywords=Shure%2BKSM32&qid=1704404976&sprefix=%2Caps%2C133&sr=8-1&th=1"
+              },
+              {
+                "modelo": "Shure KSM44A",
+                "precio": 1290.69,
+                "link": "https://www.shure.com/es-ES/productos/microfonos/ksm44a?variant=KSM44A%2FSL"
+              },
+              {
+                "modelo": "Shure KSM9",
+                "precio": 699.0,
+                "link": "https://www.amazon.com/-/es/Shure-KSM9HS-Micrófono-condensador-diafragma/dp/B00A86X4PO/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1ZXZUFK9L78UG&keywords=Shure%2BKSM9&qid=1704405065&sprefix=shure%2Bksm9%2B%2Caps%2C137&sr=8-2&th=1"
+              },
+              {
+                "modelo": "Shure MV51",
+                "precio": 199.0,
+                "link": "https://www.amazon.com/s?k=Shure+MV51&__mk_es_US=ÅMÅŽÕÑ&crid=3SQBNQT6PB251&sprefix=shure+mv51+%2Caps%2C172&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Shure MV6",
+                "precio": 99.0,
+                "link": "https://www.shure.com/en-US/products/microphones/mv5?variant=MV5-B-DIG"
+              },
+              {
+                "modelo": "Shure MV7",
+                "precio": 249.0,
+                "link": "https://www.amazon.com/s?k=Shure+MV7&__mk_es_US=ÅMÅŽÕÑ&crid=ADXZTJJAGRU8&sprefix=shure+mv7+%2Caps%2C153&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Shure SM7B",
+                "precio": 399.0,
+                "link": "https://www.amazon.com/s?k=Shure+SM7B&__mk_es_US=ÅMÅŽÕÑ&crid=1AFREFTEKWH71&sprefix=shure+sm7b+%2Caps%2C145&ref=nb_sb_noss_2"
+              },
+              {
+                "modelo": "Telefunken ELA M 251E",
+                "precio": 5145.71,
+                "link": "https://www.planetaanalogico.com/producto-telefunken-elam-251e-1904251356423321/"
+              },
+              {
+                "modelo": "TONOR BM-700",
+                "precio": 30.12,
+                "link": "https://articulo.mercadolibre.com.co/MCO-1331137883-microfono-condensador-bm-700-usb-grabacion-y-streaming-_JM#position=16&search_layout=stack&type=item&tracking_id=10ba5871-95cf-4556-ad53-1fe02c5e5a72"
+              },
+              {
+                "modelo": "TONOR TC-20",
+                "precio": 479.99,
+                "link": "https://www.tonormic.com/products/tc20-xlr-microphone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "interfazAudio": [
+          {
+            "modelo": "M-Audio M-Track Duo",
+            "precio": 69.0,
+            "link": "https://www.amazon.com/-/es/M-Track-grabaci%C3%B3n-transmisi%C3%B3n-podcasting-micr%C3%B3fonos/dp/B08Q1V77NR/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=20N6HF2RGY7KR&keywords=M-Audio%2BM-Track%2BDuo&qid=1703859872&sprefix=%2Caps%2C155&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Antelope Audio Discrete 4",
+            "precio": 999.0,
+            "link": "https://www.amazon.com/-/es/Antelope-Discreta-Thunderbolt-FX-incluidos/dp/B076H5W47F?th=1"
+          },
+          {
+            "modelo": "Apogee Duet 3",
+            "precio": 649.0,
+            "link": "https://apogeedigital.com/shop/apogee-duet-3"
+          },
+          {
+            "modelo": "Apogee Element 46",
+            "precio": 916.0,
+            "link": "https://soloproaudio.com/product/apogee-element-46/"
+          },
+          {
+            "modelo": "Apogee Quartet",
+            "precio": 149.0,
+            "link": "https://apogeedigital.com/products/quartet/buy"
+          },
+          {
+            "modelo": "Arturia AudioFuse 8pre",
+            "precio": 899.0,
+            "link": "https://www.arturia.com/products/audio/audiofuse-8pre/overview"
+          },
+          {
+            "modelo": "Arturia AudioFuse Rev 2",
+            "precio": 699.0,
+            "link": "https://www.arturia.com/products/audio/audiofuse/overview"
+          },
+          {
+            "modelo": "Arturia AudioFuse Studio",
+            "precio": 1299.0,
+            "link": "https://www.arturia.com/products/audio/audiofuse-studio/overview"
+          },
+          {
+            "modelo": "Arturia MiniFuse 2",
+            "precio": 149.0,
+            "link": "https://www.arturia.com/products/audio/minifuse/minifuse2"
+          },
+          {
+            "modelo": "Audient iD14 MKII",
+            "precio": 289.99,
+            "link": "https://www.amazon.com/-/es/preamplificadores-micr%C3%B3fono-rendimiento-panor%C3%A1mica-auriculares/dp/B08SJD466P?th=1"
+          },
+          {
+            "modelo": "Audient iD4",
+            "precio": 199.0,
+            "link": "https://www.amazon.com/preamplificador-micr%C3%B3fono-panor%C3%A1mica-auriculares-compatible/dp/B08SBSN88X?shipTo=CO&source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1T9L47SOSLRWE&language=es_US"
+          },
+          {
+            "modelo": "Audient iD44",
+            "precio": 699.0,
+            "link": "https://www.amazon.com/-/es/Audient-Interfaz-audio-iD44-MKII/dp/B0B3QRDZ7H"
+          },
+          {
+            "modelo": "Behringer UMC1820",
+            "precio": 418.26,
+            "link": "https://www.mercadolibre.com.co/interfaz-de-audio-behringer-u-phoria-umc1820-100v240v/p/MCO15397603?pdp_filters=category:MCO166465#searchVariation=MCO15397603&position=2&search_layout=stack&type=product&tracking_id=8b436413-9140-43d9-93de-e7fc88f55d69"
+          },
+          {
+            "modelo": "Behringer UMC22",
+            "precio": 69.0,
+            "link": "https://www.amazon.com/-/es/BEHRINGER-U-PHORIA-UMC22-Interfaz-audio/dp/B00FFIGZF6?th=1"
+          },
+          {
+            "modelo": "Behringer UMC404HD",
+            "precio": 264.88,
+            "link": "https://www.mercadolibre.com.co/interfaz-de-audio-behringer-u-phoria-umc404hd-100v240v/p/MCO15396034?pdp_filters=category:MCO166465#searchVariation=MCO15396034&position=1&search_layout=stack&type=product&tracking_id=eac0c620-270f-41ea-a69b-763ce9c85ad5"
+          },
+          {
+            "modelo": "Behringer U-Phoria UMC202HD",
+            "precio": 99.0,
+            "link": "https://www.amazon.com/-/es/Behringer-Interfaz-audio-U-Phoria-UMC202HD/dp/B00SAV0VP0?th=1"
+          },
+          {
+            "modelo": "Behringer U-phoria UMC22",
+            "precio": 69.0,
+            "link": "https://www.amazon.com/-/es/BEHRINGER-U-PHORIA-UMC22-Interfaz-audio/dp/B00FFIGZF6?th=1"
+          },
+          {
+            "modelo": "Behringer U-phoria UMC404HD",
+            "precio": 264.25,
+            "link": "https://www.mercadolibre.com.co/interfaz-de-audio-behringer-u-phoria-umc404hd-100v240v/p/MCO15396034?pdp_filters=category:MCO166465#searchVariation=MCO15396034&position=2&search_layout=stack&type=product&tracking_id=14b687c8-3f5e-418e-8fb4-d58ec95a86d2"
+          },
+          {
+            "modelo": "Focusrite Red 4Pre Thunderbolt",
+            "precio": 3099.99,
+            "link": "https://focusrite.com/products/red-4pre"
+          },
+          {
+            "modelo": "Focusrite Scarlett 18i20 (3rd Gen)",
+            "precio": 689.99,
+            "link": "https://focusrite.com/products/scarlett-18i20"
+          },
+          {
+            "modelo": "Focusrite Scarlett 2i2",
+            "precio": 199.99,
+            "link": "https://www.amazon.com/-/es/2i2-generaci-C3-B3n-composici-C3-B3n-transmisi-C3-B3n-podcasting-dp-B0C5JRTS3Y/dp/B0C5JRTS3Y/ref=dp_ob_title_ce?th=1"
+          },
+          {
+            "modelo": "Focusrite Scarlett 4i4 (4rd Gen)",
+            "precio": 279.99,
+            "link": "https://www.amazon.com/-/es/Focusrite-Interfaz-Scarlett-4i4-generaci-C3-B3n-dp-B0C5JMFX6S/dp/B0C5JMFX6S/ref=dp_ob_title_ce?th=1"
+          },
+          {
+            "modelo": "Focusrite Scarlett Solo (4rd Gen)",
+            "precio": 139.99,
+            "link": "https://www.amazon.com/-/es/Focusrite-Interfaz-Scarlett-Solo-generaci-C3-B3n-dp-B0C5JSHP7M/dp/B0C5JSHP7M/ref=dp_ob_title_ce?th=1"
+          },
+          {
+            "modelo": "Mackie Onyx Artist 1•2",
+            "precio": 59.95,
+            "link": "https://www.amazon.com/-/es/Mackie-Interface-Onyx-Artist-Interfaz/dp/B07664LMPQ?th=1"
+          },
+          {
+            "modelo": "Mackie Onyx Producer 2•2",
+            "precio": 79.99,
+            "link": "https://www.amazon.com/-/es/Mackie-Interfaz-Onyx-Producer-2-2/dp/B076646D8H/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=G4EZUQ4BUPKW&keywords=Mackie%2BOnyx%2BProducer%2B2%E2%80%A22&qid=1703875367&sprefix=%2Caps%2C158&sr=8-1&th=1"
+          },
+          {
+            "modelo": "M-Audio Air 192|4",
+            "precio": 119.0,
+            "link": "https://www.amazon.com/-/es/M-Audio-AIR-podcasting-transmisi%C3%B3n-producci%C3%B3n/dp/B07YYWLGFM/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=VPZ17G0ANEPB&keywords=M-Audio%2BAir%2B192%7C4&qid=1703875397&sprefix=mackie%2Bonyx%2Bproducer%2B2%2B2%2Caps%2C132&sr=8-1&th=1"
+          },
+          {
+            "modelo": "M-Audio Air Hub",
+            "precio": 69.0,
+            "link": "https://www.amazon.com/-/es/M-Audio-AIR-HUB-concentrador-grabaci%C3%B3n/dp/B07YZMFKLN/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=103JNWO8ESTUE&keywords=M-Audio%2BAir%2BHub&qid=1703875473&sprefix=m-audio%2Bair%2Bhub%2B%2Caps%2C211&sr=8-1&th=1"
+          },
+          {
+            "modelo": "M-Audio M-Track Duo",
+            "precio": 69.0,
+            "link": "https://www.amazon.com/-/es/M-Track-grabaci%C3%B3n-transmisi%C3%B3n-podcasting-micr%C3%B3fonos/dp/B08Q1V77NR/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2V4CPPY3CZ3C9&keywords=M-Audio%2BM-Track%2BDuo&qid=1703875568&sprefix=m-audio%2Bm-track%2Bduo%2B%2Caps%2C144&sr=8-1&th=1"
+          },
+          {
+            "modelo": "M-Audio M-Track Eight",
+            "precio": 279.99,
+            "link": "https://www.amazon.com/-/es/M-Track-Eight-Interfaz-resoluci%C3%B3n-preamplificador/dp/B0010SZIQM?th=1"
+          },
+          {
+            "modelo": "M-Audio M-Track Quad",
+            "precio": 416.62,
+            "link": "https://es.aliexpress.com/i/1005004870678504.html"
+          },
+          {
+            "modelo": "M-Audio M-Track Solo",
+            "precio": 69.0,
+            "link": "https://www.amazon.com/-/es/M-Track-grabaci%C3%B3n-transmisi%C3%B3n-podcasting-micr%C3%B3fonos/dp/B08Q1V77NR/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2V4CPPY3CZ3C9&keywords=M-Audio%2BM-Track%2BDuo&qid=1703875568&sprefix=m-audio%2Bm-track%2Bduo%2B%2Caps%2C144&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Miditech Audiolink III",
+            "precio": 49.0,
+            "link": "https://www.amazon.com/-/es/Miditech-Interfaz-audio-Audiolink-III/dp/B01N7EU8EL"
+          },
+          {
+            "modelo": "MOTU M2",
+            "precio": 199.95,
+            "link": "https://www.amazon.com/-/es/MOTU-Interfaz-audio-USB-C-M2/dp/B0812B26TN"
+          },
+          {
+            "modelo": "Native Instruments Komplete Audio 1",
+            "precio": 89.0,
+            "link": "https://www.amazon.com/-/es/26142-Native-Instruments/dp/B07N6RD68M?th=1"
+          },
+          {
+            "modelo": "Native Instruments Komplete Audio 6 MK2",
+            "precio": 179.0,
+            "link": "https://www.amazon.com/-/es/26142-Native-Instruments/dp/B07RQ9VH34?th=1"
+          },
+          {
+            "modelo": "Presonus Audiobox iTwo",
+            "precio": 89.99,
+            "link": "https://www.amazon.com/-/es/PreSonus-AudioBox-iTwo-Interfaz-grabaci%C3%B3n/dp/B00KBMAJZS?th=1"
+          },
+          {
+            "modelo": "PreSonus AudioBox USB 96",
+            "precio": 109.99,
+            "link": "https://www.amazon.com/-/es/PreSonus-AudioBox-grabaci%C3%B3n-preamplificadores-instrumento/dp/B08HGDVQFT"
+          },
+          {
+            "modelo": "PreSonus Revelator io24",
+            "precio": 99.99,
+            "link": "https://www.amazon.com/PreSonus-Revelator-io24/dp/B098DDQ6PT?th=1"
+          },
+          {
+            "modelo": "PreSonus Studio 24c",
+            "precio": 149.99,
+            "link": "https://www.amazon.com/-/es/PreSonus-Studio-24c-interfaz-grabaci%C3%B3n/dp/B07L9MWWDK?th=1"
+          },
+          {
+            "modelo": "RME ADI-2 Pro FS R Black Edition",
+            "precio": 1299.0,
+            "link": "https://www.amazon.com/-/es/ADI2DACFS-Convertidor-canales-ultra-fidelidad/dp/B081CWQXGD/ref=sr_1_1?adgrpid=121327313909&hvadid=673252221758&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=b&hvrand=10061450658257596354&hvtargid=kwd-849301990515&hydadcr=8449_13669323&keywords=rme+adi-2+dac+fs&qid=1704397126&sr=8-1"
+          },
+          {
+            "modelo": "RME Babyface Pro FS",
+            "precio": 999.0,
+            "link": "https://www.amazon.com/-/es/RME-Interfaz-audio-USB-Babyface/dp/B081BVF3DH"
+          },
+          {
+            "modelo": "RME Fireface UCX II",
+            "precio": 1699.0,
+            "link": "https://www.rme-usa.com/es_fireface-ucx-ii.html"
+          },
+          {
+            "modelo": "Rode AI-1",
+            "precio": 129.0,
+            "link": "https://www.amazon.com/-/es/Rode-Interfaz-audio-color-negro/dp/B077Y531H1?"
+          },
+          {
+            "modelo": "Roland GO:MIXER PRO-X",
+            "precio": 199.89,
+            "link": "https://articulo.mercadolibre.com.co/MCO-1248529364-roland-gomixer-pro-x-mezclador-de-audio-para-telefonos-inte-_JM#position=2&search_layout=stack&type=item&tracking_id=93db90b4-1e9e-4aa1-b9bc-69683c95f7a8"
+          },
+          {
+            "modelo": "Roland Rubix22",
+            "precio": 169.99,
+            "link": "https://www.amazon.com/-/es/Roland-Interfaz-entradas-salidas-RUBIX22/dp/B01N14VOZM?th=1"
+          },
+          {
+            "modelo": "Roland Rubix44",
+            "precio": 335.0,
+            "link": "https://www.amazon.com/-/es/Roland-Interfaz-entradas-salidas-RUBIX44/dp/B072NBK74N?th=1"
+          },
+          {
+            "modelo": "Solid State Logic SiX",
+            "precio": 1499.99,
+            "link": "https://www.ebay.com/itm/333648813728?epid=12031025509&amdata=enc%3AAQAIAAAA0O%2BphB4%2FWwiz5IaKhHGZtvoo5y8eVSOh6LA%2BM6ubPDcqAs%2FZfLBqVt4Op8dj0TOCzqMjU2H7vcCpmAltUb0H2a8KieRwhL7FT1PjiJA%2BM0C3FgMHKa%2FkkSfsQAQD7JPjV9T%2ByDDQ6kPQjqKHXGnFTLEoVbu5863b52YoKdXFxricuKGLcrpRP6VCFmhWrrBuBWdxoOFzWVCRY%2BnjEyJ9rhPkHeuGY2PfKgFswP%2Fu20BDQp13tPVIXOucjNHkNHV5gUOj3%2BnVVaYFM7n8UbGpN7M%3D%7Ctkp%3ABFBMrLDcyZZj"
+          },
+          {
+            "modelo": "Solid State Logic SSL 2",
+            "precio": 303.23,
+            "link": "https://www.mercadolibre.com.co/interfaz-de-audio-solid-state-logic-ssl-2/p/MCO16143206?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&from=gshop"
+          },
+          {
+            "modelo": "Solid State Logic UF8",
+            "precio": 1299.99,
+            "link": "https://www.amazon.com/-/es/Controlador-avanzado-l%C3%B3gica-estado-UF8/dp/B08W322L96"
+          },
+          {
+            "modelo": "Steinberg UR22 MKII",
+            "precio": 152.9,
+            "link": "https://www.amazon.com/Steinberg-UR22MKII-2-Channel-USB-Interface/dp/B017MVUAHM?th=1"
+          },
+          {
+            "modelo": "Steinberg UR44C",
+            "precio": 359.99,
+            "link": "https://www.amazon.com/-/es/UR44C-Steinberg-Interfaz-de-audio/dp/B07YFGVH5H?th=1"
+          },
+          {
+            "modelo": "Tascam US-16x08",
+            "precio": 360.92,
+            "link": "https://www.amazon.com/-/es/US-16x08-Interfaz-grabaci%C3%B3n-entradas-software/dp/B00MIXF200?th=1"
+          },
+          {
+            "modelo": "Tascam US-2x2HR",
+            "precio": 226.98,
+            "link": "https://articulo.mercadolibre.com.co/MCO-611157945-tascam-us-2x2hr-2-mic-2in-2out-interfaz-de-audio-usb-versa-_JM#position=7&search_layout=stack&type=item&tracking_id=6a63622d-fe25-4211-9883-7b61e1745788"
+          },
+          {
+            "modelo": "Tascam US-4x4HR",
+            "precio": 237.5,
+            "link": "https://www.amazon.es/Tascam-US-4x4HR-Interfaz-resoluci%C3%B3n-US4X4HR/dp/B08MFPKQ4M?th=1"
+          },
+          {
+            "modelo": "Universal Audio Apollo Twin X",
+            "precio": 989.39,
+            "link": "https://www.amazon.com/-/es/Universal-Audio-Apollo-Twin-Heritage/dp/B08NYLP33B?th=1"
+          },
+          {
+            "modelo": "Universal Audio Apollo x8p",
+            "precio": 5807.81,
+            "link": "https://articulo.mercadolibre.com.co/MCO-985693792-universal-audio-apollo-x8p-tb3-heritage-_JM"
+          },
+          {
+            "modelo": "Universal Audio Volt 1",
+            "precio": 129.0,
+            "link": "https://www.amazon.com/-/es/Universal-Audio-Volt-Interfaz-audio/dp/B09J1V6R6N?th=1"
+          },
+          {
+            "modelo": "Universal Audio Volt 2",
+            "precio": 180.7,
+            "link": "https://www.amazon.com/-/es/Universal-Audio-Volt-Interfaz-audio/dp/B09J1W1TYN?th=1"
+          },
+          {
+            "modelo": "Universal Audio Volt 276",
+            "precio": 269.0,
+            "link": "https://www.amazon.com/-/es/Universal-Audio-Volt-276-Interfaz/dp/B09J1TL1B8?th=1"
+          },
+          {
+            "modelo": "Universal Audio Volt 476",
+            "precio": 319.0,
+            "link": "https://www.amazon.com/-/es/Universal-Audio-Volt-476-Interfaz/dp/B09J1T8RPH?th=1"
+          },
+          {
+            "modelo": "Universal Audio Volt 476P",
+            "precio": 419.0,
+            "link": "https://www.amazon.com/-/es/grabaci%C3%B3n-podcasting-transmisi%C3%B3n-incluidos-complementos/dp/B0BB1P7R6S?th=1"
+          },
+          {
+            "modelo": "Zoom LiveTrak L-12",
+            "precio": 649.99,
+            "link": "https://www.ebay.com/itm/382273752874?epid=8011037166&amdata=enc%3AAQAIAAAA0M7iburiQMQ3znxN7RO%2F84oPBqAEmpls5isGDgdFm6hIBPRaiTHr9eAs07eiaT8NUNK9Zp0U0z3rwEYEnFPEQIpkSFTvPhoi8ta1r6Vl4IFQ2gGNT7hsfodV6ZDlabRcP9ecdocBu%2BOVC4mwm8X8loRhxjVM%2Fz8VCAkb9ossh1uIX5QnWPY69ca3LmlwVpLPNfHrqGp0z3lxEZyH6n9wwwbj28jFlbl0MAFZQEj62deBuq%2FHxtK7HltKcHSlydKv5bBBbU2egoPP4kGqfCeqGhU%3D%7Ctkp%3ABFBMlI_J-I9j"
+          },
+          {
+            "modelo": "Zoom U-24",
+            "precio": 159.99,
+            "link": "https://www.amazon.com/-/es/Interfaz-pr%C3%A1ctica-U-24-interfaz-combinadas/dp/B01E5GGU7Q"
+          },
+          {
+            "modelo": "Zoom UAC-2",
+            "precio": 168.0,
+            "link": "https://www.amazon.com/-/es/Interfaz-UAC-2-micr%C3%B3fono-auriculares-alimentado/dp/B00ZY33B40?th=1"
+          }
+        ]
+      },
+      {
+        "midi": [
+          {
+            "modelo": "Ableton Push 2",
+            "precio": 817.09,
+            "link": "https://articulo.mercadolibre.com.co/MCO-1348373593-ableton-push-2-_JM#position=5&search_layout=stack&type=item&tracking_id=c9d22ea1-55b0-4973-99e2-bdd01d33c23c"
+          },
+          {
+            "modelo": "Akai APC40 MKII",
+            "precio": 714.92,
+            "link": "https://www.mercadolibre.com.co/akai-professional-apc40-mkii-controlador-para-abeton/p/MCO21299876?pdp_filters=category:MCO166528#searchVariation=MCO21299876&position=1&search_layout=stack&type=product&tracking_id=bbcad098-d9d5-4ead-a849-974811d7a1e2"
+          },
+          {
+            "modelo": "Akai MPC One+",
+            "precio": 699.0,
+            "link": "https://www.amazon.com/-/es/Akai-Professional-MPC-One-controlador/dp/B0C3RN1RTS?th=1"
+          },
+          {
+            "modelo": "Akai MPC Studio",
+            "precio": 383.09,
+            "link": "https://articulo.mercadolibre.com.co/MCO-532264631-controlador-akai-mpc-studio-para-produccion-musical-_JM#position=5&search_layout=stack&type=item&tracking_id=0f987dfa-9b22-459c-ba98-43ab906324ce"
+          },
+          {
+            "modelo": "Akai MPC X",
+            "precio": 2551.05,
+            "link": "https://www.amazon.com.mx/Akai-Professional-MPC-visualizaci%C3%B3n-multit%C3%A1ctil/dp/B071RFD1G8"
+          },
+          {
+            "modelo": "Akai MPK Mini MK3",
+            "precio": 84.44,
+            "link": "https://www.amazon.com/-/es/Professional-Controlador-almohadillas-retroiluminaci%C3%B3n-producci%C3%B3n/dp/B0886ZPWC8?th=1"
+          },
+          {
+            "modelo": "Akai MPK25",
+            "precio": 287.0,
+            "link": "https://www.amazon.com/-/es/Professional-MPK25-controlador-teclado-almohadillas/dp/B001SGWKR6"
+          },
+          {
+            "modelo": "Akai Pro LPK25",
+            "precio": 59.0,
+            "link": "https://www.amazon.com/-/es/AKAI-Profesional-LPK25-Controlador-sintetizador/dp/B0BF9PCGM8?th=1"
+          },
+          {
+            "modelo": "Alesis V25 MKII",
+            "precio": 109.0,
+            "link": "https://www.amazon.com/-/es/Controlador-V25-MKII-almohadillas-arpegiador/dp/B09GXHJW4W?th=1"
+          },
+          {
+            "modelo": "Alesis V49 MKII",
+            "precio": 149.0,
+            "link": "https://www.amazon.com/-/es/V49-MKII-Controlador-almohadillas-arpegiador/dp/B09GX9DQ8N?th=1"
+          },
+          {
+            "modelo": "Alesis VI49",
+            "precio": 320.75,
+            "link": "https://articulo.mercadolibre.com.co/MCO-1026752946-alesis-vi25-controlador-midi-usb-de-25-teclas-_JM#position=10&search_layout=stack&type=item&tracking_id=4a6a915e-ece0-4ee9-a988-ae64ee29e2c9"
+          },
+          {
+            "modelo": "Allen & Heath Xone:PX5",
+            "precio": 1799.0,
+            "link": "https://www.amazon.com/-/es/Allen-Heath-Xone-Mezclador-anal%C3%B3gico/dp/B01M7RTF6D"
+          },
+          {
+            "modelo": "Arturia KeyLab Essential 49",
+            "precio": 370.09,
+            "link": "https://articulo.mercadolibre.com.co/MCO-607927459-arturia-keylab-essential-49-controlador-midi-_JM#position=4&search_layout=stack&type=item&tracking_id=def793c8-963d-4128-baa5-54cc2bab3ace"
+          },
+          {
+            "modelo": "Arturia MicroFreak",
+            "precio": 349.0,
+            "link": "https://www.amazon.com/-/es/Arturia-sintetizador-MicroFreak-Sintetizador-osciladores/dp/B07NC254QQ?th=1"
+          },
+          {
+            "modelo": "Arturia Minilab 3",
+            "precio": 109.0,
+            "link": "https://www.amazon.com/-/es/Arturia-MiniLab-controlador-teclado-h%C3%ADbrido/dp/B0BGMNKCNT?th=1"
+          },
+          {
+            "modelo": "Behringer X-Touch Compact",
+            "precio": 409.0,
+            "link": "https://www.amazon.com/-/es/XTOUCHCOMPACT-Behringer-X-Touch-Compact/dp/B01DWUG34G"
+          },
+          {
+            "modelo": "Clavia Nord Electro 6",
+            "precio": 4058.72,
+            "link": "https://www.pianosbogota.com/product/sintetizador-nord-electro-6-hp/"
+          },
+          {
+            "modelo": "Denon DJ SC6000 Prime",
+            "precio": 2029.31,
+            "link": "https://articulo.mercadolibre.com.co/MCO-2004121910-reproductor-multimedia-profesional-dj-sc6000prime-denon-dj-_JM?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic"
+          },
+          {
+            "modelo": "Elektron Analog Rytm MKII",
+            "precio": 1899.0,
+            "link": "https://www.amazon.com/-/es/Elektron-Analog-8-Voice-Computer-Sampler/dp/B08KW9J9J4?th=1"
+          },
+          {
+            "modelo": "Elektron Digitone",
+            "precio": 799.0,
+            "link": "https://www.amazon.com/-/es/Elektron-Sintetizador-digital-polif%C3%B3nico-Digitone/dp/B079K9QTJ7?th=1"
+          },
+          {
+            "modelo": "Hercules DJControl Inpulse 500",
+            "precio": 269.99,
+            "link": "https://www.amazon.com/-/es/Hercules-Control-Inpulse-500-Controlador/dp/B0845W2M5F?th=1"
+          },
+          {
+            "modelo": "Kawai MP7",
+            "precio": 2299.0,
+            "link": "https://www.amazon.com/Kawai-MP7-Professional-Stage-Piano/dp/B00J5J6N5I"
+          },
+          {
+            "modelo": "Kawai VPC1",
+            "precio": 2499.0,
+            "link": "https://kawaius.com/product/vpc1/"
+          },
+          {
+            "modelo": "Korg Kaossilator Pro+",
+            "precio": 199.99,
+            "link": "https://www.amazon.com/-/es/Kaossilator-Sintetizador-din%C3%A1mico-frases-grabadora/dp/B00B5S93OK"
+          },
+          {
+            "modelo": "Korg Kronos 2",
+            "precio": 3942.74,
+            "link": "https://articulo.mercadolibre.com.co/MCO-577826394-sintetizador-korg-kronos2-88-ls-_JM#position=6&search_layout=stack&type=item&tracking_id=c235a463-3a4a-4694-a43c-340c529b88bc"
+          },
+          {
+            "modelo": "Korg Kross 2-61 (con opción de 49 teclas)",
+            "precio": 779.0,
+            "link": "https://www.pianosbogota.com/product/sintetizador-korg-kross-2-61/#"
+          },
+          {
+            "modelo": "Korg microKEY Air 25",
+            "precio": 119.0,
+            "link": "https://www.amazon.com/-/es/Bluetooth-driver-MIDI-Korg-MKEYAIR25/dp/B018ATKGAG?th=1"
+          },
+          {
+            "modelo": "Korg microKEY Air 37",
+            "precio": 132.21,
+            "link": "https://www.amazon.es/Korg-microKEY-Air-37-Controlador-midi/dp/B018ATKI7C?th=1"
+          },
+          {
+            "modelo": "Korg Minilogue XD",
+            "precio": 1117.13,
+            "link": "https://articulo.mercadolibre.com.co/MCO-875865219-korg-minilogue-xd-modulo-de-sintetizador-analogico-de-4-_JM#position=2&search_layout=stack&type=item&tracking_id=13121b10-8f10-4403-8efb-895a0e1c0e6c"
+          },
+          {
+            "modelo": "Korg nanoKONTROL Studio",
+            "precio": 146.99,
+            "link": "https://www.amazon.com/Korg-nanoKONTROL-Studio-Bluetooth-Switches/dp/B01AT2ATYU?th=1"
+          },
+          {
+            "modelo": "Korg nanoKONTROL2",
+            "precio": 75.97,
+            "link": "https://www.amazon.com/Korg-Superficie-controles-extraplana-Negro/dp/B004M8UZS8?shipTo=CO&source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1X3CGDEQ8PULA&language=es_US&th=1"
+          },
+          {
+            "modelo": "Korg Prologue",
+            "precio": 817.09,
+            "link": "https://www.amazon.com/Korg-Prologue-49-key-8-voice-Synthesizer/dp/B0793L6DWX"
+          },
+          {
+            "modelo": "Kurzweil Artis Elite",
+            "precio": 51.06,
+            "link": "https://www.amazon.com/-/es/Rockville-88-Acolchado-Teclado-Inserto/dp/B0857D72FP?th=1"
+          },
+          {
+            "modelo": "M-Audio Oxygen Pro 32",
+            "precio": 119.0,
+            "link": "https://www.amazon.com/-/es/M-Audio-Oxygen-Pro-Mini-almohadillas/dp/B08MVB76SY?th=1"
+          },
+          {
+            "modelo": "M-Audio Oxygen Pro 49",
+            "precio": 259.0,
+            "link": "https://www.amazon.com/-/es/M-Audio-Oxygen-Pro-49-almohadillas/dp/B08MVD4YVJ?th=1"
+          },
+          {
+            "modelo": "M-Audio Oxygen Pro Mini",
+            "precio": 119.0,
+            "link": "https://www.amazon.com/-/es/M-Audio-Oxygen-Pro-Mini-almohadillas/dp/B08MVB76SY?th=1"
+          },
+          {
+            "modelo": "Moog Matriarch",
+            "precio": 1890.0,
+            "link": "https://www.amazon.com/Moog-Matriarch-Patchable-Paraphonic-Synthesizer/dp/B07RY1VVFP?th=1"
+          },
+          {
+            "modelo": "Moog Sub 37 Tribute Edition",
+            "precio": 1915.32,
+            "link": "https://articulo.mercadolibre.com.co/MCO-456893461-subsequent-37-sintetizador-analogo-moog-audiotecna-_JM"
+          },
+          {
+            "modelo": "MPC Live II",
+            "precio": 1299.0,
+            "link": "https://www.amazon.com/-/es/Akai-Professional-%D0%90kai-MPC-LIVE/dp/B086YW3PKM?th=1"
+          },
+          {
+            "modelo": "Native Instruments Komplete Kontrol A49",
+            "precio": 219.0,
+            "link": "https://www.amazon.com/-/es/Native-Instruments-Komplete-Kontrol-controlador/dp/B07GY8D3KW?th=1"
+          },
+          {
+            "modelo": "Native Instruments Komplete Kontrol M32",
+            "precio": 139.0,
+            "link": "https://www.amazon.com/Instruments-Teclado-controlador-Komplete-pulgadas/dp/B07N2VQ1NH?shipTo=CO&source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER&language=es_US"
+          },
+          {
+            "modelo": "Native Instruments Maschine Mikro MK3",
+            "precio": 336.33,
+            "link": "https://www.pianosbogota.com/product/controlador-midi-native-instruments-maschine-mikro-mk3/"
+          },
+          {
+            "modelo": "Native Instruments Maschine MK3",
+            "precio": 873.88,
+            "link": "https://www.pianosbogota.com/product/controlador-midi-native-instruments-maschine-mk3/"
+          },
+          {
+            "modelo": "Native Instruments Traktor Kontrol S2",
+            "precio": 339.0,
+            "link": "https://www.amazon.com/-/es/Native-Instruments-Controlador-Traktor-Kontrol/dp/B07GY8C9JV?th=1"
+          },
+          {
+            "modelo": "Nektar Impact LX+",
+            "precio": 179.99,
+            "link": "https://www.amazon.com/-/es/Controlador-teclado-Nektar-IMPACT-LX49/dp/B01HZWL64O?th=1"
+          },
+          {
+            "modelo": "Nektar Panorama P1",
+            "precio": 599.09,
+            "link": "https://articulo.mercadolibre.com.co/MCO-847304663-nektar-panorama-p1-superficie-de-control-_JM"
+          },
+          {
+            "modelo": "Nektar Panorama P4",
+            "precio": 299.95,
+            "link": "https://www.ebay.com/itm/175845223235"
+          },
+          {
+            "modelo": "Nektar SE49",
+            "precio": 89.99,
+            "link": "https://www.amazon.com/-/es/Teclado-teclas-Nektar-SE49-controlador/dp/B01MF9EJPG?th=1"
+          },
+          {
+            "modelo": "Nektar Impact LX Mini",
+            "precio": 119.99,
+            "link": "https://www.amazon.com/-/es/Nektar-Impact-LX-Mini-controlador/dp/B09KLHYW1T?th=1"
+          },
+          {
+            "modelo": "Nord Lead A1",
+            "precio": 1499.0,
+            "link": "https://www.amazon.com/-/es/Nord-Sintetizador-modelado-anal%C3%B3gico-teclas/dp/B00K0M5C5Q?th=1"
+          },
+          {
+            "modelo": "Novation Impulse 49",
+            "precio": 200.0,
+            "link": "https://www.ebay.com/itm/332518813286"
+          },
+          {
+            "modelo": "Novation Launchkey 37 MK3",
+            "precio": 256.89,
+            "link": "https://www.mercadolibre.com.co/controlador-midi-novation-launchkey-37-mk3-37-teclas/p/MCO22356341?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&from=gshop"
+          },
+          {
+            "modelo": "Novation Launchkey Mini MK3",
+            "precio": 168.81,
+            "link": "https://www.mercadolibre.com.co/novation-launchkey-mini-mk3-teclado-midi-/p/MCO20765414?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&from=gshop"
+          },
+          {
+            "modelo": "Novation Launchpad Mini MK3",
+            "precio": 151.95,
+            "link": "https://www.pianosbogota.com/product/controlador-midi-novation-launchpad-mini-mk3/"
+          },
+          {
+            "modelo": "Novation Launchpad Pro MK3",
+            "precio": 537.94,
+            "link": "https://www.mercadolibre.com.co/novation-launchpad-pro-controlador-ableton-dj/p/MCO22431410#searchVariation=MCO22431410&position=2&search_layout=stack&type=product&tracking_id=6dd283db-280d-4805-87d9-41c5e3c97ef6"
+          },
+          {
+            "modelo": "Novation Summit",
+            "precio": 1900.0,
+            "link": "https://www.ebay.com/itm/394644380899?epid=17035176477&amdata=enc%3AAQAIAAAA0MdfGgDNfKBNvphPnQySpldTk%2Bve6hyqyYmt1FrT8dLmHJEvSn4fuMIyMAQN0iWYUfyZ1PqXtkTYoIDR92x18YZOpjGX4DlAfhDGmfwFPke5UfMaL%2FD8hT5Tk1LaNvvODEsyizWmBGizBfY6F3STAX5CHGqybvs5hhg0QbaMpxyvkj2zDxu2If1PKyeOGlFUOSRBbWpohujj187LQm9bqIWwnvHnHn1BMQiKj74yZ9%2FVa5oc5m3GhbW348jgjtqdw%2BzpY2mAp1aTDMGjxitg4tE%3D%7Ctkp%3ABFBMkuHCkYtj"
+          },
+          {
+            "modelo": "Numark Mixtrack Pro FX",
+            "precio": 229.0,
+            "link": "https://www.amazon.com/-/es/Mixtrack-FX-Controlador-cubiertas-incorporada/dp/B087S28ZRM?th=1"
+          },
+          {
+            "modelo": "Pioneer DDJ-200",
+            "precio": 235.93,
+            "link": "https://www.mercadolibre.com.co/controlador-dj-pioneer-ddj-200-negro-de-2-canales/p/MCO15540921?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&from=gshop"
+          },
+          {
+            "modelo": "Rane Twelve MKII",
+            "precio": 799.0,
+            "link": "https://www.amazon.com/-/es/RANE-Twelve-MKII-Tocadiscos-motorizado/dp/B08F6XK929"
+          },
+          {
+            "modelo": "Roger Linn Design Linnstrument",
+            "precio": 1499.0,
+            "link": "https://themidium.com/products/roger-linn-design-linnstrument"
+          },
+          {
+            "modelo": "Roland A-49",
+            "precio": 299.99,
+            "link": "https://www.amazon.com/-/es/Roland-49-Controlador-teclado-ligero/dp/B0098U9QTY?th=1"
+          },
+          {
+            "modelo": "Roland JUNO-DS61 (con opción de 49 teclas)",
+            "precio": 1137.78,
+            "link": "https://www.pianosbogota.com/product/sintetizador-roland-juno-ds61/"
+          },
+          {
+            "modelo": "Roland RD-2000",
+            "precio": 2499.99,
+            "link": "https://www.amazon.com/-/es/Roland-RD-2000-escenario-digital-teclas/dp/B01MZDSWZE?th=1"
+          },
+          {
+            "modelo": "Roland SPD-SX",
+            "precio": 1065.21,
+            "link": "https://www.pianosbogota.com/product/modulo-bateria-electronica-roland-spd-sx-230/"
+          },
+          {
+            "modelo": "Roland System-8",
+            "precio": 1697.49,
+            "link": "https://www.amazon.com/-/es/Roland-SYSTEM-8-PLUG-OUT-Sintetizador-teclas/dp/B01LW9KEE8"
+          },
+          {
+            "modelo": "Sequential Prophet-6",
+            "precio": 6049.52,
+            "link": "https://articulo.mercadolibre.com.co/MCO-499370825-sequential-prophet-6-sintetizador-6-voces-_JM#position=1&search_layout=stack&type=item&tracking_id=5f7ce3aa-4cdf-4ad8-8a90-295d4b60ec5b"
+          },
+          {
+            "modelo": "Softube Console 1 Fader",
+            "precio": 699.0,
+            "link": "https://www.amazon.com/-/es/Console-1-Fader-Softube-Consola/dp/B07Z9CSTKH"
+          },
+          {
+            "modelo": "Softube Console 1",
+            "precio": 349.0,
+            "link": "https://www.amazon.com/-/es/SFT-CONSOLE1-MKII-Softube-Consola-1/dp/B06XJMKX2R"
+          },
+          {
+            "modelo": "SSL SiX",
+            "precio": 1499.99,
+            "link": "https://www.ebay.com/itm/333648813728?epid=12031025509&amdata=enc%3AAQAIAAAA0O%2BphB4%2FWwiz5IaKhHGZtvoo5y8eVSOh6LA%2BM6ubPDcqAs%2FZfLBqVt4Op8dj0TOCzqMjU2H7vcCpmAltUb0H2a8KieRwhL7FT1PjiJA%2BM0C3FgMHKa%2FkkSfsQAQD7JPjV9T%2ByDDQ6kPQjqKHXGnFTLEoVbu5863b52YoKdXFxricuKGLcrpRP6VCFmhWrrBuBWdxoOFzWVCRY%2BnjEyJ9rhPkHeuGY2PfKgFswP%2Fu20BDQp13tPVIXOucjNHkNHV5gUOj3%2BnVVaYFM7n8UbGpN7M%3D%7Ctkp%3ABFBMrLDcyZZj"
+          },
+          {
+            "modelo": "Teenage Engineering OP-1 Field",
+            "precio": 1999.0,
+            "link": "https://teenage.engineering/store/op-1-field/"
+          },
+          {
+            "modelo": "Teenage Engineering OP-1",
+            "precio": 999.0,
+            "link": "https://www.ebay.com/itm/285554028127?epid=217363019&amdata=enc%3AAQAIAAAA0GqXSlaGdnBXiXi4zzI538yfaCAM4hcmC3ecLNcOQeNlYmZTWvmbwl%2BasmDuJdcQMapKzP3TWLoGdgqo8lF20JfUUQgJpyrbWOL%2FsjO4zVrkYAvog0eu7v5Gres2nys7aq6Av3FzDOk9e9Sk0Pi8UhyeEpBDaBdE%2BDY07SctSrv01YJxZiFcOjyJm%2BymanRtUmhTUMWu1a%2F9X%2BErbxnseX0zY1JnWSog2pVvSsTdQnj9Jn7q9FNmx3EgBejQ1umLRkwpg3MsQKncaf93tmG2Eg0%3D%7Ctkp%3ABFBM9qfXmf9i"
+          },
+          {
+            "modelo": "Teenage Engineering OP-Z",
+            "precio": 499.0,
+            "link": "https://www.amazon.com/engineering-OP-Z-Bluetooth-Synthesizer-Sequencer/dp/B07HMF1G57"
+          },
+          {
+            "modelo": "Waldorf Blofeld",
+            "precio": 607.6,
+            "link": "https://www.thomann.de/es/waldorf_blofeld.htm"
+          },
+          {
+            "modelo": "Yamaha MODX6 (con opción de 49 teclas)",
+            "precio": 1499.99,
+            "link": "https://www.pianosbogota.com/product/sintetizador-yamaha-modx6-plus/"
+          },
+          {
+            "modelo": "Yamaha Montage 6",
+            "precio": 4698.92,
+            "link": "https://www.pianosbogota.com/product/sintetizador-yamaha-montage-6/"
+          },
+          {
+            "modelo": "Yamaha PSS-A50",
+            "precio": 93.06,
+            "link": "https://www.amazon.es/Yamaha-PSS-A50-Teclado-sensible-teclas/dp/B07XCL6PWG"
+          },
+          {
+            "modelo": "Yamaha Reface DX",
+            "precio": 449.99,
+            "link": "https://www.amazon.com/-/es/Yamaha-REFACE-DX-Sintetizador-port%C3%A1til/dp/B010UXJZWA?th=1"
+          }
+        ]
+      },
+      {
+        "espumaAcustica": [
+          {
+            "panelAcustico": [
+              {
+                "modelo": "AcousPanel Espuma Acústica",
+                "precio": 42.92,
+                "link": "https://acouspanel.com/panel-espuma-alveolar-12-uds/"
+              },
+              {
+                "modelo": "A2S Protection Paneles Acústicos de 12x12x0.4 pulgadas",
+                "precio": 31.49,
+                "link": "https://www.amazon.com/-/es/calcoman%C3%ADas-adhesivas-absorbentes-grabaci%C3%B3n-aislamiento/dp/B08RXJ8YZ5?th=1"
+              },
+              {
+                "modelo": "Acoustical Solutions Wood Sound Panels",
+                "precio": 25.99,
+                "link": "https://acousticalsolutions.com/product/wood-fiber-acoustic-panel/"
+              },
+              {
+                "modelo": "ATS Acoustic Foam Panels",
+                "precio": 68.95,
+                "link": "https://www.amazon.com/ATS-Acoustic-24x48x2-Inches-Beveled/dp/B002WLB0RW?th=1"
+              },
+              {
+                "modelo": "ATS Fabric Acoustic Panels",
+                "precio": 81.95,
+                "link": "https://www.amazon.com/ATS-Acoustic-Panel-24x48x2-Square/dp/B01F7SO7VC?th=1"
+              },
+              {
+                "modelo": "Auralex Acoustics Studiofoam Wedges",
+                "precio": 58.99,
+                "link": "https://www.amazon.com/Auralax-Studiofoam-Panels-24-Inch-Charcoal/dp/B01C80OCP8?th=1"
+              },
+              {
+                "modelo": "GETOREX Espuma Acústica Pack 12 Paneles de 30x30x2.5cm",
+                "precio": 21.54,
+                "link": "https://es.aliexpress.com/item/1005005175389319.html"
+              },
+              {
+                "modelo": "GIK Acoustics AlphaSorb Panels",
+                "precio": 54.88,
+                "link": "https://www.gikacoustics.com/product/2a-alpha-series-acoustic-foam-panel-diffusor-absorber-2/"
+              },
+              {
+                "modelo": "Focusound - Paquete de 50 paneles de espuma acústica de 1 x 12 x 12 pulgadas",
+                "precio": 39.99,
+                "link": "https://www.amazon.com/-/es/Focusound-ac%C3%BAstica-insonorizaci%C3%B3n-absorci%C3%B3n-adhesiva/dp/B0832DPMYR/ref=sr_1_10?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37GXQGNHWP69W&keywords=Paneles%2Bacusticos&qid=1704409627&sprefix=paneles%2Bacusticos%2B%2Caps%2C160&sr=8-10&th=1"
+              },
+              {
+                "modelo": "Neewer Paquete de 24 paneles de espuma acústica de 12 x 12 x 2 pulgadas",
+                "precio": 37.99,
+                "link": "https://www.amazon.com/-/es/Paquete-ac%C3%BAstica-pulgadas-densidad-resistentes/dp/B08QN6B2FD?th=1"
+              },
+              {
+                "modelo": "UMIACOUSTICS 4 paneles acústicos, paneles de fibra de vidrio",
+                "precio": 108.99,
+                "link": "https://www.amazon.com/-/es/UMIACOUSTICS-ac%C3%BAsticos-autoadhesivos-absorci%C3%B3n-estudios/dp/B0C8HBWM2H/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37GXQGNHWP69W&keywords=Paneles%2Bacusticos&qid=1704409627&sprefix=paneles%2Bacusticos%2B%2Caps%2C160&sr=8-5&th=1"
+              },
+              {
+                "modelo": "Saiqiang 12 Paneles de espuma a prueba de sonido de 1 x 12 x 12 pulgadas",
+                "precio": 14.99,
+                "link": null
+              },
+              {
+                "modelo": "Saiqiang 48 Paneles de espuma a prueba de sonido de 1 x 12 x 12 pulgadas",
+                "precio": 35.99,
+                "link": "https://www.amazon.com/-/es/Saiqiang-pulgadas-insonorizada-cancelaci%C3%B3n-absorci%C3%B3n/dp/B0CF9758ZC/ref=sr_1_10?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37GXQGNHWP69W&keywords=Paneles%2Bacusticos&qid=1704412426&refinements=p_36%3A-1500&rnid=386685011&sprefix=paneles%2Bacusticos%2B%2Caps%2C160&sr=8-10&th=1"
+              },
+              {
+                "modelo": "BlingCnsy Paquete de 48 paneles de espuma a prueba de sonido de 2 x 12 x 12 pulgadas",
+                "precio": 79.99,
+                "link": "https://www.amazon.com/dp/B0CGPNF5RD/ref=twister_B0CRBBJ2H1?_encoding=UTF8&th=1"
+              }
+            ]
+          },
+          {
+            "trampaBajo": [
+              {
+                "modelo": "Acoustical Solutions Wood Bass Traps",
+                "precio": 728.5,
+                "link": "https://es.aliexpress.com/i/4000532551270.html?gatewayAdapt=glo2esp"
+              },
+              {
+                "modelo": "TroyStudio Trampas periódicas para graves – 4",
+                "precio": 18.99,
+                "link": "https://www.amazon.com/-/es/TroyStudio-Trampas-peri%C3%B3dicas-para-graves/dp/B0B9MVJN6L/ref=sr_1_8?crid=YELBH1PP6DZS&keywords=bass%2Btraps&qid=1704412811&sprefix=bass%2Bt%2Caps%2C147&sr=8-8&th=1"
+              },
+              {
+                "modelo": "Foroomaco Paquete de 2 trampas para bajos",
+                "precio": 59.98,
+                "link": "https://www.amazon.com/-/es/Foroomaco-insonorizada-aislamiento-habitaci%C3%B3n-absorbente/dp/B0BX63NJMM/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704412885&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-5&th=1"
+              },
+              {
+                "modelo": "ATS Fabric Bass Traps",
+                "precio": 172.95,
+                "link": "https://www.amazon.com/ATS-Acoustic-24x48x13-Inches-BlackMicrosuede/dp/B005TKXQPM?th=1"
+              },
+              {
+                "modelo": "Auralex Acoustics LENRD Bass Traps",
+                "precio": 191.99,
+                "link": "https://www.amazon.com/Auralex-LENRD-Studiofoam-Traps-4-Pack/dp/B00MHWB7IS?th=1"
+              },
+              {
+                "modelo": "Paquete de 8 trampas de espuma acústica para bajos, 8 x 8 x 12 pulgadas",
+                "precio": 27.99,
+                "link": "https://www.amazon.com/-/es/ac%C3%BAstica-pulgadas-ac%C3%BAsticos-grabaci%C3%B3n-tratamientos/dp/B08HMNWTH9/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413256&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-7&th=1"
+              },
+              {
+                "modelo": "GIK Acoustics AlphaSorb Bass Traps",
+                "precio": 218.4,
+                "link": "https://www.gikacoustics.com/product/corner-ct-alpha-bass-trap-absorber-diffusor/"
+              },
+              {
+                "modelo": "Demi CT Alpha Series Corner Bass Trap",
+                "precio": 163.8,
+                "link": "https://www.gikacoustics.com/product/corner-demi-ct-alpha-bass-trap/"
+              },
+              {
+                "modelo": "Focusound Paquete de 4 trampas de espuma acústica curvadas para bajos",
+                "precio": 45.99,
+                "link": "https://www.amazon.com/Focusound-ac%C3%BAstica-curvadas-absorbentes-frecuencia/dp/B0CL5WWNT6/ref=sxin_14_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8%3Aamzn1.sym.d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8&crid=2CQPFP9GXNCSW&cv_ct_cx=Acoustical%2BMembrane%2BBass%2BTraps&keywords=Acoustical%2BMembrane%2BBass%2BTraps&pd_rd_i=B0CL5WWNT6&pd_rd_r=2d82c1da-0704-498f-9e0f-1d4232fd8943&pd_rd_w=rBHjT&pd_rd_wg=DwWTe&pf_rd_p=d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8&pf_rd_r=5W7QZ28P3WVJPW9P3WV9&qid=1704413256&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=1-4-364cf978-ce2a-480a-9bb0-bdb96faa0f61-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1"
+              },
+              {
+                "modelo": "Paquete de 4 trampas para bajos de esquina difusa de absorción de sonido",
+                "precio": 194.0
+              },
+              {
+                "modelo": "Trampa para bajos de esquina difusa de absorción de sonido",
+                "precio": 109.0,
+                "link": "https://www.amazon.com/-/es/unidades-absorci%C3%B3n-%C2%ABUniverso%C2%BB-Absorci%C3%B3n-Reflexi%C3%B3n/dp/B0CK5YJ9WZ/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413594&refinements=p_36%3A10500-&rnid=386685011&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-3&th=1"
+              },
+              {
+                "modelo": "Foroomaco Paquete de 4 trampas para bajos para esquina de techo",
+                "precio": 49.98,
+                "link": "https://www.amazon.com/-/es/Foroomaco-insonorizada-aislamiento-habitaci%C3%B3n-absorbente/dp/B09YDP3S5Q/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704412885&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-5&th=1"
+              },
+              {
+                "modelo": "ERINGOGO Paquete de 18 trampas de espuma acústica para bajos",
+                "precio": 74.19,
+                "link": "https://www.amazon.com/ERINGOGO-ac%C3%BAstica-grabaci%C3%B3n-acolchados-insonorizados/dp/B0B76YRHR5/ref=sr_1_10_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413657&refinements=p_36%3A6200-14000&rnid=386685011&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-10-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1"
+              },
+              {
+                "modelo": "JBER Paquete de 4 trampas de espuma acústica para bajos, 12 x 7 x 7 pulgadas",
+                "precio": 16.99,
+                "link": "https://www.amazon.com/-/es/ac%C3%BAstica-pulgadas-acolchados-insonorizados-estudios/dp/B07QNNC984/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413743&refinements=p_36%3A-2100&rnid=386685011&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-2&th=1"
+              }
+            ]
+          },
+          {
+            "difusor": [
+              {
+                "modelo": "AlphaDiffuser™ Sound Diffuser",
+                "precio": 79.0,
+                "link": "https://acousticalsolutions.com/product/alphadiffuser-sound-diffuser/"
+              },
+              {
+                "modelo": "ATS Acoustic Diffuser - 23 x 48 x 6.5",
+                "precio": 330.95,
+                "link": "https://www.atsacoustics.com/acoustic-qrd-diffuser.html"
+              },
+              {
+                "modelo": "ATS Acoustic Diffuser - 23 x 23 x 6.5",
+                "precio": 174.95,
+                "link": "https://www.atsacoustics.com/square-acoustic-diffuser-qrd.html"
+              },
+              {
+                "modelo": "TroyStudio Paneles difusores de sonido",
+                "precio": 64.99,
+                "link": "https://www.amazon.com/-/es/TroyStudio-difusores-ac%C3%BAstico-tratamiento-decorativos/dp/B08G53DNQL/ref=sr_1_2?crid=2G2VCM5H531WN&keywords=difusores%2Bacusticos&qid=1704414120&sprefix=difusores%2Bac%2Caps%2C158&sr=8-2&th=1"
+              },
+              {
+                "modelo": "TRUE NORTH Panel difusor acústico de madera",
+                "precio": 119.99,
+                "link": "https://www.amazon.com/ac%C3%BAstico-pulgadas-difusores-ac%C3%BAsticos-difusi%C3%B3n/dp/B0BYJP6RN3/ref=sr_1_1_sspa?crid=2G2VCM5H531WN&keywords=difusores%2Bacusticos&qid=1704414171&sprefix=difusores%2Bac%2Caps%2C158&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+              },
+              {
+                "modelo": "6A Alpha Pro Series Bass Trap Diffusor/Absorber – 6″",
+                "precio": 116.48,
+                "link": "https://www.gikacoustics.com/product/6a-alpha-panel-diffusor-absorber/"
+              },
+              {
+                "modelo": "Olanglab Paneles de pared de madera acústica",
+                "precio": 89.99,
+                "link": "https://www.amazon.com/-/es/amortiguaci%C3%B3n-poli%C3%A9ster-contrachapada-autoadhesivo-insonorizada/dp/B0C4H1S45B/ref=sr_1_7?crid=2G2VCM5H531WN&keywords=difusores%2Bacusticos&qid=1704414171&sprefix=difusores%2Bac%2Caps%2C158&sr=8-7&th=1"
+              },
+              {
+                "modelo": "AIKEAIKESI Difusor acústico",
+                "precio": 34.88,
+                "link": "https://www.amazon.com/-/es/AIKEAIKESI-Difusor-ac%C3%BAstico-distintivo-decorativos/dp/B09BCCT1R3/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2COJEOCN4ERMV&keywords=difusor+acustico+en+cubos&qid=1704414392&sprefix=difusor+acustico+en+cubos+%2Caps%2C166&sr=8-5"
+              },
+              {
+                "modelo": "BUBOS Paneles acústicos, difusores acústicos",
+                "precio": 52.99,
+                "link": "https://www.amazon.com/-/es/ac%C3%BAsticos-difusores-bricolaje-frecuencia-tratamiento/dp/B0B42YQ5QK/ref=sr_1_9?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2COJEOCN4ERMV&keywords=difusor%2Bacustico%2Ben%2Bcubos&qid=1704414432&sprefix=difusor%2Bacustico%2Ben%2Bcubos%2B%2Caps%2C166&sr=8-9&th=1"
+              },
+              {
+                "modelo": "Difusor acústico de madera con sonido «Skyline»",
+                "precio": 109.0,
+                "link": "https://www.amazon.com/-/es/Difusor-ac%C3%BAstico-madera-sonido-%C2%ABSkyline%C2%BB/dp/B0BS1JBP7L/ref=sr_1_17?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2COJEOCN4ERMV&keywords=difusor%2Bacustico%2Ben%2Bcubos&qid=1704414432&sprefix=difusor%2Bacustico%2Ben%2Bcubos%2B%2Caps%2C166&sr=8-17&th=1"
+              },
+              {
+                "modelo": "TroyStudio Paneles difusores de sonido acústico",
+                "precio": 51.99,
+                "link": "https://www.amazon.com/TroyStudio-difusores-ac%C3%BAstico-tratamiento-decorativos/dp/B0CH346B1R/ref=sr_1_12_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2COJEOCN4ERMV&keywords=difusor%2Bacustico%2Ben%2Bcubos&qid=1704414432&sprefix=difusor%2Bacustico%2Ben%2Bcubos%2B%2Caps%2C166&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "monitorEstudio": [
+          {
+            "modelo": "Yamaha HS5",
+            "precio": 157.99,
+            "link": "https://www.amazon.com/s?k=Yamaha+HS5&__mk_es_US=ÅMÅŽÕÑ&crid=BMAUIYIZALQQ&sprefix=yamaha+hs5+%2Caps%2C133&ref=nb_sb_noss_2"
+          },
+          {
+            "modelo": "KRK Rokit 5 G4",
+            "precio": 189.0,
+            "link": "https://www.amazon.com/s?k=KRK+Rokit+5+G4&__mk_es_US=ÅMÅŽÕÑ&crid=37E94B7VHGOXV&sprefix=krk+rokit+5+g4+%2Caps%2C130&ref=nb_sb_noss_2"
+          },
+          {
+            "modelo": "PreSonus Eris E3.5",
+            "precio": 149.99,
+            "link": "https://www.amazon.com/s?k=PreSonus+Eris+E3.5&__mk_es_US=ÅMÅŽÕÑ&crid=3J6WZHF957K43&sprefix=presonus+eris+e3.5+%2Caps%2C193&ref=nb_sb_noss_2"
+          },
+          {
+            "modelo": "M-Audio BX5 D3",
+            "precio": 321.9,
+            "link": "https://www.amazon.com/s?k=M-Audio+BX5+D3&__mk_es_US=ÅMÅŽÕÑ&crid=NLVRVXHSJ739&sprefix=m-audio+bx5+d3+%2Caps%2C133&ref=nb_sb_noss_2"
+          },
+          {
+            "modelo": "JBL Professional 305P MkII",
+            "precio": 92.25,
+            "link": "https://www.amazon.com/s?k=JBL+Professional+305P+MkII&__mk_es_US=ÅMÅŽÕÑ&crid=SCJT5J3FTK2J&sprefix=jbl+professional+305p+mkii+%2Caps%2C193&ref=nb_sb_noss_2"
+          },
+          {
+            "modelo": "Mackie CR3-X",
+            "precio": 89.95,
+            "link": "https://www.amazon.com/-/es/Mackie-Monitores-multimedia-CR3-X-pulgadas/dp/B091W4361H/ref=sr_1_4?__mk_es_US=ÅMÅŽÕÑ&crid=26FTBOFIFH2PO&keywords=Mackie%2BCR3-X&qid=1704406946&sprefix=mackie%2Bcr3-x%2B%2Caps%2C126&sr=8-4&th=1"
+          },
+          {
+            "modelo": "Alesis Elevate 3",
+            "precio": 21.37,
+            "link": "https://www.amazon.com/-/es/Elevate-altavoces-escritorio-alimentación-MKII/dp/B01MUY24JE"
+          },
+          {
+            "modelo": "Behringer MS16",
+            "precio": 109.0,
+            "link": "https://www.amazon.com/s?k=Behringer+MS16&__mk_es_US=ÅMÅŽÕÑ&crid=1HBN92YC82ZC9&sprefix=behringer+ms16+%2Caps%2C124&ref=nb_sb_noss_2"
+          },
+          {
+            "modelo": "Tannoy Reveal 402",
+            "precio": 185.0,
+            "link": "https://www.amazon.com/-/es/Par-altavoces-Tannoy-Reveal-402/dp/B07NH9YGCS/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3TZBNYM7IW15Y&keywords=Tannoy+Reveal+402&qid=1704407141&sprefix=tannoy+reveal+402+%2Caps%2C126&sr=8-1"
+          },
+          {
+            "modelo": "Adam Audio T5V",
+            "precio": 199.99,
+            "link": "https://www.amazon.com/Audio-Monitor-estudio-individual-negro/dp/B07BKVY3J1/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=KBYDWBM72CKU&keywords=Adam%2BAudio%2BT5V&qid=1704407172&sprefix=adam%2Baudio%2Bt5v%2B%2Caps%2C128&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "Focal Alpha 50 Evo",
+            "precio": 299.0,
+            "link": "https://www.amazon.com/-/es/Focal-Monitor-estudio-alimentado-pulgadas/dp/B098B1F41N/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=C2RD7MP3A72C&keywords=focal+alpha+50+evo&qid=1704407206&sprefix=focal+alpha+50+evo+%2Caps%2C131&sr=8-1"
+          },
+          {
+            "modelo": "Genelec 8010A",
+            "precio": 375.01,
+            "link": "https://vcr.com.co/producto/8010a-genelec-monitor-de-estudio-de-3/"
+          },
+          {
+            "modelo": "Neumann KH 120 A",
+            "precio": 149.99,
+            "link": "https://www.amazon.com/-/es/Neumann-KH-Monitor-estudio-activo/dp/B004OA84DM"
+          },
+          {
+            "modelo": "Dynaudio BM5 MkIII",
+            "precio": 499,
+            "link": "https://www.sweetwater.com/store/detail/BM5mkIII--dynaudio-bm5-mkiii"
+          },
+          {
+            "modelo": "IK Multimedia iLoud MTM",
+            "precio": 359.99,
+            "link": "https://www.amazon.com/-/es/Multimedia-individual-escritorio-rendimiento-computadora/dp/B07NC6KFL8/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=WP7G8O9UYBKO&keywords=IK%2BMultimedia%2BiLoud%2BMTM&qid=1704407523&sprefix=ik%2Bmultimedia%2Biloud%2Bmtm%2B%2Caps%2C133&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Avantone Pro CLA-10",
+            "precio": 999.0,
+            "link": "https://www.amazon.com/-/es/Avantone-Monitores-estudio-activo-CLA-10/dp/B00K3NEN20/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3OZDIAYWPAI03&keywords=Avantone+Pro+CLA-10&qid=1704407546&sprefix=avantone+pro+cla-10+%2Caps%2C125&sr=8-1"
+          },
+          {
+            "modelo": "Kali Audio IN-5",
+            "precio": 199,
+            "link": "https://www.kaliaudio.com"
+          },
+          {
+            "modelo": "Eve Audio SC204",
+            "precio": 255.55,
+            "link": "https://www.amazon.com/-/es/SC204-Monitor-estudio-pulgadas-individual/dp/B00GXO5OW6/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1SEDNNRAF0R8I&keywords=Eve+Audio+SC204&qid=1704407632&sprefix=eve+audio+sc204+%2Caps%2C127&sr=8-1"
+          },
+          {
+            "modelo": "Heritage Audio Gauss 7",
+            "precio": 698,
+            "link": "https://www.pitbullaudio.com/avantone-pro-gauss-7-active-7-inch-studio-monitor-speakers-w-heritage-audio-baby-ram-bu-hera-baby-ram-gauss7.html"
+          },
+          {
+            "modelo": "Aurisonics AS-1",
+            "precio": 86.92,
+            "link": "https://www.amazon.com/aurisonics-asg-1plus-Auriculares-Monitor-Digital/dp/B00NPA6NH6/ref=cm_cr_arp_d_product_top?ie=UTF8"
+          },
+          {
+            "modelo": "Amphion One15",
+            "precio": 1095.94,
+            "link": "https://retroknob.com/amphion-one15-unidad/"
+          },
+          {
+            "modelo": "ATC SCM11",
+            "precio": 2572.85,
+            "link": "https://www.studio-22.com/atc-scm11"
+          },
+          {
+            "modelo": "Bowers & Wilkins 606 S2 Anniversary Edition",
+            "precio": 703,
+            "link": "https://www.amazon.com/inalámbrico-transmisión-inalámbrica-compatible-incorporada/dp/B09HL9QCBW/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=2YQEFY6BHA1PX&keywords=Bowers%2B%26%2BWilkins%2B606%2BS2%2BAnniversary%2BEdition&qid=1704408002&sprefix=bowers%2B%26%2Bwilkins%2B606%2Bs2%2Banniversary%2Bedition%2B%2Caps%2C130&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "KEF LS50 Meta",
+            "precio": 1449.98,
+            "link": "https://www.amazon.com/-/es/LS50-negro-carbón-soporte-altavoz/dp/B0BJW4X1R2/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2OC1AVYNEXWT1&keywords=KEF%2BLS50%2BMeta&qid=1704408055&sprefix=kef%2Bls50%2Bmeta%2B%2Caps%2C122&sr=8-1&th=1"
+          },
+          {
+            "modelo": "ELAC Debut 2.0 B6.2",
+            "precio": 389.99,
+            "link": "https://www.amazon.com/-/es/Debut-altavoces-estantes-color-negro/dp/B07B4Q5587/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2UDB2CLT3XUH6&keywords=ELAC%2BDebut%2B2.0%2BB6.2&qid=1704408090&sprefix=elac%2Bdebut%2B2.0%2Bb6.2%2B%2Caps%2C131&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Wharfedale Diamond 225",
+            "precio": 998.0,
+            "link": "https://www.amazon.com/-/es/Diamond-12-3-Wharfedale-Diamante-blanco/dp/B092W9S5TK/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3GWV5ZHAZ0FJV&keywords=Wharfedale+Diamond+225&qid=1704408132&sprefix=wharfedale+diamond+225+%2Caps%2C122&sr=8-1"
+          },
+          {
+            "modelo": "Polk Audio Monitor XT15",
+            "precio": 299.0,
+            "link": "https://www.amazon.com/-/es/Polk-Audio-Monitor-XT35-dinámicamente/dp/B09BMWZ29F/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3ODJ4XETE69FI&keywords=Polk%2BAudio%2BMonitor%2BXT15&qid=1704408155&sprefix=polk%2Baudio%2Bmonitor%2Bxt15%2B%2Caps%2C127&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Klipsch RP-600M",
+            "precio": 645.99,
+            "link": "https://www.amazon.com/-/es/Klipsch-Reference-Premiere-RP-600M-II/dp/B09V5H1CLZ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3HOW52Y7GOE6S&keywords=Klipsch%2BRP-600M&qid=1704408181&sprefix=%2Caps%2C123&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Jamo S 803",
+            "precio": 279.0,
+            "link": "https://www.amazon.com/-/es/Jamo-803-altavoces-estantería-Negro/dp/B07J288BRK/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3DU71TQE1OPVD&keywords=Jamo%2BS%2B803&qid=1704408201&sprefix=jamo%2Bs%2B803%2B%2Caps%2C127&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Mission LX-2",
+            "precio": 449.99,
+            "link": "https://www.amazon.com/-/es/Mission-LX-2-MKII-Altavoces-estantería/dp/B09SLYSHW1/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2XOWSV6ZF45S9&keywords=Mission+LX-2&qid=1704408224&sprefix=mission+lx-2+%2Caps%2C127&sr=8-1"
+          },
+          {
+            "modelo": "Q Acoustics 3020i",
+            "precio": 449.0,
+            "link": "https://www.amazon.com/Acoustics-3020i-altavoces-estantería-controlador/dp/B07C4V26N1/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=1ZG6FIGAVUICN&keywords=Q%2BAcoustics%2B3020i&qid=1704408248&sprefix=q%2Bacoustics%2B3020i%2B%2Caps%2C125&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "Dali Oberon 1",
+            "precio": 600.0,
+            "link": "https://www.amazon.com/-/es/DALI-Oberon-1-Roble-Claro/dp/B07H2NJMPH/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2I2DPZ4902UY1&keywords=Dali+Oberon+1&qid=1704408265&sprefix=dali+oberon+1+%2Caps%2C138&sr=8-1"
+          },
+          {
+            "modelo": "Monitor Audio Bronze 2",
+            "precio": 1425.6,
+            "link": "https://articulo.mercadolibre.com.co/MCO-1343444565-altavoces-monitor-audio-bronze-200-6g-_JM#position=1&search_layout=stack&type=item&tracking_id=04146975-086f-4b74-b708-e856e9308b7a"
+          },
+          {
+            "modelo": "Kef LSX",
+            "precio": 179.98,
+            "link": "https://www.amazon.com/-/es/KEF-Lsx-Almohadilla-escritorio-plata/dp/B07VM9JGBX/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=33QHJJ30JHMGK&keywords=Kef%2BLSX&qid=1704408395&sprefix=kef%2Blsx%2B%2Caps%2C130&sr=8-2&th=1"
+          },
+          {
+            "modelo": "ELAC Debut 2.0 B5.2",
+            "precio": 190.78,
+            "link": "https://www.amazon.com/-/es/ELAC-Debut-2-0-B5-2-estantería/dp/B07B4Q5588/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2PH6BN0G78TYD&keywords=ELAC%2BDebut%2B2.0%2BB5.2&qid=1704408418&sprefix=elac%2Bdebut%2B2.0%2Bb5.2%2B%2Caps%2C130&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Wharfedale Diamond 12.1",
+            "precio": 1298.0,
+            "link": "https://www.amazon.com/-/es/Diamond-12-4-Wharfedale-Diamante-Nogal/dp/B092W9DBLX/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=9WLFFYN80ID9&keywords=Wharfedale+Diamond+12.1&qid=1704408439&sprefix=wharfedale+diamond+12.1+%2Caps%2C130&sr=8-1"
+          },
+          {
+            "modelo": "Polk Audio Monitor XT8",
+            "precio": 199.0,
+            "link": "https://www.amazon.com/-/es/Polk-Audio-Monitor-XT90-certificado/dp/B09BMVN8SZ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=JQM17H9JXGW2&keywords=Polk%2BAudio%2BMonitor%2BXT8&qid=1704408461&sprefix=polk%2Baudio%2Bmonitor%2Bxt8%2B%2Caps%2C126&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Klipsch R-41M",
+            "precio": 299.0,
+            "link": "https://www.amazon.com/-/es/Klipsch-R-41M",
+            "precio": 299.0,
+            "link": "https://www.amazon.com/-/es/Klipsch-R-41PM-Altavoz-estantería-color/dp/B07FK48JW8/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=4IL38YTS8UZX&keywords=Klipsch%2BR-41M&qid=1704408496&sprefix=klipsch%2Br-41m%2B%2Caps%2C192&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Jamo S 809",
+            "precio": null,
+            "link": null
+          },
+          {
+            "modelo": "Mission QX-2",
+            "precio": 524.43,
+            "link": "https://www.radiocolon.com/qx2.html?c_color=negro"
+          },
+          {
+            "modelo": "Q Acoustics 3010i",
+            "precio": 329.0,
+            "link": "https://www.amazon.com/Acoustics-3010i-altavoces-estantería-controlador/dp/B07C2XJM76/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=SUTII833ZG6J&keywords=Q%2BAcoustics%2B3010i&qid=1704408679&sprefix=q%2Bacoustics%2B3010i%2B%2Caps%2C196&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "Dali Spektor 1",
+            "precio": 600.0,
+            "link": "https://www.amazon.com/-/es/DALI-Oberon-1-Roble-Claro/dp/B07H2NJMPH/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=3OW97SAB16QT9&keywords=Dali%2BSpektor%2B1&qid=1704408704&sprefix=dali%2Bspektor%2B1%2B%2Caps%2C127&sr=8-2&th=1"
+          },
+          {
+            "modelo": "Monitor Audio Bronze 1",
+            "precio": 261.68,
+            "link": "https://www.studio-22.com/monitor-audio-bronze-1"
+          },
+          {
+            "modelo": "Kef Q150",
+            "precio": 710.21,
+            "link": "https://lflaudio.com/producto/kef-q150/"
+          },
+          {
+            "modelo": "ELAC Debut 2.0 C6.2",
+            "precio": 275.0,
+            "link": "https://www.amazon.com/-/es/ELAC-Debut-2-0-C6-2-respuesta/dp/B07B4VCT99/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2T6S9ED97DFOB&keywords=ELAC+Debut+2.0+C6.2&qid=1704408855&sprefix=%2Caps%2C131&sr=8-1"
+          },
+          {
+            "modelo": "Wharfedale Diamond 12.2",
+            "precio": 601.09,
+            "link": "https://www.supersonido.es/p/wharfedale-diamond-12-2"
+          },
+          {
+            "modelo": "Polk Audio Monitor XT20",
+            "precio": 299.0,
+            "link": "https://www.amazon.com/-/es/Polk-Audio-Monitor-XT20-dinámicamente/dp/B09BMVVDX5/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=3IZQCMMJ97YRT&keywords=Polk%2BAudio%2BMonitor%2BXT20&qid=1704408945&sprefix=polk%2Baudio%2Bmonitor%2Bxt20%2B%2Caps%2C207&sr=8-2&th=1"
+          },
+          {
+            "modelo": "Klipsch RP-500M",
+            "precio": 299.0,
+            "link": "https://www.amazon.com/Klipsch-R-41PM-Altavoz-estantería-color/dp/B07FK48JW8/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=MJ01S05K399G&keywords=Klipsch+RP-500M&qid=1704408967&sprefix=klipsch+rp-500m+%2Caps%2C134&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+          },
+  
+          {
+            "modelo": "Mission LX-C2",
+            "precio": 203.14,
+            "link": "https://audiopuan.com.ar/producto/mission-lx-c2-mk2/"
+          },
+          {
+            "modelo": "ATC SCM100ASL Pro",
+            "precio": 19.99,
+            "link": "https://www.bproaudio.com/inicio/783-atc-scm100asl-pro.html"
+          },
+          {
+            "modelo": "Bowers & Wilkins 800 D4",
+            "precio": 694.86,
+            "link": "https://www.amazon.com/inalámbrico-subwoofer-transmisión-inalámbrica-compatible/dp/B09HLCWJ1G/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=195XHYJGLE72P&keywords=Bowers+%26+Wilkins+800+D4&qid=1704409146&sprefix=%2Caps%2C129&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+          },
+          {
+            "modelo": "Dynaudio Confidence 50",
+            "precio": 30651.48,
+            "link": "https://www.studio-22.com/dynaudio-confidence-50"
+          },
+          {
+            "modelo": "Focal Scala Utopia Evo",
+            "precio": 4999.0,
+            "link": "https://www.amazon.com/-/es/Focal-Utopia-Auriculares-espalda-fidelidad/dp/B0B94139D6/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=17L8D2G6XS9D&keywords=Focal+Scala+Utopia+Evo&qid=1704409214&sprefix=%2Caps%2C115&sr=8-1"
+          },
+          {
+            "modelo": "Genelec 1234A",
+            "precio": 19730,
+            "link": "http://www.economik.com/genelec/1234/"
+          },
+          {
+            "modelo": "KEF Reference 5",
+            "precio": 31035.05,
+            "link": "https://mx.kef.com/products/reference-5-floorstanding-speaker"
+          },
+          {
+            "modelo": "JBL Professional M2 Master Reference Monitor",
+            "precio": 1169.0,
+            "link": "https://www.amazon.com/-/es/Professional-705P-referencia-biamplificado-pulgadas/dp/B01MZFU8QE/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=KOOO612ROD65&keywords=JBL%2BProfessional%2BM2%2BMaster%2BReference%2BMonitor&qid=1704409352&sprefix=jbl%2Bprofessional%2Bm2%2Bmaster%2Breference%2Bmonitor%2Caps%2C130&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Klipsch Cornwall IV",
+            "precio": 6598.0,
+            "link": "https://www.amazon.com/-/es/Klipsch-Cornwall-IV-Altavoces-nogal/dp/B07W94N93Q/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=314008W85OT6J&keywords=Klipsch+Cornwall+IV&qid=1704409378&sprefix=%2Caps%2C128&sr=8-1"
+          },
+          {
+            "modelo": "Magnepan 3.7i",
+            "precio": 3945.0,
+            "link": "https://www.jmiaudiovideo.com/product-page/magnepan-3-7i-par-de-bocinas-magnetoplanar-hi-end"
+          },
+          {
+            "modelo": "MartinLogan ESL 13A",
+            "precio": 17999.98,
+            "link": "https://www.martinlogan.com/es/product/expression-esl-13a"
+          },
+          {
+            "modelo": "Monitor Audio Studio 2",
+            "precio": 1550.0,
+            "link": "https://upscaleaudio.com/products/monitor-audio-studio-speakers"
+          },
+          {
+            "modelo": "Neumann KH 420",
+            "precio": 549.0,
+            "link": "https://www.amazon.com/-/es/KH-80-DSP-alimentado-individual/dp/B07664Q5RW/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3F1770VVKFLD7&keywords=Neumann+KH+420&qid=1704409567&sprefix=%2Caps%2C138&sr=8-1"
+          },
+          {
+            "modelo": "Revel Ultima2 Salon2",
+            "precio": 7500.0,
+            "link": "https://www.musicdirect.com/equipment/speakers/revel-salon2-tower-speakers-pair/"
+          },
+          {
+            "modelo": "Sonus Faber Olympica Nova III",
+            "precio": 15000.0,
+            "link": "https://www.sonusfaber.com/en/products/olympica-nova-iii"
+          },
+          {
+            "modelo": "Tannoy Westminster Royal",
+            "precio": 27495.0,
+            "link": "https://upscaleaudio.com/products/tannoy-westminster-gold-reference-loudspeaker"
+          },
+          {
+            "modelo": "Vandersteen Quatro Wood CT",
+            "precio": 19200.0,
+            "link": "http://www.vandersteen.com/products/quatro-wood-ct"
+          },
+          {
+            "modelo": "Adam Audio S5V",
+            "precio": 399.98,
+            "link": "https://www.amazon.com/-/es/Monitor-cercano-paquete-micrófono-artículos/dp/B07CZXC1PL/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3EUC6C2WC3DEF&keywords=Adam+Audio+S5V&qid=1704409724&sprefix=%2Caps%2C126&sr=8-1"
+          },
+          {
+            "modelo": "Amphion Argon 3L",
+            "precio": 2400.0,
+            "link": "https://amphion.fi/products/argon3ls/"
+          },
+          {
+            "modelo": "Avantone Pro Abbey Road Red",
+            "precio": 152.07,
+            "link": "https://rajmusical.com/guitars/ukulele-banjo/avantone-pro-abbey-3-way-active-monitor.html"
+          },
+          {
+            "modelo": "Berkeley Audio Design Model T",
+            "precio": 28000.0,
+            "link": "https://upscaleaudio.com/products/berkeley-audio-design-alpha-dac-reference-series-3-digital-to-analog-converter"
+          },
+          {
+            "modelo": "Burmester BC350",
+            "precio": 375000.0,
+            "link": "https://www.avluxurygroup.com/burmester-signature-loudspeaker.html"
+          },
+          {
+            "modelo": "Constellation Audio Hyperion II",
+            "precio": 70.5,
+            "link": "https://satinaudio.com/en/product/hyperion-ii?v=42983b05e2f2"
+          },
+          {
+            "modelo": "EgglestonWorks Andra III",
+            "precio": 36017.35,
+            "link": "https://audiogallery.es/producto/egglestonworks-the-andra-iii-se/"
+          },
+          {
+            "modelo": "Emerald Physics CS3",
+            "precio": 525.0,
+            "link": "https://reverb.com/item/6342908-emerald-physics-cs3"
+          },
+          {
+            "modelo": "Estelon X Diamond",
+            "precio": 65200.0,
+            "link": "https://www.stereophile.com/content/estelon-xb-diamond-mk2-loudspeaker"
+          },
+          {
+            "modelo": "Focal Sopra No.3",
+            "precio": 21894.5,
+            "link": "https://www.studio-22.com/focal-sopra-n-3"
+          },
+          {
+            "modelo": "Gamut RS7",
+            "precio": 41900.0,
+            "link": "https://www.eliteaudiouk.com/product-page/gamut-rs7i-loudspeakers"
+          },
+          {
+            "modelo": "Geithain RL 906",
+            "precio": 1516.12,
+            "link": "https://jbkaudioshop.com/en/p/geithain-rl-906"
+          },
+          {
+            "modelo": "Harbeth Monitor 40.1",
+            "precio": 12995.0,
+            "link": "https://www.stereophile.com/standloudspeakers/1008har/index.html"
+          },
+          {
+            "modelo": "JBL Professional 4367",
+            "precio": 21892.61,
+            "link": "https://www.supersonido.es/p/jbl-4367"
+          },
+          {
+            "modelo": "Joseph Audio Perspective2",
+            "precio": 21000.0,
+            "link": "https://executivestereo.com/products/copy-of-joseph-audio-perspective-floorstanding-loudspeakers-1"
+          },
+          {
+            "modelo": "Kharma Elegance dB11",
+            "precio": 49259.34,
+            "link": "https://www.studio-22.com/search/kharma%20elegance%20db11?amnoroute"
+          },
+          {
+            "modelo": "Magico M6",
+            "precio": 169000.0,
+            "link": "https://www.theabsolutesound.com/articles/magico-m6/"
+          },
+          {
+            "modelo": "Marten Coltrane Supreme",
+            "precio": 517204.11,
+            "link": "https://audiogallery.es/producto/marten-coltrane-supreme-2/"
+          },
+          {
+            "modelo": "McIntosh XR200",
+            "precio": 11.99,
+            "link": "https://www.ebay.com/itm/145150618769"
+          },
+          {
+            "modelo": "Merging Technologies Anubis",
+            "precio": 2399.0,
+            "link": "https://www.amazon.com/-/es/IOC-ANU-PRO-Merging-Technologies-Anubis-Pro/dp/B07SQJFPMN"
+          },
+          {
+            "modelo": "Meyer Sound Acheron",
+            "precio": 11450.0,
+            "link": "https://www.pssl.com/products/meyer-sound-acheron-designer-screen-channel-loudspeaker-for-cinema-applications"
+          },
+          {
+            "modelo": "MBL 101E MkII",
+            "precio": 82534.17,
+            "link": "https://www.studio-22.com/mbl-101e-mkii"
+          },
+          {
+            "modelo": "Monitor Audio Platinum PL300 II",
+            "precio": 398700.0,
+            "link": "https://www.jmiaudiovideo.com/product-page/monitor-audio-platinum-pl300-ii-par-de-altavoz"
+          },
+          {
+            "modelo": "Neumann KH 870",
+            "precio": 549.0,
+            "link": "https://www.amazon.com/-/es/KH-80-DSP-alimentado-individual/dp/B07664Q5RW/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3FCBO7EN6ZZV3&keywords=Neumann+KH+870&qid=1704410682&sprefix=%2Caps%2C121&sr=8-1"
+          },
+          {
+            "modelo": "PMC MB2 XBD-A",
+            "precio": 44657.16,
+            "link": "https://www.studio-22.com/pmc-mb2-xbd-se"
+          },
+          {
+            "modelo": "Quad ESL-57",
+            "precio": 6227.92,
+            "link": "https://www.quad-musik.de/index.php/de/produkte/elektrostaten/esl57"
+          },
+          {
+            "modelo": "Raidho TD 4.2",
+            "precio": 146000.0,
+            "link": "https://www.avluxurygroup.com/raidho-td42.html"
+          },
+          {
+            "modelo": "Revel Ultima2 Studio2",
+            "precio": 10799.0,
+            "link": "https://www.stereophile.com/floorloudspeakers/308revel/index.html"
+          },
+          {
+            "modelo": "Rockport Technologies Avior II",
+            "precio": 62387.37,
+            "link": "https://www.audioycine.com/tienda/rockport-avior-ii/"
+          },
+          {
+            "modelo": "Rogers LS3/5a",
+            "precio": 4895.0,
+            "link": "https://www.theabsolutesound.com/articles/2022-golden-ear-rogers-ls3-5a-classic-15-ohm-special-edition-loudspe"
+          },
+          {
+            "modelo": "Sonus Faber Aida",
+            "precio": 140000.0,
+            "link": "https://www.sonusfaber.com/en/products/aida"
+          },
+          {
+            "modelo": "Wilson Audio Alexia 2",
+            "precio": 78792.32,
+            "link": "https://www.decineon.com/wilson-audio-alexia-2.html"
+          }
+        ]
+      },
+      {
+        "audifonos": [
+          {
+            "modelo": "AKG K240 MkII",
+            "precio": 86.98,
+            "link": "https://www.mediatekis.com.co/akg-k240-mkii-auriculares-estereo-profesionales-semiabiertos.html"
+          },
+          {
+            "modelo": "AKG K240 MkII",
+            "precio": 49.99,
+            "link": "https://www.amazon.com/-/es/Auriculares-estudio-semiabiertos-AKG-240/dp/B0001ARCFA/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=KM6AB8X3CDRS&keywords=AKG%2BK240%2BMKII&qid=1704418676&sprefix=akg%2Bk240%2Bmkii%2B%2Caps%2C133&sr=8-3&th=1"
+          },
+          {
+            "modelo": "AKG K371",
+            "precio": 158.0,
+            "link": "https://www.amazon.com/-/es/AKG-Pro-Audio-K371-Auriculares/dp/B07WZH7WM9/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2DMVH2D0TBA2V&keywords=AKG%2BK371&qid=1704418907&sprefix=akg%2Bk371%2B%2Caps%2C136&sr=8-1&th=1"
+          },
+          {
+            "modelo": "AKG K702",
+            "precio": 159.0,
+            "link": "https://www.amazon.com/-/es/AKG-Audio-K702-Auriculares-Channel-Studio/dp/B001RCD2DW/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2FTROOGMM6XBO&keywords=AKG+K702&qid=1704418935&sprefix=akg+k702+%2Caps%2C139&sr=8-1"
+          },
+          {
+            "modelo": "AKG K72",
+            "precio": 44.0,
+            "link": "https://www.amazon.com/-/es/Audio-K72-audífono-cerrado-estudio/dp/B01AYSNHVQ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=28159BFAAWX5C&keywords=AKG%2BK72&qid=1704418959&sprefix=akg%2Bk72%2B%2Caps%2C133&sr=8-1&th=1"
+          },
+          {
+            "modelo": "AKG K812",
+            "precio": 1799.0,
+            "link": "https://www.akg.com/Headphones/Professional%20Headphones/3458X00050.html"
+          },
+          {
+            "modelo": "Alesis DRP100",
+            "precio": 1709.0,
+            "link": "https://www.amazon.com/-/es/Alesis-Drums-Surge-Mesh-DRP100/dp/B0BNVZ7C12/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=25O9OIBEQ87FA&keywords=Alesis%2BDRP100&qid=1704419043&sprefix=alesis%2Bdrp100%2B%2Caps%2C134&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Audeze LCD-5",
+            "precio": 4500.0,
+            "link": "https://www.audeze.com/products/lcd-5"
+          },
+          {
+            "modelo": "Audeze Mobius",
+            "precio": 399.0,
+            "link": "https://www.audeze.com/products/mobius"
+          },
+          {
+            "modelo": "Audio-Technica ATH-M20x",
+            "precio": 49.0,
+            "link": "https://www.amazon.com/-/es/Audio-Technica-ATH-M20x-Audífonos-profesionales-estudio/dp/B00HVLUR18/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2JQ6K9OYFNBO4&keywords=Audio-Technica%2BATH-M20x&qid=1704419201&sprefix=audio-technica%2Bath-m20x%2B%2Caps%2C136&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Audio-Technica ATH-M30x",
+            "precio": 59.74,
+            "link": "https://www.amazon.com/-/es/Audio-Technica-ATH-M30x-Audífonos-profesionales-estudio/dp/B00HVLUQW8/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3VAEMIH1L23QU&keywords=Audio-Technica%2BATH-M30x&qid=1704419219&sprefix=audio-technica%2Bath-m30x%2B%2Caps%2C138&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Audio-Technica ATH-M40x",
+            "precio": 108.9,
+            "link": "https://www.amazon.com/-/es/Audio-Technica-Auriculares-profesionales-transporte-extendida/dp/B07QDBV7HV/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=KV3OV4LMDRSI&keywords=Audio-Technica+ATH-M40x&qid=1704419281&sprefix=audio-technica+ath-m40x+%2Caps%2C139&sr=8-3"
+          },
+          {
+            "modelo": "Audio-Technica ATH-R70x",
+            "precio": 347.0,
+            "link": "https://www.amazon.com/-/es/Audio-Technica-ATH-R70x-audífonos-profesionales-abiertos/dp/B00SKVNS00/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=I4G69CVBUMNG&keywords=Audio-Technica%2BATH-R70x&qid=1704419312&sprefix=audio-technica%2Bath-r70x%2B%2Caps%2C138&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Behringer HPM1000",
+            "precio": 12.9,
+            "link": "https://www.amazon.com/-/es/Behringer-HPM1000-Auriculares-multiusos-color/dp/B00062PN6I/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3EYLSL15V0AMO&keywords=Behringer%2BHPM1000&qid=1704419331&sprefix=behringer%2Bhpm1000%2B%2Caps%2C137&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Behringer HPS3000",
+            "precio": 14.9,
+            "link": "https://www.amazon.com/-/es/Behringer-HPS3000-Auriculares-estudio-rendimiento/dp/B0002Z82XA/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1OLYR5PDAG5U2&keywords=Behringer%2BHPS3000&qid=1704419350&sprefix=behringer%2Bhps3000%2B%2Caps%2C132&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Behringer HPX2000",
+            "precio": 25.0,
+            "link": "https://www.amazon.com/-/es/Behringer-HPX2000-Auriculares-definición-Negro/dp/B000IKWBC2/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3DJI9BW6QB79D&keywords=Behringer%2BHPX2000&qid=1704419371&sprefix=behringer%2Bhpx2000%2B%2Caps%2C134&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Beyerdynamic DT 1990 Pro",
+            "precio": 529.0,
+            "link": "https://www.amazon.com/-/es/Audífonos-profesionales-Pro-1990-Beyerdynamic/dp/B01KM9EJ7I/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1RM8K9DMI13RG&keywords=Beyerdynamic%2BDT%2B1990%2BPro&qid=1704419393&sprefix=beyerdynamic%2Bdt%2B1990%2Bpro%2B%2Caps%2C136&sr=8-2&th=1"
+          },
+          {
+            "modelo": "Beyerdynamic DT 990 PRO",
+            "precio": 159.0,
+            "link": "https://www.amazon.com/-/es/Beyerdynamic-DT-990-PRO-Auriculares/dp/B0011UB9CQ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1YXVLIL8O2RL8&keywords=Beyerdynamic%2BDT%2B240%2BPro&qid=1704419416&sprefix=beyerdynamic%2Bdt%2B240%2Bpro%2B%2Caps%2C136&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Beyerdynamic DT 770 Pro",
+            "precio": 136.49,
+            "link": "https://www.amazon.com/beyerdynamic-Auriculares-estudio-ohmios-renovado/dp/B07KX82XRQ/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=4X5788SP73LD&keywords=Beyerdynamic%2BDT%2B770%2BPro&qid=1704419434&sprefix=beyerdynamic%2Bdt%2B770%2Bpro%2B%2Caps%2C134&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "Beyerdynamic T1 3rd Generation",
+            "precio": 799.0,
+            "link": "https://www.amazon.com/-/es/Beyerdynamic-auriculares-T1-generación-respaldo/dp/B08KFL93YB/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=PGWUPOX8Z3JT&keywords=Beyerdynamic+T1+3rd+Generation&qid=1704419463&sprefix=beyerdynamic+t1+3rd+generation+%2Caps%2C144&sr=8-1"
+          },
+          {
+            "modelo": "CAD Audio MH310",
+            "precio": 153.35,
+            "link": "https://www.amazon.es/CAD-Audio-MH310-Supraaural-auricular/dp/B004OA6WOA"
+          },
+          {
+            "modelo": "CAD Audio MH210",
+            "precio": 53.31,
+            "link": "https://www.amazon.com/-/es/Audio-MH210-Auriculares-estudio-cerrados-controladores/dp/B00R209OYE/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2SSME4224PP9N&keywords=CAD%2BAudio%2BMH320&qid=1704419571&sprefix=cad%2Baudio%2Bmh320%2B%2Caps%2C132&sr=8-1&th=1"
+          },
+          {
+            "modelo": "CAD MH510",
+            "precio": 136.66,
+            "link": "https://www.mercadolibre.com.ar/cad-mh510-auricular-profesional-para-estudio-de-grabacion/p/MLA21239815#searchVariation=MLA21239815&position=7&search_layout=stack&type=product&tracking_id=d1dc3fb2-91b5-47f5-a32c-f52f831b6100"
+          },
+          {
+            "modelo": "Creative Aurvana Live!",
+            "precio": 46.99,
+            "link": "https://www.amazon.com/-/es/Creative-Aurvana-Live-controladores-cinematográfica/dp/B09SY8Z83C/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=6PKVT5LXFBQH&keywords=Creative%2BAurvana%2BLive!&qid=1704419740&sprefix=creative%2Baurvana%2Blive%2B%2Caps%2C130&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Dan Clark Audio Ether 2 System",
+            "precio": 2299.99,
+            "link": "https://danclarkaudio.com/ether2-system.html"
+          },
+          {
+            "modelo": "Direct Sound EX-29",
+            "precio": 123.75,
+            "link": "https://www.amazon.com/-/es/Direct-Audífonos-ex-29-aislamiento-extremo/dp/B0002GZLY2/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1REU65PEK5SFC&keywords=Direct+Sound+EX-29&qid=1704419806&sprefix=direct+sound+ex-29+%2Caps%2C132&sr=8-1"
+          },
+          {
+            "modelo": "Direct Sound Serenity II",
+            "precio": 148.0,
+            "link": "https://www.amazon.com/-/es/Direct-Sound-Auriculares-Serenity-II/dp/B00KY9EBXY/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2K75R4SPP8NXK&keywords=Direct+Sound+Serenity+II&qid=1704419825&sprefix=direct+sound+serenity+ii+%2Caps%2C131&sr=8-1"
+          },
+          {
+            "modelo": "Edifier H840",
+            "precio": 20.0,
+            "link": "https://versus.com/es/edifier-h840"
+          },
+          {
+            "modelo": "Edifier H850",
+            "precio": 1190.0,
+            "link": "https://edifier-online.com/mx/es/headphones-earphones/h850-foldable-puresound"
+          },
+          {
+            "modelo": "FiiO FH1 Dual Driver Hybrid",
+            "precio": 54.99,
+            "link": "https://www.amazon.com/-/es/FH11-controlador-intrauditivo-desmontable-auriculares/dp/B0CCSHYTS3/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=309H97IDQM022&keywords=FiiO+FH1+Dual+Driver+Hybrid+Over-Ear+Headphones&qid=1704419987&sprefix=fiio+fh1+dual+driver+hybrid+over-ear+headphones+%2Caps%2C136&sr=8-2"
+          },
+          {
+            "modelo": "Focal Utopia",
+            "precio": 4999.0,
+            "link": "https://www.amazon.com/-/es/Focal-Utopia-Auriculares-espalda-fidelidad/dp/B0B94139D6/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2SI77QC076YJD&keywords=Focal+Utopia&qid=1704420008&sprefix=focal+utopia+%2Caps%2C132&sr=8-1"
+          },
+          {
+            "modelo": "Fostex T40RP Mk3",
+            "precio": 123.24,
+            "link": "https://www.amazon.com/-/es/Fostex-Auriculares-profesionales-estudio-cerrados/dp/B01686PE1O/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=6GH1J5N2QTGZ&keywords=Fostex%2BT40RP%2BMk3&qid=1704420059&sprefix=fostex%2Bt40rp%2Bmk3%2B%2Caps%2C132&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Fostex T50RP Mk3",
+            "precio": 169.99,
+            "link": "https://www.amazon.com/-/es/Fostex-T50RP-MK3-profesionales-semiabiertos/dp/B0167XM092/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=ZCXM0CDNNXCG&keywords=Fostex%2BT50RP%2BMk3&qid=1704420085&sprefix=fostex%2Bt50rp%2Bmk3%2B%2Caps%2C135&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Grado PS1000e",
+            "precio": 1095.15,
+            "link": "https://novomusica.com/tienda/imagen-sonido-profesional/grado-labs/grado-ps1000e-9505"
+          },
+          {
+            "modelo": "Grado Labs Circumaural",
+            "precio": 809.64,
+            "link": "https://www.amazon.com.mx/Grado-Labs-Circumaural-Diadema-auricular/dp/B00L1O2PDY"
+          },
+          {
+            "modelo": "Grado SR60x Prestige Series",
+            "precio": 99.0,
+            "link": "https://www.amazon.com/-/es/SR60x-Prestige-Auriculares-estéreo-espalda/dp/B091GGWP2Y/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=37ISH6BT34WMR&keywords=Grado+SR60e&qid=1704420220&sprefix=grado+sr60e+%2Caps%2C138&sr=8-2"
+          },
+          {
+            "modelo": "Grado SR80x Prestige Series",
+            "precio": 125.0,
+            "link": "https://www.amazon.com/-/es/SR80x-Prestige-Auriculares-estéreo-respaldo/dp/B091G75MKL/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1ZIBTHBXAN89U&keywords=Grado+SR80e&qid=1704420243&sprefix=grado+sr80e+%2Caps%2C141&sr=8-2"
+          },
+          {
+            "modelo": "HIFIMAN SUNDARA",
+            "precio": 299.0,
+            "link": "https://www.amazon.com/-/es/HIFIMAN-SUNDARA-Auriculares-magnéticos-audiófilos/dp/B077XDWT7X"
+          },
+          {
+            "modelo": "HIFIMAN SUSVARA",
+            "precio": 5999.0,
+            "link": "https://www.amazon.com/-/es/HIFIMAN-SUSVARA-Auriculares-magnéticos-planares/dp/B0716R6NDT"
+          },
+          {
+            "modelo": "JBL Quantum 100",
+            "precio": 63.34,
+            "link": "https://www.jbl.com.co/ultimos-lanzamientos/QUANTUM100.html"
+          },
+          {
+            "modelo": "JVC HARX700 Precision Sound",
+            "precio": 36.21,
+            "link": "https://www.amazon.com/-/es/HARX700-Precision-Sound-Full-Auriculares/dp/B0013OWPV4/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3697TTLZI579R&keywords=JVC+HARX700&qid=1704420388&sprefix=jvc+harx700+%2Caps%2C132&sr=8-1"
+          },
+          {
+            "modelo": "KICKER Tabor2 Bluetooth",
+            "precio": 69.99,
+            "link": "https://www.amazon.com/-/es/KICKER-Tabor2-Auriculares-Bluetooth-inalámbricos/dp/B081ZHB7XH/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=32GHMM3YYVHKE&keywords=Kicker%2BHP402BTB%2BBluetooth%2BOver-Ear%2BHeadphones&qid=1704420410&sprefix=kicker%2Bhp402btb%2Bbluetooth%2Bover-ear%2Bheadphones%2B%2Caps%2C129&sr=8-2&th=1"
+          },
+          {
+            "modelo": "Koss Porta Pro",
+            "precio": 59.99,
+            "link": "https://www.amazon.com/Koss-Porta-Pro-Auriculares-comunicación/dp/B095TS1G9H/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=3VLK3KEBIAN45&keywords=Koss+BT540i&qid=1704420444&sprefix=koss+bt540i+%2Caps%2C135&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+          },
+          {
+            "modelo": "Koss Porta Pro",
+            "precio": 59.99,
+            "link": "https://www.amazon.com/Koss-Porta-Pro-Auriculares-comunicación/dp/B095TS1G9H/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=3FCXSU8QWSSZK&keywords=Koss+Porta+Pro&qid=1704421967&sprefix=koss+porta+pro+%2Caps%2C201&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+          },
+          {
+            "modelo": "Koss Pro4S",
+            "precio": 99.99,
+            "link": "https://www.amazon.com/-/es/Koss-Pro4S-Auriculares-completo-plateado/dp/B00MCVOT48/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=DPR3EP7EESJ0&keywords=Koss%2BPro4S&qid=1704421989&sprefix=koss%2Bpro4s%2B%2Caps%2C128&"
+          },
+          {
+            "modelo": "Koss UR-20",
+            "precio": 19.99,
+            "link": "https://www.amazon.com/-/es/Koss-Home-Audífonos-UR-20-Negro/dp/B00005N9D3/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=2QO5YPSJIUQZW&keywords=Koss+UR-20&qid=1704422018&sprefix=koss+ur-20+%2Caps%2C128&sr=8-2"
+          },
+          {
+            "modelo": "LyxPro HAS-10",
+            "precio": 39.99,
+            "link": "https://www.amazon.com/LyxPro-HAS-10-profesional-auriculares-aislamiento/dp/B00R0DCSSM/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=1J1R4P9CKYMED&keywords=LyxPro%2BHAS-10&qid=1704422048&sprefix=lyxpro%2Bhas-10%2B%2Caps%2C129&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "LyxPro HAS-30 Professional Studio Monitor Headphones",
+            "precio": 59.99,
+            "link": "https://www.amazon.com/LyxPro-HAS-30-Auriculares-profesionales-entretenimiento/dp/B018Y5CVO0/ref=sr_1_2_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=2R874B3UQWGVH&keywords=LyxPro+HAS-30+Professional+Studio+Monitor+Headphones&qid=1704422069&sprefix=lyxpro+has-30+professional+studio+monitor+headphones+%2Caps%2C125&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+          },
+          {
+            "modelo": "Marshall Major III",
+            "precio": 149.62,
+            "link": "https://www.amazon.com/-/es/Marshall-Major-III-Auriculares-inalámbricos/dp/B07CDZD8B7/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=QXAI174PPNN3&keywords=Marshall+Major+III&qid=1704422094&sprefix=marshall+major+iii+%2Caps%2C135&sr=8-1"
+          },
+          {
+            "modelo": "Marshall Monitor Major III",
+            "precio": 137.68,
+            "link": "https://www.amazon.com/-/es/Marshall-Auriculares-inalámbricos-Bluetooth-marrón/dp/B07CMFBJM7/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=2KGRKHDZ94WNY&keywords=Marshall+Monitor+Major+III&qid=1704422121&sprefix=marshall+monitor+major+iii+%2Caps%2C132&sr=8-2"
+          },
+          {
+            "modelo": "Meze Empyrean",
+            "precio": 309.0,
+            "link": "https://www.amazon.com/-/es/Classics-audífonos-dorados-nogal-dorado/dp/B018VZBH5M/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=28K3GGAWX4QTY&keywords=Meze%2BEmpyrean&qid=1704422148&sprefix=meze%2Bempyrean%2B%2Caps%2C128&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Monoprice 8323",
+            "precio": 71.5,
+            "link": "https://www.amazon.com/-/es/Monoprice-BT-600ANC-Auriculares-cancelación-reproducción/dp/B08P6959XC/ref=sr_1_2?adgrpid=81520414247&hvadid=673212459737&hvdev=c&hvlocphy=1003668&hvnetw=g&hvqmt=b&hvrand=7788060338018703459&hvtargid=kwd-298246477835&hydadcr=4996_13364890&keywords=monoprice+headphones&qid=1704422199&sr=8-2"
+          },
+          {
+            "modelo": "Monoprice Hi-Fi DJ Style Over-Ear Pro Headphones",
+            "precio": 44.99,
+            "link": "https://www.amazon.com/-/es/Monoprice-Auriculares-cancelación-reproducción-conversación/dp/B0B71NMCDT/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=22EA0Z6J1QGUF&keywords=Monoprice+Hi-Fi+DJ+Style+Over-Ear+Pro+Headphones&qid=1704422228&sprefix=monoprice+hi-fi+dj+style+over-ear+pro+headphones+%2Caps%2C130&sr=8-2"
+          },
+          {
+            "modelo": "Monoprice Modern Retro",
+            "precio": 43.64,
+            "link": "https://www.amazon.com/-/es/Auriculares-semiabiertos-auriculares-adolescentes-inteligente/dp/B09GVC6W8W/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=YNE8AUYMTM58&keywords=Monoprice+Modern+Retro&qid=1704428284&sprefix=monoprice+modern+retro+%2Caps%2C126&sr=8-2"
+          },
+          {
+            "modelo": "MrSpeakers Aeon Flow Closed",
+            "precio": 14.95,
+            "link": "https://www.amazon.com/MrSpeakers-AEON-Closed-Headphones-Black/dp/B073HLP16P"
+          },
+          {
+            "modelo": "OneOdio Over-Ear Studio Headphones",
+            "precio": 31.99,
+            "link": "https://www.amazon.com/-/es/Auriculares-controladores-neodimio-conector-grabación/dp/B01N6ZJH96/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=1LDDIJQZ0QBMF&keywords=OneOdio%2BOver-Ear%2BStudio%2BHeadphones&qid=1704428307&sprefix=oneodio%2Bover-ear%2Bstudio%2Bheadphones%2B%2Caps%2C134&sr=8-3&th=1"
+          },
+          {
+            "modelo": "Philips SHP9500",
+            "precio": 64.99,
+            "link": "https://www.amazon.com/Philips-SHP9600-Audífonos-controladores-Neodimio/dp/B08B477BHS/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=37E6CBZTO2CX6&keywords=Philips%2BSHP9500&qid=1704428332&sprefix=philips%2Bshp9500%2B%2Caps%2C127&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "Pioneer DJ HDJ-X5-K",
+            "precio": 99.0,
+            "link": "https://www.amazon.com/-/es/Pioneer-Auriculares-Pro-plateado-HDJ-X5-S/dp/B0759FXFB5/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1D6WGATLCTPW1&keywords=Pioneer%2BDJ%2BHDJ-X5-K&qid=1704428350&sprefix=pioneer%2Bdj%2Bhdj-x5-k%2B%2Caps%2C127&sr=8-2&th=1"
+          },
+          {
+            "modelo": "PreSonus HD7",
+            "precio": 64.82,
+            "link": "https://www.amazon.com/-/es/PreSonus-HD7-audífonos-profesionales-control/dp/B004ACQMUQ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1IRE5WM44M362&keywords=Presonus%2BHD7&qid=1704428374&sprefix=presonus%2Bhd7%2B%2Caps%2C133&sr=8-1&th=1"
+          },
+          {
+            "modelo": "PreSonus HD9",
+            "precio": 99.99,
+            "link": "https://www.amazon.com/-/es/Micrófono-Revelator-transmisión-integrados-preestablecidos/dp/B09QST64SW/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=3GHI5SN79U5Y6&keywords=PreSonus%2BHD9&qid=1704428399&sprefix=presonus%2Bhd9%2B%2Caps%2C125&sr=8-3&th=1"
+          },
+          {
+            "modelo": "Samson SR850",
+            "precio": 29.95,
+            "link": "https://www.amazon.com/-/es/Samson-SR850-Auriculares-semiabiertos-Studio-Reference/dp/B002LBSEQS/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=PLOD3UVA3ISJ&keywords=Samson%2BSR850&qid=1704428420&sprefix=samson%2Bsr850%2B%2Caps%2C123&sr=8-2&th=1"
+          },
+          {
+            "modelo": "Sennheiser HD 200 Pro",
+            "precio": 69.95,
+            "link": "https://www.amazon.com/-/es/Sennheiser-Auriculares-profesionales-HD-200/dp/B01M9FXABE/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=1DA8QZYKF8GYQ&keywords=Sennheiser%2BHD%2B200%2BPro&qid=1704428450&sprefix=sennheiser%2Bhd%2B200%2Bpro%2B%2Caps%2C130&sr=8-3&th=1"
+          },
+          {
+            "modelo": "Sennheiser HD 280 Pro",
+            "precio": 65.55,
+            "link": "https://www.amazon.com/-/es/HD280PRO-Sennheiser-Auriculares/dp/B00IT0IHOY/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=2Y7XBVZRSV4IA&keywords=Sennheiser%2BHD%2B280%2BPro&qid=1704428474&sprefix=sennheiser%2Bhd%2B280%2Bpro%2B%2Caps%2C126&sr=8-2&th=1"
+          },
+          {
+            "modelo": "Sennheiser HD 599",
+            "precio": 124.75,
+            "link": "https://www.amazon.com/-/es/Sennheiser-audífono-parte-posterior-abierta/dp/B01L1IICR2/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=LR8I3V2EN8AQ&keywords=Sennheiser%2BHD%2B599&qid=1704428495&sprefix=sennheiser%2Bhd%2B599%2B%2Caps%2C131&sr=8-3&th=1"
+          },
+          {
+            "modelo": "Sennheiser HD 660S",
+            "precio": 529.95,
+            "link": "https://www.amazon.com/-/es/Sennheiser-Consumer-Audio-HD-660/dp/B076HP574T/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=3AH78DC7JP6TZ&keywords=Sennheiser%2BHD%2B660S&qid=1704428524&sprefix=sennheiser%2Bhd%2B660s%2B%2Caps%2C127&sr=8-3&th=1"
+          },
+          {
+            "modelo": "Sennheiser HD 800 S",
+            "precio": 2.46,
+            "link": "https://www.sennheiser-hearing.com/es-MX/p/hd-800-s/"
+          },
+          {
+            "modelo": "Shure SRH240A",
+            "precio": 59.0,
+            "link": "https://www.amazon.com/-/es/Shure-Auriculares-calidad-profesional-SRH240A/dp/B002DP594W/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1DW70RPVAJMQR&keywords=Shure%2BSRH240A&qid=1704428616&sprefix=shure%2Bsrh240a%2B%2Caps%2C126&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Shure SRH440",
+            "precio": 99.0,
+            "link": "https://www.amazon.com/-/es/Shure-SRH440A-Auriculares-profesional-dispositivos/dp/B09DRPS3YG/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=RNTA5SQWMGKO&keywords=Shure%2BSRH440&qid=1704428637&sprefix=shure%2Bsrh440%2B%2Caps%2C130&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Shure SRH840",
+            "precio": 126.0,
+            "link": "https://www.amazon.com/-/es/Shure-SRH840A-Auriculares-profesionales-personalizada/dp/B00OP93VI0/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2YGEOOOSNBDCW&keywords=Shure%2BSRH840&qid=1704428656&sprefix=shure%2Bsrh840%2B%2Caps%2C134&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Sony MDR-7506",
+            "precio": 78.19,
+            "link": "https://www.amazon.com/-/es/MDR7506-Auriculares-profesionales-diafragma-grande/dp/B000AJIF4E/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=229GRV3CWZH9M&keywords=Sony%2BMDR-7506&qid=1704428679&sprefix=sony%2Bmdr-7506%2B%2Caps%2C136&sr=8-3&th=1"
+          },
+          {
+            "modelo": "Sony MDR-7520",
+            "precio": 799.03,
+            "link": "https://www.amazon.com.mx/Sony-MDR7520-Audífono-Diadema-micrófono/dp/B004Z58VZ2"
+          },
+          {
+            "modelo": "Sony MDR-Z1R",
+            "precio": 1599.99,
+            "link": "https://www.amazon.com/-/es/MDR-Z1R-Signature-audífono-resolución-internacional/dp/B01LD5GO7I/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=15B2IHTAU7P2P&keywords=Sony+MDR-Z1R&qid=1704428768&sprefix=%2Caps%2C125&sr=8-2"
+          },
+          {
+            "modelo": "Sony MDR-ZX110A",
+            "precio": 12.33,
+            "link": "https://www.amazon.com/-/es/MDR-ZX310AP-Auriculares-cable-micrófono-color/dp/B00IKYI6FO/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1R7UTMI7M0GQZ&keywords=Sony%2BMDR-ZX110A&qid=1704428793&sprefix=sony%2Bmdr-zx110a%2B%2Caps%2C124&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Status Audio CB-1",
+            "precio": 59.0,
+            "link": "https://www.status.co/products/cb1"
+          },
+          {
+            "modelo": "Status Audio OB-1 Open Back Studio Monitor Headphones",
+            "precio": 85.0,
+            "link": "https://reverb.com/item/3298138-status-audio-ob-1-open-back-studio-monitor-headphones"
+          },
+          {
+            "modelo": "Superlux HD-668B",
+            "precio": 49.0,
+            "link": "https://www.amazon.com/-/es/Superlux-Auriculares-dinámicos-semiabiertos-HD668B/dp/B003JOETX8/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2K271X6DNRM5U&keywords=Superlux%2BHD-668B&qid=1704428927&sprefix=superlux%2Bhd-668b%2B%2Caps%2C124&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Superlux HD681 Evo",
+            "precio": 56.42,
+            "link": "https://www.amazon.com/-/es/HD681EVO-Superlux-HD-681-EVO-Negro/dp/B00CAG1ZAQ/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=223W5A3T36WVK&keywords=Superlux%2BHD681%2BEvo&qid=1704428948&sprefix=superlux%2Bhd681%2Bevo%2B%2Caps%2C130&sr=8-1&th=1"
+          },
+          {
+            "modelo": "Superlux HD681",
+            "precio": 48.05,
+            "link": "https://www.amazon.com/-/es/Superlux-HD-681-Dynamic-semi-abierto-audífonos/dp/B002GHIPYI/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2G80CUR0RJW81&keywords=Superlux+HD681&qid=1704428963&sprefix=superlux+hd681+%2Caps%2C133&sr=8-1"
+          },
+          {
+            "modelo": "Takstar Pro 82",
+            "precio": 69.99,
+            "link": "https://www.amazon.com/Auriculares-fidelidad-auriculares-cancelación-grabación/dp/B08DV3CGS3/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=1VNMZRL7LDPD4&keywords=Takstar%2BPro%2B82&qid=1704428982&sprefix=takstar%2Bpro%2B82%2B%2Caps%2C129&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+          },
+          {
+            "modelo": "Tascam TH-02",
+            "precio": 45.8,
+            "link": "https://www.leftimportaciones.com.co/MCO-510095190-tascam-th-02-auriculares-cerrados-para-estudio-_JM"
+          },
+          {
+            "modelo": "Tascam TH-200X",
+            "precio": 132.99,
+            "link": "https://www.amazon.com/-/es/Tascam-TH-200X-Auriculares-estudio-paquete/dp/B01E5WQ2YG/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=7LEOZ5KKRIJE&keywords=Tascam+TH-200X&qid=1704429087&sprefix=tascam+th-200x+%2Caps%2C129&sr=8-1"
+          },
+          {
+            "modelo": "Tascam TH-MX2",
+            "precio": 39.99,
+            "link": "https://www.amazon.com/-/es/Auriculares-TH-MX2-espalda-cerrada-estudio/dp/B00GBATPIG/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=3T4WS9AOW8FIS&keywords=Tascam+TH-MX2&qid=1704429106&sprefix=tascam+th-mx2+%2Caps%2C128&sr=8-3"
+          },
+          {
+            "modelo": "Ultrasone Signature Pro",
+            "precio": 849.0,
+            "link": "https://audio46.com/es/products/ultrasone-signature-pro"
+          },
+          {
+            "modelo": "V-Moda Crossfade LP2",
+            "precio": 112.76,
+            "link": "https://www.amazon.com/-/es/Crossfade-Edición-Limitada-Audífonos-aislamiento/dp/B00HYH7HXA/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=FY8NAF9TUC1H&keywords=V-Moda%2BCrossfade%2BLP2&qid=1704429178&sprefix=v-moda%2Bcrossfade%2Blp2%2B%2Caps%2C125&sr=8-1&th=1"
+          }
+        ]
+      }
+    ]
+  }
+  
