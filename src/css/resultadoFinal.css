@@ -1,5 +1,5 @@
 .pequeñas {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
   background-color: #022940 !important;
@@ -29,6 +29,29 @@
   text-align: center !important;
   --bs-table-bg: #081b26 !important;
   --bs-table-border-color: #022940 !important;
+}
+
+.table-container {
+  width: 100% !important;
+  max-height: 701.5px; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+.flexTittle {
+  display: flex !important;
+  gap: 20px;
+}
+
+#eliminar {
+  /* filter: invert(1) !important; */
+  background: red !important;
+}
+
+.linkDelete {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px !important;
 }
 
 .titleTable {
