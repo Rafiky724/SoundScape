@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
 .learning-body {
   background-color: #081b26 !important;
 }
@@ -14,7 +17,6 @@
 .contentVideo {
   text-align: justify;
   margin: 10px;
-  /* color: #9fc13b !important; */
   color: white;
   font-size: medium;
 }
@@ -22,9 +24,14 @@
 .tittle-Video {
   text-align: center;
   color: #9fc13b;
-  font-family: "Franklin Gothic Medium" !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
-.negrilla, .listaOrdenada {
+.negrilla,
+.listaOrdenada {
   color: #9fc13b;
+}
+
+p {
+  font-family: "Montserrat", sans-serif !important;
 }

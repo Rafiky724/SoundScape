@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -43,8 +45,8 @@
 
 .btn-homeStudio {
   background-color: #9fc13b !important;
-  font-family: "Franklin Gothic Medium" !important;
-  font-size: x-large !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: large !important;
 }
 
 .flex-center {

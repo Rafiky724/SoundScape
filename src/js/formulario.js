@@ -1,5 +1,5 @@
 import "../config/db.js";
-import { getStorage, ref, uploadBytes, getDownloadURL } from 'https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js';
+import { ref, getDownloadURL } from 'https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js';
 import { storage } from '../config/db.js'
 
 const tamano = document.getElementById("tamano");
@@ -155,4 +155,10 @@ async function resultadoFinal() {
     
   }
 
+  
+
+
+
+
 }
+
