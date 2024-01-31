@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 body {
   margin: 0 !important;
@@ -6,7 +7,6 @@ body {
 .container-registro {
   background-color: #081b26;
   border-radius: 20px;
-  
 }
 
 .background-registro {
@@ -18,14 +18,43 @@ body {
 }
 
 .registro-texto {
-  font-family: "Franklin Gothic Medium" !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
   color: #9fc13b !important;
+}
+
+::placeholder {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+p {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.form-control {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.texto-volver {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+}
+
+.label-generos {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
 }
 
 .genero-container {
   background-color: #022940;
   border-radius: 5px;
 }
+
+.nav-link-color-button {
+  font-weight: 900 !important;
+}
+
+
 
 .input-registro {
   background-color: #022940 !important;
@@ -52,7 +81,8 @@ body {
 .registro-boton {
   background-color: #9fc13b !important;
   color: #022940 !important;
-  font-family: "Franklin Gothic Medium" !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
   border-radius: 10px !important;
   border-color: #9fc13b !important;
 }
@@ -126,23 +156,17 @@ body {
   display: none !important;
 }
 
-.modal-restablecer{
-
+.modal-restablecer {
   background-color: #081b26 !important;
   color: white !important;
-
 }
 
-.boton-cerrar-modal{
-
-  filter:invert(1)
-
+.boton-cerrar-modal {
+  filter: invert(1);
 }
 
-.modal-padding{
-
+.modal-padding {
   border-color: #022940 !important;
-
 }
 
 @media only screen and (max-width: 991px) {

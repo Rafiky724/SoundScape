@@ -4,17 +4,36 @@
 
 .contain-title-btn {
   display: flex;
-  font-style: italic;
   color: #9fc13b !important;
   font-family: "Franklin Gothic Medium" !important;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: flex-start !important;
+}
+
+.btn-color {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: smaller !important;
+}
+
+.titlePrincipal {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
 }
 
 .accordion-button {
   background-color: #022940 !important;
   color: #9fc13b !important;
   font-family: "Franklin Gothic Medium" !important;
+}
+
+
+
+.btn-respuesta {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: small !important;
 }
 
 .accordion-collapse {
@@ -27,21 +46,39 @@
   border-bottom: 2px solid #022940 !important;
 }
 
+.modal-title {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+}
+
+.form-label {
+  font-family: "Montserrat", sans-serif !important;
+}
+
 .accordion-item {
   background-color: transparent !important;
   border-bottom: 0 !important;
   border-radius: 10px !important;
 }
 
+::placeholder {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+
+
 .btn-responder {
   background-color: #9fc13b !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: small !important;
 }
 
 .btn-close {
   filter: invert(1);
 }
 
-.accordion-button::after{
+.accordion-button::after {
   filter: invert(1);
 }
 
@@ -69,9 +106,14 @@
 .pregunta-autor {
   margin: 0;
   color: #ffffff;
-  font-family: "Franklin Gothic Medium" !important;
-  font-style: italic;
-  font-size: large;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: small !important;
+}
+
+.comentarioSin{
+  font-family: "Montserrat", sans-serif !important;
+
 }
 
 .p-autor {

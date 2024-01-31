@@ -26,14 +26,19 @@
   border: none !important;
 }
 
+::placeholder{
+  font-family: "Montserrat", sans-serif !important;
+}
+
 .inputsColor::placeholder {
   color: white !important;
 }
 
 .contactenosColor {
-  font-style: italic;
   color: #9fc13b;
   font-size: 80px;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
   margin-bottom: 30px !important;
 }
 
@@ -48,6 +53,8 @@
 .botoncito {
   width: 100px !important;
   justify-content: center !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
 }
 
 .contenedorInputs {

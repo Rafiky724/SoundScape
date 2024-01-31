@@ -25,11 +25,17 @@
   text-align: center;
   color: #9fc13b;
   font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
 }
 
 .negrilla,
 .listaOrdenada {
   color: #9fc13b;
+}
+
+.negrilla {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
 }
 
 p {

@@ -260,7 +260,7 @@ const productosData = [
   },
   {
     id: "30",
-    nombre: "Antelope Audio Discrete 4",
+    nombre: "Antelope Discrete 4",
     imagen: "../img/articulos/Antelope-Audio-Discrete-4.jpg",
     descripcion:
       "El Antelope Audio Discrete 4 es una interfaz de audio con cuatro preamplificadores de micrófono discretos y conversión de alta calidad. Diseñada para músicos y productores, esta interfaz ofrece una amplia conectividad, incluyendo entradas y salidas analógicas y digitales. Con su tecnología FPGA integrada, proporciona emulaciones de preamplificadores vintage y efectos de modelado de micrófonos para mejorar la calidad y versatilidad de las grabaciones. Compacta y robusta, la Antelope Audio Discrete 4 es una opción sólida para estudios domésticos y aplicaciones profesionales que buscan un rendimiento de audio excepcional.",
@@ -322,7 +322,7 @@ const productosData = [
   },
   {
     id: "37",
-    nombre: "AcousPanel Espuma Acústica",
+    nombre: "Espuma Acústica",
     imagen: "../img/articulos/AcousPanel-Espuma-Acústica.jpg",
     descripcion:
       "La AcousPanel Espuma Acústica es un producto diseñado para mejorar la calidad acústica de espacios interiores. Fabricada con espuma acústica de alta densidad, esta panel absorbe y reduce la reverberación del sonido, minimizando ecos y mejorando la claridad en grabaciones o ambientes. Su diseño versátil y fácil instalación lo hace ideal para estudios de grabación, oficinas, salas de estar y otros espacios donde se busca controlar el sonido ambiental. Disponible en varias formas y colores, la AcousPanel Espuma Acústica proporciona una solución estética y efectiva para el tratamiento acústico.",
@@ -330,7 +330,7 @@ const productosData = [
   },
   {
     id: "38",
-    nombre: "ATS Acoustic Foam Panels",
+    nombre: "ATS Acoustic Foam",
     imagen: "../img/articulos/ATS-Acoustic-Foam-Panels.jpg",
     descripcion:
       "Los paneles de espuma acústica ATS son soluciones eficaces para el tratamiento acústico de espacios. Diseñados para absorber y reducir el sonido no deseado, estos paneles de espuma se utilizan comúnmente en estudios de grabación, salas de cine en casa y otros entornos para mejorar la calidad del sonido. Con una estructura de espuma de alta densidad, los paneles ATS ofrecen absorción de frecuencias y control de reflexiones, ayudando a crear ambientes acústicamente optimizados. Disponibles en diversas formas y tamaños, son una elección popular para mejorar la acústica en diversos entornos.",
@@ -348,7 +348,7 @@ const productosData = [
   },
   {
     id: "40",
-    nombre: "AlphaDiffuser Sound Diffuser",
+    nombre: "AlphaDiffuser",
     imagen: "../img/articulos/AlphaDiffuser™-Sound-Diffuser.jpg",
     descripcion:
       "El AlphaDiffuser™ es un difusor acústico diseñado para mejorar la calidad del sonido en entornos musicales, estudios de grabación o espacios de escucha. Con su diseño único y eficiente, dispersa las ondas sonoras de manera uniforme, reduciendo la reverberación y mejorando la claridad del audio. Ideal para optimizar la acústica en diversos ambientes, el AlphaDiffuser™ contribuye a crear un entorno sonoro más equilibrado y agradable.",
@@ -406,7 +406,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "contenedor-de-productos"
   );
   const paginationContainer = document.getElementById("pagination-container");
-  const productosPorPagina = 9;
+  const productosPorPagina = 8;
   const totalPaginas = Math.ceil(productosData.length / productosPorPagina);
 
   function mostrarProductos(paginaActual) {

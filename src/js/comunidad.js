@@ -182,7 +182,7 @@ async function cargarMensajes() {
           div.innerHTML += `
                     
                     <div id="flush-collapse${pregunta.id}" class="accordion-collapse collapse" aria-labelledby="flush-${pregunta.id}" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><div class="mb-2">
+                    <div class="accordion-body"><div class="mb-2 comentarioSin">
                     Sin comentarios...
                     </div>
                     <a href="#" id="${pregunta.id}" class="btn btn-respuesta btn-responder" data-bs-toggle="modal" data-bs-target="#modalResponder">Responder</a></div>
