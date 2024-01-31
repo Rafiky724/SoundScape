@@ -1,13 +1,24 @@
 import "../config/db.js";
-import { ref, getDownloadURL } from 'https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js';
-import { storage } from '../config/db.js'
+import {
+  ref,
+  getDownloadURL,
+} from "https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js";
+import { storage } from "../config/db.js";
 
 const tamano = document.getElementById("tamano");
+const contieneVentana = document.getElementById("contieneVentana");
+const presupuesto = document.getElementById("presupuesto");
 const puerta = document.getElementById("puerta");
 const ventana = document.getElementById("ventana");
 const final = document.getElementById("final");
 
 const iframeTamano = document.getElementById("tamano").querySelector("iframe");
+const iframeContieneVentana = document
+  .getElementById("contieneVentana")
+  .querySelector("iframe");
+const iframePresupuestoHabitacion = document
+  .getElementById("presupuesto")
+  .querySelector("iframe");
 const iframePuerta = document.getElementById("puerta").querySelector("iframe");
 const iframeVentana = document
   .getElementById("ventana")
@@ -19,6 +30,14 @@ function getElementFromIframe(iframe, selector) {
 }
 
 const formularioArea = getElementFromIframe(iframeTamano, "#formularioArea");
+const formularioContieneVentana = getElementFromIframe(
+  iframeContieneVentana,
+  "#formularioContieneVentana"
+);
+const formularioPresupuestoHabitacion = getElementFromIframe(
+  iframePresupuestoHabitacion,
+  "#formularioPresupuestoHabitacion"
+);
 const formularioPuerta = getElementFromIframe(
   iframePuerta,
   "#formularioPuerta"
@@ -27,16 +46,21 @@ const formularioVentana = getElementFromIframe(
   iframeVentana,
   "#formularioVentana"
 );
-const imagenFinal = getElementFromIframe(iframeFinal, ".imagenFinal")
+const imagenFinal = getElementFromIframe(iframeFinal, ".imagenFinal");
 
 let storageRef;
 
 let largoHabitacion = getElementFromIframe(iframeTamano, "#largoHabitacion");
 let altoHabitacion = getElementFromIframe(iframeTamano, "#altoHabitacion");
 let anchoHabitacion = getElementFromIframe(iframeTamano, "#anchoHabitacion");
-let siVentana = getElementFromIframe(iframeTamano, 'input[name="options"]');
+
+let siVentana = getElementFromIframe(
+  iframeContieneVentana,
+  'input[name="options"]'
+);
+
 let presupuestoHabitacion = getElementFromIframe(
-  iframeTamano,
+  iframePresupuestoHabitacion,
   "#presupuestoHabitacion"
 );
 
@@ -47,6 +71,11 @@ let opcionPuerta;
 let opcionVentana;
 
 formularioArea.addEventListener("submit", tamanoHabitacion);
+formularioContieneVentana.addEventListener("submit", preguntaContieneVentanas);
+formularioPresupuestoHabitacion.addEventListener(
+  "submit",
+  presupuestoDeHabitacion
+);
 formularioPuerta.addEventListener("submit", preguntaPuertas);
 formularioVentana.addEventListener("submit", preguntaVentanas);
 
@@ -56,8 +85,6 @@ function tamanoHabitacion() {
   largoHabitacion = largoHabitacion.value;
   altoHabitacion = altoHabitacion.value;
   anchoHabitacion = anchoHabitacion.value;
-
-  presupuestoHabitacion = presupuestoHabitacion.value;
 
   let volumenHabitacion = largoHabitacion * altoHabitacion * anchoHabitacion;
 
@@ -69,6 +96,11 @@ function tamanoHabitacion() {
     dimensiones = "Habitacion_Pequeña";
   }
 
+  tamano.classList.add("disabled");
+  contieneVentana.classList.remove("disabled");
+}
+
+function preguntaContieneVentanas() {
   let opcion = "";
 
   if (siVentana && siVentana.checked) {
@@ -83,7 +115,16 @@ function tamanoHabitacion() {
     aux2 = "Solo_Puerta";
   }
 
-  tamano.classList.add("disabled");
+  contieneVentana.classList.add("disabled");
+  presupuesto.classList.remove("disabled");
+}
+
+function presupuestoDeHabitacion() {
+  presupuestoHabitacion = presupuestoHabitacion.value;
+
+  console.log(presupuestoHabitacion);
+  
+  presupuesto.classList.add("disabled");
   puerta.classList.remove("disabled");
 }
 
@@ -117,7 +158,6 @@ function preguntaPuertas() {
 /* Formulario Con Ventanas */
 
 function preguntaVentanas() {
-
   const radioSeleccionado = formularioVentana.querySelector(
     'input[name="grupoRadios"]:checked'
   );
@@ -128,37 +168,26 @@ function preguntaVentanas() {
   final.classList.remove("disabled");
 
   resultadoFinal();
-
 }
 
 async function resultadoFinal() {
-
-  if (aux == true){
-
-    storageRef = ref(storage, `final/${dimensiones}/Con_Ventanas/${opcionPuerta}/${opcionVentana}.jpg`);
-
-  }else{
-
-    storageRef = ref(storage, `final/${dimensiones}/Solo_Puertas/${opcionPuerta}.jpg`);
-
+  if (aux == true) {
+    storageRef = ref(
+      storage,
+      `final/${dimensiones}/Con_Ventanas/${opcionPuerta}/${opcionVentana}.jpg`
+    );
+  } else {
+    storageRef = ref(
+      storage,
+      `final/${dimensiones}/Solo_Puertas/${opcionPuerta}.jpg`
+    );
   }
 
-  try{
+  try {
     const imagenUrl = await getDownloadURL(storageRef);
-    
+
     imagenFinal.style.backgroundImage = `url("${imagenUrl}")`;
-    
-    
-  }catch(e){
-
+  } catch (e) {
     console.log(e);
-    
   }
-
-  
-
-
-
-
 }
-

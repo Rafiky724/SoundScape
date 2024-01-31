@@ -1,0 +1,29 @@
+.btn-secondary {
+  background-color: #022940 !important;
+  border: 1px solid #022940 !important;
+}
+
+.pequeñas {
+  background-color: #022940 !important;
+  color: white !important;
+  margin-top: 50px;
+}
+
+.pregunta {
+  color: #9fc13b !important;
+  text-align: center !important;
+}
+
+.flex-contain {
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.container-flex {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center !important;
+}
