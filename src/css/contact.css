@@ -26,8 +26,15 @@
   border: none !important;
 }
 
-::placeholder{
+::placeholder {
   font-family: "Montserrat", sans-serif !important;
+}
+
+.btn-homeStudio {
+  width: 50% !important;
+  border: none !important;
+  padding: 5px;
+  border-radius: 10px !important;
 }
 
 .inputsColor::placeholder {
@@ -38,7 +45,7 @@
   color: #9fc13b;
   font-size: 80px;
   font-family: "Montserrat", sans-serif !important;
-  font-weight: 900 !important;
+  font-weight: 500 !important;
   margin-bottom: 30px !important;
 }
 
@@ -51,7 +58,6 @@
 }
 
 .botoncito {
-  width: 100px !important;
   justify-content: center !important;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 900 !important;
