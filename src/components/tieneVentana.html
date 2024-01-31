@@ -16,19 +16,22 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: #081b26">
-    <div class="container pequeñas">
+  <body
+    style="background-color: #081b26"
+    class="background m-3 min-vh-100 d-flex align-items-center justify-content-center row"
+  >
+    <div class="container pequeñas col-sm-5 col-xl-4">
       <div class="container-fluid d-flex flex-contain">
-      
         <h1 class="pregunta mt-4">¿La habitación contiene ventanas?</h1>
 
         <form id="formularioContieneVentana" class="container-flex">
           <div class="btn-group">
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" value="True" /> Si
+            <label class="btn btn-secondary opciones">
+              <input type="radio" name="options" class="si" value="True" /> Si
             </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" value="False" checked /> No
+
+            <label class="btn btn-secondary opciones">
+              <input type="radio" name="options" class="no" value="False" checked /> No
             </label>
           </div>
 

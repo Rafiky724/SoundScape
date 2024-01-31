@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
 .imagenContacto {
   width: 900px !important;
   height: 100vh !important;
@@ -50,10 +53,11 @@ iframe {
 
 .inputsColor::placeholder {
   color: white !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .preguntaColor {
-  font-style: italic;
+  font-family: "Montserrat", sans-serif !important;
   color: #9fc13b;
   font-size: 50px;
   margin-bottom: 30px !important;
@@ -85,12 +89,12 @@ iframe {
   margin-top: 100px !important;
 }
 
-.colorLabelPresupuesto{
-  color: white !important;;
+.colorLabelPresupuesto {
+  color: white !important;
 }
 
-.flex-presupuesto{
-  display: flex  !important;
+.flex-presupuesto {
+  display: flex !important;
   flex-wrap: wrap !important;
   align-items: center !important;
   gap: 10px !important;
