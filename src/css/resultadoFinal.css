@@ -110,6 +110,10 @@ td {
   text-align: center;
 }
 
+.row {
+  align-items: center !important;
+}
+
 @media (max-width: 750px) {
   .pequeñas {
     margin-left: 20px;
