@@ -31,9 +31,9 @@ formPresupuesto.addEventListener("submit", function (e) {
   async function seleccionarProductos(json, presupuesto) {
     
     let productosCategoria2 = [];
-    let auxiliar = true;
+    let auxiliar;
     let totalValor = 0;
-    let resultadoFinal;
+    let resultadoFinal = [];
   
     // Iterar sobre cada categoría
     for (let categoria of json.productos) {
@@ -69,22 +69,34 @@ formPresupuesto.addEventListener("submit", function (e) {
       if (totalValor <= presupuesto){
 
         resultadoFinal = productosSeleccionados;
+        auxiliar = true;
         break;
 
       }else{
 
         auxiliar = await procesarProductos(productosSeleccionados, productosCategoria2, a);
-        //Aquí va lo siguiente del bloc de notas:
 
-        if(auxiliar == true){
+        if(auxiliar != true){
 
-          resultadoFinal = productosSeleccionados;
+          //resultadoFinal = productosSeleccionados;
+          //resultadoFinal = {...auxiliarFinal};
+          resultadoFinal = auxiliar;
+          auxiliar = true;
           break;
 
         }
 
-        auxiliar = await procesarProductosParte2(productosSeleccionados, productosCategoria2, a)
-        
+        auxiliar = await procesarProductosParte2(productosSeleccionados, productosCategoria2, a);
+
+        if(auxiliar != true){
+
+          //resultadoFinal = productosSeleccionados;
+          //resultadoFinal = {...auxiliarFinal};
+          resultadoFinal = auxiliar;
+          auxiliar = true;
+          break;
+
+        }
 
       }
 
@@ -107,6 +119,7 @@ formPresupuesto.addEventListener("submit", function (e) {
     let guardarValorAnterior = []
     let verificador = false;
     let totalValor;
+    let encontrado = [];
 
     for (let i=0; i<9; i++) {
 
@@ -125,8 +138,8 @@ formPresupuesto.addEventListener("submit", function (e) {
       if(totalValor <= presupuesto) {
 
         verificador = true;
+        encontrado.push({...productosSeleccionados });
         //console.log(totalValor);
-        //console.log(productosSeleccionados);
         break;
 
       }
@@ -138,10 +151,12 @@ formPresupuesto.addEventListener("submit", function (e) {
     }
 
     if(verificador == true) {
-      return true;
+
+      return productosSeleccionados;
+
     }else{
 
-      return false;
+      return true;
 
     }
 
@@ -151,6 +166,7 @@ formPresupuesto.addEventListener("submit", function (e) {
 
     let verificador = false;
     let totalValor;
+    let encontrado = [];
 
     for (let i=0; i<9; i++) {
 
@@ -175,7 +191,9 @@ formPresupuesto.addEventListener("submit", function (e) {
 
         //console.log(productosSeleccionados);
         //console.log(totalValor);
+        encontrado.push({...productosSeleccionados });
         verificador = true;
+        //console.log(encontrado)
         break;
 
       }
@@ -191,40 +209,48 @@ formPresupuesto.addEventListener("submit", function (e) {
 
     }
 
-
     
     if(verificador == true) {
 
-       return true;
+      return productosSeleccionados;
 
     }else{
 
-       return false;
+      return true;
 
     }
 
   }
-  
 
-  //let productos = seleccionarProductos(prodJson, presupuesto);
   (async () => {
-    let productos = await seleccionarProductos(prodJson, presupuesto);
-    console.log(productos);
-    let total = productos.reduce((acc, prod) => acc + prod.precio, 0);
-    console.log(total);
-    console.log("FINALÍSIMO")
+
+    let productos2;
+    let total2;
+    let productos;
+    let total;
+    let ProductosFinal;
+
+    productos2 = await seleccionarProductos(prodJson2, presupuesto);
+    total2 = productos2.reduce((acc, prod) => acc + prod.precio, 0);
+
+    productos = await seleccionarProductos(prodJson, presupuesto);
+    total = productos.reduce((acc, prod) => acc + prod.precio, 0);
+
+    if(total > total2){
+
+      ProductosFinal = productos;
+      console.log(ProductosFinal);
+      console.log(total);
+  
+    }else{
+  
+      ProductosFinal = productos2;
+      console.log(ProductosFinal);
+      console.log(total2);
+  
+    }
+
   })();
-
-  /*
-  (async () => {
-    let productos2 = await seleccionarProductos(prodJson2, presupuesto);
-    console.log(productos2);
-    let total2 = productos2.reduce((acc, prod) => acc + prod.precio, 0);
-    console.log(total2);
-  })();*/
   
-  //let total = productos.reduce((acc, prod) => acc + prod.precio, 0);
-
-  //console.log(productos);
-  //console.log(total);
+  
 });
