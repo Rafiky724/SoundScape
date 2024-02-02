@@ -309,8 +309,6 @@ function mostrarTabla(productosObtenidos) {
 }
 
 function elminarProducto(producto, fila) {
-  console.log(producto);
-  console.log(fila);
 
   if (fila) {
     fila.remove();
