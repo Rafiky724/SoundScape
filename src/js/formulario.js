@@ -135,8 +135,6 @@ function tamanoHabitacion(e) {
   altoHabitacion = altoHabitacion.value;
   anchoHabitacion = anchoHabitacion.value;
 
-  console.log(largoHabitacion, altoHabitacion, anchoHabitacion);
-
   let volumenHabitacion = largoHabitacion * altoHabitacion * anchoHabitacion;
 
   if (volumenHabitacion >= 75000000) {
@@ -180,8 +178,6 @@ function presupuestoDeHabitacion(e) {
   e.preventDefault();
 
   presupuestoHabitacionTotal = presupuestoHabitacion.value;
-
-  console.log(presupuestoHabitacionTotal);
 
   presupuesto.classList.add("disabled");
   puerta.classList.remove("disabled");
@@ -266,9 +262,11 @@ async function resultadoFinal() {
 }
 
 function calcularPrecioTotal(productosObtenidos) {
+
   precioTotalTotal.innerHTML = productosObtenidos
     .reduce((acc, prod) => acc + prod.precio, 0)
     .toFixed(2);
+  
 }
 
 function mostrarTabla(productosObtenidos) {
@@ -282,7 +280,7 @@ function mostrarTabla(productosObtenidos) {
       tr.innerHTML = `
     <td>${producto.tipo} </td>
     <td>${producto.modelo} </td>
-    <td>${producto.precio} </td>
+    <td>US $${producto.precio}</td>
     <td>
       <div class="linkDelete">
         <a href="${producto.link}" class="btn btn-color">Ver Producto</a>
