@@ -56,6 +56,10 @@ let anchoHabitacion = getElementFromIframe(iframeTamano, "#anchoHabitacion");
 let tablitaProductos = getElementFromIframe(iframeFinal, "#tablitaProductos");
 let precioTotalTotal = getElementFromIframe(iframeFinal, "#precioTotalTotal");
 
+
+let botonVolver1 = getElementFromIframe(iframeContieneVentana, "#volver");
+botonVolver1.addEventListener("click", volver1);
+
 let siVentana = getElementFromIframe(
   iframeContieneVentana,
   'input[name="options"]'
@@ -81,6 +85,11 @@ formularioPresupuestoHabitacion.addEventListener(
 );
 formularioPuerta.addEventListener("submit", preguntaPuertas);
 formularioVentana.addEventListener("submit", preguntaVentanas);
+
+function volver1() {
+  contieneVentana.classList.add("disabled");
+  tamano.classList.remove("disabled");
+}
 
 /* Formulario Tamaño Habitacion */
 
@@ -211,28 +220,48 @@ function mostrarTabla(productosObtenidos) {
   productosObtenidos.forEach((product) => {
     function crearTabla(producto) {
       const tbody = document.createElement("tbody");
+      const tr = document.createElement("tr");
 
-      tbody.innerHTML = `
-      <tr class="trFlex">
-                    <td>${producto.modelo} </td>
-                    <td>${producto.modelo} </td>
-                    <td>${producto.precio} </td>
-                    <td class="linkDelete">
-                      <a href="${producto.link} " class="btn btn-color">Ver Producto</a>
-                      <button
-                        type="button"
-                        id="${producto.modelo}"
-                        class="btn-close botones-elminar-producto"
-                      ></button>
-                    </td>
-      </tr>
-    `;
+      tr.innerHTML = `
+    <td>${producto.tipo} </td>
+    <td>${producto.modelo} </td>
+    <td>${producto.precio} </td>
+    <td>
+      <div class="linkDelete">
+        <a href="${producto.link}" class="btn btn-color">Ver Producto</a>
+        <button
+          type="button"
+          id="${producto.modelo}"
+          class="btn-close botones-elminar-producto"
+        ></button>
+      </div>
+    </td>
+  `;
+
+      tbody.appendChild(tr);
 
       tablitaProductos.append(tbody);
-    }
 
+      const btnEliminar = tbody.querySelector(".botones-elminar-producto");
+      btnEliminar.addEventListener("click", () => {
+        elminarProducto(product, tr);
+      });
+    }
     crearTabla(product);
   });
+}
+
+function elminarProducto(producto, fila) {
+  console.log(producto);
+  console.log(fila);
+
+  if (fila) {
+    fila.remove();
+
+    precioTotalTotal.innerHTML = (
+      parseFloat(precioTotalTotal.innerHTML) - parseFloat(producto.precio)
+    ).toFixed(2);
+  }
 }
 
 async function obtenerProductos() {

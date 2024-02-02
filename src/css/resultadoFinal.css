@@ -1,3 +1,8 @@
+.table-container {
+  scrollbar-width: thin !important;
+  scrollbar-color: #081b26 #022940 !important;
+}
+
 .pequeñas {
   margin-top: 10px;
   margin-left: 50px;
