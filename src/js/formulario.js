@@ -77,7 +77,11 @@ let opcionPuerta;
 let opcionVentana;
 let presupuestoHabitacionTotal;
 
-formularioArea.addEventListener("submit", tamanoHabitacion);
+formularioArea.addEventListener("submit", function(event){
+
+  tamanoHabitacion(event);
+
+});
 formularioContieneVentana.addEventListener("submit", preguntaContieneVentanas);
 formularioPresupuestoHabitacion.addEventListener(
   "submit",
@@ -93,10 +97,19 @@ function volver1() {
 
 /* Formulario Tamaño Habitacion */
 
-function tamanoHabitacion() {
+function tamanoHabitacion(e) {
+
+  e.preventDefault();
+
+  largoHabitacion = getElementFromIframe(iframeTamano, "#largoHabitacion");
+  altoHabitacion = getElementFromIframe(iframeTamano, "#altoHabitacion");
+  anchoHabitacion = getElementFromIframe(iframeTamano, "#anchoHabitacion");
+
   largoHabitacion = largoHabitacion.value;
   altoHabitacion = altoHabitacion.value;
   anchoHabitacion = anchoHabitacion.value;
+
+  console.log(largoHabitacion, altoHabitacion, anchoHabitacion)
 
   let volumenHabitacion = largoHabitacion * altoHabitacion * anchoHabitacion;
 
@@ -110,6 +123,8 @@ function tamanoHabitacion() {
 
   tamano.classList.add("disabled");
   contieneVentana.classList.remove("disabled");
+
+  formularioArea.reset();
 }
 
 function preguntaContieneVentanas() {
