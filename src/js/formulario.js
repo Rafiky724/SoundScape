@@ -56,9 +56,14 @@ let anchoHabitacion = getElementFromIframe(iframeTamano, "#anchoHabitacion");
 let tablitaProductos = getElementFromIframe(iframeFinal, "#tablitaProductos");
 let precioTotalTotal = getElementFromIframe(iframeFinal, "#precioTotalTotal");
 
-
 let botonVolver1 = getElementFromIframe(iframeContieneVentana, "#volver");
 botonVolver1.addEventListener("click", volver1);
+let botonVolver2 = getElementFromIframe(iframePresupuestoHabitacion, "#volver");
+botonVolver2.addEventListener("click", volver2);
+let botonVolver3 = getElementFromIframe(iframePuerta, "#volver");
+botonVolver3.addEventListener("click", volver3);
+let botonVolver4 = getElementFromIframe(iframeVentana, "#volver");
+botonVolver4.addEventListener("click", volver4);
 
 let siVentana = getElementFromIframe(
   iframeContieneVentana,
@@ -77,28 +82,49 @@ let opcionPuerta;
 let opcionVentana;
 let presupuestoHabitacionTotal;
 
-formularioArea.addEventListener("submit", function(event){
-
+formularioArea.addEventListener("submit", function (event) {
   tamanoHabitacion(event);
-
 });
-formularioContieneVentana.addEventListener("submit", preguntaContieneVentanas);
-formularioPresupuestoHabitacion.addEventListener(
-  "submit",
-  presupuestoDeHabitacion
-);
-formularioPuerta.addEventListener("submit", preguntaPuertas);
-formularioVentana.addEventListener("submit", preguntaVentanas);
+
+formularioContieneVentana.addEventListener("submit", function (event) {
+  preguntaContieneVentanas(event);
+});
+
+formularioPresupuestoHabitacion.addEventListener("submit", function (event) {
+  presupuestoDeHabitacion(event);
+});
+
+formularioPuerta.addEventListener("submit", function (event) {
+  preguntaPuertas(event);
+});
+
+formularioVentana.addEventListener("submit", function (event) {
+  preguntaVentanas(event);
+});
 
 function volver1() {
   contieneVentana.classList.add("disabled");
   tamano.classList.remove("disabled");
 }
 
+function volver2() {
+  presupuesto.classList.add("disabled");
+  contieneVentana.classList.remove("disabled");
+}
+
+function volver3() {
+  puerta.classList.add("disabled");
+  presupuesto.classList.remove("disabled");
+}
+
+function volver4() {
+  ventana.classList.add("disabled");
+  puerta.classList.remove("disabled");
+}
+
 /* Formulario Tamaño Habitacion */
 
 function tamanoHabitacion(e) {
-
   e.preventDefault();
 
   largoHabitacion = getElementFromIframe(iframeTamano, "#largoHabitacion");
@@ -109,7 +135,7 @@ function tamanoHabitacion(e) {
   altoHabitacion = altoHabitacion.value;
   anchoHabitacion = anchoHabitacion.value;
 
-  console.log(largoHabitacion, altoHabitacion, anchoHabitacion)
+  console.log(largoHabitacion, altoHabitacion, anchoHabitacion);
 
   let volumenHabitacion = largoHabitacion * altoHabitacion * anchoHabitacion;
 
@@ -127,7 +153,9 @@ function tamanoHabitacion(e) {
   formularioArea.reset();
 }
 
-function preguntaContieneVentanas() {
+function preguntaContieneVentanas(e) {
+  e.preventDefault();
+
   let opcion = "";
 
   if (siVentana && siVentana.checked) {
@@ -144,20 +172,28 @@ function preguntaContieneVentanas() {
 
   contieneVentana.classList.add("disabled");
   presupuesto.classList.remove("disabled");
+
+  formularioContieneVentana.reset();
 }
 
-function presupuestoDeHabitacion() {
+function presupuestoDeHabitacion(e) {
+  e.preventDefault();
+
   presupuestoHabitacionTotal = presupuestoHabitacion.value;
 
   console.log(presupuestoHabitacionTotal);
 
   presupuesto.classList.add("disabled");
   puerta.classList.remove("disabled");
+
+  formularioPresupuestoHabitacion.reset();
 }
 
 /* Formulario Con Puertas */
 
-function preguntaPuertas() {
+function preguntaPuertas(e) {
+  e.preventDefault();
+
   const radioSeleccionado = formularioPuerta.querySelector(
     'input[name="grupoRadios"]:checked'
   );
@@ -180,11 +216,15 @@ function preguntaPuertas() {
     final.classList.remove("disabled");
     resultadoFinal();
   }
+
+  formularioPuerta.reset();
 }
 
 /* Formulario Con Ventanas */
 
-function preguntaVentanas() {
+function preguntaVentanas(e) {
+  e.preventDefault();
+
   const radioSeleccionado = formularioVentana.querySelector(
     'input[name="grupoRadios"]:checked'
   );
@@ -195,6 +235,8 @@ function preguntaVentanas() {
   final.classList.remove("disabled");
 
   resultadoFinal();
+
+  formularioVentana.reset();
 }
 
 async function resultadoFinal() {
