@@ -4,63 +4,63 @@
       "monitorEstudio": [
         {
           "id": "muyBarato",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Alesis Elevate 3",
           "precio": 21.37,
           "link": "https://www.amazon.com/-/es/Elevate-altavoces-escritorio-alimentación-MKII/dp/B01MUY24JE"
         },
         {
           "id": "barato",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Aurisonics AS-1",
           "precio": 86.92,
           "link": "https://www.amazon.com/aurisonics-asg-1plus-Auriculares-Monitor-Digital/dp/B00NPA6NH6/ref=cm_cr_arp_d_product_top?ie=UTF8"
         },
         {
           "id": "economico",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Monitor Audio Bronze 1",
           "precio": 261.68,
           "link": "https://www.studio-22.com/monitor-audio-bronze-1"
         },
         {
           "id": "medioBajo",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Monitor Audio Studio 2",
           "precio": 1550.0,
           "link": "https://upscaleaudio.com/products/monitor-audio-studio-speakers"
         },
         {
           "id": "medio",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Amphion Argon 3L",
           "precio": 2400.0,
           "link": "https://amphion.fi/products/argon3ls/"
         },
         {
           "id": "medioAlto",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Revel Ultima2 Salon2",
           "precio": 7500.0,
           "link": "https://www.musicdirect.com/equipment/speakers/revel-salon2-tower-speakers-pair/"
         },
         {
           "id": "caro",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Tannoy Westminster Royal",
           "precio": 27495.0,
           "link": "https://upscaleaudio.com/products/tannoy-westminster-gold-reference-loudspeaker"
         },
         {
           "id": "costoso",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Burmester BC350",
           "precio": 375000.0,
           "link": "https://www.avluxurygroup.com/burmester-signature-loudspeaker.html"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Monitor Estudio",
+          "tipo": "Monitor estudio",
           "modelo": "Marten Coltrane Supreme",
           "precio": 517204.11,
           "link": "https://audiogallery.es/producto/marten-coltrane-supreme-2/"
@@ -72,63 +72,63 @@
       "microfonosCondensador": [
         {
           "id": "muyBarato",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Elgato Wave:1",
           "precio": 9.79,
           "link": "https://www.amazon.com/-/es/Wave-Pop-Filter-profesional-condensador/dp/B091DDNV36/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=2MRS3SZR5NJV6&keywords=Elgato+Wave%3A1&qid=1704400719&sprefix=elgato+wave+1+%2Caps%2C140&sr=8-1"
         },
         {
           "id": "barato",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Behringer C-1U",
           "precio": 49.0,
           "link": "https://www.amazon.com/-/es/C1U-BEHRINGER-C-1U/dp/B001QXCYZY/ref=sr_1_6?__mk_es_US=ÅMÅŽÕÑ&crid=18B32FMF7LHR&keywords=Behringer%2BC-1U&qid=1704398663&sprefix=behringer%2Bc-1u%2B%2Caps%2C127&sr=8-6&th=1"
         },
         {
           "id": "economico",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "AKG C414 XLS",
           "precio": 119.0,
           "link": "https://www.amazon.com/-/es/AKG-Micr%C3%B3fono-condensador-multipatr%C3%B3n-referencia/dp/B000Z7CFW4/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2Q9JF9FJ2TC3N&keywords=AKG+C12+VR&qid=1704397512&sprefix=akg+c12+vr+%2Caps%2C127&sr=8-2"
         },
         {
           "id": "medioBajo",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Audio-Technica AT4033",
           "precio": 399.0,
           "link": "https://www.amazon.com/-/es/Audio-Technica-Micrófono-condensador-AT4033-CL/dp/B000ZLOGAE/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=EHSLTSZU26T4&keywords=Audio-Technica+AT4033&qid=1704398309&sprefix=audio-technica+at4033+%2Caps%2C132&sr=8-2"
         },
         {
           "id": "medio",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Audio-Technica AT4050TI",
           "precio": 675.3,
           "link": "https://www.amazon.com/-/es/Audio-Technica-AT4050-Micrófono-condensador-multipatrón/dp/B0002EK70W/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=1ZE2B6CSO0KBR&keywords=Audio-Technica%2BAT4050TI&qid=1704398414&sprefix=audio-technica%2Bat4050ti%2B%2Caps%2C122&sr=8-2&th=1"
         },
         {
           "id": "medioAlto",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Sennheiser MKH 8020",
           "precio": 2320.0,
           "link": "https://colombia.bioweb.co/products/microfono-sennheiser-mkh-8020-omnidireccional"
         },
         {
           "id": "caro",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Telefunken ELA M 251E",
           "precio": 5145.71,
           "link": "https://www.planetaanalogico.com/producto-telefunken-elam-251e-1904251356423321/"
         },
         {
           "id": "costoso",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Neumann KM 184",
           "precio": 8900.0,
           "link": "https://www.amazon.com/-/es/Neumann-KM-184-MT-condensador/dp/B000T9HDC0/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=29DXXM31XSI4Y&keywords=Neumann%2BKM%2B184&qid=1704402410&sprefix=neumann%2Bkm%2B184%2B%2Caps%2C124&sr=8-1&th=1"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Microfonos Condensador",
+          "tipo": "Micrófonos condensador",
           "modelo": "Gefell M 930",
           "precio": 11911.02,
           "link": "https://www.musicstore.com/es_OT/EUR/Microtech-Gefell-M-930-Micr-fono-de-condensador-niquel-cardioide-incl-MH-93-1-Soporte/art-REC0001275-000"
@@ -140,63 +140,63 @@
       "midi": [
         {
           "id": "muyBarato",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Kurzweil Artis Elite",
           "precio": 51.06,
           "link": "https://www.amazon.com/-/es/Rockville-88-Acolchado-Teclado-Inserto/dp/B0857D72FP?th=1"
         },
         {
           "id": "barato",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Korg nanoKONTROL2",
           "precio": 75.97,
           "link": "https://www.amazon.com/Korg-Superficie-controles-extraplana-Negro/dp/B004M8UZS8?shipTo=CO&source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1X3CGDEQ8PULA&language=es_US&th=1"
         },
         {
           "id": "economico",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Yamaha PSS-A50",
           "precio": 93.06,
           "link": "https://www.amazon.es/Yamaha-PSS-A50-Teclado-sensible-teclas/dp/B07XCL6PWG"
         },
         {
           "id": "medioBajo",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Alesis V49 MKII",
           "precio": 149.0,
           "link": "https://www.amazon.com/-/es/V49-MKII-Controlador-almohadillas-arpegiador/dp/B09GX9DQ8N?th=1"
         },
         {
           "id": "medio",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Akai MPK25",
           "precio": 287.0,
           "link": "https://www.amazon.com/-/es/Professional-MPK25-controlador-teclado-almohadillas/dp/B001SGWKR6"
         },
         {
           "id": "medioAlto",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Akai MPC Studio",
           "precio": 383.09,
           "link": "https://articulo.mercadolibre.com.co/MCO-532264631-controlador-akai-mpc-studio-para-produccion-musical-_JM#position=5&search_layout=stack&type=item&tracking_id=0f987dfa-9b22-459c-ba98-43ab906324ce"
         },
         {
           "id": "caro",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Moog Sub 37 Tribute Edition",
           "precio": 1915.32,
           "link": "https://articulo.mercadolibre.com.co/MCO-456893461-subsequent-37-sintetizador-analogo-moog-audiotecna-_JM"
         },
         {
           "id": "costoso",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Akai MPC X",
           "precio": 2551.05,
           "link": "https://www.amazon.com.mx/Akai-Professional-MPC-visualizaci%C3%B3n-multit%C3%A1ctil/dp/B071RFD1G8"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Midi",
+          "tipo": "MIDI",
           "modelo": "Sequential Prophet-6",
           "precio": 6049.52,
           "link": "https://articulo.mercadolibre.com.co/MCO-499370825-sequential-prophet-6-sintetizador-6-voces-_JM#position=1&search_layout=stack&type=item&tracking_id=5f7ce3aa-4cdf-4ad8-8a90-295d4b60ec5b"
@@ -208,63 +208,63 @@
       "audifonos": [
         {
           "id": "muyBarato",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "Behringer HPS3000",
           "precio": 14.9,
           "link": "https://www.amazon.com/-/es/Behringer-HPS3000-Auriculares-estudio-rendimiento/dp/B0002Z82XA/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1OLYR5PDAG5U2&keywords=Behringer%2BHPS3000&qid=1704419350&sprefix=behringer%2Bhps3000%2B%2Caps%2C132&sr=8-1&th=1"
         },
         {
           "id": "barato",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "Behringer HPX2000",
           "precio": 25.0,
           "link": "https://www.amazon.com/-/es/Behringer-HPX2000-Auriculares-definición-Negro/dp/B000IKWBC2/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3DJI9BW6QB79D&keywords=Behringer%2BHPX2000&qid=1704419371&sprefix=behringer%2Bhpx2000%2B%2Caps%2C134&sr=8-1&th=1"
         },
         {
           "id": "economico",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "FiiO FH1 Dual Driver Hybrid",
           "precio": 54.99,
           "link": "https://www.amazon.com/-/es/FH11-controlador-intrauditivo-desmontable-auriculares/dp/B0CCSHYTS3/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=309H97IDQM022&keywords=FiiO+FH1+Dual+Driver+Hybrid+Over-Ear+Headphones&qid=1704419987&sprefix=fiio+fh1+dual+driver+hybrid+over-ear+headphones+%2Caps%2C136&sr=8-2"
         },
         {
           "id": "medioBajo",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "Direct Sound EX-29",
           "precio": 123.75,
           "link": "https://www.amazon.com/-/es/Direct-Audífonos-ex-29-aislamiento-extremo/dp/B0002GZLY2/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=1REU65PEK5SFC&keywords=Direct+Sound+EX-29&qid=1704419806&sprefix=direct+sound+ex-29+%2Caps%2C132&sr=8-1"
         },
         {
           "id": "medio",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "HIFIMAN SUNDARA",
           "precio": 299.0,
           "link": "https://www.amazon.com/-/es/HIFIMAN-SUNDARA-Auriculares-magnéticos-audiófilos/dp/B077XDWT7X"
         },
         {
           "id": "medioAlto",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "Meze Empyrean",
           "precio": 309.0,
           "link": "https://www.amazon.com/-/es/Classics-audífonos-dorados-nogal-dorado/dp/B018VZBH5M/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=28K3GGAWX4QTY&keywords=Meze%2BEmpyrean&qid=1704422148&sprefix=meze%2Bempyrean%2B%2Caps%2C128&sr=8-1&th=1"
         },
         {
           "id": "caro",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "Sennheiser HD 660S",
           "precio": 529.95,
           "link": "https://www.amazon.com/-/es/Sennheiser-Consumer-Audio-HD-660/dp/B076HP574T/ref=sr_1_3?__mk_es_US=ÅMÅŽÕÑ&crid=3AH78DC7JP6TZ&keywords=Sennheiser%2BHD%2B660S&qid=1704428524&sprefix=sennheiser%2Bhd%2B660s%2B%2Caps%2C127&sr=8-3&th=1"
         },
         {
           "id": "costoso",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "Sony MDR-Z1R",
           "precio": 1599.99,
           "link": "https://www.amazon.com/-/es/MDR-Z1R-Signature-audífono-resolución-internacional/dp/B01LD5GO7I/ref=sr_1_2?__mk_es_US=ÅMÅŽÕÑ&crid=15B2IHTAU7P2P&keywords=Sony+MDR-Z1R&qid=1704428768&sprefix=%2Caps%2C125&sr=8-2"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Audifonos",
+          "tipo": "Audífonos",
           "modelo": "HIFIMAN SUSVARA",
           "precio": 5999.0,
           "link": "https://www.amazon.com/-/es/HIFIMAN-SUSVARA-Auriculares-magnéticos-planares/dp/B0716R6NDT"
@@ -276,63 +276,63 @@
       "interfazAudio": [
         {
           "id": "muyBarato",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Miditech Audiolink III",
           "precio": 49.0,
           "link": "https://www.amazon.com/-/es/Miditech-Interfaz-audio-Audiolink-III/dp/B01N7EU8EL"
         },
         {
           "id": "barato",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Behringer UMC22",
           "precio": 69.0,
           "link": "https://www.amazon.com/-/es/BEHRINGER-U-PHORIA-UMC22-Interfaz-audio/dp/B00FFIGZF6?th=1"
         },
         {
           "id": "economico",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Behringer U-Phoria UMC202HD",
           "precio": 99.0,
           "link": "https://www.amazon.com/-/es/Behringer-Interfaz-audio-U-Phoria-UMC202HD/dp/B00SAV0VP0?th=1"
         },
         {
           "id": "medioBajo",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Focusrite Scarlett 2i2",
           "precio": 199.99,
           "link": "https://www.amazon.com/-/es/2i2-generaci-C3-B3n-composici-C3-B3n-transmisi-C3-B3n-podcasting-dp-B0C5JRTS3Y/dp/B0C5JRTS3Y/ref=dp_ob_title_ce?th=1"
         },
         {
           "id": "medio",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Audient iD14 MKII",
           "precio": 289.99,
           "link": "https://www.amazon.com/-/es/preamplificadores-micr%C3%B3fono-rendimiento-panor%C3%A1mica-auriculares/dp/B08SJD466P?th=1"
         },
         {
           "id": "medioAlto",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Behringer UMC1820",
           "precio": 418.26,
           "link": "https://www.mercadolibre.com.co/interfaz-de-audio-behringer-u-phoria-umc1820-100v240v/p/MCO15397603?pdp_filters=category:MCO166465#searchVariation=MCO15397603&position=2&search_layout=stack&type=product&tracking_id=8b436413-9140-43d9-93de-e7fc88f55d69"
         },
         {
           "id": "caro",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Apogee Element 46",
           "precio": 916.0,
           "link": "https://soloproaudio.com/product/apogee-element-46/"
         },
         {
           "id": "costoso",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "RME Fireface UCX II",
           "precio": 1699.0,
           "link": "https://www.rme-usa.com/es_fireface-ucx-ii.html"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Interfaz Audio",
+          "tipo": "Interfaz audio",
           "modelo": "Universal Audio Apollo x8p",
           "precio": 5807.81,
           "link": "https://articulo.mercadolibre.com.co/MCO-985693792-universal-audio-apollo-x8p-tb3-heritage-_JM"
@@ -344,63 +344,63 @@
       "microfonosDinamicos": [
         {
           "id": "muyBarato",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Behringer XM8500",
           "precio": 50.0,
           "link": "https://www.mercadolibre.com.co/microfono-behringer-ultravoice-xm8500-dinamico-cardioide-color-negro/p/MCO15144868?pdp_filters=category:MCO4633#searchVariation=MCO15144868&position=2&search_layout=stack&type=product&tracking_id=47cb4d52-81bb-4f70-85a6-d39529e55735"
         },
         {
           "id": "barato",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Samson Q1U",
           "precio": 60.0,
           "link": "https://es.aliexpress.com/i/32822496675.html?gatewayAdapt=glo2esp"
         },
         {
           "id": "economico",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Behringer XM1800S",
           "precio": 71.68,
           "link": "https://www.mercadolibre.com.co/microfonos-behringer-ultravoice-xm1800s-dinamico-supercardioide-color-negro/p/MCO7567473?pdp_filters=category%3AMCO4633#searchVariation=MCO7567473&position=2&search_layout=stack&type=product&tracking_id=2683f056-cb9f-4a28-85e8-5e8955d5f057"
         },
         {
           "id": "medioBajo",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Lewitt MTP 400 DM",
           "precio": 109.0,
           "link": "https://www.ebay.com/itm/185185848704?epid=127421551&hash=item2b1defcd80:g:ShAAAOSwT3ZgmdFa&amdata=enc%3AAQAIAAAA0Jl7AXBAxSkjdhSDjaJ1WlcLylgOU2ZwIfc5uoIYOrZYgBICVH9gx51kYI0xQK7otr3Np4foa%2FOmw7idxThvCwgWxKdc7IQzPCDj5GDrlfOFFGCxmMM9E1YZ9i7FAZnvyzazUC8%2Bn%2FvZi7wjbhGc2TUu9QcfXUywZ9VZ1TbY8sdJ4iuUnfNm2nvnr%2BqcmIsAXodN9R9V1TJ8%2FydKVf1ncTCW034OMC5gGvW9Z0SDuHreiUvvoGnDqExVBEMVzujI2s9v8Gq1JqXqbTya0J9i9Rw%3D%7Ctkp%3ABFBM5rz8u5Zj"
         },
         {
           "id": "medio",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "AKG D7",
           "precio": 266.0,
           "link": "https://www.amazon.com/-/es/referencia-D7-diagn%C3%B3stico-varimoci%C3%B3n-retroalimentaci%C3%B3n/dp/B001RP5HUU?th=1"
         },
         {
           "id": "medioAlto",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Beyerdynamic M88 TG",
           "precio": 500.0,
           "link": "https://www.amazon.com/-/es/Beyerdynamic-Micr%C3%B3fono-din%C3%A1mico-hipercardioide-estudio/dp/B0002MNXFK"
         },
         {
           "id": "caro",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Telefunken M80",
           "precio": 774.11,
           "link": "https://articulo.mercadolibre.com.co/MCO-1831610644-telefunken-m80-supercardioid-dynamic-handheld-vocal-microfon-_JM#position=8&search_layout=stack&type=item&tracking_id=7225ef75-d3d8-4869-9dbc-96dacf0a0a80"
         },
         {
           "id": "costoso",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Electro-Voice RE20",
           "precio": 850.0,
           "link": "https://articulo.mercadolibre.com.co/MCO-578403296-ev-re20-studio-microfono-_JM#position=3&search_layout=stack&type=item&tracking_id=0517dc75-ca2f-4f52-829f-9a61e3f9c4cf"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Microfonos Dinamicos",
+          "tipo": "Micrófonos dinámicos",
           "modelo": "Sennheiser MD 441-U",
           "precio": 2312.56,
           "link": "https://articulo.mercadolibre.com.co/MCO-583534411-sennheiser-md-441-u-versatil-microfono-dinamico-patron-super-_JM"
@@ -412,63 +412,63 @@
       "trampaBajo": [
         {
           "id": "muyBarato",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "JBER 4 trampas espuma",
           "precio": 16.99,
           "link": "https://www.amazon.com/-/es/ac%C3%BAstica-pulgadas-acolchados-insonorizados-estudios/dp/B07QNNC984/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413743&refinements=p_36%3A-2100&rnid=386685011&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-2&th=1"
         },
         {
           "id": "barato",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "TroyStudio Trampas para graves",
           "precio": 18.99,
           "link": "https://www.amazon.com/-/es/TroyStudio-Trampas-peri%C3%B3dicas-para-graves/dp/B0B9MVJN6L/ref=sr_1_8?crid=YELBH1PP6DZS&keywords=bass%2Btraps&qid=1704412811&sprefix=bass%2Bt%2Caps%2C147&sr=8-8&th=1"
         },
         {
           "id": "economico",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "8 trampas espuma acústica para bajos",
           "precio": 27.99,
           "link": "https://www.amazon.com/-/es/ac%C3%BAstica-pulgadas-ac%C3%BAsticos-grabaci%C3%B3n-tratamientos/dp/B08HMNWTH9/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413256&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-7&th=1"
         },
         {
           "id": "medioBajo",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "Focusound 4 trampas espuma acústica curvadas",
           "precio": 45.99,
           "link": "https://www.amazon.com/Focusound-ac%C3%BAstica-curvadas-absorbentes-frecuencia/dp/B0CL5WWNT6/ref=sxin_14_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8%3Aamzn1.sym.d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8&crid=2CQPFP9GXNCSW&cv_ct_cx=Acoustical%2BMembrane%2BBass%2BTraps&keywords=Acoustical%2BMembrane%2BBass%2BTraps&pd_rd_i=B0CL5WWNT6&pd_rd_r=2d82c1da-0704-498f-9e0f-1d4232fd8943&pd_rd_w=rBHjT&pd_rd_wg=DwWTe&pf_rd_p=d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8&pf_rd_r=5W7QZ28P3WVJPW9P3WV9&qid=1704413256&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=1-4-364cf978-ce2a-480a-9bb0-bdb96faa0f61-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1"
         },
         {
           "id": "medio",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "Foroomaco 2 trampas para bajos",
           "precio": 59.98,
           "link": "https://www.amazon.com/-/es/Foroomaco-insonorizada-aislamiento-habitaci%C3%B3n-absorbente/dp/B0BX63NJMM/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704412885&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-5&th=1"
         },
         {
           "id": "medioAlto",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "ERINGOGO 18 trampas para bajos",
           "precio": 74.19,
           "link": "https://www.amazon.com/ERINGOGO-ac%C3%BAstica-grabaci%C3%B3n-acolchados-insonorizados/dp/B0B76YRHR5/ref=sr_1_10_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413657&refinements=p_36%3A6200-14000&rnid=386685011&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-10-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1"
         },
         {
           "id": "caro",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "Trampa bajos de esquina difusa",
           "precio": 109.0,
           "link": "https://www.amazon.com/-/es/unidades-absorci%C3%B3n-%C2%ABUniverso%C2%BB-Absorci%C3%B3n-Reflexi%C3%B3n/dp/B0CK5YJ9WZ/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2CQPFP9GXNCSW&keywords=Acoustical%2BMembrane%2BBass%2BTraps&qid=1704413594&refinements=p_36%3A10500-&rnid=386685011&sprefix=acoustical%2Bmembrane%2Bbass%2Btraps%2B%2Caps%2C133&sr=8-3&th=1"
         },
         {
           "id": "costoso",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "GIK Acoustics AlphaSorb Bass Traps",
           "precio": 218.4,
           "link": "https://www.gikacoustics.com/product/corner-ct-alpha-bass-trap-absorber-diffusor/"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Trampa Bajo",
+          "tipo": "Trampa bajo",
           "modelo": "Acoustical Solutions Wood Bass Traps",
           "precio": 728.5,
           "link": "https://es.aliexpress.com/i/4000532551270.html?gatewayAdapt=glo2esp"
@@ -548,63 +548,63 @@
       "panelAcustico": [
         {
           "id": "muyBarato",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "GETOREX Espuma Acústica Pack 12",
           "precio": 21.54,
           "link": "https://es.aliexpress.com/item/1005005175389319.html"
         },
         {
           "id": "barato",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "Acoustical Solutions Wood Sound Panels",
           "precio": 25.99,
           "link": "https://acousticalsolutions.com/product/wood-fiber-acoustic-panel/"
         },
         {
           "id": "economico",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "A2S Protection Paneles Acústicos",
           "precio": 31.49,
           "link": "https://www.amazon.com/-/es/calcoman%C3%ADas-adhesivas-absorbentes-grabaci%C3%B3n-aislamiento/dp/B08RXJ8YZ5?th=1"
         },
         {
           "id": "medioBajo",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "AcousPanel Espuma Acústica",
           "precio": 42.92,
           "link": "https://acouspanel.com/panel-espuma-alveolar-12-uds/"
         },
         {
           "id": "medio",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "GIK Acoustics AlphaSorb Panels",
           "precio": 54.88,
           "link": "https://www.gikacoustics.com/product/2a-alpha-series-acoustic-foam-panel-diffusor-absorber-2/"
         },
         {
           "id": "medioAlto",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "ATS Acoustic Foam Panels",
           "precio": 68.95,
           "link": "https://www.amazon.com/ATS-Acoustic-24x48x2-Inches-Beveled/dp/B002WLB0RW?th=1"
         },
         {
           "id": "caro",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "BlingCnsy Paquete de 48 paneles",
           "precio": 79.99,
           "link": "https://www.amazon.com/dp/B0CGPNF5RD/ref=twister_B0CRBBJ2H1?_encoding=UTF8&th=1"
         },
         {
           "id": "costoso",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "ATS Fabric Acoustic Panels",
           "precio": 81.95,
           "link": "https://www.amazon.com/ATS-Acoustic-Panel-24x48x2-Square/dp/B01F7SO7VC?th=1"
         },
         {
           "id": "muyCostoso",
-          "tipo": "Panel Acustico",
+          "tipo": "Panel acústico",
           "modelo": "UMIACOUSTICS 4 paneles de fibra vidrio",
           "precio": 108.99,
           "link": "https://www.amazon.com/-/es/UMIACOUSTICS-ac%C3%BAsticos-autoadhesivos-absorci%C3%B3n-estudios/dp/B0C8HBWM2H/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37GXQGNHWP69W&keywords=Paneles%2Bacusticos&qid=1704409627&sprefix=paneles%2Bacusticos%2B%2Caps%2C160&sr=8-5&th=1"

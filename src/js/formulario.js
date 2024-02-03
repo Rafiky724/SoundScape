@@ -179,8 +179,12 @@ function presupuestoDeHabitacion(e) {
 
   presupuestoHabitacionTotal = presupuestoHabitacion.value;
 
-  presupuesto.classList.add("disabled");
-  puerta.classList.remove("disabled");
+  if (presupuestoHabitacionTotal < 270) {
+    alert("con eso no compras ni un chicle cabron");
+  } else {
+    presupuesto.classList.add("disabled");
+    puerta.classList.remove("disabled");
+  }
 
   formularioPresupuestoHabitacion.reset();
 }
@@ -283,7 +287,7 @@ function mostrarTabla(productosObtenidos) {
     <td>US $${producto.precio}</td>
     <td>
       <div class="linkDelete">
-        <a href="${producto.link}" class="btn btn-color">Ver Producto</a>
+        <a href="${producto.link}" class="btn btn-color" target="_blank">Ver Producto</a>
         <button
           type="button"
           id="${producto.modelo}"

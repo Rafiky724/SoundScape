@@ -23,11 +23,29 @@
   font-size: x-large;
 }
 
+.contenedorPresupuesto {
+  padding: 5px !important;
+  width: 200px !important;
+  text-align: center !important;
+  background-color: #022940 !important;
+  border: 1px solid #022940 !important;
+  color: white !important;
+}
+
+.contenedorPresupuesto::placeholder {
+  color: white !important;
+}
+
+.tablitaPresupuesto {
+  --bs-table-bg: #022940 !important;
+  --bs-table-color: white !important;
+  border-color: transparent !important;
+  border-collapse: separate !important;
+}
+
 label {
   font-family: "Montserrat", sans-serif !important;
 }
-
-
 
 .btn-color {
   font-family: "Montserrat", sans-serif !important;

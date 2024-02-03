@@ -22,7 +22,13 @@
         <div class="col-md-7 flex-contentSection">
           <h2 class="productColor mb-3 flexTittle">
             Te Recomendamos
-            <a href="#" class="btn btn-color">Añadir Producto</a>
+            <a
+              href="#"
+              class="btn btn-color"
+              data-bs-toggle="modal"
+              data-bs-target="#modalAñadirProducto"
+              >Añadir Producto</a
+            >
           </h2>
           <div class="table-container">
             <table class="table" id="tablitaProductos">
@@ -34,176 +40,10 @@
                   <th scope="col" class="titleTable">Link</th>
                 </tr>
               </thead>
-              <!--<tbody>
-                <tr class="trFlex">
-                  <td>Behringer XM8500</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>Modelo 1</td>
-                  <td>$1000</td>
-                  <td class="linkDelete">
-                    <a href="#" class="btn btn-color">Ver Producto</a>
-                    <button
-                      type="button"
-                      id="eliminar"
-                      class="btn-close"
-                    ></button>
-                  </td>
-                </tr>
-              </tbody> -->
             </table>
-            <div class="valorFinal"><strong>Total: </strong>US $<span id="precioTotalTotal"></span></div>
+            <div class="valorFinal">
+              <strong>Total: </strong>US $<span id="precioTotalTotal"></span>
+            </div>
           </div>
         </div>
 
@@ -213,6 +53,271 @@
           <div class="mt-3" style="text-align: center !important">
             <button type="button" class="btn btn-color2 mb-2">
               Descargar Informe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalAñadirProducto"
+      tabindex="-1"
+      aria-labelledby="modalAñadirProductoLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content colorContentModal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAñadirProductoLabel">
+              Añadir Producto
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="table-responsive">
+              <table class="table text-center tablitaProductos">
+                <thead>
+                  <tr>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Difusor</td>
+                    <td>BUBOS difusores acústicos</td>
+                    <td>52.99</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Panel acústico</td>
+                    <td>A2S Protection Paneles Acústicos</td>
+                    <td>31.49</td>
+                    <td>
+                      <button class="btn btn-success" style="cursor: pointer">
+                        +
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-color" data-bs-dismiss="modal">
+              Cerrar
             </button>
           </div>
         </div>

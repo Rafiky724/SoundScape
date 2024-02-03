@@ -26,42 +26,44 @@
 
         <form id="formularioPresupuestoHabitacion" class="container-flex">
           <div class="mb-3 d-flex align-items-center flex-presupuesto">
-            <div class="flex-grow-1">
+            <table class="table text-center tablitaPresupuesto">
+              <thead>
+                <tr>
+                  <th scope="col">Bajo</th>
+                  <th scope="col">Medio</th>
+                  <th scope="col">Alto</th>
+                  <th scope="col">Costoso</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>270 a 500</td>
+                  <td>500 a 800</td>
+                  <td>800 a 1500</td>
+                  <td>1500 a 5000</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="flex-grow-1 mb-2">
               <input
-                class="inputsColor"
-                type="range"
+                class="inputsColor contenedorPresupuesto"
                 id="presupuestoHabitacion"
                 name="presupuesto"
-                min="270"
-                max="600000"
-                step="1"
-                value="0"
+                placeholder="Ingresa tu presupuesto"
                 required
               />
-            </div>
-            <div class="me-3">
-              <label
-                for="presupuestoHabitacion"
-                class="form-label colorLabelPresupuesto"
-                >Presupuesto:</label
-              >
-              <output
-                for="presupuestoHabitacion"
-                id="outputPresupuesto"
-                class="colorLabelPresupuesto"
-                >270</output
-              >
             </div>
           </div>
           <div class="flex">
             <button
               type="button"
-              class="btn btn-primary mb-4 mt-4 btn-color"
+              class="btn btn-primary mb-4 btn-color"
               id="volver"
             >
               <i>Volver</i>
             </button>
-            <button class="btn btn-primary mb-4 mt-4 btn-color" type="submit">
+            <button class="btn btn-primary mb-4 btn-color" type="submit">
               continuar
             </button>
           </div>
@@ -69,7 +71,6 @@
       </div>
     </div>
 
-    <script src="../js/slider.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
