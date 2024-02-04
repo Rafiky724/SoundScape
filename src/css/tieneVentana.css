@@ -29,11 +29,11 @@
   text-align: center !important;
   background-color: #022940 !important;
   border: 1px solid #022940 !important;
-  color: white !important;
+  color: rgba(255, 255, 255, 0.603) !important;
 }
 
 .contenedorPresupuesto::placeholder {
-  color: white !important;
+  color: rgba(255, 255, 255, 0.603) !important;
 }
 
 .tablitaPresupuesto {
