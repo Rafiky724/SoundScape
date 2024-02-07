@@ -137,7 +137,7 @@
   border-color: #7ea704 !important;
 }
 
-#loader-pagina {
+#loader-pagina, #loader-pagina-final {
   height: 100%;
   display: flex;
   justify-content: center;

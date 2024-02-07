@@ -130,6 +130,10 @@
   margin-top: 3.5rem !important;
 }
 
+.btn-close {
+  filter: invert(1) !important;
+}
+
 td {
   color: white !important;
 }

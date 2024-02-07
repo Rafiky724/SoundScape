@@ -48,6 +48,8 @@ const formularioVentana = getElementFromIframe(
 );
 const imagenFinal = getElementFromIframe(iframeFinal, ".imagenFinal");
 
+const loaderFinal = getElementFromIframe(iframeFinal, "#loader-pagina-final");
+
 let storageRef;
 
 let largoHabitacion = getElementFromIframe(iframeTamano, "#largoHabitacion");
@@ -240,6 +242,8 @@ function preguntaVentanas(e) {
 }
 
 async function resultadoFinal() {
+  loaderFinal.classList.remove("disabled");
+
   if (aux == true) {
     storageRef = ref(
       storage,
@@ -260,17 +264,24 @@ async function resultadoFinal() {
     let productosObtenidos = await obtenerProductos();
 
     mostrarTabla(productosObtenidos);
+
+    loaderFinal.style.visibility = "hidden";
+    setTimeout(function () {
+      loaderFinal.style.opacity = "0";
+    }, 100);
   } catch (e) {
     console.log(e);
+    loaderFinal.style.visibility = "hidden";
+    setTimeout(function () {
+      loaderFinal.style.opacity = "0";
+    }, 100);
   }
 }
 
 function calcularPrecioTotal(productosObtenidos) {
-
   precioTotalTotal.innerHTML = productosObtenidos
     .reduce((acc, prod) => acc + prod.precio, 0)
     .toFixed(2);
-  
 }
 
 function mostrarTabla(productosObtenidos) {
@@ -311,7 +322,6 @@ function mostrarTabla(productosObtenidos) {
 }
 
 function elminarProducto(producto, fila) {
-
   if (fila) {
     fila.remove();
 
