@@ -6,8 +6,12 @@
   text-decoration: none;
 }
 
-.fondo {
-  background-color: #081b26 !important;
+.background-home {
+  position: relative;
+  background-image: url(../img/home\ studio.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .navbar {
@@ -137,7 +141,8 @@
   border-color: #7ea704 !important;
 }
 
-#loader-pagina, #loader-pagina-final {
+#loader-pagina,
+#loader-pagina-final {
   height: 100%;
   display: flex;
   justify-content: center;
