@@ -19,7 +19,7 @@
 }
 
 .navbar {
-  background-color: #022940 !important;
+  background-color: rgb(7, 7, 8) !important;
 }
 
 .container-fluid {
@@ -299,6 +299,36 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
+  }
+
+  .textito-home {
+    color: white !important;
+    text-align: justify !important;
+    width: 300px !important;
+    font-size: small;
+  }
+
+  .titulitoHome {
+    text-align: center !important;
+    font-size: large;
+    color: white !important;
+    width: 350px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .rowcito {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .d-flexito {
+    flex-direction: column !important;
+  }
+
+  .fantasmita {
+    flex: none !important;
   }
 }
 
