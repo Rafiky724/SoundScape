@@ -5,6 +5,8 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-storage.js";
 import { storage } from "../config/db.js";
 
+let productosObtenidos;
+
 const tamano = document.getElementById("tamano");
 const contieneVentana = document.getElementById("contieneVentana");
 const presupuesto = document.getElementById("presupuesto");
@@ -364,13 +366,14 @@ async function resultadoFinal() {
 
     imagenFinal.style.backgroundImage = `url("${imagenUrl}")`;
 
-    let productosObtenidos = await obtenerProductos();
+    productosObtenidos = await obtenerProductos();
 
     mostrarTabla(productosObtenidos);
     loaderFinal.style.visibility = "hidden";
     setTimeout(function () {
       loaderFinal.style.opacity = "0";
     }, 100);
+    actualizarBotonesEliminar();
   } catch (e) {
     console.log(e);
     loaderFinal.style.visibility = "hidden";
@@ -378,6 +381,21 @@ async function resultadoFinal() {
       loaderFinal.style.opacity = "0";
     }, 100);
   }
+}
+
+let eliminarProducto;
+
+function actualizarBotonesEliminar(){
+
+  eliminarProducto = iframeFinal.contentDocument.querySelectorAll(".botones-elminar-producto");
+  eliminarProducto.forEach((boton) => {
+
+    boton.addEventListener("click", function (event) {
+      añadirProductoSeleccionado(event);
+    });
+
+  });
+
 }
 
 function calcularPrecioTotal(productosObtenidos) {
@@ -431,6 +449,8 @@ function elminarProducto(producto, fila) {
       parseFloat(precioTotalTotal.innerHTML) - parseFloat(producto.precio)
     ).toFixed(2);
   }
+
+  
 }
 
 let botonModal = getElementFromIframe(iframeFinal, "#btnAbrirModal");
@@ -522,8 +542,6 @@ async function añadirProductoSeleccionado(e) {
   let aBuscar = e.currentTarget.id;
 
   let productoEncontrado = await buscador(aBuscar);
-
-  console.log(productoEncontrado);
 
   async function buscador(productoAEnocontrar) {
     let productosABuscar = await cargarProductosEnModal();

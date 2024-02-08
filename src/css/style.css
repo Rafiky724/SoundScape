@@ -28,6 +28,19 @@
   gap: 50px !important;
 }
 
+.btn-homeStudioCero {
+  background-color: #9fc13b !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: large !important;
+  font-weight: 900 !important;
+
+  margin-top: 20px !important;
+  width: 50% !important;
+  border: none !important;
+  padding: 5px;
+  border-radius: 10px !important;
+}
+
 .correito {
   color: #9fc13b !important;
 }
