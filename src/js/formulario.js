@@ -69,6 +69,105 @@ botonVolver3.addEventListener("click", volver3);
 let botonVolver4 = getElementFromIframe(iframeVentana, "#volver");
 botonVolver4.addEventListener("click", volver4);
 
+getElementFromIframe(iframeFinal, "#filtroMonitor").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[8].monitorEstudio;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroMicrofono").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[7].microfonosCondensador;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroMidi").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[6].midi;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroAudifono").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[5].audifonos;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroInterfaz").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[4].interfazAudio;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroMicrofonoD").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[3].microfonosDinamicos;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroTrampa").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[2].trampaBajo;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroDifusor").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[1].difusor;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
+getElementFromIframe(iframeFinal, "#filtroPanel").addEventListener(
+  "click",
+  async function (e) {
+    let productosModalTodos = await cargarProductosEnModal();
+    let productosFiltrados = productosModalTodos[0].panelAcustico;
+
+    await mostrarProductosFiltro(productosFiltrados);
+    actualizarBotonAñadir();
+  }
+);
+
 let siVentana = getElementFromIframe(
   iframeContieneVentana,
   'input[name="options"]'
@@ -334,7 +433,12 @@ function elminarProducto(producto, fila) {
 }
 
 let botonModal = getElementFromIframe(iframeFinal, "#btnAbrirModal");
-botonModal.addEventListener("click", cargarProductosEnModal);
+botonModal.addEventListener("click", async function (e) {
+  let productosModalTodos = await cargarProductosEnModal();
+
+  await productosModalSeleccionado(productosModalTodos);
+  actualizarBotonAñadir();
+});
 
 async function cargarProductosEnModal() {
   const datos = "../../JSON.json";
@@ -347,37 +451,128 @@ async function cargarProductosEnModal() {
     // Convertir los datos en un array
     productosModalTodos = Object.values(data.productos).flat();
 
-    await productosModalSeleccionado(productosModalTodos);
     return productosModalTodos;
   } catch (error) {
     console.error("Error al leer los archivos JSON:", error);
   }
+}
 
-  async function productosModalSeleccionado(producto) {
-    tablitaModal.innerHTML = "";
+async function productosModalSeleccionado(producto) {
+  tablitaModal.innerHTML = "";
 
-    for (let categoria of producto) {
-      const categoryName = Object.keys(categoria)[0];
-      const productosCategoria = categoria[categoryName];
+  for (let categoria of producto) {
+    const categoryName = Object.keys(categoria)[0];
+    const productosCategoria = categoria[categoryName];
 
-      productosCategoria.forEach((item) => {
-        const tbody = document.createElement("tbody");
-        const tr = document.createElement("tr");
+    productosCategoria.forEach((item) => {
+      const tbody = document.createElement("tbody");
+      const tr = document.createElement("tr");
 
-        tr.innerHTML = `
-                <td>${item.tipo} </td>
-                <td>${item.modelo} </td>
-                <td>US $${item.precio}</td>
-                <td>
-                    <button class="btn btn-success" style="cursor: pointer">+</button>
-                </td>
-            `;
+      tr.innerHTML = `
+              <td>${item.tipo} </td>
+              <td>${item.modelo} </td>
+              <td>US $${item.precio}</td>
+              <td>
+                  <button class="btn btn-success añadir-seleccion" style="cursor: pointer" id="${item.modelo}" data-bs-dismiss="modal">+</button>
+              </td>
+          `;
 
-        tbody.appendChild(tr);
-        tablitaModal.append(tbody);
-      });
+      tbody.appendChild(tr);
+      tablitaModal.append(tbody);
+    });
+  }
+}
+
+async function mostrarProductosFiltro(productos) {
+  tablitaModal.innerHTML = "";
+
+  productos.forEach((item) => {
+    const tbody = document.createElement("tbody");
+    const tr = document.createElement("tr");
+
+    tr.innerHTML = `
+            <td>${item.tipo} </td>
+            <td>${item.modelo} </td>
+            <td>US $${item.precio}</td>
+            <td>
+                <button id="${item.modelo}" class="btn btn-success añadir-seleccion" style="cursor: pointer" data-bs-dismiss="modal">+</button>
+            </td>
+        `;
+
+    tbody.appendChild(tr);
+    tablitaModal.append(tbody);
+  });
+}
+
+let añadirSeleccion;
+
+function actualizarBotonAñadir() {
+  añadirSeleccion =
+    iframeFinal.contentDocument.querySelectorAll(".añadir-seleccion");
+
+  añadirSeleccion.forEach((boton) => {
+    boton.addEventListener("click", function (event) {
+      añadirProductoSeleccionado(event);
+    });
+  });
+}
+
+async function añadirProductoSeleccionado(e) {
+  let aBuscar = e.currentTarget.id;
+
+  let productoEncontrado = await buscador(aBuscar);
+
+  console.log(productoEncontrado);
+
+  async function buscador(productoAEnocontrar) {
+    let productosABuscar = await cargarProductosEnModal();
+    for (let i = 0; i < productosABuscar.length; i++) {
+      let categoria = productosABuscar[i];
+      let nombreCategoria = Object.keys(categoria)[0];
+
+      for (let j = 0; j < categoria[nombreCategoria].length; j++) {
+        let producto = categoria[nombreCategoria][j];
+
+        if (producto.modelo == productoAEnocontrar) {
+          return producto;
+        }
+      }
     }
   }
+
+  //
+
+  const tbody = document.createElement("tbody");
+  const tr = document.createElement("tr");
+
+  tr.innerHTML = `
+    <td>${productoEncontrado.tipo} </td>
+    <td>${productoEncontrado.modelo} </td>
+    <td>US $${productoEncontrado.precio}</td>
+    <td>
+      <div class="linkDelete">
+        <a href="${productoEncontrado.link}" class="btn btn-color" target="_blank">Ver Producto</a>
+        <button
+          type="button"
+          id="${productoEncontrado.modelo}"
+          class="btn-close botones-elminar-producto"
+        >X</button>
+      </div>
+    </td>
+  `;
+
+  tbody.appendChild(tr);
+
+  tablitaProductos.append(tbody);
+
+  precioTotalTotal.innerHTML = (
+    parseFloat(precioTotalTotal.innerHTML) + parseFloat(productoEncontrado.precio)
+  ).toFixed(2);
+
+  const btnEliminar = tbody.querySelector(".botones-elminar-producto");
+  btnEliminar.addEventListener("click", () => {
+    elminarProducto(productoEncontrado, tr);
+  });
 }
 
 async function obtenerProductos() {
