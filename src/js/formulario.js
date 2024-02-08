@@ -385,62 +385,101 @@ async function resultadoFinal() {
 
 let eliminarProducto;
 
-function actualizarBotonesEliminar(){
-
+function actualizarBotonesEliminar() {
   eliminarProducto = iframeFinal.contentDocument.querySelectorAll(".botones-elminar-producto");
+
+  // Elimina los eventos anteriores
   eliminarProducto.forEach((boton) => {
-
-    boton.addEventListener("click", function (event) {
-      añadirProductoSeleccionado(event);
-    });
-
+    boton.removeEventListener("click", eliminarProductoSeleccionado);
   });
+
+  // Agrega los nuevos eventos
+  eliminarProducto.forEach((boton) => {
+    boton.addEventListener("click", eliminarProductoSeleccionado);
+  });
+}
+
+async function eliminarProductoSeleccionado(e){
+
+  let productoAEliminar = e.currentTarget.id;
+
+  for(let i=0; i<productosObtenidos.length; i++){
+
+    if(productosObtenidos[i].modelo === productoAEliminar){
+
+      productosObtenidos.splice(i, 1);
+      break;
+
+    }
+
+  }
+
+  //productosObtenidos = productosObtenidos.filter(producto => producto.modelo !== productoAEliminar);
+
+  mostrarTabla(productosObtenidos);
+  actualizarBotonesEliminar();
 
 }
 
 function calcularPrecioTotal(productosObtenidos) {
-  precioTotalTotal.innerHTML = productosObtenidos
-    .reduce((acc, prod) => acc + prod.precio, 0)
-    .toFixed(2);
+
+
+  precioTotalTotal.innerHTML = productosObtenidos.reduce((acc, prod) => acc + prod.precio, 0).toFixed(2);
+  
 }
 
 function mostrarTabla(productosObtenidos) {
-  calcularPrecioTotal(productosObtenidos);
+  tablitaProductos.innerHTML = "";
 
-  productosObtenidos.forEach((product) => {
-    function crearTabla(producto) {
-      const tbody = document.createElement("tbody");
-      const tr = document.createElement("tr");
+  if(productosObtenidos.length == 0){
 
-      tr.innerHTML = `
-    <td>${producto.tipo} </td>
-    <td>${producto.modelo} </td>
-    <td>US $${producto.precio}</td>
-    <td>
-      <div class="linkDelete">
-        <a href="${producto.link}" class="btn btn-color" target="_blank">Ver Producto</a>
-        <button
-          type="button"
-          id="${producto.modelo}"
-          class="btn-close botones-elminar-producto"
-        ></button>
-      </div>
-    </td>
-  `;
+    sinProductos.classList.remove("disabled");
+    calcularPrecioTotal(productosObtenidos);
 
-      tbody.appendChild(tr);
+  }else{
 
-      tablitaProductos.append(tbody);
+    sinProductos.classList.add("disabled");
 
-      const btnEliminar = tbody.querySelector(".botones-elminar-producto");
-      btnEliminar.addEventListener("click", () => {
-        elminarProducto(product, tr);
-      });
-    }
-    crearTabla(product);
-  });
+    calcularPrecioTotal(productosObtenidos);
+
+    productosObtenidos.forEach((product) => {
+      function crearTabla(producto) {
+        const tbody = document.createElement("tbody");
+        const tr = document.createElement("tr");
+
+        tr.innerHTML = `
+      <td>${producto.tipo} </td>
+      <td>${producto.modelo} </td>
+      <td>US $${producto.precio}</td>
+      <td>
+        <div class="linkDelete">
+          <a href="${producto.link}" class="btn btn-color" target="_blank">Ver Producto</a>
+          <button
+            type="button"
+            id="${producto.modelo}"
+            class="btn-close botones-elminar-producto"
+          ></button>
+        </div>
+      </td>
+    `;
+
+        tbody.appendChild(tr);
+
+        tablitaProductos.append(tbody);
+
+        /*
+        const btnEliminar = tbody.querySelector(".botones-elminar-producto");
+        btnEliminar.addEventListener("click", () => {
+          elminarProducto(product, tr);
+        });*/
+      }
+      crearTabla(product);
+    });
+  
+  }
 }
 
+/*
 function elminarProducto(producto, fila) {
   if (fila) {
     fila.remove();
@@ -451,7 +490,7 @@ function elminarProducto(producto, fila) {
   }
 
   
-}
+}*/
 
 let botonModal = getElementFromIframe(iframeFinal, "#btnAbrirModal");
 botonModal.addEventListener("click", async function (e) {
@@ -543,6 +582,8 @@ async function añadirProductoSeleccionado(e) {
 
   let productoEncontrado = await buscador(aBuscar);
 
+  productosObtenidos.push(productoEncontrado);
+
   async function buscador(productoAEnocontrar) {
     let productosABuscar = await cargarProductosEnModal();
     for (let i = 0; i < productosABuscar.length; i++) {
@@ -559,7 +600,7 @@ async function añadirProductoSeleccionado(e) {
     }
   }
 
-  //
+  /*
 
   const tbody = document.createElement("tbody");
   const tr = document.createElement("tr");
@@ -582,17 +623,25 @@ async function añadirProductoSeleccionado(e) {
 
   tbody.appendChild(tr);
 
-  tablitaProductos.append(tbody);
+  tablitaProductos.append(tbody);*/
 
+  mostrarTabla(productosObtenidos);
+
+  calcularPrecioTotal(productosObtenidos)
+
+  /*
   precioTotalTotal.innerHTML = (
     parseFloat(precioTotalTotal.innerHTML) +
     parseFloat(productoEncontrado.precio)
-  ).toFixed(2);
+  ).toFixed(2);*/
 
+  actualizarBotonesEliminar();
+
+  /*
   const btnEliminar = tbody.querySelector(".botones-elminar-producto");
   btnEliminar.addEventListener("click", () => {
     elminarProducto(productoEncontrado, tr);
-  });
+  });*/
 }
 
 async function obtenerProductos() {
