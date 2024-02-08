@@ -16,6 +16,7 @@
     />
   </head>
   <body style="background-color: #081b26">
+    
     <div
       class="disabled d-flex flex-column align-items-center"
       id="loader-pagina-final"
@@ -41,7 +42,7 @@
               >Añadir Producto</a
             >
           </h2>
-          <div class="table-container">
+          <div class="table-container" style="height: 620px !important">
             <table class="table" id="tablitaProductos">
               <thead>
                 <tr>
@@ -52,18 +53,20 @@
                 </tr>
               </thead>
             </table>
-            <div class="valorFinal">
-              <strong>Total: </strong>US $<span id="precioTotalTotal"></span>
+
+            <div id="sinProductos" class="sinProductitos disabled">
+              Upsi...Sin productos
             </div>
+          </div>
+          <div class="valorFinal mt-2">
+            <strong>Total: </strong>US $<span id="precioTotalTotal"></span>
           </div>
         </div>
 
         <!-- Imagen Final -->
         <div class="col-md-5 flex-contentSection margenTop mt-3">
           <div class="mt-3" style="text-align: center !important">
-            <button type="button" class="btn btn-color2 mb-2">
-              Ubicación de los equipos
-            </button>
+            <div class="btn-color3 mb-2 p-2">Ubicación De Los Equipos</div>
           </div>
           <div class="imagenFinal"></div>
         </div>
@@ -95,19 +98,49 @@
                 Filtrar
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#" id="filtroMonitor">Monitor estudio</a></li>
                 <li>
-                  <a class="dropdown-item" href="#" id="filtroMicrofono">Micrófono condensador</a>
+                  <a class="dropdown-item" href="#" id="filtroMonitor"
+                    >Monitor estudio</a
+                  >
                 </li>
-                <li><a class="dropdown-item" href="#" id="filtroMidi">MIDI</a></li>
-                <li><a class="dropdown-item" href="#" id="filtroAudifono">Audífonos</a></li>
-                <li><a class="dropdown-item" href="#" id="filtroInterfaz">Interfaz audio</a></li>
                 <li>
-                  <a class="dropdown-item" href="#" id="filtroMicrofonoD">Micrófono dinámico</a>
+                  <a class="dropdown-item" href="#" id="filtroMicrofono"
+                    >Micrófono condensador</a
+                  >
                 </li>
-                <li><a class="dropdown-item" href="#" id="filtroTrampa">Trampa Bajo</a></li>
-                <li><a class="dropdown-item" href="#" id="filtroDifusor">Difusor</a></li>
-                <li><a class="dropdown-item" href="#" id="filtroPanel">Panel acústico</a></li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroMidi">MIDI</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroAudifono"
+                    >Audífonos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroInterfaz"
+                    >Interfaz audio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroMicrofonoD"
+                    >Micrófono dinámico</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroTrampa"
+                    >Trampa Bajo</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroDifusor"
+                    >Difusor</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroPanel"
+                    >Panel acústico</a
+                  >
+                </li>
               </ul>
             </div>
             <button

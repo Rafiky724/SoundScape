@@ -60,6 +60,8 @@ let anchoHabitacion = getElementFromIframe(iframeTamano, "#anchoHabitacion");
 let tablitaProductos = getElementFromIframe(iframeFinal, "#tablitaProductos");
 let precioTotalTotal = getElementFromIframe(iframeFinal, "#precioTotalTotal");
 
+let sinProductos = getElementFromIframe(iframeFinal, ".sinProductitos");
+
 let botonVolver1 = getElementFromIframe(iframeContieneVentana, "#volver");
 botonVolver1.addEventListener("click", volver1);
 let botonVolver2 = getElementFromIframe(iframePresupuestoHabitacion, "#volver");
@@ -365,7 +367,6 @@ async function resultadoFinal() {
     let productosObtenidos = await obtenerProductos();
 
     mostrarTabla(productosObtenidos);
-
     loaderFinal.style.visibility = "hidden";
     setTimeout(function () {
       loaderFinal.style.opacity = "0";
@@ -556,7 +557,7 @@ async function añadirProductoSeleccionado(e) {
           type="button"
           id="${productoEncontrado.modelo}"
           class="btn-close botones-elminar-producto"
-        >X</button>
+        ></button>
       </div>
     </td>
   `;
@@ -566,7 +567,8 @@ async function añadirProductoSeleccionado(e) {
   tablitaProductos.append(tbody);
 
   precioTotalTotal.innerHTML = (
-    parseFloat(precioTotalTotal.innerHTML) + parseFloat(productoEncontrado.precio)
+    parseFloat(precioTotalTotal.innerHTML) +
+    parseFloat(productoEncontrado.precio)
   ).toFixed(2);
 
   const btnEliminar = tbody.querySelector(".botones-elminar-producto");
