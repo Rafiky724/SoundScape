@@ -31,6 +31,12 @@
 }
 
 .btn-homeStudio {
+  background-color: #9fc13b !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: large !important;
+  font-weight: 900 !important;
+
+  margin-top: 20px !important;
   width: 50% !important;
   border: none !important;
   padding: 5px;
