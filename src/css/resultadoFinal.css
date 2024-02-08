@@ -47,8 +47,11 @@
   gap: 20px;
 }
 
-.botones-elminar-producto {
-  /* filter: invert(1) !important; */
+.sinProductitos {
+  text-align: center;
+  font-size: xx-large !important;
+  font-family: "Montserrat", sans-serif !important;
+  margin-top: 35% !important;
 }
 
 .linkDelete {
@@ -79,6 +82,15 @@
   border-radius: 10px !important;
   border-color: #c0f12a !important;
   transition: 0.4s !important;
+}
+
+.btn-color3 {
+  background-color: #081b26 !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  border-radius: 10px !important;
+  border-color: #081b26 !important;
 }
 
 .colorContentModal {
@@ -150,6 +162,11 @@ td {
 }
 
 @media (max-width: 750px) {
+  .sinProductitos {
+    font-size: x-large !important;
+    margin-top: 0 !important;
+  }
+
   .pequeñas {
     margin-left: 20px;
     margin-right: 20px;
