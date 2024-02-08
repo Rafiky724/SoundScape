@@ -16,7 +16,7 @@
     />
   </head>
   <body style="background-color: #081b26">
-    <!-- <div
+    <div
       class="disabled d-flex flex-column align-items-center"
       id="loader-pagina-final"
     >
@@ -24,7 +24,7 @@
       <p class="text-white mt-3">
         Cargando. Por favor espere mientras cargamos la información...
       </p>
-    </div> -->
+    </div>
 
     <div class="pequeñas">
       <div class="row flex-contain">
@@ -37,6 +37,7 @@
               class="btn btn-color"
               data-bs-toggle="modal"
               data-bs-target="#modalAñadirProducto"
+              id="btnAbrirModal"
               >Añadir Producto</a
             >
           </h2>
@@ -118,7 +119,10 @@
           </div>
           <div class="modal-body">
             <div class="table-responsive">
-              <table class="table text-center tablitaProductos">
+              <table
+                class="table text-center tablitaProductos"
+                id="tablitaProductosModal"
+              >
                 <thead>
                   <tr>
                     <th scope="col">Tipo</th>
@@ -127,28 +131,6 @@
                     <th scope="col">Añadir</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <td>Panel acústico</td>
-                    <td>A2S Protection Paneles Acústicos</td>
-                    <td>31.49</td>
-                    <td>
-                      <button class="btn btn-success" style="cursor: pointer">
-                        +
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Difusor</td>
-                    <td>BUBOS difusores acústicos</td>
-                    <td>52.99</td>
-                    <td>
-                      <button class="btn btn-success" style="cursor: pointer">
-                        +
-                      </button>
-                    </td>
-                  </tr>
-                </tbody>
               </table>
             </div>
           </div>

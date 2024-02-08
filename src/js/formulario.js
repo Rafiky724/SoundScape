@@ -48,6 +48,8 @@ const formularioVentana = getElementFromIframe(
 );
 const imagenFinal = getElementFromIframe(iframeFinal, ".imagenFinal");
 
+let tablitaModal = getElementFromIframe(iframeFinal, "#tablitaProductosModal");
+
 const loaderFinal = getElementFromIframe(iframeFinal, "#loader-pagina-final");
 
 let storageRef;
@@ -331,6 +333,55 @@ function elminarProducto(producto, fila) {
   }
 }
 
+let botonModal = getElementFromIframe(iframeFinal, "#btnAbrirModal");
+botonModal.addEventListener("click", cargarProductosEnModal);
+
+async function cargarProductosEnModal() {
+  const datos = "../../JSON.json";
+  let productosModalTodos;
+
+  try {
+    const response = await fetch(datos);
+    const data = await response.json();
+
+    // Convertir los datos en un array
+    productosModalTodos = Object.values(data.productos).flat();
+
+    await productosModalSeleccionado(productosModalTodos);
+    return productosModalTodos;
+  } catch (error) {
+    console.error("Error al leer los archivos JSON:", error);
+  }
+
+  async function productosModalSeleccionado(producto) {
+    console.log(producto);
+
+    tablitaModal.innerHTML = '';
+
+    for (let categoria of producto) {
+      const categoryName = Object.keys(categoria)[0]; 
+      const productosCategoria = categoria[categoryName]; 
+
+      productosCategoria.forEach((item) => {
+        const tbody = document.createElement("tbody");
+        const tr = document.createElement("tr");
+
+        tr.innerHTML = `
+                <td>${item.tipo} </td>
+                <td>${item.modelo} </td>
+                <td>US $${item.precio}</td>
+                <td>
+                    <button class="btn btn-success" style="cursor: pointer">+</button>
+                </td>
+            `;
+
+        tbody.appendChild(tr);
+        tablitaModal.append(tbody);
+      });
+    }
+  }
+}
+
 async function obtenerProductos() {
   const datos = "../../JSON.json";
   const datos2 = "../../Json2.json";
@@ -349,7 +400,6 @@ async function obtenerProductos() {
       prodJson,
       prodJson2
     );
-
     return productosFinalmenteSeleccionados;
   } catch (error) {
     console.error("Error al leer los archivos JSON:", error);
