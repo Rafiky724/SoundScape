@@ -354,13 +354,11 @@ async function cargarProductosEnModal() {
   }
 
   async function productosModalSeleccionado(producto) {
-    console.log(producto);
-
-    tablitaModal.innerHTML = '';
+    tablitaModal.innerHTML = "";
 
     for (let categoria of producto) {
-      const categoryName = Object.keys(categoria)[0]; 
-      const productosCategoria = categoria[categoryName]; 
+      const categoryName = Object.keys(categoria)[0];
+      const productosCategoria = categoria[categoryName];
 
       productosCategoria.forEach((item) => {
         const tbody = document.createElement("tbody");
