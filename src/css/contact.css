@@ -124,6 +124,10 @@
   .contenedor-imagenContacto {
     display: none !important;
   }
+
+  .justify-content-center {
+    justify-content: none !important;
+  }
 }
 
 @media only screen and (max-width: 980px) {
