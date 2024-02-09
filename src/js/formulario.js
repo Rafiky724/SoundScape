@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 // Función que se ejecuta cuando todos los iframes están cargados
 function allIframesLoaded() {
     console.log('Todos los iframes han cargado completamente');
-    // Aquí colocas el código que deseas ejecutar una vez que todos los iframes estén cargados
+    formulario()
 }
 
 // Verificar si los iframes ya están cargados
