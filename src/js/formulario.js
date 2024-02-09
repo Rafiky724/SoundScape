@@ -7,9 +7,41 @@ import { storage } from "../config/db.js";
 
 document.addEventListener('DOMContentLoaded', async function() {
 
-try {
-  
+  let iframes = document.querySelectorAll('iframe');
 
+  function checkIframesLoaded() {
+    for (var i = 0; i < iframes.length; i++) {
+        if (!iframes[i].contentWindow.document || iframes[i].contentWindow.document.readyState !== 'complete') {
+            return false;
+        }
+    }
+    return true;
+}
+
+// Función que se ejecuta cuando todos los iframes están cargados
+function allIframesLoaded() {
+    console.log('Todos los iframes han cargado completamente');
+    // Aquí colocas el código que deseas ejecutar una vez que todos los iframes estén cargados
+}
+
+// Verificar si los iframes ya están cargados
+if (checkIframesLoaded()) {
+    allIframesLoaded();
+} else {
+    // Escuchar el evento load en cada iframe
+    for (var i = 0; i < iframes.length; i++) {
+        iframes[i].addEventListener('load', function() {
+            if (checkIframesLoaded()) {
+                allIframesLoaded();
+            }
+        });
+    }
+}
+
+})
+
+
+async function formulario(){
 
 let productosObtenidos;
 
@@ -891,10 +923,4 @@ async function obtenerProductos() {
   }
 }
 
-} catch (error) {
- 
-  this.location.reload();
-  
 }
-
-})
