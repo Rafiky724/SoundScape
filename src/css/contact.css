@@ -9,6 +9,10 @@
   z-index: -10 !important;
 }
 
+.centrarJustify {
+  justify-content: center !important;;
+}
+
 .contact-body {
   background-color: #081b26 !important;
 }
@@ -125,8 +129,8 @@
     display: none !important;
   }
 
-  .justify-content-center {
-    justify-content: none !important;
+  .centrarJustify {
+    justify-content:flex-start !important;
   }
 }
 
