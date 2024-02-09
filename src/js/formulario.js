@@ -11,6 +11,8 @@ let verifcadorIframe = 0;
 
 var iframeCargarTamaño = document.getElementById('tamano');
 
+console.log(iframeCargarTamaño);
+
 iframeCargarTamaño.addEventListener('load', function() {
 
   console.log("Cargó")
