@@ -7,6 +7,22 @@ import { storage } from "../config/db.js";
 
 document.addEventListener('DOMContentLoaded', async function() {
 
+let verifcadorIframe = 0;
+
+var iframeCargarTamaño = document.getElementById('tamano');
+
+iframeCargarTamaño.addEventListener('load', function() {
+
+  verifcadorIframe += 1;
+
+});
+
+if(verifcadorIframe > 0){
+
+  console.log("Funcionanding")
+
+}
+
 let productosObtenidos;
 
 const tamano = document.getElementById("tamano");
@@ -68,7 +84,6 @@ let sinProductos = getElementFromIframe(iframeFinal, ".sinProductitos");
 
 
 let botonVolver1 = getElementFromIframe(iframeContieneVentana, "#volver");
-console.log(botonVolver1);
 botonVolver1.addEventListener("click", volver1);
 let botonVolver2 = getElementFromIframe(iframePresupuestoHabitacion, "#volver");
 botonVolver2.addEventListener("click", volver2);
