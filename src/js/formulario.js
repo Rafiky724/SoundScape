@@ -7,22 +7,6 @@ import { storage } from "../config/db.js";
 
 document.addEventListener('DOMContentLoaded', async function() {
 
-let verifcadorIframe = 0;
-
-var iframeCargarTamaño = document.getElementById('tamano');
-
-console.log(iframeCargarTamaño);
-
-iframeCargarTamaño.addEventListener('load', function() {
-
-  console.log("Cargó")
-});
-
-if(verifcadorIframe > 0){
-
-  console.log("Funcionanding")
-
-}
 
 let productosObtenidos;
 
@@ -45,6 +29,12 @@ const iframeVentana = document
   .getElementById("ventana")
   .querySelector("iframe");
 const iframeFinal = document.getElementById("final").querySelector("iframe");
+
+if((iframeTamano == null) || (iframeContieneVentana == null) || (iframePresupuestoHabitacion == null) || (iframePuerta == null) || (iframeVentana == null) || (iframeFinal == null)){
+
+  location.reload();
+
+}
 
 function getElementFromIframe(iframe, selector) {
   return iframe.contentDocument.querySelector(selector);
