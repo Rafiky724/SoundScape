@@ -13,8 +13,7 @@ var iframeCargarTamaño = document.getElementById('tamano');
 
 iframeCargarTamaño.addEventListener('load', function() {
 
-  verifcadorIframe += 1;
-
+  console.log("Cargó")
 });
 
 if(verifcadorIframe > 0){
