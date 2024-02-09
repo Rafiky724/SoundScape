@@ -64,6 +64,7 @@ let precioTotalTotal = getElementFromIframe(iframeFinal, "#precioTotalTotal");
 
 let sinProductos = getElementFromIframe(iframeFinal, ".sinProductitos");
 
+/*
 let botonVolver1 = getElementFromIframe(iframeContieneVentana, "#volver");
 botonVolver1.addEventListener("click", volver1);
 let botonVolver2 = getElementFromIframe(iframePresupuestoHabitacion, "#volver");
@@ -71,7 +72,7 @@ botonVolver2.addEventListener("click", volver2);
 let botonVolver3 = getElementFromIframe(iframePuerta, "#volver");
 botonVolver3.addEventListener("click", volver3);
 let botonVolver4 = getElementFromIframe(iframeVentana, "#volver");
-botonVolver4.addEventListener("click", volver4);
+botonVolver4.addEventListener("click", volver4);*/
 
 getElementFromIframe(iframeFinal, "#filtroMonitor").addEventListener(
   "click",
