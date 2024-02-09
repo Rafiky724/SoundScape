@@ -39,6 +39,7 @@
   font-family: "Montserrat", sans-serif !important;
   font-size: large !important;
   font-weight: 900 !important;
+
   margin-top: 20px !important;
   width: 50% !important;
   border: none !important;
@@ -82,6 +83,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px !important;
 }
 
 @media only screen and (max-width: 800px) {
