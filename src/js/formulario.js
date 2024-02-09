@@ -7,6 +7,9 @@ import { storage } from "../config/db.js";
 
 document.addEventListener('DOMContentLoaded', async function() {
 
+try {
+  
+
 
 let productosObtenidos;
 
@@ -30,6 +33,7 @@ const iframeVentana = document
   .querySelector("iframe");
 const iframeFinal = document.getElementById("final").querySelector("iframe");
 
+/*
 if((iframeTamano == null) || (iframeContieneVentana == null) || (iframePresupuestoHabitacion == null) || (iframePuerta == null) || (iframeVentana == null) || (iframeFinal == null)){
 
   console.log("Recargar")
@@ -39,7 +43,7 @@ if((iframeTamano == null) || (iframeContieneVentana == null) || (iframePresupues
 
   console.log(iframeTamano, iframeContieneVentana, iframePresupuestoHabitacion, iframePuerta, iframeVentana, iframeFinal)
 
-}
+}*/
 
 function getElementFromIframe(iframe, selector) {
   return iframe.contentDocument.querySelector(selector);
@@ -885,6 +889,12 @@ async function obtenerProductos() {
     let productosSeleccionadosFinalizados = await probarPresupuesto();
     return productosSeleccionadosFinalizados;
   }
+}
+
+} catch (error) {
+ 
+  this.location.reload();
+  
 }
 
 })
