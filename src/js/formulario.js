@@ -32,7 +32,12 @@ const iframeFinal = document.getElementById("final").querySelector("iframe");
 
 if((iframeTamano == null) || (iframeContieneVentana == null) || (iframePresupuestoHabitacion == null) || (iframePuerta == null) || (iframeVentana == null) || (iframeFinal == null)){
 
+  console.log("Recargar")
   location.reload();
+
+}else{
+
+  console.log(iframeTamano, iframeContieneVentana, iframePresupuestoHabitacion, iframePuerta, iframeVentana, iframeFinal)
 
 }
 
