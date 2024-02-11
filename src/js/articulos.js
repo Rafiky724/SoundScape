@@ -406,7 +406,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "contenedor-de-productos"
   );
   const paginationContainer = document.getElementById("pagination-container");
-  const productosPorPagina = 8;
+  const productosPorPagina = 9;
   const totalPaginas = Math.ceil(productosData.length / productosPorPagina);
 
   function mostrarProductos(paginaActual) {
