@@ -7,6 +7,15 @@
   margin: 20px;
 }
 
+.modal-dialog {
+  margin: 0 !important;
+}
+.margencitaModal {
+  margin-top: 100px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
 .pequeñas {
   margin-left: 10px;
   margin-top: 100px;
