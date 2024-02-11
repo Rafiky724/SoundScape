@@ -26,6 +26,7 @@
   padding: 20px !important;
 }
 
+
 .flex-contain {
   display: flex !important;
   flex-direction: row !important;
@@ -176,12 +177,9 @@ td {
 }
 
 @media only screen and (max-width: 1366px) {
- 
   .pequeñas {
     margin: 20px 10px 100px 10px;
-
   }
-  
 }
 
 @media (max-width: 750px) {
