@@ -8,7 +8,7 @@
 
 .background-home {
   position: relative;
-  background-image: url(../img/fondoHome.jpg);
+  background-image: url(../img/fondoHome.png);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -16,10 +16,6 @@
 
 .navbar {
   background-color: #093048;
-}
-
-.navpapa {
-  background-color: black !important;
 }
 
 .container-fluid {
@@ -62,16 +58,12 @@
   color: #022940;
 }
 
-.carouselMargin {
-  margin: 30px;
-}
-
 .radius {
   border-radius: 50px !important;
 }
 
 .btn-homeStudio {
-  background-color: white !important;
+  background-color: #9fc13b !important;
   font-family: "Montserrat", sans-serif !important;
   font-size: large !important;
   font-weight: 900 !important;
@@ -89,7 +81,7 @@
 .titulitoHome {
   text-align: center !important;
   font-size: xx-large;
-  color: white !important;
+  color: #9fc13b !important;
   width: 550px !important;
   margin-bottom: 40px !important;
 }
@@ -112,7 +104,6 @@
 }
 
 .navbar-toggler {
-  background-color: transparent !important;
   border: none !important;
   color: transparent !important;
 }
@@ -308,7 +299,7 @@
   .background-home {
     position: relative;
     background-image: none;
-    background-color: black;
+    background-color: #081b26;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -324,7 +315,6 @@
   .titulitoHome {
     text-align: center !important;
     font-size: large;
-    color: white !important;
     width: 350px !important;
     margin-bottom: 40px !important;
   }

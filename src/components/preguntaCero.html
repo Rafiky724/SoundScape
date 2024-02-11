@@ -15,8 +15,69 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: #081b26">
-    <div class="container containerdelContact">
+  <body style="background-color: #081b26;">
+    <!-- Contenido -->
+
+    <div
+      class="background-cero m-0 min-vh-100 d-flex d-flexito align-items-center justify-content-center2"
+    >
+      <div class="col-6 fantasmita"></div>
+
+      <div class="col-6">
+        <form id="formularioArea" class="col-sm-12 centrarInputs">
+          <div>
+            <img
+              src="../img/SoundScape.png"
+              alt="logo"
+              class="logoFormulario"
+            />
+          </div>
+
+          <h1 class="preguntaColor mt-3" style="text-align: center">
+            ¿Cuál es el tamaño de la habitación?
+          </h1>
+
+          <div class="inputsForm">
+            <input
+              class="inputsColor mb-3"
+              type="text"
+              id="largoHabitacion"
+              name="largo"
+              placeholder="Largo de la habitación en cm"
+              required
+            />
+
+            <input
+              class="inputsColor mb-3"
+              type="text"
+              id="altoHabitacion"
+              name="alto"
+              placeholder="Alto de la habitación en cm"
+              required
+            />
+
+            <input
+              class="inputsColor mb-3"
+              type="text"
+              id="anchoHabitacion"
+              name="ancho"
+              placeholder="Ancho de la habitación en cm"
+              required
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-lg btn-homeStudioCero botoncito "
+            id="continuar"
+          >
+            <i>Continuar</i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="container containerdelContact">
       <div class="row centradoForm" style="width: 100vw">
         <div class="col-md-6 col-sm-12 contenedor-imagenContacto">
           <div class="imagenContacto"></div>
@@ -73,7 +134,7 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

@@ -1,12 +1,10 @@
-.imagenContacto {
-  width: 800px !important;
-  height: 100vh !important;
-  background: url(../img/fondoContacto.png) !important;
-  background-size: cover !important;
-  position: absolute !important;
-  right: 0;
-  top: 0;
-  z-index: -10 !important;
+
+.background-contact {
+  position: relative;
+  background-image: url(../img/fondocontacto.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .centrarJustify {
@@ -80,26 +78,42 @@
 }
 
 .centrarInputs {
+  width: 100% !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px !important;
 }
 
-@media only screen and (max-width: 800px) {
-  .imagenContacto {
-    transition: 2s !important;
-    width: 200px !important;
-    min-height: 830px !important;
+@media only screen and (max-width: 1366px) {
+  .contactenosColor {
+    font-size: 50px;
+    margin-bottom: 10px !important;
   }
-  .contenedor-imagenContacto {
+
+  .inputsContact {
+    width: 400px !important;
+    gap: 5px !important;
+  }
+
+  .inputsColor {
+    padding: 5px !important;
+  }
+
+  .btn-homeStudio {
+    font-size: medium !important;
+    margin-top: 0px !important;
+
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .background-contact {
+    background-image: none;
     display: none !important;
   }
   .inputsContact {
     width: 300px !important;
-  }
-  .centrarInputs {
-    margin-top: 50px !important;
   }
 
   .contactenosColor {

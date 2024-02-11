@@ -13,7 +13,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 </head>
 
-<body class="contact-body">
+<body class="contact-body" style="overflow-x: hidden;">
   <div id="loader-pagina">
     <div class="spinner-border text-success" role="status">
       <span class="visually-hidden">Loading...</span>
@@ -52,7 +52,7 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg" >
     <div class="container-fluid">
       <a class="navbar-brand" href="../../index.html"><img src="../img/SoundScape.png" alt="Sound Scape" width="137,47"
           height="36" /></a>
@@ -175,9 +175,11 @@
   </div>
 
   <!-- Contenido -->
-  <div class="container containerdelContact">
-    <div class="row centradoForm" style="width: 100vw">
-      <form action="https://formsubmit.co/robano9219@tsderp.com" method="POST" id="formularioEnviar" class="col-md-6 col-sm-12 centrarInputs">
+
+  <div class="background-contact m-0 min-vh-100 d-flex d-flexito align-items-center justify-content-center" >
+    
+    <div class="col-6 ">
+      <form action="https://formsubmit.co/robano9219@tsderp.com" method="POST" id="formularioEnviar" class="col-sm-12 centrarInputs">
         <h1 class="contactenosColor">Contáctanos</h1>
         <div class="inputsContact">
           <input class="inputsColor" type="text" id="FormControlInputName" name="Nombre" placeholder="Nombre" required />
@@ -191,11 +193,9 @@
         <input type="hidden" name="_next" value="http://127.0.0.1:5501/src/components/contacto.html">
         <input type="hidden" name="_captcha" value="false">
       </form>
-      <div class="col-md-6 col-sm-12 contenedor-imagenContacto">
-        <div class="imagenContacto"></div>
-      </div>
     </div>
-  </div>
+    <div class="col-6 fantasmita "></div> 
+  </div> 
 
   <div class="modal fade" id="modalIniciarSesion" tabindex="-1" aria-labelledby="modalIniciarSesionLabel2"
     aria-hidden="true">

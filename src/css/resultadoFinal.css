@@ -3,10 +3,24 @@
   scrollbar-color: #081b26 #022940 !important;
 }
 
+.margencita {
+  margin: 20px;
+}
+
+.modal-dialog {
+  margin: 0 !important;
+}
+.margencitaModal {
+  margin-top: 100px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
 .pequeñas {
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   background-color: #022940 !important;
   color: white !important;
   padding: 20px !important;
@@ -161,15 +175,19 @@ td {
   align-items: center !important;
 }
 
+@media only screen and (max-width: 1366px) {
+ 
+  .pequeñas {
+    margin: 20px 10px 100px 10px;
+
+  }
+  
+}
+
 @media (max-width: 750px) {
   .sinProductitos {
     font-size: x-large !important;
     margin-top: 0 !important;
-  }
-
-  .pequeñas {
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .imagenFinal {
