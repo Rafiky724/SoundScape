@@ -175,7 +175,29 @@
   </div>
 
   <!-- Contenido -->
-  <div class="container containerdelContact">
+
+  <div class="background-contact m-0 min-vh-100 d-flex d-flexito align-items-center justify-content-center" >
+    
+    <div class="col-6 ">
+      <form action="https://formsubmit.co/robano9219@tsderp.com" method="POST" id="formularioEnviar" class="col-sm-12 centrarInputs">
+        <h1 class="contactenosColor">Contáctanos</h1>
+        <div class="inputsContact">
+          <input class="inputsColor" type="text" id="FormControlInputName" name="Nombre" placeholder="Nombre" required />
+          <input class="inputsColor" type="email" id="FormControlInputEmail" name="Correo" placeholder="Correo" required />
+          <textarea class="inputsColor" name="Comentario" id="FormControlTextareaComments" name="message" cols="30" rows="10"
+            placeholder="Comentarios..." required></textarea>
+        </div>
+        <button type="submit" class=" btn-homeStudio botoncito mt-3" id="enviar">
+          Enviar
+        </button>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5501/src/components/contacto.html">
+        <input type="hidden" name="_captcha" value="false">
+      </form>
+    </div>
+    <div class="col-6 fantasmita "></div> 
+  </div> 
+
+  <!-- <div class="container containerdelContact">
     <div class="row centradoForm" style="width: 100vw">
       <form action="https://formsubmit.co/robano9219@tsderp.com" method="POST" id="formularioEnviar" class="col-md-6 col-sm-12 centrarInputs">
         <h1 class="contactenosColor">Contáctanos</h1>
@@ -195,7 +217,7 @@
         <div class="imagenContacto"></div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="modal fade" id="modalIniciarSesion" tabindex="-1" aria-labelledby="modalIniciarSesionLabel2"
     aria-hidden="true">

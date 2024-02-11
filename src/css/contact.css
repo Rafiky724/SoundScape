@@ -1,12 +1,10 @@
-.imagenContacto {
-  width: 800px !important;
-  height: 100vh !important;
-  background: url(../img/fondoContacto.png) !important;
-  background-size: cover !important;
-  position: absolute !important;
-  right: 0;
-  top: 0;
-  z-index: -10 !important;
+
+.background-contact {
+  position: relative;
+  background-image: url(../img/fondocontacto.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .centrarJustify {
@@ -80,10 +78,10 @@
 }
 
 .centrarInputs {
+  width: 100% !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px !important;
 }
 
 @media only screen and (max-width: 800px) {
