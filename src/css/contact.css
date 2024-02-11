@@ -85,19 +85,12 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .imagenContacto {
-    transition: 2s !important;
-    width: 200px !important;
-    min-height: 830px !important;
-  }
-  .contenedor-imagenContacto {
+  .background-contact {
+    background-image: none;
     display: none !important;
   }
   .inputsContact {
     width: 300px !important;
-  }
-  .centrarInputs {
-    margin: 100px !important;
   }
 
   .contactenosColor {
