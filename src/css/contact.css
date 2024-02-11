@@ -84,6 +84,29 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 1366px) {
+  .contactenosColor {
+    font-size: 50px;
+    margin-bottom: 10px !important;
+  }
+
+  .inputsContact {
+    width: 400px !important;
+    gap: 5px !important;
+  }
+
+  .inputsColor {
+    padding: 5px !important;
+  }
+
+  .btn-homeStudio {
+    font-size: medium !important;
+    margin-top: 0px !important;
+
+  }
+}
+
+
 @media only screen and (max-width: 800px) {
   .background-contact {
     background-image: none;
