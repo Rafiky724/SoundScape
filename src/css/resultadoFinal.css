@@ -4,9 +4,7 @@
 }
 
 .pequeñas {
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 10px;
   background-color: #022940 !important;
   color: white !important;
   padding: 20px !important;
@@ -165,11 +163,6 @@ td {
   .sinProductitos {
     font-size: x-large !important;
     margin-top: 0 !important;
-  }
-
-  .pequeñas {
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .imagenFinal {
