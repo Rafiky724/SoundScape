@@ -16,6 +16,11 @@
 
 .navbar {
   background-color: #093048;
+ 
+}
+
+.navbarcito {
+  background-color: #01000A;
 }
 
 .container-fluid {
@@ -296,6 +301,11 @@
 }
 
 @media only screen and (max-width: 700px) {
+
+  .navbar {
+    background-color: #093048;
+  }
+
   .background-home {
     position: relative;
     background-image: none;
