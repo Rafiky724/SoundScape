@@ -11,12 +11,17 @@
 
 .contenedorIframeFrame {
   position: fixed;
-  top: 0;
+  top: 100;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
 }
+
+/* iframe {
+  height: 90.3vh !important;
+  background-color: #081b26 !important;
+} */
 
 .preguntaVentana {
   color: #9fc13b;
@@ -101,14 +106,34 @@
   justify-content: center !important;
 }
 
-@media only screen and (max-width: 800px) {
-  .imagenContacto {
-    transition: 2s !important;
-    width: 200px !important;
-    min-height: 830px !important;
+.justify-content-center2{
+  justify-content: center !important;
+}
+
+@media only screen and (max-width: 1366px) {
+  .preguntaColor {
+    font-size: x-large;
+    margin-bottom: 10px !important;
   }
-  .contenedor-imagenContacto {
-    display: none !important;
+
+  .inputsColor {
+    font-size: x-small;
+  }
+
+  .botoncito {
+    margin-top: 0px !important;
+    font-size: small !important;
+    width: 100px !important;
+  }
+
+  .btn-homeStudioCero {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .background-cero {
+    background: none !important ;
   }
   .inputsForm {
     width: 300px !important;
@@ -126,11 +151,16 @@
     width: 190px !important;
     height: 49px;
   }
+
+  .justify-content-center2{
+    justify-content:flex-start !important;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
   .preguntaColor {
-    font-size: 30px;
+    width: 300px;
+    font-size: x-large;
   }
 
   .contenedor-imagenContacto {

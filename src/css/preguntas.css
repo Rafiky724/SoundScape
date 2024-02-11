@@ -225,3 +225,12 @@ input {
 .imagenV12 {
   background: url("../img/formulario/ventanas/12.jpg");
 }
+
+@media only screen and (max-width: 1366px) {
+ 
+  .pequeñas {
+    margin-top: 20px !important;
+    margin-bottom: 100px !important;
+  }
+  
+}
