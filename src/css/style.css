@@ -6,6 +6,23 @@
   text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+  width: 10px; /* Anchura del scroll */
+}
+
+body::-webkit-scrollbar-track {
+  background: #022940; /* Color de fondo del track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #081b26; /* Color del thumb */
+  border-radius: 5px; /* Radio de borde del thumb */
+}
+
+body::-webkit-scrollbar-corner {
+  background: #022940; /* Color del corner */
+}
+
 .background-home {
   position: relative;
   background-image: url(../img/fondoHome.png);
