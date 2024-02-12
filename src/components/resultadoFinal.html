@@ -16,7 +16,7 @@
     />
   </head>
   <body style="background-color: #081b26">
-    <div
+    <!-- <div
       class="disabled d-flex flex-column align-items-center"
       id="loader-pagina-final"
     >
@@ -24,7 +24,7 @@
       <p class="text-white mt-3">
         Cargando. Por favor espere mientras cargamos la información...
       </p>
-    </div>
+    </div> -->
 
     <div class="m-0 min-vh-100 d-flex d-flexito justify-content-center">
       <div class="col-12">
@@ -73,106 +73,107 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Modal -->
+        <!-- Modal -->
       <div
-        class="modal fade centradoModal"
-        id="modalAñadirProducto"
-        tabindex="-1"
-        aria-labelledby="modalAñadirProductoLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog centradoModal">
-          <div class="modal-content colorContentModal">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalAñadirProductoLabel">
-                Añadir Producto
-              </h5>
-              <div class="dropdown">
-                <button
-                  class="btn btn-color dropdown-toggle ms-3"
-                  type="button"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Filtrar
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroMonitor"
-                      >Monitor estudio</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroMicrofono"
-                      >Micrófono condensador</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroMidi">MIDI</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroAudifono"
-                      >Audífonos</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroInterfaz"
-                      >Interfaz audio</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroMicrofonoD"
-                      >Micrófono dinámico</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroTrampa"
-                      >Trampa Bajo</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroDifusor"
-                      >Difusor</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#" id="filtroPanel"
-                      >Panel acústico</a
-                    >
-                  </li>
-                </ul>
-              </div>
+      class="modal fade centradoModal"
+      id="modalAñadirProducto"
+      tabindex="-1"
+      aria-labelledby="modalAñadirProductoLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog centradoModal">
+        <div class="modal-content colorContentModal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAñadirProductoLabel">
+              Añadir Producto
+            </h5>
+            <div class="dropdown">
               <button
+                class="btn btn-color dropdown-toggle ms-3"
                 type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Filtrar
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroMonitor"
+                    >Monitor estudio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroMicrofono"
+                    >Micrófono condensador</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroMidi">MIDI</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroAudifono"
+                    >Audífonos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroInterfaz"
+                    >Interfaz audio</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroMicrofonoD"
+                    >Micrófono dinámico</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroTrampa"
+                    >Trampa Bajo</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroDifusor"
+                    >Difusor</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="filtroPanel"
+                    >Panel acústico</a
+                  >
+                </li>
+              </ul>
             </div>
-            <div class="modal-body">
-              <div class="table-responsive">
-                <table
-                  class="table text-center tablitaProductos"
-                  id="tablitaProductosModal"
-                >
-                  <thead>
-                    <tr>
-                      <th scope="col">Tipo</th>
-                      <th scope="col">Modelo</th>
-                      <th scope="col">Precio</th>
-                      <th scope="col">Añadir</th>
-                    </tr>
-                  </thead>
-                </table>
-              </div>
-            </div>
-            <div class="modal-footer"></div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
+          <div class="modal-body">
+            <div class="table-responsive">
+              <table
+                class="table text-center tablitaProductos"
+                id="tablitaProductosModal"
+              >
+                <thead>
+                  <tr>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Añadir</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
         </div>
       </div>
+    </div>
+      </div>
+
+      
     </div>
 
     <script
