@@ -55,6 +55,7 @@
   color: white !important;
   border: none !important;
   width: 100% !important;
+  font-size: smaller !important;
 }
 
 .inputsColor::placeholder {
