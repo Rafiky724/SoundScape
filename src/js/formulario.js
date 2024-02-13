@@ -97,6 +97,7 @@ async function formulario() {
     iframeVentana,
     "#formularioVentana"
   );
+  const alertPresupuesto = getElementFromIframe(iframePresupuestoHabitacion, "#presupuestoBajo")
   const imagenFinal = getElementFromIframe(iframeFinal, ".imagenFinal");
 
   let tablitaModal = getElementFromIframe(iframeFinal, "#tablitaProductosModal");
@@ -337,8 +338,9 @@ async function formulario() {
     presupuestoHabitacionTotal = presupuestoHabitacion.value;
 
     if (presupuestoHabitacionTotal < 270) {
-      alert("con eso no compras ni un chicle cabron");
+      alertPresupuesto.classList.remove("disabled");
     } else {
+      alertPresupuesto.classList.add("disabled");
       presupuesto.classList.add("disabled");
       puerta.classList.remove("disabled");
     }
