@@ -40,7 +40,7 @@ IniciarSesionForm.addEventListener("submit", async (e) => {
     const credentials = await signInWithEmailAndPassword(auth, email, password);
 
     //TIENE QUE SE TRUE PARA CONFIRMAR VERIFICACION
-    if (credentials.user.emailVerified === false) {
+    if (credentials.user.emailVerified === true) {
       loginAlert.style.display = "none";
       window.location.href = "../../index.html";
     } else {
