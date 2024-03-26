@@ -14,7 +14,38 @@ const successAlert = document.querySelector(".alert-success");
 const errorAlert = document.querySelector(".alert-danger2");
 const loadingIndicator2 = document.getElementById("loader-pagina2");
 
-onAuthStateChanged(auth, async (user) => {
+
+window.onload = function() {
+  VerificadorUsuarioLog();
+};
+
+async function VerificadorUsuarioLog() {
+  try {
+    const user = await auth.currentUser;
+
+    if (user) {
+      //console.log("Sesión activa");
+      window.location.href = "../../index.html";
+    } else {
+      //console.log("Sesión no activa");
+      // Si no hay usuario logueado, continuar con la página de inicio de sesión
+      loadingIndicator2.classList.add("disabled");
+    }
+  } catch (error) {
+    // Manejar errores de Firebase
+    console.error("Error al verificar el usuario:", error);
+    // Podrías redirigir a una página de error o realizar otras acciones según el error
+  }
+}
+
+/*
+await VerificadorUsuarioLog();
+
+async function VerificadorUsuarioLog(){
+
+  const user = await auth.currentUser;
+
+  console.log(user);
 
   if (user) {
 
@@ -26,7 +57,23 @@ onAuthStateChanged(auth, async (user) => {
 
   }
 
-})
+  
+  onAuthStateChanged(auth, async (user) => {
+
+    if (user) {
+  
+      window.location.href = "../../index.html";
+  
+    }else{
+  
+      loadingIndicator2.classList.add("disabled");
+  
+    }
+  
+  })
+
+}*/
+
 
 IniciarSesionForm.addEventListener("submit", async (e) => {
   e.preventDefault();

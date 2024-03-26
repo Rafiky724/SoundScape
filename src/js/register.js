@@ -13,7 +13,33 @@ var contraseñaDebil = document.getElementById("RegisterAlertContraDebil");
 var correoNoValido = document.getElementById("RegisterAlertCorrNoVali");
 var salioMal = document.getElementById("RegisterAlertErrorMal");
 var verificarPass = document.getElementById("RegisterAlertVerificarCon");
-  
+
+
+window.onload = function () {
+    VerificadorUsuarioLog();
+};
+
+async function VerificadorUsuarioLog() {
+
+    const loadingIndicator = document.getElementById('loader-pagina');
+
+    try {
+        const user = await auth.currentUser;
+
+        if (user) {
+            console.log("Sesión activa");
+            window.location.href = "../../index.html";
+        } else {
+            console.log("Sesión no activa");
+            // Si no hay usuario logueado, continuar con la página de inicio de sesión
+            loadingIndicator.classList.add("disabled");
+        }
+    } catch (error) {
+        // Manejar errores de Firebase
+        console.error("Error al verificar el usuario:", error);
+        // Podrías redirigir a una página de error o realizar otras acciones según el error
+    }
+}
 
 //Se activa el evento al dar al botón de registrar
 formulario.addEventListener('submit', async (e) => {
