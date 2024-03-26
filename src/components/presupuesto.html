@@ -22,11 +22,23 @@
   >
     <div class="container pequeñas col-sm-6 col-xl-5">
       <div class="container-fluid d-flex flex-contain">
-        <h1 class="pregunta mt-4">¿Cúal es tu presupuesto?</h1>
 
-        <form id="formularioPresupuestoHabitacion" class="container-flex">
+        <form id="formularioPresupuestoHabitacion" class="container-flex  mt-4">
           <div class="mb-3 d-flex align-items-center flex-presupuesto">
             <table class="table text-center tablitaPresupuesto">
+              <p
+                style="
+                  background-color: #022940;
+                  padding: 5px;
+                  font-size: 15px;
+                  margin: 0;
+                  width: 100%;
+                  text-align: center;
+                  border-bottom: 2px solid #081b26;
+                "
+              >
+                <b>Tabla de rangos de presupuesto</b>
+              </p>
               <thead>
                 <tr>
                   <th scope="col">Bajo</th>
@@ -45,9 +57,15 @@
               </tbody>
             </table>
 
-            <div id="presupuestoBajo" class="alert alert-danger text-centeralert-dismissible fade disabled show" role="alert">
+            <div
+              id="presupuestoBajo"
+              class="alert alert-danger text-centeralert-dismissible fade disabled show"
+              role="alert"
+            >
               <strong>¡Ups!, el presupuesto ingresado es muy bajo.</strong>
             </div>
+
+            <h1 class="pregunta">¿Cúal es tu presupuesto?</h1>
 
             <div class="flex-grow-1 mb-2">
               <input
@@ -65,7 +83,7 @@
               class="btn btn-primary mb-4 btn-color"
               id="volver"
             >
-              volver
+              Volver
             </button>
             <button class="btn btn-primary mb-4 btn-color" type="submit">
               Continuar

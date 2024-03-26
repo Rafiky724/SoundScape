@@ -41,7 +41,6 @@
   --bs-table-bg: #022940 !important;
   --bs-table-color: white !important;
   border-color: transparent !important;
-  border-collapse: separate !important;
 }
 
 label {
